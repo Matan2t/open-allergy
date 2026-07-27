@@ -13,12 +13,13 @@ Ordered by priority; the first three are enough to launch the free product.
 
 ## 2. Deploy the site (free)
 
-- [ ] Create a Cloudflare Pages project connected to the GitHub repo.
-      Build command: `pnpm build` · Output directory: `dist` (the `functions/` directory is
-      picked up automatically as Pages Functions).
-- [ ] After the first deploy, set `site` in [`astro.config.mjs`](astro.config.mjs) and
-      `CARD_FOOTER_BRAND` in [`src/lib/site.ts`](src/lib/site.ts) to the final domain
-      (custom domain optional).
+- [ ] Cloudflare project connected to GitHub (`open-allergy`). Settings:
+      **Build command:** `pnpm build` · **Deploy command:** `pnpm run deploy`
+      (uses committed `wrangler.jsonc` — do **not** use bare `npx wrangler deploy`, which
+      tries to auto-reconfigure Astro and fails in this pnpm workspace).
+- [x] Set `site` in [`astro.config.mjs`](astro.config.mjs) and `CARD_FOOTER_BRAND` in
+      [`src/lib/site.ts`](src/lib/site.ts) to `open-allergy.pages.dev` (update if you add a
+      custom domain).
 
 ## 3. Verify translations (safety-critical)
 
@@ -40,7 +41,7 @@ Ordered by priority; the first three are enough to launch the free product.
 - [ ] Find a plastic card printer (local print shop or online CR80 card printing service) and
       decide your fulfillment cadence (e.g. batch orders weekly).
 - [ ] Review the allowed shipping countries list in
-      [`functions/api/checkout.ts`](functions/api/checkout.ts) and trim it to where you can
+      [`worker/checkout.ts`](worker/checkout.ts) and trim it to where you can
       actually ship.
 
 ## 5. Legal / operational (before real sales)

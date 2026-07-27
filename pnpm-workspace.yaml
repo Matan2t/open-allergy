@@ -7,8 +7,10 @@ packages:
 allowBuilds:
   esbuild: true
   sharp: true
+  workerd: true
 
 # pnpm 10 form (Cloudflare Pages build image).
 onlyBuiltDependencies:
   - esbuild
   - sharp
+  - workerd

@@ -47,23 +47,26 @@ data/
 src/
   components/          # Card renderer + interactive card builder (React)
   pages/               # Astro pages (home, /cards/[allergen]/[lang], /order, /contribute)
-functions/api/         # Cloudflare Pages Functions (Stripe checkout)
+worker/                # Cloudflare Worker (serves /api/checkout for Stripe orders)
 scripts/               # data validation
 ```
 
 ## Deployment
 
-The site is a static Astro build designed for [Cloudflare Pages](https://pages.cloudflare.com)
-(free tier):
+The site deploys to [Cloudflare Workers](https://workers.cloudflare.com) (free tier) as a
+static-assets Worker — the Astro build in `dist/` is served as assets and the Worker in
+`worker/` handles only `/api/*`:
 
-1. Create a Pages project pointing at this repo.
-2. Build command: `pnpm build` — output directory: `dist`.
-3. The `functions/` directory is picked up automatically as Pages Functions.
+1. Create a git-connected Workers project pointing at this repo
+   (Workers & Pages → Create → import the repository).
+2. Build command: `pnpm build` — deploy command: `npx wrangler deploy`
+   (configuration is read from `wrangler.jsonc`).
 
 ### Enabling physical card orders (optional)
 
 The site works fully without payment configuration; the order page shows "coming soon" until
-Stripe is configured. To enable orders, set these environment variables on the Pages project:
+Stripe is configured. To enable orders, set these variables on the Workers project under
+Settings → Variables and Secrets (`STRIPE_SECRET_KEY` should be a Secret):
 
 | Variable            | Description                                        |
 | ------------------- | -------------------------------------------------- |

@@ -1,18 +1,19 @@
 /**
- * Cloudflare Pages Function: POST /api/checkout
+ * POST /api/checkout
  *
  * Creates a Stripe Checkout Session for a plastic card order. The card
  * configuration (allergen, language, personalization) is attached as session
  * metadata, so the Stripe Dashboard's list of paid sessions doubles as the
  * fulfillment queue — no database needed.
  *
- * Required environment variables (set on the Cloudflare Pages project):
+ * Required environment variables (set on the Cloudflare Workers project under
+ * Settings -> Variables and Secrets):
  *   STRIPE_SECRET_KEY  Stripe secret key
  *   CARD_PRICE_CENTS   price per card in cents, e.g. "900"
- *   SITE_URL           public site URL, e.g. "https://openallergycards.pages.dev"
+ *   SITE_URL           public site URL, e.g. "https://open-allergy.example.workers.dev"
  */
 
-interface Env {
+export interface CheckoutEnv {
   STRIPE_SECRET_KEY?: string;
   CARD_PRICE_CENTS?: string;
   SITE_URL?: string;
@@ -43,12 +44,7 @@ function json(body: unknown, status = 200): Response {
   });
 }
 
-export async function onRequestPost(context: {
-  request: Request;
-  env: Env;
-}): Promise<Response> {
-  const { request, env } = context;
-
+export async function handleCheckout(request: Request, env: CheckoutEnv): Promise<Response> {
   if (!env.STRIPE_SECRET_KEY || !env.CARD_PRICE_CENTS) {
     return json({ error: 'orders_not_configured' }, 503);
   }

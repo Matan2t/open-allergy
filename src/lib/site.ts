@@ -6,4 +6,4 @@ export const SITE_NAME = 'Open Allergy Cards';
 export const SITE_TAGLINE = 'Free allergy translation cards, forever.';
 
 /** Shown in the card footer so recipients can find the project. */
-export const CARD_FOOTER_BRAND = 'openallergycards.pages.dev · free & open source';
+export const CARD_FOOTER_BRAND = 'open-allergy.pages.dev · free & open source';
