@@ -1,0 +1,209 @@
+# Soy allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: soy
+emoji: 🫘
+translations:
+  en:
+    verified: true
+    allergen: Soy
+    statement: I have a severe soy allergy.
+    description: I cannot eat food containing soy or soy products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Soy can be found in:"
+    foundIn:
+      - Soy sauce
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Soy lecithin
+      - Soybean oil
+      - Vegetable protein
+    question: Does this food contain soy?
+
+  es:
+    verified: false
+    allergen: Soja
+    statement: Tengo una alergia grave a la soja.
+    description: No puedo comer alimentos que contengan soja o productos de soja, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "La soja puede encontrarse en:"
+    foundIn:
+      - Salsa de soja
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecitina de soja
+      - Aceite de soja
+      - Proteína vegetal
+    question: ¿Este alimento contiene soja?
+
+  fr:
+    verified: false
+    allergen: Soja
+    statement: J'ai une allergie sévère au soja.
+    description: Je ne peux pas manger d'aliments contenant du soja ou des produits à base de soja, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Le soja peut se trouver dans :"
+    foundIn:
+      - Sauce soja
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lécithine de soja
+      - Huile de soja
+      - Protéines végétales
+    question: Ce plat contient-il du soja ?
+
+  de:
+    verified: false
+    allergen: Soja
+    statement: Ich habe eine schwere Sojaallergie.
+    description: Ich darf keine Lebensmittel essen, die Soja oder Sojaprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Soja kann enthalten sein in:"
+    foundIn:
+      - Sojasauce
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojalecithin
+      - Sojaöl
+      - Pflanzliches Eiweiß
+    question: Enthält dieses Gericht Soja?
+
+  it:
+    verified: false
+    allergen: Soia
+    statement: Ho una grave allergia alla soia.
+    description: Non posso mangiare alimenti che contengono soia o prodotti a base di soia, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "La soia può trovarsi in:"
+    foundIn:
+      - Salsa di soia
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecitina di soia
+      - Olio di soia
+      - Proteine vegetali
+    question: Questo cibo contiene soia?
+
+  pt:
+    verified: false
+    allergen: Soja
+    statement: Tenho uma alergia grave à soja.
+    description: Não posso comer alimentos que contenham soja ou produtos de soja, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "A soja pode encontrar-se em:"
+    foundIn:
+      - Molho de soja
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecitina de soja
+      - Óleo de soja
+      - Proteína vegetal
+    question: Este alimento contém soja?
+
+  el:
+    verified: false
+    allergen: Σόγια
+    statement: Πάσχω από σοβαρή αλλεργία στη σόγια.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σόγια ή προϊόντα σόγιας, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Η σόγια μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Σάλτσα σόγιας
+      - Τόφου
+      - Ενταμάμε
+      - Μίσο
+      - Τέμπε
+      - Λεκιθίνη σόγιας
+      - Σογιέλαιο
+      - Φυτική πρωτεΐνη
+    question: Αυτό το φαγητό περιέχει σόγια;
+
+  tr:
+    verified: false
+    allergen: Soya
+    statement: Şiddetli soya alerjim var.
+    description: Soya veya soya ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Soya şunlarda bulunabilir:"
+    foundIn:
+      - Soya sosu
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Soya lesitini
+      - Soya yağı
+      - Bitkisel protein
+    question: Bu yemekte soya var mı?
+
+  he:
+    verified: false
+    allergen: סויה
+    statement: יש לי אלרגיה חמורה לסויה.
+    description: אסור לי לאכול מזון המכיל סויה או מוצרי סויה, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "סויה עשויה להימצא ב:"
+    foundIn:
+      - רוטב סויה
+      - טופו
+      - אדממה
+      - מיסו
+      - טמפה
+      - לציטין סויה
+      - שמן סויה
+      - חלבון צמחי
+    question: האם המנה הזו מכילה סויה?
+
+  ar:
+    verified: false
+    allergen: الصويا
+    statement: لديّ حساسية شديدة من الصويا.
+    description: لا أستطيع تناول أي طعام يحتوي على الصويا أو منتجاتها، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد توجد الصويا في:"
+    foundIn:
+      - صلصة الصويا
+      - التوفو
+      - الإدامامي
+      - الميسو
+      - التمبيه
+      - ليسيثين الصويا
+      - زيت فول الصويا
+      - البروتين النباتي
+    question: هل يحتوي هذا الطعام على الصويا؟
+
+  ja:
+    verified: false
+    allergen: 大豆
+    statement: 私は重度の大豆アレルギーがあります。
+    description: 大豆や大豆製品を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: 大豆が含まれる可能性のあるもの：
+    foundIn:
+      - 醤油
+      - 豆腐
+      - 枝豆
+      - 味噌
+      - テンペ
+      - 大豆レシチン
+      - 大豆油
+      - 植物性たんぱく質
+    question: この料理に大豆や大豆製品は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 大豆
+    statement: 我对大豆严重过敏。
+    description: 我不能吃含有大豆或大豆制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 大豆可能存在于：
+    foundIn:
+      - 酱油
+      - 豆腐
+      - 毛豆
+      - 味噌
+      - 天贝
+      - 大豆卵磷脂
+      - 大豆油
+      - 植物蛋白
+    question: 这道菜含有大豆吗？

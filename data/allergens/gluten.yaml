@@ -1,0 +1,221 @@
+# Gluten (coeliac disease) card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: gluten
+emoji: 🌾
+translations:
+  en:
+    verified: true
+    allergen: Gluten
+    statement: I have coeliac disease and cannot eat gluten.
+    description: I cannot eat food containing wheat, rye, barley or oats, even in small amounts, or I will become seriously ill.
+    foundInLabel: "Gluten can be found in:"
+    foundIn:
+      - Wheat
+      - Rye
+      - Barley
+      - Oats
+      - Bread
+      - Pasta
+      - Breadcrumbs
+      - Soy sauce
+      - Beer
+    question: Does this food contain gluten?
+
+  es:
+    verified: false
+    allergen: Gluten
+    statement: Tengo enfermedad celíaca y no puedo comer gluten.
+    description: No puedo comer alimentos que contengan trigo, centeno, cebada o avena, ni siquiera en pequeñas cantidades, ya que enfermaría gravemente.
+    foundInLabel: "El gluten puede encontrarse en:"
+    foundIn:
+      - Trigo
+      - Centeno
+      - Cebada
+      - Avena
+      - Pan
+      - Pasta
+      - Pan rallado
+      - Salsa de soja
+      - Cerveza
+    question: ¿Este alimento contiene gluten?
+
+  fr:
+    verified: false
+    allergen: Gluten
+    statement: J'ai la maladie cœliaque et je ne peux pas manger de gluten.
+    description: Je ne peux pas manger d'aliments contenant du blé, du seigle, de l'orge ou de l'avoine, même en petites quantités, sous peine de tomber gravement malade.
+    foundInLabel: "Le gluten peut se trouver dans :"
+    foundIn:
+      - Blé
+      - Seigle
+      - Orge
+      - Avoine
+      - Pain
+      - Pâtes
+      - Chapelure
+      - Sauce soja
+      - Bière
+    question: Ce plat contient-il du gluten ?
+
+  de:
+    verified: false
+    allergen: Gluten
+    statement: Ich habe Zöliakie und darf kein Gluten essen.
+    description: Ich darf keine Lebensmittel essen, die Weizen, Roggen, Gerste oder Hafer enthalten – auch nicht in kleinen Mengen –, da ich sonst ernsthaft krank werde.
+    foundInLabel: "Gluten kann enthalten sein in:"
+    foundIn:
+      - Weizen
+      - Roggen
+      - Gerste
+      - Hafer
+      - Brot
+      - Nudeln
+      - Paniermehl
+      - Sojasauce
+      - Bier
+    question: Enthält dieses Gericht Gluten?
+
+  it:
+    verified: false
+    allergen: Glutine
+    statement: Ho la celiachia e non posso mangiare glutine.
+    description: Non posso mangiare alimenti che contengono grano, segale, orzo o avena, nemmeno in piccole quantità, altrimenti starò gravemente male.
+    foundInLabel: "Il glutine può trovarsi in:"
+    foundIn:
+      - Grano
+      - Segale
+      - Orzo
+      - Avena
+      - Pane
+      - Pasta
+      - Pangrattato
+      - Salsa di soia
+      - Birra
+    question: Questo cibo contiene glutine?
+
+  pt:
+    verified: false
+    allergen: Glúten
+    statement: Tenho doença celíaca e não posso comer glúten.
+    description: Não posso comer alimentos que contenham trigo, centeio, cevada ou aveia, mesmo em pequenas quantidades, pois ficarei gravemente doente.
+    foundInLabel: "O glúten pode encontrar-se em:"
+    foundIn:
+      - Trigo
+      - Centeio
+      - Cevada
+      - Aveia
+      - Pão
+      - Massa
+      - Pão ralado
+      - Molho de soja
+      - Cerveja
+    question: Este alimento contém glúten?
+
+  el:
+    verified: false
+    allergen: Γλουτένη
+    statement: Πάσχω από κοιλιοκάκη και δεν μπορώ να φάω γλουτένη.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σιτάρι, σίκαλη, κριθάρι ή βρώμη, ούτε σε μικρές ποσότητες, διαφορετικά θα αρρωστήσω σοβαρά.
+    foundInLabel: "Η γλουτένη μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Σιτάρι
+      - Σίκαλη
+      - Κριθάρι
+      - Βρώμη
+      - Ψωμί
+      - Ζυμαρικά
+      - Τριμμένη φρυγανιά
+      - Σάλτσα σόγιας
+      - Μπύρα
+    question: Αυτό το φαγητό περιέχει γλουτένη;
+
+  tr:
+    verified: false
+    allergen: Glüten
+    statement: Çölyak hastasıyım ve glüten yiyemem.
+    description: Buğday, çavdar, arpa veya yulaf içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde ciddi şekilde hastalanırım.
+    foundInLabel: "Glüten şunlarda bulunabilir:"
+    foundIn:
+      - Buğday
+      - Çavdar
+      - Arpa
+      - Yulaf
+      - Ekmek
+      - Makarna
+      - Galeta unu
+      - Soya sosu
+      - Bira
+    question: Bu yemekte glüten var mı?
+
+  he:
+    verified: false
+    allergen: גלוטן
+    statement: יש לי צליאק ואסור לי לאכול גלוטן.
+    description: אסור לי לאכול מזון המכיל חיטה, שיפון, שעורה או שיבולת שועל, אפילו בכמויות קטנות, אחרת אחלה באופן חמור.
+    foundInLabel: "גלוטן עשוי להימצא ב:"
+    foundIn:
+      - חיטה
+      - שיפון
+      - שעורה
+      - שיבולת שועל
+      - לחם
+      - פסטה
+      - פירורי לחם
+      - רוטב סויה
+      - בירה
+    question: האם המנה הזו מכילה גלוטן?
+
+  ar:
+    verified: false
+    allergen: الغلوتين
+    statement: أعاني من مرض السيلياك (الداء البطني) ولا أستطيع تناول الغلوتين.
+    description: لا أستطيع تناول أي طعام يحتوي على القمح أو الجاودار أو الشعير أو الشوفان، ولو بكميات صغيرة، وإلا فسأمرض بشدة.
+    foundInLabel: "قد يوجد الغلوتين في:"
+    foundIn:
+      - القمح
+      - الجاودار
+      - الشعير
+      - الشوفان
+      - الخبز
+      - المعكرونة
+      - فتات الخبز (البقسماط)
+      - صلصة الصويا
+      - البيرة
+    question: هل يحتوي هذا الطعام على الغلوتين؟
+
+  ja:
+    verified: false
+    allergen: グルテン
+    statement: 私はセリアック病のため、グルテンを食べることができません。
+    description: 小麦・ライ麦・大麦・オーツ麦を含む食べ物は、少量でも食べることができません。食べると深刻な体調不良を起こします。
+    foundInLabel: グルテンが含まれる可能性のあるもの：
+    foundIn:
+      - 小麦
+      - ライ麦
+      - 大麦
+      - オーツ麦
+      - パン
+      - パスタ
+      - パン粉
+      - 醤油
+      - ビール
+    question: この料理にグルテンは入っていますか？
+
+  zh:
+    verified: false
+    allergen: 麸质
+    statement: 我患有乳糜泻，不能吃麸质。
+    description: 我不能吃含有小麦、黑麦、大麦或燕麦的食物，即使少量也不行，否则会引发严重的健康问题。
+    foundInLabel: 麸质可能存在于：
+    foundIn:
+      - 小麦
+      - 黑麦
+      - 大麦
+      - 燕麦
+      - 面包
+      - 意大利面等面食
+      - 面包糠
+      - 酱油
+      - 啤酒
+    question: 这道菜含有麸质吗？

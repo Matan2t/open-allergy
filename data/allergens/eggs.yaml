@@ -1,0 +1,209 @@
+# Egg allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: eggs
+emoji: 🥚
+translations:
+  en:
+    verified: true
+    allergen: Eggs
+    statement: I have a severe egg allergy.
+    description: I cannot eat food containing eggs or egg products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Egg can be found in:"
+    foundIn:
+      - Albumin
+      - Mayonnaise
+      - Meringue
+      - Baked goods
+      - Fresh pasta
+      - Batter
+      - Custard
+      - Some sauces
+    question: Does this food contain egg?
+
+  es:
+    verified: false
+    allergen: Huevos
+    statement: Tengo una alergia grave al huevo.
+    description: No puedo comer alimentos que contengan huevo o productos derivados del huevo, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "El huevo puede encontrarse en:"
+    foundIn:
+      - Albúmina
+      - Mayonesa
+      - Merengue
+      - Bollería y repostería
+      - Pasta fresca
+      - Rebozados
+      - Natillas y crema pastelera
+      - Algunas salsas
+    question: ¿Este alimento contiene huevo?
+
+  fr:
+    verified: false
+    allergen: Œufs
+    statement: J'ai une allergie sévère aux œufs.
+    description: Je ne peux pas manger d'aliments contenant des œufs ou des produits à base d'œufs, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Les œufs peuvent se trouver dans :"
+    foundIn:
+      - Albumine
+      - Mayonnaise
+      - Meringue
+      - Pâtisseries et viennoiseries
+      - Pâtes fraîches
+      - Pâte à frire
+      - Crème pâtissière
+      - Certaines sauces
+    question: Ce plat contient-il des œufs ?
+
+  de:
+    verified: false
+    allergen: Eier
+    statement: Ich habe eine schwere Ei-Allergie.
+    description: Ich darf keine Lebensmittel essen, die Eier oder Eiprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Eier können enthalten sein in:"
+    foundIn:
+      - Albumin
+      - Mayonnaise
+      - Baiser
+      - Backwaren
+      - Frische Nudeln
+      - Ausbackteig
+      - Pudding und Cremespeisen
+      - Manche Soßen
+    question: Enthält dieses Gericht Ei?
+
+  it:
+    verified: false
+    allergen: Uova
+    statement: Ho una grave allergia alle uova.
+    description: Non posso mangiare alimenti che contengono uova o prodotti a base di uova, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "Le uova possono trovarsi in:"
+    foundIn:
+      - Albumina
+      - Maionese
+      - Meringa
+      - Prodotti da forno
+      - Pasta fresca
+      - Pastella
+      - Crema pasticcera
+      - Alcune salse
+    question: Questo cibo contiene uova?
+
+  pt:
+    verified: false
+    allergen: Ovos
+    statement: Tenho uma alergia grave ao ovo.
+    description: Não posso comer alimentos que contenham ovo ou produtos à base de ovo, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "O ovo pode encontrar-se em:"
+    foundIn:
+      - Albumina
+      - Maionese
+      - Merengue
+      - Produtos de pastelaria
+      - Massa fresca
+      - Massa para fritar
+      - Creme de pasteleiro
+      - Alguns molhos
+    question: Este alimento contém ovo?
+
+  el:
+    verified: false
+    allergen: Αυγά
+    statement: Πάσχω από σοβαρή αλλεργία στο αυγό.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν αυγό ή προϊόντα αυγού, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Το αυγό μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Αλβουμίνη
+      - Μαγιονέζα
+      - Μαρέγκα
+      - Αρτοσκευάσματα
+      - Φρέσκα ζυμαρικά
+      - Κουρκούτι
+      - Κρέμα ζαχαροπλαστικής
+      - Ορισμένες σάλτσες
+    question: Αυτό το φαγητό περιέχει αυγό;
+
+  tr:
+    verified: false
+    allergen: Yumurta
+    statement: Şiddetli yumurta alerjim var.
+    description: Yumurta veya yumurta ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Yumurta şunlarda bulunabilir:"
+    foundIn:
+      - Albümin
+      - Mayonez
+      - Beze
+      - Unlu mamuller
+      - Taze makarna
+      - Kızartma hamuru
+      - Kremalı tatlılar ve muhallebi
+      - Bazı soslar
+    question: Bu yemekte yumurta var mı?
+
+  he:
+    verified: false
+    allergen: ביצים
+    statement: יש לי אלרגיה חמורה לביצים.
+    description: אסור לי לאכול מזון המכיל ביצים או מוצרי ביצים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "ביצים עשויות להימצא ב:"
+    foundIn:
+      - אלבומין
+      - מיונז
+      - מרנג
+      - מאפים
+      - פסטה טרייה
+      - בלילת טיגון
+      - קרם פטיסייר
+      - רטבים מסוימים
+    question: האם המנה הזו מכילה ביצים?
+
+  ar:
+    verified: false
+    allergen: البيض
+    statement: لديّ حساسية شديدة من البيض.
+    description: لا أستطيع تناول أي طعام يحتوي على البيض أو منتجات البيض، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد يوجد البيض في:"
+    foundIn:
+      - الألبومين
+      - المايونيز
+      - المرينغ
+      - المخبوزات
+      - المعكرونة الطازجة
+      - عجينة القلي
+      - الكاسترد
+      - بعض الصلصات
+    question: هل يحتوي هذا الطعام على البيض؟
+
+  ja:
+    verified: false
+    allergen: 卵
+    statement: 私は重度の卵アレルギーがあります。
+    description: 卵や卵を使った食品は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: 卵が含まれる可能性のあるもの：
+    foundIn:
+      - アルブミン
+      - マヨネーズ
+      - メレンゲ
+      - パン・焼き菓子
+      - 生パスタ
+      - 衣（バッター液）
+      - カスタード
+      - 一部のソース
+    question: この料理に卵は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 鸡蛋
+    statement: 我对鸡蛋严重过敏。
+    description: 我不能吃含有鸡蛋或蛋制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 鸡蛋可能存在于：
+    foundIn:
+      - 蛋白（白蛋白）
+      - 蛋黄酱
+      - 蛋白霜
+      - 烘焙食品
+      - 新鲜面食
+      - 面糊
+      - 蛋奶糊（卡仕达）
+      - 某些酱料
+    question: 这道菜含有鸡蛋吗？

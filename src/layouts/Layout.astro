@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+import { GITHUB_URL, SITE_NAME, SITE_TAGLINE } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = `${SITE_NAME} — ${SITE_TAGLINE}`,
+  description = 'Free, open-source allergy translation cards in 12 languages. Pick your allergy, pick a language, print at home. No charge, ever.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Noto+Sans+Hebrew:wght@400;700;800&family=Noto+Sans+Arabic:wght@400;700;800&family=Noto+Sans+JP:wght@400;700;800&family=Noto+Sans+SC:wght@400;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a href="/" class="site-logo">
+          <img src="/favicon.svg" alt="" />
+          {SITE_NAME}
+        </a>
+        <nav class="site-nav">
+          <a href="/cards/milk/en">Cards</a>
+          <a href="/order">Order plastic card</a>
+          <a href="/contribute">Contribute</a>
+          <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <span>
+          {SITE_NAME} — free forever. Code is <a href={`${GITHUB_URL}/blob/main/LICENSE`}>MIT</a>,
+          card content is
+          <a href={`${GITHUB_URL}/blob/main/data/LICENSE.md`}>CC BY-SA 4.0</a>. Contribute on
+          <a href={GITHUB_URL}>GitHub</a>.
+        </span>
+        <span>
+          Medical disclaimer: these cards are a communication aid, not medical advice. Unverified
+          translations may contain errors. Always carry prescribed emergency medication.
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

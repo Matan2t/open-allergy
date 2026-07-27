@@ -1,0 +1,209 @@
+# Mollusc allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: molluscs
+emoji: 🦪
+translations:
+  en:
+    verified: true
+    allergen: Molluscs
+    statement: I have a severe allergy to molluscs.
+    description: I cannot eat food containing molluscs such as mussels, oysters, clams, squid, octopus or snails, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Molluscs can be found in:"
+    foundIn:
+      - Mussels
+      - Oysters
+      - Clams
+      - Squid & calamari
+      - Octopus
+      - Scallops
+      - Snails
+      - Oyster sauce
+    question: Does this food contain molluscs?
+
+  es:
+    verified: false
+    allergen: Moluscos
+    statement: Tengo una alergia grave a los moluscos.
+    description: No puedo comer alimentos que contengan moluscos como mejillones, ostras, almejas, calamares, pulpo o caracoles, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "Los moluscos pueden encontrarse en:"
+    foundIn:
+      - Mejillones
+      - Ostras
+      - Almejas
+      - Calamares
+      - Pulpo
+      - Vieiras
+      - Caracoles
+      - Salsa de ostras
+    question: ¿Este alimento contiene moluscos?
+
+  fr:
+    verified: false
+    allergen: Mollusques
+    statement: J'ai une allergie sévère aux mollusques.
+    description: Je ne peux pas manger d'aliments contenant des mollusques tels que moules, huîtres, palourdes, calamars, poulpe ou escargots, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Les mollusques peuvent se trouver dans :"
+    foundIn:
+      - Moules
+      - Huîtres
+      - Palourdes
+      - Calamars et encornets
+      - Poulpe
+      - Coquilles Saint-Jacques
+      - Escargots
+      - Sauce aux huîtres
+    question: Ce plat contient-il des mollusques ?
+
+  de:
+    verified: false
+    allergen: Weichtiere
+    statement: Ich habe eine schwere Allergie gegen Weichtiere.
+    description: Ich darf keine Lebensmittel essen, die Weichtiere wie Muscheln, Austern, Venusmuscheln, Tintenfisch, Oktopus oder Schnecken enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Weichtiere können enthalten sein in:"
+    foundIn:
+      - Miesmuscheln
+      - Austern
+      - Venusmuscheln
+      - Tintenfisch und Calamari
+      - Oktopus
+      - Jakobsmuscheln
+      - Schnecken
+      - Austernsauce
+    question: Enthält dieses Gericht Weichtiere?
+
+  it:
+    verified: false
+    allergen: Molluschi
+    statement: Ho una grave allergia ai molluschi.
+    description: Non posso mangiare alimenti che contengono molluschi come cozze, ostriche, vongole, calamari, polpo o lumache, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "I molluschi possono trovarsi in:"
+    foundIn:
+      - Cozze
+      - Ostriche
+      - Vongole
+      - Calamari e totani
+      - Polpo
+      - Capesante
+      - Lumache
+      - Salsa di ostriche
+    question: Questo cibo contiene molluschi?
+
+  pt:
+    verified: false
+    allergen: Moluscos
+    statement: Tenho uma alergia grave a moluscos.
+    description: Não posso comer alimentos que contenham moluscos como mexilhões, ostras, amêijoas, lulas, polvo ou caracóis, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "Os moluscos podem encontrar-se em:"
+    foundIn:
+      - Mexilhões
+      - Ostras
+      - Amêijoas
+      - Lulas e calamares
+      - Polvo
+      - Vieiras
+      - Caracóis
+      - Molho de ostra
+    question: Este alimento contém moluscos?
+
+  el:
+    verified: false
+    allergen: Μαλάκια
+    statement: Πάσχω από σοβαρή αλλεργία στα μαλάκια.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν μαλάκια, όπως μύδια, στρείδια, αχιβάδες, καλαμάρια, χταπόδι ή σαλιγκάρια, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Τα μαλάκια μπορεί να βρίσκονται σε:"
+    foundIn:
+      - Μύδια
+      - Στρείδια
+      - Αχιβάδες
+      - Καλαμάρια
+      - Χταπόδι
+      - Χτένια
+      - Σαλιγκάρια
+      - Σάλτσα στρειδιών
+    question: Αυτό το φαγητό περιέχει μαλάκια;
+
+  tr:
+    verified: false
+    allergen: Yumuşakçalar
+    statement: Yumuşakçalara karşı şiddetli alerjim var.
+    description: Midye, istiridye, kum midyesi, kalamar, ahtapot veya salyangoz gibi yumuşakçalar içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Yumuşakçalar şunlarda bulunabilir:"
+    foundIn:
+      - Midye
+      - İstiridye
+      - Kum midyesi
+      - Kalamar
+      - Ahtapot
+      - Deniz tarağı
+      - Salyangoz
+      - İstiridye sosu
+    question: Bu yemekte midye, kalamar veya başka yumuşakçalar var mı?
+
+  he:
+    verified: false
+    allergen: רכיכות
+    statement: יש לי אלרגיה חמורה לרכיכות.
+    description: אסור לי לאכול מזון המכיל רכיכות כגון מולים, אויסטרים, צדפות, קלמארי (דיונון), תמנון או חלזונות, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "רכיכות עשויות להימצא ב:"
+    foundIn:
+      - מולים
+      - אויסטרים
+      - צדפות
+      - קלמארי (דיונון)
+      - תמנון
+      - סקאלופ
+      - חלזונות
+      - רוטב צדפות
+    question: האם המנה הזו מכילה רכיכות?
+
+  ar:
+    verified: false
+    allergen: الرخويات
+    statement: لديّ حساسية شديدة من الرخويات.
+    description: لا أستطيع تناول أي طعام يحتوي على الرخويات مثل بلح البحر أو المحار أو الحبّار أو الأخطبوط أو الحلزون، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد توجد الرخويات في:"
+    foundIn:
+      - بلح البحر
+      - المحار
+      - البطلينوس (الكلام)
+      - الحبّار (الكاليماري)
+      - الأخطبوط
+      - الأسقلوب
+      - الحلزون (الإسكارغو)
+      - صلصة المحار
+    question: هل يحتوي هذا الطعام على الرخويات؟
+
+  ja:
+    verified: false
+    allergen: 軟体動物（貝・イカ・タコなど）
+    statement: 私は貝・イカ・タコなどの軟体動物に対する重度のアレルギーがあります。
+    description: ムール貝、牡蠣、あさり、イカ、タコ、エスカルゴなどの軟体動物を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: 軟体動物が含まれる可能性のあるもの：
+    foundIn:
+      - ムール貝
+      - 牡蠣（カキ）
+      - あさり・はまぐり
+      - イカ
+      - タコ
+      - ホタテ
+      - エスカルゴ（カタツムリ）
+      - オイスターソース
+    question: この料理に貝・イカ・タコなどの軟体動物は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 软体动物（贝类等）
+    statement: 我对软体动物（贝类等）严重过敏。
+    description: 我不能吃含有贻贝、牡蛎、蛤蜊、鱿鱼、章鱼或蜗牛等软体动物的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 软体动物可能存在于：
+    foundIn:
+      - 贻贝（青口）
+      - 牡蛎（生蚝）
+      - 蛤蜊
+      - 鱿鱼
+      - 章鱼
+      - 扇贝
+      - 蜗牛
+      - 蚝油
+    question: 这道菜含有贝类、鱿鱼或其他软体动物吗？

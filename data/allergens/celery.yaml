@@ -1,0 +1,197 @@
+# Celery allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: celery
+emoji: 🥬
+translations:
+  en:
+    verified: true
+    allergen: Celery
+    statement: I have a severe celery allergy.
+    description: I cannot eat food containing celery or celery products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Celery can be found in:"
+    foundIn:
+      - Celery stalks
+      - Celeriac (celery root)
+      - Celery salt
+      - Soups & stocks
+      - Bouillon cubes
+      - Spice mixes
+      - Salads
+    question: Does this food contain celery?
+
+  es:
+    verified: false
+    allergen: Apio
+    statement: Tengo una alergia grave al apio.
+    description: No puedo comer alimentos que contengan apio o productos de apio, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "El apio puede encontrarse en:"
+    foundIn:
+      - Tallos de apio
+      - Apionabo (raíz de apio)
+      - Sal de apio
+      - Sopas y caldos
+      - Cubitos de caldo
+      - Mezclas de especias
+      - Ensaladas
+    question: ¿Este alimento contiene apio?
+
+  fr:
+    verified: false
+    allergen: Céleri
+    statement: J'ai une allergie sévère au céleri.
+    description: Je ne peux pas manger d'aliments contenant du céleri ou des produits à base de céleri, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Le céleri peut se trouver dans :"
+    foundIn:
+      - Céleri branche
+      - Céleri-rave
+      - Sel de céleri
+      - Soupes et bouillons
+      - Cubes de bouillon
+      - Mélanges d'épices
+      - Salades
+    question: Ce plat contient-il du céleri ?
+
+  de:
+    verified: false
+    allergen: Sellerie
+    statement: Ich habe eine schwere Sellerieallergie.
+    description: Ich darf keine Lebensmittel essen, die Sellerie oder Sellerieprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Sellerie kann enthalten sein in:"
+    foundIn:
+      - Stangensellerie
+      - Knollensellerie
+      - Selleriesalz
+      - Suppen und Brühen
+      - Brühwürfel
+      - Gewürzmischungen
+      - Salate
+    question: Enthält dieses Gericht Sellerie?
+
+  it:
+    verified: false
+    allergen: Sedano
+    statement: Ho una grave allergia al sedano.
+    description: Non posso mangiare alimenti che contengono sedano o prodotti a base di sedano, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "Il sedano può trovarsi in:"
+    foundIn:
+      - Gambi di sedano
+      - Sedano rapa
+      - Sale al sedano
+      - Zuppe e brodi
+      - Dadi da brodo
+      - Miscele di spezie
+      - Insalate
+    question: Questo cibo contiene sedano?
+
+  pt:
+    verified: false
+    allergen: Aipo
+    statement: Tenho uma alergia grave ao aipo.
+    description: Não posso comer alimentos que contenham aipo ou produtos de aipo, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "O aipo pode encontrar-se em:"
+    foundIn:
+      - Talos de aipo
+      - Aipo-rábano (raiz de aipo)
+      - Sal de aipo
+      - Sopas e caldos
+      - Cubos de caldo
+      - Misturas de especiarias
+      - Saladas
+    question: Este alimento contém aipo?
+
+  el:
+    verified: false
+    allergen: Σέλινο
+    statement: Πάσχω από σοβαρή αλλεργία στο σέλινο.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σέλινο ή προϊόντα σέλινου, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Το σέλινο μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Κοτσάνια σέλινου
+      - Σελινόριζα
+      - Αλάτι σέλινου
+      - Σούπες και ζωμοί
+      - Κύβοι ζωμού
+      - Μείγματα μπαχαρικών
+      - Σαλάτες
+    question: Αυτό το φαγητό περιέχει σέλινο;
+
+  tr:
+    verified: false
+    allergen: Kereviz
+    statement: Şiddetli kereviz alerjim var.
+    description: Kereviz veya kereviz ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Kereviz şunlarda bulunabilir:"
+    foundIn:
+      - Kereviz sapı
+      - Kereviz kökü
+      - Kereviz tuzu
+      - Çorbalar ve et suları
+      - Bulyon küpleri
+      - Baharat karışımları
+      - Salatalar
+    question: Bu yemekte kereviz var mı?
+
+  he:
+    verified: false
+    allergen: סלרי
+    statement: יש לי אלרגיה חמורה לסלרי.
+    description: אסור לי לאכול מזון המכיל סלרי או מוצרי סלרי, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "סלרי עשוי להימצא ב:"
+    foundIn:
+      - גבעולי סלרי
+      - שורש סלרי
+      - מלח סלרי
+      - מרקים וצירים
+      - קוביות מרק
+      - תערובות תבלינים
+      - סלטים
+    question: האם המנה הזו מכילה סלרי?
+
+  ar:
+    verified: false
+    allergen: الكرفس
+    statement: لديّ حساسية شديدة من الكرفس.
+    description: لا أستطيع تناول أي طعام يحتوي على الكرفس أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد يوجد الكرفس في:"
+    foundIn:
+      - سيقان الكرفس
+      - جذر الكرفس
+      - ملح الكرفس
+      - الشوربات والمرق
+      - مكعبات المرق
+      - خلطات التوابل
+      - السلطات
+    question: هل يحتوي هذا الطعام على الكرفس؟
+
+  ja:
+    verified: false
+    allergen: セロリ
+    statement: 私は重度のセロリアレルギーがあります。
+    description: セロリやセロリを使った製品を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: セロリが含まれる可能性のあるもの：
+    foundIn:
+      - セロリの茎
+      - セロリアック（根セロリ）
+      - セロリソルト
+      - スープ・だし
+      - 固形ブイヨン
+      - ミックススパイス
+      - サラダ
+    question: この料理にセロリは入っていますか？
+
+  zh:
+    verified: false
+    allergen: 芹菜
+    statement: 我对芹菜严重过敏。
+    description: 我不能吃含有芹菜或芹菜制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 芹菜可能存在于：
+    foundIn:
+      - 芹菜茎
+      - 根芹（芹菜根）
+      - 芹菜盐
+      - 汤和高汤
+      - 浓汤宝（汤块）
+      - 混合香料
+      - 沙拉
+    question: 这道菜含有芹菜吗？

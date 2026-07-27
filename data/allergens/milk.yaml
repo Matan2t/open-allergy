@@ -1,0 +1,209 @@
+# Milk allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: milk
+emoji: 🥛
+translations:
+  en:
+    verified: true
+    allergen: Milk
+    statement: I have a severe milk allergy.
+    description: I cannot eat food containing milk or milk products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Milk can be found in:"
+    foundIn:
+      - Casein
+      - Whey
+      - Cheese
+      - Butter
+      - Cream
+      - Yogurt
+      - Lactose
+      - Baked goods
+    question: Does this food contain milk?
+
+  es:
+    verified: false
+    allergen: Leche
+    statement: Tengo una alergia grave a la leche.
+    description: No puedo comer alimentos que contengan leche o productos lácteos, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "La leche puede encontrarse en:"
+    foundIn:
+      - Caseína
+      - Suero de leche
+      - Queso
+      - Mantequilla
+      - Nata
+      - Yogur
+      - Lactosa
+      - Bollería y repostería
+    question: ¿Este alimento contiene leche?
+
+  fr:
+    verified: false
+    allergen: Lait
+    statement: J'ai une allergie sévère au lait.
+    description: Je ne peux pas manger d'aliments contenant du lait ou des produits laitiers, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Le lait peut se trouver dans :"
+    foundIn:
+      - Caséine
+      - Lactosérum
+      - Fromage
+      - Beurre
+      - Crème
+      - Yaourt
+      - Lactose
+      - Pâtisseries et viennoiseries
+    question: Ce plat contient-il du lait ?
+
+  de:
+    verified: false
+    allergen: Milch
+    statement: Ich habe eine schwere Milchallergie.
+    description: Ich darf keine Lebensmittel essen, die Milch oder Milchprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Milch kann enthalten sein in:"
+    foundIn:
+      - Kasein
+      - Molke
+      - Käse
+      - Butter
+      - Sahne
+      - Joghurt
+      - Laktose
+      - Backwaren
+    question: Enthält dieses Gericht Milch?
+
+  it:
+    verified: false
+    allergen: Latte
+    statement: Ho una grave allergia al latte.
+    description: Non posso mangiare alimenti che contengono latte o latticini, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "Il latte può trovarsi in:"
+    foundIn:
+      - Caseina
+      - Siero di latte
+      - Formaggio
+      - Burro
+      - Panna
+      - Yogurt
+      - Lattosio
+      - Prodotti da forno
+    question: Questo cibo contiene latte?
+
+  pt:
+    verified: false
+    allergen: Leite
+    statement: Tenho uma alergia grave ao leite.
+    description: Não posso comer alimentos que contenham leite ou produtos lácteos, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "O leite pode encontrar-se em:"
+    foundIn:
+      - Caseína
+      - Soro de leite
+      - Queijo
+      - Manteiga
+      - Natas
+      - Iogurte
+      - Lactose
+      - Produtos de pastelaria
+    question: Este alimento contém leite?
+
+  el:
+    verified: false
+    allergen: Γάλα
+    statement: Πάσχω από σοβαρή αλλεργία στο γάλα.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν γάλα ή γαλακτοκομικά προϊόντα, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Το γάλα μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Καζεΐνη
+      - Ορός γάλακτος
+      - Τυρί
+      - Βούτυρο
+      - Κρέμα γάλακτος
+      - Γιαούρτι
+      - Λακτόζη
+      - Αρτοσκευάσματα
+    question: Αυτό το φαγητό περιέχει γάλα;
+
+  tr:
+    verified: false
+    allergen: Süt
+    statement: Şiddetli süt alerjim var.
+    description: Süt veya süt ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Süt şunlarda bulunabilir:"
+    foundIn:
+      - Kazein
+      - Peynir altı suyu
+      - Peynir
+      - Tereyağı
+      - Krema
+      - Yoğurt
+      - Laktoz
+      - Unlu mamuller
+    question: Bu yemekte süt var mı?
+
+  he:
+    verified: false
+    allergen: חלב
+    statement: יש לי אלרגיה חמורה לחלב.
+    description: אסור לי לאכול מזון המכיל חלב או מוצרי חלב, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "חלב עשוי להימצא ב:"
+    foundIn:
+      - קזאין
+      - מי גבינה
+      - גבינה
+      - חמאה
+      - שמנת
+      - יוגורט
+      - לקטוז
+      - מאפים
+    question: האם המנה הזו מכילה חלב?
+
+  ar:
+    verified: false
+    allergen: الحليب
+    statement: لديّ حساسية شديدة من الحليب.
+    description: لا أستطيع تناول أي طعام يحتوي على الحليب أو منتجات الألبان، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد يوجد الحليب في:"
+    foundIn:
+      - الكازين
+      - مصل اللبن
+      - الجبن
+      - الزبدة
+      - الكريمة
+      - الزبادي
+      - اللاكتوز
+      - المخبوزات
+    question: هل يحتوي هذا الطعام على الحليب؟
+
+  ja:
+    verified: false
+    allergen: 乳
+    statement: 私は重度の乳アレルギーがあります。
+    description: 牛乳や乳製品を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: 乳が含まれる可能性のあるもの：
+    foundIn:
+      - カゼイン
+      - ホエイ（乳清）
+      - チーズ
+      - バター
+      - クリーム
+      - ヨーグルト
+      - 乳糖
+      - パン・焼き菓子
+    question: この料理に牛乳や乳製品は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 牛奶
+    statement: 我对牛奶严重过敏。
+    description: 我不能吃含有牛奶或奶制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 牛奶可能存在于：
+    foundIn:
+      - 酪蛋白
+      - 乳清
+      - 奶酪
+      - 黄油
+      - 奶油
+      - 酸奶
+      - 乳糖
+      - 烘焙食品
+    question: 这道菜含有牛奶吗？

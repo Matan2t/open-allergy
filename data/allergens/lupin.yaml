@@ -1,0 +1,185 @@
+# Lupin allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: lupin
+emoji: 🌸
+translations:
+  en:
+    verified: true
+    allergen: Lupin
+    statement: I have a severe lupin allergy.
+    description: I cannot eat food containing lupin or lupin products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Lupin can be found in:"
+    foundIn:
+      - Lupin flour
+      - Lupin seeds
+      - Gluten-free baked goods
+      - Pastries
+      - Pasta
+      - Meat substitutes
+    question: Does this food contain lupin?
+
+  es:
+    verified: false
+    allergen: Altramuces
+    statement: Tengo una alergia grave a los altramuces.
+    description: No puedo comer alimentos que contengan altramuces o productos derivados del altramuz, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "Los altramuces pueden encontrarse en:"
+    foundIn:
+      - Harina de altramuz
+      - Semillas de altramuz
+      - Productos horneados sin gluten
+      - Bollería y repostería
+      - Pasta
+      - Sustitutos de la carne
+    question: ¿Este alimento contiene altramuces?
+
+  fr:
+    verified: false
+    allergen: Lupin
+    statement: J'ai une allergie sévère au lupin.
+    description: Je ne peux pas manger d'aliments contenant du lupin ou des produits à base de lupin, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Le lupin peut se trouver dans :"
+    foundIn:
+      - Farine de lupin
+      - Graines de lupin
+      - Produits de boulangerie sans gluten
+      - Pâtisseries et viennoiseries
+      - Pâtes
+      - Substituts de viande
+    question: Ce plat contient-il du lupin ?
+
+  de:
+    verified: false
+    allergen: Lupinen
+    statement: Ich habe eine schwere Lupinenallergie.
+    description: Ich darf keine Lebensmittel essen, die Lupinen oder Lupinenprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Lupinen können enthalten sein in:"
+    foundIn:
+      - Lupinenmehl
+      - Lupinensamen
+      - Glutenfreie Backwaren
+      - Feingebäck
+      - Nudeln
+      - Fleischersatzprodukte
+    question: Enthält dieses Gericht Lupinen?
+
+  it:
+    verified: false
+    allergen: Lupini
+    statement: Ho una grave allergia ai lupini.
+    description: Non posso mangiare alimenti che contengono lupini o prodotti a base di lupini, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "I lupini possono trovarsi in:"
+    foundIn:
+      - Farina di lupini
+      - Semi di lupino
+      - Prodotti da forno senza glutine
+      - Pasticceria
+      - Pasta
+      - Sostituti della carne
+    question: Questo cibo contiene lupini?
+
+  pt:
+    verified: false
+    allergen: Tremoço
+    statement: Tenho uma alergia grave ao tremoço.
+    description: Não posso comer alimentos que contenham tremoço ou produtos à base de tremoço, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "O tremoço pode encontrar-se em:"
+    foundIn:
+      - Farinha de tremoço
+      - Sementes de tremoço
+      - Produtos de padaria sem glúten
+      - Produtos de pastelaria
+      - Massas
+      - Substitutos de carne
+    question: Este alimento contém tremoço?
+
+  el:
+    verified: false
+    allergen: Λούπινο
+    statement: Πάσχω από σοβαρή αλλεργία στο λούπινο.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν λούπινο ή προϊόντα λούπινου, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Το λούπινο μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Αλεύρι λούπινου
+      - Σπόροι λούπινου
+      - Αρτοσκευάσματα χωρίς γλουτένη
+      - Γλυκίσματα ζαχαροπλαστικής
+      - Ζυμαρικά
+      - Υποκατάστατα κρέατος
+    question: Αυτό το φαγητό περιέχει λούπινο;
+
+  tr:
+    verified: false
+    allergen: Lüpen (acı bakla)
+    statement: Şiddetli lüpen (acı bakla) alerjim var.
+    description: Lüpen (acı bakla) veya lüpen ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Lüpen şunlarda bulunabilir:"
+    foundIn:
+      - Lüpen unu
+      - Lüpen tohumları
+      - Glütensiz unlu mamuller
+      - Hamur işleri
+      - Makarna
+      - Et yerine geçen ürünler
+    question: Bu yemekte lüpen (acı bakla) var mı?
+
+  he:
+    verified: false
+    allergen: תורמוס (לופין)
+    statement: יש לי אלרגיה חמורה לתורמוס (לופין).
+    description: אסור לי לאכול מזון המכיל תורמוס (לופין) או מוצרי תורמוס, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "תורמוס (לופין) עשוי להימצא ב:"
+    foundIn:
+      - קמח תורמוס
+      - זרעי תורמוס
+      - מאפים ללא גלוטן
+      - דברי מאפה
+      - פסטה
+      - תחליפי בשר
+    question: האם המנה הזו מכילה תורמוס (לופין)?
+
+  ar:
+    verified: false
+    allergen: الترمس
+    statement: لديّ حساسية شديدة من الترمس.
+    description: لا أستطيع تناول أي طعام يحتوي على الترمس أو منتجات الترمس، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد يوجد الترمس في:"
+    foundIn:
+      - دقيق الترمس
+      - بذور الترمس
+      - المخبوزات الخالية من الغلوتين
+      - المعجنات
+      - المعكرونة
+      - بدائل اللحوم
+    question: هل يحتوي هذا الطعام على الترمس؟
+
+  ja:
+    verified: false
+    allergen: ルピナス（ルーピン豆）
+    statement: 私は重度のルピナス（ルーピン豆）アレルギーがあります。
+    description: ルピナス（ルーピン豆）やルピナスを含む製品が入った食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: ルピナス（ルーピン豆）が含まれる可能性のあるもの：
+    foundIn:
+      - ルピナスの粉（ルーピン粉）
+      - ルーピン豆
+      - グルテンフリーのパン・焼き菓子
+      - ペイストリー（菓子パン）
+      - パスタ
+      - 代替肉（肉の代用品）
+    question: この料理にルピナス（ルーピン豆）は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 羽扇豆
+    statement: 我对羽扇豆严重过敏。
+    description: 我不能吃含有羽扇豆或羽扇豆制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 羽扇豆可能存在于：
+    foundIn:
+      - 羽扇豆粉
+      - 羽扇豆籽
+      - 无麸质烘焙食品
+      - 糕点
+      - 意大利面
+      - 肉类替代品
+    question: 这道菜含有羽扇豆吗？

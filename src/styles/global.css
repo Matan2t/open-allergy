@@ -1,0 +1,709 @@
+/* ============================================================
+   Design tokens
+   ============================================================ */
+:root {
+  --red: #d90429;
+  --red-dark: #b00320;
+  --ink: #17181c;
+  --ink-soft: #3d3f47;
+  --paper: #ffffff;
+  --bg: #faf7f2;
+  --border: #e5e0d8;
+  --ok: #1a7f4b;
+  --warn-bg: #fff7e0;
+  --warn-border: #e6c34a;
+  --radius: 12px;
+  --font: 'Noto Sans', 'Noto Sans Hebrew', 'Noto Sans Arabic', 'Noto Sans JP',
+    'Noto Sans SC', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: var(--red);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+/* ============================================================
+   Site chrome
+   ============================================================ */
+.site-header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-logo {
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--ink);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.1rem;
+  margin-inline-start: auto;
+  align-items: center;
+}
+
+.site-nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+  color: var(--red);
+}
+
+.site-footer {
+  background: var(--ink);
+  color: #cfd0d4;
+  margin-top: 4rem;
+  font-size: 0.85rem;
+}
+
+.site-footer-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+/* ============================================================
+   Buttons and form controls
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.95rem;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.08s ease, background 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--red-dark);
+  border-color: var(--red-dark);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+label.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+select,
+input[type='text'],
+input[type='number'] {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.55rem 0.7rem;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+select:focus,
+input:focus {
+  outline: 2px solid var(--red);
+  outline-offset: 1px;
+}
+
+/* ============================================================
+   The allergy card — exact CR80 size: 85.6mm x 54mm.
+   mm units everywhere so the browser prints at true scale.
+   ============================================================ */
+.allergy-card {
+  width: 85.6mm;
+  height: 54mm;
+  background: #fff;
+  color: var(--ink);
+  border-radius: 2.5mm;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: var(--font);
+  line-height: 1.25;
+}
+
+.screen-only .allergy-card {
+  box-shadow: 0 6px 24px rgba(20, 20, 30, 0.18);
+}
+
+.ac-header {
+  background: var(--ink);
+  color: #fff;
+  height: 7.5mm;
+  padding: 0 2.6mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.ac-title {
+  font-size: 3.4mm;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.ac-no-icon {
+  position: relative;
+  width: 5.6mm;
+  height: 5.6mm;
+  border: 0.5mm solid var(--red);
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ac-no-icon::after {
+  content: '';
+  position: absolute;
+  width: 0.5mm;
+  height: 5.4mm;
+  background: var(--red);
+  transform: rotate(45deg);
+}
+
+.ac-emoji {
+  font-size: 3.1mm;
+  line-height: 1;
+}
+
+.ac-body {
+  flex: 1;
+  padding: 1.6mm 2.6mm 0.8mm;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.ac-body p {
+  margin: 0;
+}
+
+.ac-statement {
+  font-size: 3.2mm;
+  font-weight: 800;
+  color: var(--red);
+}
+
+.ac-description {
+  font-size: 2.15mm;
+  color: var(--ink-soft);
+  margin-top: 0.7mm !important;
+}
+
+.ac-columns {
+  display: flex;
+  gap: 2mm;
+  flex: 1;
+  margin-top: 1.1mm;
+  min-height: 0;
+}
+
+.ac-found {
+  flex: 1;
+  min-width: 0;
+}
+
+.ac-found-label {
+  font-size: 2.3mm;
+  font-weight: 700;
+}
+
+.ac-found-list {
+  margin: 0.4mm 0 0;
+  padding: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 2.5mm;
+  font-size: 2.1mm;
+}
+
+.ac-found-list li {
+  break-inside: avoid;
+  padding-inline-start: 2mm;
+  position: relative;
+}
+
+.ac-found-list li::before {
+  content: '•';
+  color: var(--red);
+  position: absolute;
+  inset-inline-start: 0;
+}
+
+.ac-caution {
+  width: 23mm;
+  flex-shrink: 0;
+  border: 0.35mm solid var(--ink);
+  border-radius: 1.2mm;
+  padding: 1mm 1.2mm;
+  font-size: 1.85mm;
+  line-height: 1.3;
+  align-self: flex-start;
+}
+
+.ac-caution strong {
+  display: block;
+  font-size: 2mm;
+  color: var(--red);
+  margin-bottom: 0.3mm;
+}
+
+.ac-caution p {
+  margin: 0;
+}
+
+.ac-question {
+  font-size: 2.7mm;
+  font-weight: 800;
+  color: var(--red);
+  margin-top: 0.8mm !important;
+}
+
+.ac-footer {
+  flex-shrink: 0;
+  height: 3.6mm;
+  padding: 0 2.6mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.25mm solid var(--border);
+  font-size: 1.7mm;
+  color: var(--ink-soft);
+}
+
+.ac-name {
+  font-weight: 700;
+}
+
+/* ============================================================
+   Screen preview
+   ============================================================ */
+.card-preview {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.card-preview figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-preview figcaption {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ============================================================
+   Print
+   ============================================================ */
+.print-area {
+  display: none;
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .screen-only,
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .print-area {
+    display: block !important;
+  }
+
+  .allergy-card {
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* Single-card mode: one card side per page (duplex prints front/back). */
+.print-single .print-card-page {
+  width: 85.6mm;
+  height: 54mm;
+  overflow: hidden;
+  page-break-after: always;
+  break-after: page;
+}
+
+/* A4 sheet mode: pairs of front+back with cut/fold guides. */
+.print-sheet .sheet-note {
+  font-size: 9pt;
+  color: #444;
+  margin: 0 0 4mm;
+}
+
+.print-sheet .sheet-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 5mm;
+}
+
+.print-sheet .sheet-pair {
+  display: flex;
+  width: fit-content;
+  outline: 0.3mm dashed #999;
+}
+
+.print-sheet .sheet-pair .allergy-card {
+  border-radius: 0;
+}
+
+.print-sheet .sheet-pair .allergy-card + .allergy-card {
+  border-inline-start: 0.3mm dashed #999;
+}
+
+/* ============================================================
+   Misc site sections
+   ============================================================ */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 3.5rem 0 2.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  margin: 0 0 1rem;
+  font-weight: 900;
+}
+
+.hero h1 em {
+  color: var(--red);
+  font-style: normal;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  max-width: 34rem;
+}
+
+.hero-card {
+  transform: rotate(2.5deg) scale(1.15);
+  transform-origin: center;
+  margin: 1.5rem;
+}
+
+.allergen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.9rem;
+  padding: 0;
+  list-style: none;
+}
+
+.allergen-grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--paper);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 0.75rem;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+  transition: border-color 0.15s ease, transform 0.08s ease;
+}
+
+.allergen-grid a:hover {
+  border-color: var(--red);
+  transform: translateY(-2px);
+}
+
+.allergen-grid .emoji {
+  font-size: 2rem;
+}
+
+.language-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.language-chips a {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 1.5px solid var(--border);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.language-chips a:hover {
+  border-color: var(--red);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.steps li {
+  background: var(--paper);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  counter-increment: step;
+}
+
+.steps li::before {
+  content: counter(step);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+}
+
+.steps h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.steps p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.notice {
+  background: var(--warn-bg);
+  border: 1.5px solid var(--warn-border);
+  border-radius: var(--radius);
+  padding: 0.8rem 1rem;
+  font-size: 0.92rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.badge-verified {
+  background: #e4f5eb;
+  color: var(--ok);
+}
+
+.badge-unverified {
+  background: var(--warn-bg);
+  color: #8a6d00;
+}
+
+.section {
+  margin-top: 3rem;
+}
+
+.section > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.1rem;
+}
+
+/* ============================================================
+   Card builder
+   ============================================================ */
+.card-builder {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.builder-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  background: var(--paper);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+}
+
+.builder-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.builder-hint {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  max-width: 46rem;
+  margin: 0;
+}
+
+/* ============================================================
+   Order form
+   ============================================================ */
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  max-width: 34rem;
+}
+
+.order-form .price-note {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.alert {
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  font-weight: 600;
+}
+
+.alert-success {
+  background: #e4f5eb;
+  border: 1.5px solid #7bc79c;
+  color: var(--ok);
+}
+
+.alert-error {
+  background: #fdecec;
+  border: 1.5px solid #eba3a3;
+  color: var(--red-dark);
+}

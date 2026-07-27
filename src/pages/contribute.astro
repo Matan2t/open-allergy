@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { GITHUB_URL } from '../lib/site';
+---
+
+<Layout title="Contribute — Open Allergy Cards">
+  <section class="section">
+    <h2>Contribute</h2>
+    <p style="max-width: 46rem;">
+      Every card on this site is generated from plain text files in
+      <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">our GitHub repository</a>.
+      The most valuable contribution is <strong>translation review by native speakers</strong> —
+      it takes five minutes and no coding.
+    </p>
+
+    <h3>Verify a translation (no coding required)</h3>
+    <ol class="steps" style="margin-top: 1rem;">
+      <li>
+        <h3>Find the file</h3>
+        <p>
+          Open <a href={`${GITHUB_URL}/tree/main/data/allergens`}>data/allergens/</a> on GitHub and
+          pick an allergen, e.g. <code>milk.yaml</code>. Each language has its own section.
+        </p>
+      </li>
+      <li>
+        <h3>Review the wording</h3>
+        <p>
+          Click the pencil icon to edit in your browser. Fix anything that doesn't read naturally —
+          this text is shown to restaurant staff, so clarity beats literal translation.
+        </p>
+      </li>
+      <li>
+        <h3>Mark it verified</h3>
+        <p>
+          If the translation is accurate, change <code>verified: false</code> to
+          <code>verified: true</code> and open a pull request mentioning that you're a native or
+          fluent speaker.
+        </p>
+      </li>
+    </ol>
+
+    <h3 style="margin-top: 2rem;">Add a language or allergen</h3>
+    <p style="max-width: 46rem;">
+      New languages go in <code>data/languages.yaml</code>; new allergens are a single new YAML
+      file copied from an existing one. Full instructions are in
+      <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`}>CONTRIBUTING.md</a>. Every pull request
+      is automatically checked against the data schema, so you can't break the site.
+    </p>
+
+    <h3 style="margin-top: 2rem;">Why your help matters</h3>
+    <p style="max-width: 46rem; color: var(--ink-soft);">
+      A mistranslated allergy card is a safety risk. Machine translation gets us a first draft;
+      only a native speaker can confirm it says exactly the right thing in a real restaurant.
+      Cards with unverified translations show a warning until someone like you signs off.
+    </p>
+  </section>
+</Layout>

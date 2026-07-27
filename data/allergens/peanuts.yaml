@@ -1,0 +1,209 @@
+# Peanut allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: peanuts
+emoji: 🥜
+translations:
+  en:
+    verified: true
+    allergen: Peanuts
+    statement: I have a severe peanut allergy.
+    description: I cannot eat food containing peanuts or peanut products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Peanuts can be found in:"
+    foundIn:
+      - Peanut butter
+      - Peanut oil
+      - Groundnuts
+      - Satay sauce
+      - Baked goods
+      - Sweets & candy
+      - Trail mix
+      - Many Asian dishes
+    question: Does this food contain peanuts?
+
+  es:
+    verified: false
+    allergen: Cacahuetes (maní)
+    statement: Tengo una alergia grave al cacahuete (maní).
+    description: No puedo comer alimentos que contengan cacahuetes o productos derivados del cacahuete, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "El cacahuete puede encontrarse en:"
+    foundIn:
+      - Mantequilla de cacahuete
+      - Aceite de cacahuete
+      - Cacahuetes (maní)
+      - Salsa satay
+      - Bollería y repostería
+      - Dulces y caramelos
+      - Mezclas de frutos secos
+      - Muchos platos asiáticos
+    question: ¿Este alimento contiene cacahuete?
+
+  fr:
+    verified: false
+    allergen: Arachides (cacahuètes)
+    statement: J'ai une allergie sévère aux arachides (cacahuètes).
+    description: Je ne peux pas manger d'aliments contenant des arachides ou des produits à base d'arachide, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Les arachides peuvent se trouver dans :"
+    foundIn:
+      - Beurre de cacahuète
+      - Huile d'arachide
+      - Cacahuètes
+      - Sauce satay
+      - Pâtisseries et viennoiseries
+      - Confiseries et bonbons
+      - Mélanges de fruits secs
+      - De nombreux plats asiatiques
+    question: Ce plat contient-il des arachides ?
+
+  de:
+    verified: false
+    allergen: Erdnüsse
+    statement: Ich habe eine schwere Erdnussallergie.
+    description: Ich darf keine Lebensmittel essen, die Erdnüsse oder Erdnussprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Erdnüsse können enthalten sein in:"
+    foundIn:
+      - Erdnussbutter
+      - Erdnussöl
+      - Erdnüsse
+      - Satay-Soße
+      - Backwaren
+      - Süßigkeiten
+      - Studentenfutter
+      - Viele asiatische Gerichte
+    question: Enthält dieses Gericht Erdnüsse?
+
+  it:
+    verified: false
+    allergen: Arachidi
+    statement: Ho una grave allergia alle arachidi.
+    description: Non posso mangiare alimenti che contengono arachidi o prodotti a base di arachidi, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "Le arachidi possono trovarsi in:"
+    foundIn:
+      - Burro di arachidi
+      - Olio di arachidi
+      - Noccioline americane (arachidi)
+      - Salsa satay
+      - Prodotti da forno
+      - Dolciumi e caramelle
+      - Mix di frutta secca
+      - Molti piatti asiatici
+    question: Questo cibo contiene arachidi?
+
+  pt:
+    verified: false
+    allergen: Amendoim
+    statement: Tenho uma alergia grave ao amendoim.
+    description: Não posso comer alimentos que contenham amendoim ou produtos à base de amendoim, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "O amendoim pode encontrar-se em:"
+    foundIn:
+      - Manteiga de amendoim
+      - Óleo de amendoim
+      - Amendoins
+      - Molho satay
+      - Produtos de pastelaria
+      - Doces e guloseimas
+      - Misturas de frutos secos
+      - Muitos pratos asiáticos
+    question: Este alimento contém amendoim?
+
+  el:
+    verified: false
+    allergen: Αράπικα φιστίκια
+    statement: Πάσχω από σοβαρή αλλεργία στα αράπικα φιστίκια.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν αράπικα φιστίκια ή προϊόντα τους, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Τα αράπικα φιστίκια μπορεί να βρίσκονται σε:"
+    foundIn:
+      - Φιστικοβούτυρο
+      - Αραχιδέλαιο (φιστικέλαιο)
+      - Αράπικα φιστίκια
+      - Σάλτσα σατέι
+      - Αρτοσκευάσματα
+      - Γλυκά και καραμέλες
+      - Μείγματα ξηρών καρπών
+      - Πολλά ασιατικά πιάτα
+    question: Αυτό το φαγητό περιέχει αράπικα φιστίκια;
+
+  tr:
+    verified: false
+    allergen: Yer fıstığı
+    statement: Şiddetli yer fıstığı alerjim var.
+    description: Yer fıstığı veya yer fıstığı ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Yer fıstığı şunlarda bulunabilir:"
+    foundIn:
+      - Fıstık ezmesi
+      - Yer fıstığı yağı
+      - Yer fıstığı
+      - Satay sosu
+      - Unlu mamuller
+      - Şekerlemeler ve tatlılar
+      - Kuruyemiş karışımları
+      - Birçok Asya yemeği
+    question: Bu yemekte yer fıstığı var mı?
+
+  he:
+    verified: false
+    allergen: בוטנים
+    statement: יש לי אלרגיה חמורה לבוטנים.
+    description: אסור לי לאכול מזון המכיל בוטנים או מוצרי בוטנים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "בוטנים עשויים להימצא ב:"
+    foundIn:
+      - חמאת בוטנים
+      - שמן בוטנים
+      - בוטנים
+      - רוטב סאטה
+      - מאפים
+      - ממתקים
+      - תערובת פיצוחים
+      - מנות אסייתיות רבות
+    question: האם המנה הזו מכילה בוטנים?
+
+  ar:
+    verified: false
+    allergen: الفول السوداني
+    statement: لديّ حساسية شديدة من الفول السوداني.
+    description: لا أستطيع تناول أي طعام يحتوي على الفول السوداني أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد يوجد الفول السوداني في:"
+    foundIn:
+      - زبدة الفول السوداني
+      - زيت الفول السوداني
+      - الفول السوداني
+      - صلصة الساتاي
+      - المخبوزات
+      - الحلويات والسكاكر
+      - خليط المكسرات
+      - كثير من الأطباق الآسيوية
+    question: هل يحتوي هذا الطعام على الفول السوداني؟
+
+  ja:
+    verified: false
+    allergen: ピーナッツ（落花生）
+    statement: 私は重度のピーナッツアレルギーがあります。
+    description: ピーナッツ（落花生）やピーナッツを使った食品は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: ピーナッツが含まれる可能性のあるもの：
+    foundIn:
+      - ピーナッツバター
+      - ピーナッツオイル（落花生油）
+      - 落花生
+      - サテソース
+      - パン・焼き菓子
+      - お菓子・キャンディー
+      - ミックスナッツ
+      - 多くのアジア料理
+    question: この料理にピーナッツは入っていますか？
+
+  zh:
+    verified: false
+    allergen: 花生
+    statement: 我对花生严重过敏。
+    description: 我不能吃含有花生或花生制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 花生可能存在于：
+    foundIn:
+      - 花生酱
+      - 花生油
+      - 花生
+      - 沙爹酱
+      - 烘焙食品
+      - 糖果甜食
+      - 什锦果仁
+      - 许多亚洲菜肴
+    question: 这道菜含有花生吗？

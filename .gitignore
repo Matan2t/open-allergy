@@ -1,0 +1,17 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# misc
+.DS_Store
+*.log

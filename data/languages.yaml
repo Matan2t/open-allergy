@@ -1,0 +1,111 @@
+# Supported languages.
+# `strings` are the shared card texts that do not vary per allergen.
+# To add a language: add an entry here, then add translations to files in data/allergens/.
+languages:
+  - code: en
+    name: English
+    nativeName: English
+    direction: ltr
+    strings:
+      cardTitle: FOOD ALLERGY
+      cautionTitle: Caution!
+      cautionText: Please use clean gloves, utensils, and frying oil when preparing my meal. Thank you!
+
+  - code: es
+    name: Spanish
+    nativeName: Español
+    direction: ltr
+    strings:
+      cardTitle: ALERGIA ALIMENTARIA
+      cautionTitle: ¡Atención!
+      cautionText: Por favor, utilice guantes, utensilios y aceite de fritura limpios al preparar mi comida. ¡Gracias!
+
+  - code: fr
+    name: French
+    nativeName: Français
+    direction: ltr
+    strings:
+      cardTitle: ALLERGIE ALIMENTAIRE
+      cautionTitle: Attention !
+      cautionText: Veuillez utiliser des gants, des ustensiles et une huile de friture propres pour préparer mon repas. Merci !
+
+  - code: de
+    name: German
+    nativeName: Deutsch
+    direction: ltr
+    strings:
+      cardTitle: LEBENSMITTELALLERGIE
+      cautionTitle: Achtung!
+      cautionText: Bitte verwenden Sie bei der Zubereitung meiner Mahlzeit saubere Handschuhe, sauberes Besteck und frisches Frittieröl. Vielen Dank!
+
+  - code: it
+    name: Italian
+    nativeName: Italiano
+    direction: ltr
+    strings:
+      cardTitle: ALLERGIA ALIMENTARE
+      cautionTitle: Attenzione!
+      cautionText: Si prega di usare guanti puliti, utensili puliti e olio di frittura pulito nella preparazione del mio pasto. Grazie!
+
+  - code: pt
+    name: Portuguese
+    nativeName: Português
+    direction: ltr
+    strings:
+      cardTitle: ALERGIA ALIMENTAR
+      cautionTitle: Atenção!
+      cautionText: Por favor, use luvas limpas, utensílios limpos e óleo de fritura limpo ao preparar a minha refeição. Obrigado!
+
+  - code: el
+    name: Greek
+    nativeName: Ελληνικά
+    direction: ltr
+    strings:
+      cardTitle: ΤΡΟΦΙΚΗ ΑΛΛΕΡΓΙΑ
+      cautionTitle: Προσοχή!
+      cautionText: Παρακαλώ χρησιμοποιήστε καθαρά γάντια, καθαρά σκεύη και καθαρό λάδι τηγανίσματος κατά την προετοιμασία του γεύματός μου. Ευχαριστώ!
+
+  - code: tr
+    name: Turkish
+    nativeName: Türkçe
+    direction: ltr
+    strings:
+      cardTitle: GIDA ALERJİSİ
+      cautionTitle: Dikkat!
+      cautionText: Lütfen yemeğimi hazırlarken temiz eldiven, temiz mutfak gereçleri ve temiz kızartma yağı kullanın. Teşekkür ederim!
+
+  - code: he
+    name: Hebrew
+    nativeName: עברית
+    direction: rtl
+    strings:
+      cardTitle: אלרגיה למזון
+      cautionTitle: זהירות!
+      cautionText: אנא השתמשו בכפפות נקיות, בכלים נקיים ובשמן טיגון נקי בהכנת הארוחה שלי. תודה!
+
+  - code: ar
+    name: Arabic
+    nativeName: العربية
+    direction: rtl
+    strings:
+      cardTitle: حساسية غذائية
+      cautionTitle: تنبيه!
+      cautionText: يرجى استخدام قفازات نظيفة وأدوات نظيفة وزيت قلي نظيف عند تحضير وجبتي. شكرًا لكم!
+
+  - code: ja
+    name: Japanese
+    nativeName: 日本語
+    direction: ltr
+    strings:
+      cardTitle: 食物アレルギー
+      cautionTitle: ご注意ください
+      cautionText: 調理の際は、清潔な手袋と調理器具、新しい揚げ油を使用してください。よろしくお願いします。
+
+  - code: zh
+    name: Chinese (Simplified)
+    nativeName: 简体中文
+    direction: ltr
+    strings:
+      cardTitle: 食物过敏
+      cautionTitle: 注意！
+      cautionText: 请在为我准备餐点时使用干净的手套、干净的厨具和干净的煎炸油。谢谢！

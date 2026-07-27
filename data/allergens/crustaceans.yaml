@@ -1,0 +1,197 @@
+# Crustacean shellfish allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: crustaceans
+emoji: 🦐
+translations:
+  en:
+    verified: true
+    allergen: Crustaceans
+    statement: I have a severe allergy to crustacean shellfish.
+    description: I cannot eat food containing crustaceans such as shrimp, prawns, crab, lobster or crayfish, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Crustaceans can be found in:"
+    foundIn:
+      - Shrimp & prawns
+      - Crab
+      - Lobster
+      - Crayfish
+      - Shrimp paste
+      - Seafood soups
+      - Fried rice & noodle dishes
+    question: Does this food contain shrimp, crab or other crustaceans?
+
+  es:
+    verified: false
+    allergen: Crustáceos
+    statement: Tengo una alergia grave a los crustáceos.
+    description: No puedo comer alimentos que contengan crustáceos como gambas, langostinos, cangrejo, langosta o cangrejo de río, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "Los crustáceos pueden encontrarse en:"
+    foundIn:
+      - Gambas y langostinos
+      - Cangrejo
+      - Langosta y bogavante
+      - Cangrejo de río
+      - Pasta de gambas
+      - Sopas de marisco
+      - Arroces y fideos salteados
+    question: ¿Este alimento contiene gambas, cangrejo u otros crustáceos?
+
+  fr:
+    verified: false
+    allergen: Crustacés
+    statement: J'ai une allergie sévère aux crustacés.
+    description: Je ne peux pas manger d'aliments contenant des crustacés tels que crevettes, gambas, crabe, homard ou écrevisses, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Les crustacés peuvent se trouver dans :"
+    foundIn:
+      - Crevettes et gambas
+      - Crabe
+      - Homard
+      - Écrevisses
+      - Pâte de crevettes
+      - Soupes de fruits de mer
+      - Riz et nouilles sautés
+    question: Ce plat contient-il des crevettes, du crabe ou d'autres crustacés ?
+
+  de:
+    verified: false
+    allergen: Krebstiere
+    statement: Ich habe eine schwere Allergie gegen Krebstiere.
+    description: Ich darf keine Lebensmittel essen, die Krebstiere wie Garnelen, Shrimps, Krabben, Hummer oder Flusskrebse enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Krebstiere können enthalten sein in:"
+    foundIn:
+      - Garnelen und Shrimps
+      - Krabben
+      - Hummer
+      - Flusskrebse
+      - Garnelenpaste
+      - Meeresfrüchtesuppen
+      - Gebratener Reis und Nudelgerichte
+    question: Enthält dieses Gericht Garnelen, Krabben oder andere Krebstiere?
+
+  it:
+    verified: false
+    allergen: Crostacei
+    statement: Ho una grave allergia ai crostacei.
+    description: Non posso mangiare alimenti che contengono crostacei come gamberi, gamberetti, granchio, astice o gamberi di fiume, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "I crostacei possono trovarsi in:"
+    foundIn:
+      - Gamberi e gamberetti
+      - Granchio
+      - Astice e aragosta
+      - Gamberi di fiume
+      - Pasta di gamberetti
+      - Zuppe di pesce e frutti di mare
+      - Riso e noodles saltati
+    question: Questo cibo contiene gamberi, granchio o altri crostacei?
+
+  pt:
+    verified: false
+    allergen: Crustáceos
+    statement: Tenho uma alergia grave a crustáceos.
+    description: Não posso comer alimentos que contenham crustáceos como camarão, gambas, caranguejo, lavagante ou lagostim, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "Os crustáceos podem encontrar-se em:"
+    foundIn:
+      - Camarões e gambas
+      - Caranguejo
+      - Lavagante e lagosta
+      - Lagostim
+      - Pasta de camarão
+      - Sopas de marisco
+      - Arroz e massas salteadas
+    question: Este alimento contém camarão, caranguejo ou outros crustáceos?
+
+  el:
+    verified: false
+    allergen: Καρκινοειδή
+    statement: Πάσχω από σοβαρή αλλεργία στα καρκινοειδή.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν καρκινοειδή, όπως γαρίδες, καβούρι, αστακό ή καραβίδες, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Τα καρκινοειδή μπορεί να βρίσκονται σε:"
+    foundIn:
+      - Γαρίδες
+      - Καβούρι
+      - Αστακός
+      - Καραβίδες
+      - Πάστα γαρίδας
+      - Σούπες θαλασσινών
+      - Τηγανητό ρύζι και νουντλς
+    question: Αυτό το φαγητό περιέχει γαρίδες, καβούρι ή άλλα καρκινοειδή;
+
+  tr:
+    verified: false
+    allergen: Kabuklular
+    statement: Kabuklu deniz ürünlerine karşı şiddetli alerjim var.
+    description: Karides, yengeç, ıstakoz veya kerevit gibi kabuklular içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Kabuklular şunlarda bulunabilir:"
+    foundIn:
+      - Karides
+      - Yengeç
+      - Istakoz
+      - Kerevit
+      - Karides ezmesi
+      - Deniz ürünlü çorbalar
+      - Kızarmış pilav ve noodle yemekleri
+    question: Bu yemekte karides, yengeç veya başka kabuklular var mı?
+
+  he:
+    verified: false
+    allergen: סרטנאים
+    statement: יש לי אלרגיה חמורה לסרטנאים.
+    description: אסור לי לאכול מזון המכיל סרטנאים כגון שרימפס, סרטן, לובסטר או סרטני נהרות, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "סרטנאים עשויים להימצא ב:"
+    foundIn:
+      - שרימפס
+      - סרטן
+      - לובסטר
+      - סרטן נהרות
+      - משחת שרימפס
+      - מרקי פירות ים
+      - אורז מוקפץ ומנות נודלס
+    question: האם המנה הזו מכילה שרימפס, סרטן או סרטנאים אחרים?
+
+  ar:
+    verified: false
+    allergen: القشريات
+    statement: لديّ حساسية شديدة من القشريات.
+    description: لا أستطيع تناول أي طعام يحتوي على القشريات مثل الروبيان (الجمبري) أو السلطعون أو الكركند أو جراد البحر، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد توجد القشريات في:"
+    foundIn:
+      - الروبيان (الجمبري)
+      - السلطعون
+      - الكركند (اللوبستر)
+      - جراد البحر
+      - معجون الروبيان
+      - شوربات المأكولات البحرية
+      - الأرز المقلي وأطباق النودلز
+    question: هل يحتوي هذا الطعام على الروبيان أو السلطعون أو غيرها من القشريات؟
+
+  ja:
+    verified: false
+    allergen: 甲殻類
+    statement: 私は重度の甲殻類アレルギーがあります。
+    description: エビ・カニ・ロブスター・ザリガニなどの甲殻類を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: 甲殻類が含まれる可能性のあるもの：
+    foundIn:
+      - エビ
+      - カニ
+      - ロブスター
+      - ザリガニ
+      - エビペースト
+      - 海鮮スープ
+      - チャーハン・麺料理
+    question: この料理にエビ・カニなどの甲殻類は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 甲壳类
+    statement: 我对甲壳类海鲜严重过敏。
+    description: 我不能吃含有虾、蟹、龙虾或小龙虾等甲壳类的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 甲壳类可能存在于：
+    foundIn:
+      - 虾
+      - 蟹
+      - 龙虾
+      - 小龙虾
+      - 虾酱
+      - 海鲜汤
+      - 炒饭和炒面
+    question: 这道菜含有虾、蟹或其他甲壳类吗？

@@ -1,0 +1,209 @@
+# Sesame allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: sesame
+emoji: 🥯
+translations:
+  en:
+    verified: true
+    allergen: Sesame
+    statement: I have a severe sesame allergy.
+    description: I cannot eat food containing sesame or sesame products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Sesame can be found in:"
+    foundIn:
+      - Sesame seeds
+      - Sesame oil
+      - Tahini
+      - Hummus
+      - Halva
+      - Bread & buns
+      - Falafel
+      - Salad dressings
+    question: Does this food contain sesame?
+
+  es:
+    verified: false
+    allergen: Sésamo
+    statement: Tengo una alergia grave al sésamo.
+    description: No puedo comer alimentos que contengan sésamo o productos de sésamo, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "El sésamo puede encontrarse en:"
+    foundIn:
+      - Semillas de sésamo
+      - Aceite de sésamo
+      - Tahini
+      - Hummus
+      - Halva
+      - Pan y bollos
+      - Falafel
+      - Aliños para ensaladas
+    question: ¿Este alimento contiene sésamo?
+
+  fr:
+    verified: false
+    allergen: Sésame
+    statement: J'ai une allergie sévère au sésame.
+    description: Je ne peux pas manger d'aliments contenant du sésame ou des produits à base de sésame, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Le sésame peut se trouver dans :"
+    foundIn:
+      - Graines de sésame
+      - Huile de sésame
+      - Tahini
+      - Houmous
+      - Halva
+      - Pain et petits pains
+      - Falafels
+      - Sauces pour salade
+    question: Ce plat contient-il du sésame ?
+
+  de:
+    verified: false
+    allergen: Sesam
+    statement: Ich habe eine schwere Sesamallergie.
+    description: Ich darf keine Lebensmittel essen, die Sesam oder Sesamprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Sesam kann enthalten sein in:"
+    foundIn:
+      - Sesamsamen
+      - Sesamöl
+      - Tahini
+      - Hummus
+      - Halva
+      - Brot und Brötchen
+      - Falafel
+      - Salatdressings
+    question: Enthält dieses Gericht Sesam?
+
+  it:
+    verified: false
+    allergen: Sesamo
+    statement: Ho una grave allergia al sesamo.
+    description: Non posso mangiare alimenti che contengono sesamo o prodotti a base di sesamo, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "Il sesamo può trovarsi in:"
+    foundIn:
+      - Semi di sesamo
+      - Olio di sesamo
+      - Tahina
+      - Hummus
+      - Halva
+      - Pane e panini
+      - Falafel
+      - Condimenti per insalata
+    question: Questo cibo contiene sesamo?
+
+  pt:
+    verified: false
+    allergen: Sésamo
+    statement: Tenho uma alergia grave ao sésamo.
+    description: Não posso comer alimentos que contenham sésamo ou produtos de sésamo, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "O sésamo pode encontrar-se em:"
+    foundIn:
+      - Sementes de sésamo
+      - Óleo de sésamo
+      - Tahini
+      - Húmus
+      - Halva
+      - Pão e pãezinhos
+      - Falafel
+      - Molhos para salada
+    question: Este alimento contém sésamo?
+
+  el:
+    verified: false
+    allergen: Σουσάμι
+    statement: Πάσχω από σοβαρή αλλεργία στο σουσάμι.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σουσάμι ή προϊόντα σουσαμιού, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Το σουσάμι μπορεί να βρίσκεται σε:"
+    foundIn:
+      - Σπόροι σουσαμιού
+      - Σησαμέλαιο
+      - Ταχίνι
+      - Χούμους
+      - Χαλβάς
+      - Ψωμί και αρτοσκευάσματα
+      - Φαλάφελ
+      - Σάλτσες για σαλάτες
+    question: Αυτό το φαγητό περιέχει σουσάμι;
+
+  tr:
+    verified: false
+    allergen: Susam
+    statement: Şiddetli susam alerjim var.
+    description: Susam veya susam ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Susam şunlarda bulunabilir:"
+    foundIn:
+      - Susam tohumu
+      - Susam yağı
+      - Tahin
+      - Humus
+      - Helva
+      - Ekmek ve poğaça
+      - Falafel
+      - Salata sosları
+    question: Bu yemekte susam var mı?
+
+  he:
+    verified: false
+    allergen: שומשום
+    statement: יש לי אלרגיה חמורה לשומשום.
+    description: אסור לי לאכול מזון המכיל שומשום או מוצרי שומשום, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "שומשום עשוי להימצא ב:"
+    foundIn:
+      - גרעיני שומשום
+      - שמן שומשום
+      - טחינה
+      - חומוס
+      - חלווה
+      - לחם ולחמניות
+      - פלאפל
+      - רטבים לסלט
+    question: האם המנה הזו מכילה שומשום?
+
+  ar:
+    verified: false
+    allergen: السمسم
+    statement: لديّ حساسية شديدة من السمسم.
+    description: لا أستطيع تناول أي طعام يحتوي على السمسم أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد يوجد السمسم في:"
+    foundIn:
+      - بذور السمسم
+      - زيت السمسم
+      - الطحينة
+      - الحمص
+      - الحلاوة الطحينية
+      - الخبز والكعك
+      - الفلافل
+      - صلصات السلطة
+    question: هل يحتوي هذا الطعام على السمسم؟
+
+  ja:
+    verified: false
+    allergen: ごま
+    statement: 私は重度のごまアレルギーがあります。
+    description: ごまやごまを使った製品を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: ごまが含まれる可能性のあるもの：
+    foundIn:
+      - ごま（種子）
+      - ごま油
+      - タヒニ（練りごま）
+      - フムス
+      - ハルヴァ
+      - パン・ロールパン
+      - ファラフェル
+      - サラダドレッシング
+    question: この料理にごまは入っていますか？
+
+  zh:
+    verified: false
+    allergen: 芝麻
+    statement: 我对芝麻严重过敏。
+    description: 我不能吃含有芝麻或芝麻制品的食物，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 芝麻可能存在于：
+    foundIn:
+      - 芝麻籽
+      - 芝麻油（香油）
+      - 芝麻酱（塔希尼）
+      - 鹰嘴豆泥
+      - 哈尔瓦酥糖
+      - 面包和小圆面包
+      - 法拉费（炸鹰嘴豆丸）
+      - 沙拉酱
+    question: 这道菜含有芝麻吗？

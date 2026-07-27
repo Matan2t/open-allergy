@@ -1,0 +1,209 @@
+# Tree nut allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: tree-nuts
+emoji: 🌰
+translations:
+  en:
+    verified: true
+    allergen: Tree nuts
+    statement: I have a severe tree nut allergy.
+    description: I cannot eat food containing tree nuts such as almonds, walnuts, cashews, hazelnuts, pistachios or pecans, even in small amounts, or I will have a severe allergic reaction and require medical attention.
+    foundInLabel: "Tree nuts can be found in:"
+    foundIn:
+      - Almonds
+      - Walnuts
+      - Cashews
+      - Hazelnuts
+      - Pistachios
+      - Pesto
+      - Nut oils
+      - Desserts & baked goods
+    question: Does this food contain tree nuts?
+
+  es:
+    verified: false
+    allergen: Frutos secos
+    statement: Tengo una alergia grave a los frutos secos.
+    description: No puedo comer alimentos que contengan frutos secos como almendras, nueces, anacardos, avellanas, pistachos o nueces pecanas, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: "Los frutos secos pueden encontrarse en:"
+    foundIn:
+      - Almendras
+      - Nueces
+      - Anacardos
+      - Avellanas
+      - Pistachos
+      - Pesto
+      - Aceites de frutos secos
+      - Postres y repostería
+    question: ¿Este alimento contiene frutos secos?
+
+  fr:
+    verified: false
+    allergen: Fruits à coque
+    statement: J'ai une allergie sévère aux fruits à coque.
+    description: Je ne peux pas manger d'aliments contenant des fruits à coque comme les amandes, les noix, les noix de cajou, les noisettes, les pistaches ou les noix de pécan, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: "Les fruits à coque peuvent se trouver dans :"
+    foundIn:
+      - Amandes
+      - Noix
+      - Noix de cajou
+      - Noisettes
+      - Pistaches
+      - Pesto
+      - Huiles de fruits à coque
+      - Desserts et pâtisseries
+    question: Ce plat contient-il des fruits à coque ?
+
+  de:
+    verified: false
+    allergen: Schalenfrüchte (Nüsse)
+    statement: Ich habe eine schwere Nussallergie.
+    description: Ich darf keine Lebensmittel essen, die Schalenfrüchte wie Mandeln, Walnüsse, Cashewkerne, Haselnüsse, Pistazien oder Pekannüsse enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: "Nüsse können enthalten sein in:"
+    foundIn:
+      - Mandeln
+      - Walnüsse
+      - Cashewkerne
+      - Haselnüsse
+      - Pistazien
+      - Pesto
+      - Nussöle
+      - Desserts und Backwaren
+    question: Enthält dieses Gericht Nüsse?
+
+  it:
+    verified: false
+    allergen: Frutta a guscio
+    statement: Ho una grave allergia alla frutta a guscio.
+    description: Non posso mangiare alimenti che contengono frutta a guscio come mandorle, noci, anacardi, nocciole, pistacchi o noci pecan, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: "La frutta a guscio può trovarsi in:"
+    foundIn:
+      - Mandorle
+      - Noci
+      - Anacardi
+      - Nocciole
+      - Pistacchi
+      - Pesto
+      - Oli di frutta a guscio
+      - Dolci e prodotti da forno
+    question: Questo cibo contiene frutta a guscio?
+
+  pt:
+    verified: false
+    allergen: Frutos de casca rija
+    statement: Tenho uma alergia grave a frutos de casca rija.
+    description: Não posso comer alimentos que contenham frutos de casca rija, como amêndoas, nozes, cajus, avelãs, pistácios ou nozes-pecã, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: "Os frutos de casca rija podem encontrar-se em:"
+    foundIn:
+      - Amêndoas
+      - Nozes
+      - Castanha de caju
+      - Avelãs
+      - Pistácios
+      - Pesto
+      - Óleos de frutos secos
+      - Sobremesas e produtos de pastelaria
+    question: Este alimento contém frutos de casca rija?
+
+  el:
+    verified: false
+    allergen: Ξηροί καρποί
+    statement: Πάσχω από σοβαρή αλλεργία στους ξηρούς καρπούς.
+    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν ξηρούς καρπούς όπως αμύγδαλα, καρύδια, κάσιους, φουντούκια, φιστίκια Αιγίνης ή πεκάν, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: "Οι ξηροί καρποί μπορεί να βρίσκονται σε:"
+    foundIn:
+      - Αμύγδαλα
+      - Καρύδια
+      - Κάσιους
+      - Φουντούκια
+      - Φιστίκια Αιγίνης
+      - Πέστο
+      - Έλαια ξηρών καρπών
+      - Επιδόρπια και αρτοσκευάσματα
+    question: Αυτό το φαγητό περιέχει ξηρούς καρπούς;
+
+  tr:
+    verified: false
+    allergen: Sert kabuklu yemişler
+    statement: Şiddetli sert kabuklu yemiş (kuruyemiş) alerjim var.
+    description: Badem, ceviz, kaju, fındık, Antep fıstığı veya pekan gibi sert kabuklu yemişler içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: "Sert kabuklu yemişler şunlarda bulunabilir:"
+    foundIn:
+      - Badem
+      - Ceviz
+      - Kaju
+      - Fındık
+      - Antep fıstığı
+      - Pesto sosu
+      - Kuruyemiş yağları
+      - Tatlılar ve unlu mamuller
+    question: Bu yemekte sert kabuklu yemiş var mı?
+
+  he:
+    verified: false
+    allergen: אגוזים
+    statement: יש לי אלרגיה חמורה לאגוזים.
+    description: אסור לי לאכול מזון המכיל אגוזים כגון שקדים, אגוזי מלך, קשיו, אגוזי לוז, פיסטוקים או פקאן, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: "אגוזים עשויים להימצא ב:"
+    foundIn:
+      - שקדים
+      - אגוזי מלך
+      - קשיו
+      - אגוזי לוז
+      - פיסטוקים
+      - פסטו
+      - שמני אגוזים
+      - קינוחים ומאפים
+    question: האם המנה הזו מכילה אגוזים?
+
+  ar:
+    verified: false
+    allergen: المكسرات
+    statement: لديّ حساسية شديدة من المكسرات.
+    description: لا أستطيع تناول أي طعام يحتوي على المكسرات مثل اللوز والجوز والكاجو والبندق والفستق والبقان، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: "قد توجد المكسرات في:"
+    foundIn:
+      - اللوز
+      - الجوز (عين الجمل)
+      - الكاجو
+      - البندق
+      - الفستق
+      - صلصة البيستو
+      - زيوت المكسرات
+      - الحلويات والمخبوزات
+    question: هل يحتوي هذا الطعام على المكسرات؟
+
+  ja:
+    verified: false
+    allergen: 木の実（ナッツ類）
+    statement: 私は重度の木の実（ナッツ類）アレルギーがあります。
+    description: アーモンド、くるみ、カシューナッツ、ヘーゼルナッツ、ピスタチオ、ピーカンナッツなどの木の実を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: 木の実（ナッツ類）が含まれる可能性のあるもの：
+    foundIn:
+      - アーモンド
+      - くるみ
+      - カシューナッツ
+      - ヘーゼルナッツ
+      - ピスタチオ
+      - ジェノベーゼソース（ペスト）
+      - ナッツオイル
+      - デザート・焼き菓子
+    question: この料理にナッツ類は入っていますか？
+
+  zh:
+    verified: false
+    allergen: 坚果
+    statement: 我对坚果严重过敏。
+    description: 我不能吃含有坚果的食物，例如杏仁、核桃、腰果、榛子、开心果或碧根果，即使少量也不行，否则会引发严重的过敏反应，需要就医。
+    foundInLabel: 坚果可能存在于：
+    foundIn:
+      - 杏仁
+      - 核桃
+      - 腰果
+      - 榛子
+      - 开心果
+      - 青酱（罗勒松子酱）
+      - 坚果油
+      - 甜点和烘焙食品
+    question: 这道菜含有坚果吗？
