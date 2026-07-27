@@ -1,5 +1,5 @@
 /** Public URL of the GitHub repository (used for "edit this translation" links). */
-export const GITHUB_URL = 'https://github.com/open-allergy-cards/open-allergy-cards';
+export const GITHUB_URL = 'https://github.com/Matan2t/open-allergy';
 
 export const SITE_NAME = 'Open Allergy Cards';
 
