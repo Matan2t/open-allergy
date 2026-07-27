@@ -3,13 +3,13 @@
 Owner checklist to take the project from "built locally" to "live and earning".
 Ordered by priority; the first three are enough to launch the free product.
 
-## 1. Publish to GitHub (required for the open-source loop)
+## 1. Publish to GitHub (required for the open-source loop) — DONE 2026-07-27
 
-- [ ] Create a public GitHub repository (suggested name: `open-allergy-cards`).
-- [ ] Push this repo: `git remote add origin <repo-url> && git push -u origin main`.
-- [ ] Update `GITHUB_URL` in [`src/lib/site.ts`](src/lib/site.ts) to the real repo URL —
+- [x] Create a public GitHub repository: <https://github.com/Matan2t/open-allergy>.
+- [x] Push this repo (`main` is the default branch; stale `master` deleted).
+- [x] Update `GITHUB_URL` in [`src/lib/site.ts`](src/lib/site.ts) to the real repo URL —
       every "help review this translation" / "edit on GitHub" link on the site uses it.
-- [ ] Enable Issues; optionally add issue templates for "translation fix" and "new language".
+- [ ] Optionally add issue templates for "translation fix" and "new language".
 
 ## 2. Deploy the site (free)
 
