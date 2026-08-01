@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { toPng } from 'html-to-image';
 import Card from './Card';
 import type { Allergen, Language } from '../lib/types';
+import { ENGLISH } from '../lib/types';
 import { GITHUB_URL } from '../lib/site';
 
 type PrintMode = 'single' | 'sheet';
@@ -29,13 +30,11 @@ export default function CardBuilder({
 
   const allergen = allergens.find((a) => a.id === allergenId) ?? allergens[0];
   const language = languages.find((l) => l.code === langCode) ?? languages[0];
-  const english = languages.find((l) => l.code === 'en') ?? languages[0];
+  const english = languages.find((l) => l.code === ENGLISH) ?? languages[0];
 
   const translation = allergen.translations[language.code];
-  const enTranslation = allergen.translations['en'];
-  const isEnglish = language.code === 'en';
+  const enTranslation = allergen.translations[ENGLISH];
 
-  // Keep the URL shareable as the user switches allergen/language.
   useEffect(() => {
     const path = `/cards/${allergen.id}/${language.code}`;
     if (window.location.pathname !== path) {
@@ -44,7 +43,6 @@ export default function CardBuilder({
     document.title = `${enTranslation.allergen} allergy card in ${language.name} — Open Allergy Cards`;
   }, [allergen.id, language.code, language.name, enTranslation.allergen]);
 
-  // window.print() must run after the print area has re-rendered with the chosen mode.
   useEffect(() => {
     if (pendingPrint) {
       setPendingPrint(false);
@@ -61,7 +59,6 @@ export default function CardBuilder({
     if (!pngRef.current) return;
     setExporting(true);
     try {
-      // ~4x screen density puts the 85.6mm card at roughly print resolution.
       const dataUrl = await toPng(pngRef.current, {
         pixelRatio: 4,
         backgroundColor: '#ffffff',
@@ -76,13 +73,18 @@ export default function CardBuilder({
     }
   }
 
-  // When a language has no translation for this allergen we fall back to English
-  // so switching never dead-ends; the schema requires `en` to exist.
+  // Fall back to English if a language lacks this allergen translation.
   const front = translation ?? enTranslation;
   const frontLanguage = translation ? language : english;
+  const backTranslation = enTranslation;
+  const backLanguage = english;
 
   const editUrl = `${GITHUB_URL}/edit/main/data/allergens/${allergen.id}.yaml`;
   const orderUrl = `/order?allergen=${allergen.id}&lang=${language.code}`;
+
+  const frontLabel =
+    frontLanguage.code === ENGLISH ? 'Front — English' : `Front — ${frontLanguage.name}`;
+  const backLabel = 'Back — English';
 
   const cardPair = (
     <>
@@ -92,14 +94,12 @@ export default function CardBuilder({
         emoji={allergen.emoji}
         personalName={personalName || undefined}
       />
-      {!isEnglish && (
-        <Card
-          language={english}
-          translation={enTranslation}
-          emoji={allergen.emoji}
-          personalName={personalName || undefined}
-        />
-      )}
+      <Card
+        language={backLanguage}
+        translation={backTranslation}
+        emoji={allergen.emoji}
+        personalName={personalName || undefined}
+      />
     </>
   );
 
@@ -111,14 +111,14 @@ export default function CardBuilder({
           <select value={allergen.id} onChange={(e) => setAllergenId(e.target.value)}>
             {allergens.map((a) => (
               <option key={a.id} value={a.id}>
-                {a.emoji} {a.translations['en'].allergen}
+                {a.emoji} {a.translations[ENGLISH].allergen}
               </option>
             ))}
           </select>
         </label>
 
         <label className="field">
-          Language
+          Language (front)
           <select value={language.code} onChange={(e) => setLangCode(e.target.value)}>
             {languages.map((l) => (
               <option key={l.code} value={l.code}>
@@ -155,7 +155,7 @@ export default function CardBuilder({
 
       <div className="card-preview screen-only">
         <figure>
-          <figcaption>{frontLanguage.name} side</figcaption>
+          <figcaption className="no-print">{frontLabel}</figcaption>
           <Card
             language={frontLanguage}
             translation={front}
@@ -163,27 +163,25 @@ export default function CardBuilder({
             personalName={personalName || undefined}
           />
         </figure>
-        {!isEnglish && (
-          <figure>
-            <figcaption>English side</figcaption>
-            <Card
-              language={english}
-              translation={enTranslation}
-              emoji={allergen.emoji}
-              personalName={personalName || undefined}
-            />
-          </figure>
-        )}
+        <figure>
+          <figcaption className="no-print">{backLabel}</figcaption>
+          <Card
+            language={backLanguage}
+            translation={backTranslation}
+            emoji={allergen.emoji}
+            personalName={personalName || undefined}
+          />
+        </figure>
       </div>
 
       <div className="builder-actions no-print">
-        <button className="btn btn-primary" onClick={() => handlePrint('single')}>
+        <button type="button" className="btn btn-primary" onClick={() => handlePrint('single')}>
           Print card (or save as PDF)
         </button>
-        <button className="btn" onClick={() => handlePrint('sheet')}>
+        <button type="button" className="btn" onClick={() => handlePrint('sheet')}>
           Print A4 sheet (4 copies)
         </button>
-        <button className="btn" onClick={handleDownloadPng} disabled={exporting}>
+        <button type="button" className="btn" onClick={handleDownloadPng} disabled={exporting}>
           {exporting ? 'Preparing…' : 'Download PNG'}
         </button>
         <a className="btn" href={orderUrl}>
@@ -192,12 +190,11 @@ export default function CardBuilder({
       </div>
 
       <p className="builder-hint no-print">
-        Free forever. Print at home on thick paper, laminate it, or take the PNG to any print
-        shop. The card is standard credit-card size (85.6 × 54 mm) — printing double-sided puts
-        {isEnglish ? ' the card on one side.' : ' your language on one side and English on the other.'}
+        Free forever. Every card is double-sided: your chosen language on the front, English on
+        the back. Print at home on thick paper, laminate it, or take the PNG to any print shop.
+        Standard credit-card size (85.6 × 54 mm).
       </p>
 
-      {/* Hidden on screen; becomes the only visible content when printing. */}
       <div className={`print-area ${printMode === 'single' ? 'print-single' : 'print-sheet'}`}>
         {printMode === 'single' ? (
           <>
@@ -209,22 +206,20 @@ export default function CardBuilder({
                 personalName={personalName || undefined}
               />
             </div>
-            {!isEnglish && (
-              <div className="print-card-page">
-                <Card
-                  language={english}
-                  translation={enTranslation}
-                  emoji={allergen.emoji}
-                  personalName={personalName || undefined}
-                />
-              </div>
-            )}
+            <div className="print-card-page">
+              <Card
+                language={backLanguage}
+                translation={backTranslation}
+                emoji={allergen.emoji}
+                personalName={personalName || undefined}
+              />
+            </div>
           </>
         ) : (
           <>
             <p className="sheet-note">
               Cut along the dashed lines, then fold each pair in half (or glue back-to-back) for a
-              double-sided card. Standard credit-card size: 85.6 × 54 mm.
+              double-sided card. Front = chosen language, back = English. Size: 85.6 × 54 mm.
             </p>
             <div className="sheet-grid">
               {[0, 1, 2, 3].map((i) => (
@@ -238,7 +233,6 @@ export default function CardBuilder({
         <style>{`@page { size: ${printMode === 'single' ? '85.6mm 54mm' : 'A4 portrait'}; margin: ${printMode === 'single' ? '0' : '8mm'}; }`}</style>
       </div>
 
-      {/* Off-screen node captured for the PNG download. */}
       <div
         ref={pngRef}
         aria-hidden="true"

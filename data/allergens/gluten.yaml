@@ -4,12 +4,14 @@
 id: gluten
 emoji: 🌾
 translations:
-  en:
+  english:
     verified: true
     allergen: Gluten
     statement: I have coeliac disease and cannot eat gluten.
-    description: I cannot eat food containing wheat, rye, barley or oats, even in small amounts, or I will become seriously ill.
-    foundInLabel: "Gluten can be found in:"
+    description: >-
+      I cannot eat food containing wheat, rye, barley or oats, even in small amounts, or I will
+      become seriously ill.
+    foundInLabel: 'Gluten can be found in:'
     foundIn:
       - Wheat
       - Rye
@@ -21,13 +23,14 @@ translations:
       - Soy sauce
       - Beer
     question: Does this food contain gluten?
-
-  es:
+  spanish:
     verified: false
     allergen: Gluten
     statement: Tengo enfermedad celíaca y no puedo comer gluten.
-    description: No puedo comer alimentos que contengan trigo, centeno, cebada o avena, ni siquiera en pequeñas cantidades, ya que enfermaría gravemente.
-    foundInLabel: "El gluten puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan trigo, centeno, cebada o avena, ni siquiera en pequeñas
+      cantidades, ya que enfermaría gravemente.
+    foundInLabel: 'El gluten puede encontrarse en:'
     foundIn:
       - Trigo
       - Centeno
@@ -39,13 +42,14 @@ translations:
       - Salsa de soja
       - Cerveza
     question: ¿Este alimento contiene gluten?
-
-  fr:
+  french:
     verified: false
     allergen: Gluten
     statement: J'ai la maladie cœliaque et je ne peux pas manger de gluten.
-    description: Je ne peux pas manger d'aliments contenant du blé, du seigle, de l'orge ou de l'avoine, même en petites quantités, sous peine de tomber gravement malade.
-    foundInLabel: "Le gluten peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du blé, du seigle, de l'orge ou de l'avoine, même
+      en petites quantités, sous peine de tomber gravement malade.
+    foundInLabel: 'Le gluten peut se trouver dans :'
     foundIn:
       - Blé
       - Seigle
@@ -57,13 +61,14 @@ translations:
       - Sauce soja
       - Bière
     question: Ce plat contient-il du gluten ?
-
-  de:
+  german:
     verified: false
     allergen: Gluten
     statement: Ich habe Zöliakie und darf kein Gluten essen.
-    description: Ich darf keine Lebensmittel essen, die Weizen, Roggen, Gerste oder Hafer enthalten – auch nicht in kleinen Mengen –, da ich sonst ernsthaft krank werde.
-    foundInLabel: "Gluten kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Weizen, Roggen, Gerste oder Hafer enthalten – auch
+      nicht in kleinen Mengen –, da ich sonst ernsthaft krank werde.
+    foundInLabel: 'Gluten kann enthalten sein in:'
     foundIn:
       - Weizen
       - Roggen
@@ -75,13 +80,14 @@ translations:
       - Sojasauce
       - Bier
     question: Enthält dieses Gericht Gluten?
-
-  it:
+  italian:
     verified: false
     allergen: Glutine
     statement: Ho la celiachia e non posso mangiare glutine.
-    description: Non posso mangiare alimenti che contengono grano, segale, orzo o avena, nemmeno in piccole quantità, altrimenti starò gravemente male.
-    foundInLabel: "Il glutine può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono grano, segale, orzo o avena, nemmeno in piccole
+      quantità, altrimenti starò gravemente male.
+    foundInLabel: 'Il glutine può trovarsi in:'
     foundIn:
       - Grano
       - Segale
@@ -93,13 +99,14 @@ translations:
       - Salsa di soia
       - Birra
     question: Questo cibo contiene glutine?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Glúten
     statement: Tenho doença celíaca e não posso comer glúten.
-    description: Não posso comer alimentos que contenham trigo, centeio, cevada ou aveia, mesmo em pequenas quantidades, pois ficarei gravemente doente.
-    foundInLabel: "O glúten pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham trigo, centeio, cevada ou aveia, mesmo em pequenas
+      quantidades, pois ficarei gravemente doente.
+    foundInLabel: 'O glúten pode encontrar-se em:'
     foundIn:
       - Trigo
       - Centeio
@@ -111,13 +118,14 @@ translations:
       - Molho de soja
       - Cerveja
     question: Este alimento contém glúten?
-
-  el:
+  greek:
     verified: false
     allergen: Γλουτένη
     statement: Πάσχω από κοιλιοκάκη και δεν μπορώ να φάω γλουτένη.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σιτάρι, σίκαλη, κριθάρι ή βρώμη, ούτε σε μικρές ποσότητες, διαφορετικά θα αρρωστήσω σοβαρά.
-    foundInLabel: "Η γλουτένη μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν σιτάρι, σίκαλη, κριθάρι ή βρώμη, ούτε σε μικρές
+      ποσότητες, διαφορετικά θα αρρωστήσω σοβαρά.
+    foundInLabel: 'Η γλουτένη μπορεί να βρίσκεται σε:'
     foundIn:
       - Σιτάρι
       - Σίκαλη
@@ -129,13 +137,14 @@ translations:
       - Σάλτσα σόγιας
       - Μπύρα
     question: Αυτό το φαγητό περιέχει γλουτένη;
-
-  tr:
+  turkish:
     verified: false
     allergen: Glüten
     statement: Çölyak hastasıyım ve glüten yiyemem.
-    description: Buğday, çavdar, arpa veya yulaf içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde ciddi şekilde hastalanırım.
-    foundInLabel: "Glüten şunlarda bulunabilir:"
+    description: >-
+      Buğday, çavdar, arpa veya yulaf içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde
+      ciddi şekilde hastalanırım.
+    foundInLabel: 'Glüten şunlarda bulunabilir:'
     foundIn:
       - Buğday
       - Çavdar
@@ -147,13 +156,14 @@ translations:
       - Soya sosu
       - Bira
     question: Bu yemekte glüten var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: גלוטן
     statement: יש לי צליאק ואסור לי לאכול גלוטן.
-    description: אסור לי לאכול מזון המכיל חיטה, שיפון, שעורה או שיבולת שועל, אפילו בכמויות קטנות, אחרת אחלה באופן חמור.
-    foundInLabel: "גלוטן עשוי להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל חיטה, שיפון, שעורה או שיבולת שועל, אפילו בכמויות קטנות, אחרת אחלה
+      באופן חמור.
+    foundInLabel: 'גלוטן עשוי להימצא ב:'
     foundIn:
       - חיטה
       - שיפון
@@ -165,13 +175,14 @@ translations:
       - רוטב סויה
       - בירה
     question: האם המנה הזו מכילה גלוטן?
-
-  ar:
+  arabic:
     verified: false
     allergen: الغلوتين
     statement: أعاني من مرض السيلياك (الداء البطني) ولا أستطيع تناول الغلوتين.
-    description: لا أستطيع تناول أي طعام يحتوي على القمح أو الجاودار أو الشعير أو الشوفان، ولو بكميات صغيرة، وإلا فسأمرض بشدة.
-    foundInLabel: "قد يوجد الغلوتين في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على القمح أو الجاودار أو الشعير أو الشوفان، ولو بكميات صغيرة،
+      وإلا فسأمرض بشدة.
+    foundInLabel: 'قد يوجد الغلوتين في:'
     foundIn:
       - القمح
       - الجاودار
@@ -183,8 +194,7 @@ translations:
       - صلصة الصويا
       - البيرة
     question: هل يحتوي هذا الطعام على الغلوتين؟
-
-  ja:
+  japanese:
     verified: false
     allergen: グルテン
     statement: 私はセリアック病のため、グルテンを食べることができません。
@@ -201,8 +211,7 @@ translations:
       - 醤油
       - ビール
     question: この料理にグルテンは入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 麸质
     statement: 我患有乳糜泻，不能吃麸质。
@@ -219,3 +228,698 @@ translations:
       - 酱油
       - 啤酒
     question: 这道菜含有麸质吗？
+  bengali:
+    verified: false
+    allergen: গ্লুটেন
+    statement: আমার সিলিয়াক রোগ আছে এবং আমি গ্লুটেন খেতে পারি না।
+    description: >-
+      গম, রাই, যব বা ওটস থাকা খাবার আমি সামান্য পরিমাণেও খেতে পারি না, নইলে মারাত্মক অসুস্থ হয়ে
+      পড়ব।
+    foundInLabel: 'গ্লুটেন পাওয়া যেতে পারে:'
+    foundIn:
+      - গম
+      - রাই
+      - যব
+      - ওটস
+      - রুটি
+      - পাস্তা
+      - ব্রেডক্রাম্ব
+      - সয়া সস
+      - বিয়ার
+    question: এই খাবারে কি গ্লুটেন আছে?
+  bulgarian:
+    verified: false
+    allergen: Глутен
+    statement: Имам целиакия и не мога да ям глутен.
+    description: >-
+      Не мога да ям храна, съдържаща пшеница, ръж, ечемик или овес, дори в малки количества, иначе
+      ще се разболея сериозно.
+    foundInLabel: 'Глутен може да се съдържа в:'
+    foundIn:
+      - Пшеница
+      - Ръж
+      - Ечемик
+      - Овес
+      - Хляб
+      - Паста
+      - Галета
+      - Соев сос
+      - Бира
+    question: Съдържа ли тази храна глутен?
+  catalan:
+    verified: false
+    allergen: Gluten
+    statement: Tinc celiaquia i no puc menjar gluten.
+    description: >-
+      No puc menjar aliments que continguin blat, sègol, ordi o civada, ni tan sols en petites
+      quantitats, o em posaré greument malalt.
+    foundInLabel: 'El gluten es pot trobar a:'
+    foundIn:
+      - Blat
+      - Sègol
+      - Ordi
+      - Civada
+      - Pa
+      - Pasta
+      - Pa ratllat
+      - Salsa de soja
+      - Cervesa
+    question: Aquest aliment conté gluten?
+  chinese-hong-kong:
+    verified: false
+    allergen: 麩質
+    statement: 我患有乳糜瀉（麩質敏感），不能進食麩質。
+    description: 我不能進食含有小麥、黑麥、大麥或燕麥的食物，即使分量很少也不行，否則會嚴重不適。
+    foundInLabel: 麩質可能存在於：
+    foundIn:
+      - 小麥
+      - 黑麥
+      - 大麥
+      - 燕麥
+      - 麵包
+      - 意粉／麵條
+      - 麵包糠
+      - 豉油
+      - 啤酒
+    question: 這道菜含有麩質嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 麩質
+    statement: 我患有乳糜瀉，不能吃麩質。
+    description: 我不能吃含有小麥、黑麥、大麥或燕麥的食物，即使少量也不行，否則會嚴重生病。
+    foundInLabel: 麩質可能存在於：
+    foundIn:
+      - 小麥
+      - 黑麥
+      - 大麥
+      - 燕麥
+      - 麵包
+      - 義大利麵等麵食
+      - 麵包粉
+      - 醬油
+      - 啤酒
+    question: 這道菜含有麩質嗎？
+  croatian:
+    verified: false
+    allergen: Gluten
+    statement: Imam celijakiju i ne smijem jesti gluten.
+    description: >-
+      Ne smijem jesti hranu koja sadrži pšenicu, raž, ječam ili zob, čak ni u malim količinama,
+      inače ću se ozbiljno razboljeti.
+    foundInLabel: 'Gluten se može nalaziti u:'
+    foundIn:
+      - Pšenica
+      - Raž
+      - Ječam
+      - Zob
+      - Kruh
+      - Tjestenina
+      - Pokriveno brašno / mrvice
+      - Sojin umak
+      - Pivo
+    question: Sadrži li ova hrana gluten?
+  czech:
+    verified: false
+    allergen: Lepek
+    statement: Mám celiakii a nemohu jíst lepek.
+    description: >-
+      Nemohu jíst potraviny obsahující pšenici, žito, ječmen nebo oves, a to ani v malém množství,
+      jinak vážně onemocním.
+    foundInLabel: 'Lepek se může vyskytovat v:'
+    foundIn:
+      - Pšenice
+      - Žito
+      - Ječmen
+      - Oves
+      - Chléb
+      - Těstoviny
+      - Strouhanka
+      - Sójová omáčka
+      - Pivo
+    question: Obsahuje toto jídlo lepek?
+  danish:
+    verified: false
+    allergen: Gluten
+    statement: Jeg har cøliaki og kan ikke spise gluten.
+    description: >-
+      Jeg kan ikke spise mad med hvede, rug, byg eller havre – heller ikke i små mængder – ellers
+      bliver jeg alvorligt syg.
+    foundInLabel: 'Gluten kan findes i:'
+    foundIn:
+      - Hvede
+      - Rug
+      - Byg
+      - Havre
+      - Brød
+      - Pasta
+      - Raspede brødkrummer
+      - Sojasauce
+      - Øl
+    question: Indeholder denne mad gluten?
+  dutch:
+    verified: false
+    allergen: Gluten
+    statement: Ik heb coeliakie en mag geen gluten eten.
+    description: >-
+      Ik mag geen voedsel eten dat tarwe, rogge, gerst of haver bevat, ook niet in kleine
+      hoeveelheden, anders word ik ernstig ziek.
+    foundInLabel: 'Gluten kan voorkomen in:'
+    foundIn:
+      - Tarwe
+      - Rogge
+      - Gerst
+      - Haver
+      - Brood
+      - Pasta
+      - Paneermeel
+      - Sojasaus
+      - Bier
+    question: Bevat dit gerecht gluten?
+  estonian:
+    verified: false
+    allergen: Gluteen
+    statement: Mul on tsöliaakia ja ma ei tohi gluteeni süüa.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab nisu, rukist, otra või kaera, isegi väikeses koguses,
+      muidu jään tõsiselt haigeks.
+    foundInLabel: 'Gluteeni võib leida:'
+    foundIn:
+      - Nisu
+      - Rukis
+      - Oder
+      - Kaer
+      - Leib
+      - Pasta
+      - Riivsai
+      - Sojakaste
+      - Õlu
+    question: Kas selles toidus on gluteeni?
+  finnish:
+    verified: false
+    allergen: Gluteeni
+    statement: Minulla on keliakia enkä voi syödä gluteenia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää vehnää, ruista, ohraa tai kauraa, edes pieninä määrinä,
+      muuten sairastun vakavasti.
+    foundInLabel: 'Gluteenia voi olla:'
+    foundIn:
+      - Vehnä
+      - Ruis
+      - Ohra
+      - Kaura
+      - Leipä
+      - Pasta
+      - Korppujauho
+      - Soijakastike
+      - Olut
+    question: Sisältääkö tämä ruoka gluteenia?
+  hindi:
+    verified: false
+    allergen: ग्लूटेन
+    statement: मुझे सीलिएक रोग है और मैं ग्लूटेन नहीं खा सकता/सकती।
+    description: >-
+      गेहूँ, राई, जौ या जई वाला भोजन मैं थोड़ी मात्रा में भी नहीं खा सकता/सकती, वरना गंभीर रूप से
+      बीमार पड़ जाऊँगा/जाऊँगी।
+    foundInLabel: 'ग्लूटेन इनमें हो सकता है:'
+    foundIn:
+      - गेहूँ
+      - राई
+      - जौ
+      - जई (ओट्स)
+      - रोटी / ब्रेड
+      - पास्ता
+      - ब्रेडक्रम्ब
+      - सोया सॉस
+      - बीयर
+    question: क्या इस भोजन में ग्लूटेन है?
+  hungarian:
+    verified: false
+    allergen: Glutén
+    statement: Lisztérzékenységem (coeliakia) van, és nem ehetek glutént.
+    description: >-
+      Nem ehetek búzát, rozst, árpát vagy zabot tartalmazó ételt, még kis mennyiségben sem, különben
+      súlyosan megbetegszem.
+    foundInLabel: 'Glutén előfordulhat:'
+    foundIn:
+      - Búza
+      - Rozs
+      - Árpa
+      - Zab
+      - Kenyér
+      - Tészta
+      - Zsemlemorzsa
+      - Szójaszósz
+      - Sör
+    question: Tartalmaz ez az étel glutént?
+  icelandic:
+    verified: false
+    allergen: Glúten
+    statement: Ég er með glútenóþol (celiac) og má ekki borða glúten.
+    description: >-
+      Ég má ekki borða mat sem inniheldur hveiti, rúg, bygg eða hafra, jafnvel í litlu magni, annars
+      verð ég alvarlega veik(ur).
+    foundInLabel: 'Glúten getur verið í:'
+    foundIn:
+      - Hveiti
+      - Rúgur
+      - Bygg
+      - Hafrar
+      - Brauð
+      - Pasta
+      - Brauðmolum
+      - Sojasósu
+      - Bjór
+    question: Inniheldur þessi matur glúten?
+  indonesian:
+    verified: false
+    allergen: Gluten
+    statement: Saya punya penyakit celiac dan tidak boleh makan gluten.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung gandum, rye, barley, atau oat, meskipun
+      sedikit, atau saya akan sakit parah.
+    foundInLabel: 'Gluten dapat ditemukan dalam:'
+    foundIn:
+      - Gandum (wheat)
+      - Rye
+      - Barley
+      - Oat
+      - Roti
+      - Pasta
+      - Tepung panir / breadcrumbs
+      - Kecap asin
+      - Bir
+    question: Apakah makanan ini mengandung gluten?
+  khmer:
+    verified: false
+    allergen: គ្លូតេន
+    statement: ខ្ញុំមានជំងឺសេលីអាក និងមិនអាចញ៉ាំគ្លូតេនបានទេ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានស្រូវសាលី រី បារលី ឬអូត បានទេ ទោះបីតិចតួចក៏ដោយ បើមិនដូច្នេះទេ
+      ខ្ញុំនឹងឈឺធ្ងន់។
+    foundInLabel: 'គ្លូតេនអាចមាននៅក្នុង:'
+    foundIn:
+      - ស្រូវសាលី
+      - រី (rye)
+      - បារលី
+      - អូត
+      - នំបុ័ង
+      - ប៉ាស្តា
+      - ម្សៅនំបុ័ង
+      - ទឹកស៊ីអ៊ីវ
+      - ស្រាបៀរ
+    question: អាហារនេះមានគ្លូតេនទេ?
+  korean:
+    verified: false
+    allergen: 글루텐
+    statement: 저는 셀리악병이 있어서 글루텐을 먹을 수 없습니다.
+    description: 밀, 호밀, 보리, 귀리가 들어간 음식은 아주 소량이라도 먹을 수 없으며, 먹으면 심하게 아플 수 있습니다.
+    foundInLabel: '글루텐이 들어 있을 수 있는 것:'
+    foundIn:
+      - 밀
+      - 호밀
+      - 보리
+      - 귀리
+      - 빵
+      - 파스타
+      - 빵가루
+      - 간장
+      - 맥주
+    question: 이 음식에 글루텐이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ກລູເຕັນ
+    statement: ຂ້ອຍເປັນໂຣກເຊລີແອກ ແລະ ກິນກລູເຕັນບໍ່ໄດ້.
+    description: >-
+      ຂ້ອຍກິນອາຫານທີ່ມີຂ້າວສາລີ, ຣາຍ, ບາຣເລ ຫຼື ໂອດບໍ່ໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຂ້ອຍຈະເຈັບປ່ວຍຮຸນແຮງ.
+    foundInLabel: 'ກລູເຕັນອາດມີໃນ:'
+    foundIn:
+      - ຂ້າວສາລີ (wheat)
+      - ຣາຍ
+      - ບາຣເລ
+      - ໂອດ
+      - ເຂົ້າຈີ່
+      - ພາສຕ້າ
+      - ແປ້ງເຂົ້າຈີ່
+      - ນ້ຳຊອຍ
+      - ເບຍ
+    question: ອາຫານນີ້ມີກລູເຕັນບໍ?
+  latvian:
+    verified: false
+    allergen: Glutēns
+    statement: Man ir celiakija, un es nedrīkstu ēst glutēnu.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur kviešus, rudzus, miežus vai auzas, pat nelielā daudzumā,
+      citādi es nopietni saslimšu.
+    foundInLabel: 'Glutēns var būt:'
+    foundIn:
+      - Kvieši
+      - Rudzi
+      - Mieži
+      - Auzas
+      - Maize
+      - Makaroni
+      - Rīvmaize
+      - Sojas mērce
+      - Alus
+    question: Vai šajā ēdienā ir glutēns?
+  lithuanian:
+    verified: false
+    allergen: Glitimas
+    statement: Turiu celiakiją ir negaliu valgyti glitimo.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra kviečių, rugių, miežių ar avižų, net ir nedideliais
+      kiekiais, kitaip rimtai susirgsiu.
+    foundInLabel: 'Glitimo gali būti:'
+    foundIn:
+      - Kviečiai
+      - Rugiai
+      - Miežiai
+      - Avižos
+      - Duona
+      - Makaronai
+      - Džiūvėsėliai
+      - Sojų padažas
+      - Alus
+    question: Ar šiame maiste yra glitimo?
+  macedonian:
+    verified: false
+    allergen: Глутен
+    statement: Имам целијакија и не смеам да јадам глутен.
+    description: >-
+      Не смеам да јадам храна што содржи пченица, 'рж, јачмен или овес, дури и во мали количини,
+      инаку сериозно ќе се разболам.
+    foundInLabel: 'Глутен може да се најде во:'
+    foundIn:
+      - Пченица
+      - Рж
+      - Јачмен
+      - Овес
+      - Леб
+      - Тестенини
+      - Галета
+      - Соја сос
+      - Пиво
+    question: Дали оваа храна содржи глутен?
+  malay:
+    verified: false
+    allergen: Gluten
+    statement: Saya mempunyai penyakit seliak dan tidak boleh makan gluten.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi gandum, rai, barli atau oat, walaupun dalam
+      jumlah kecil, atau saya akan sakit teruk.
+    foundInLabel: 'Gluten boleh dijumpai dalam:'
+    foundIn:
+      - Gandum
+      - Rai
+      - Barli
+      - Oat
+      - Roti
+      - Pasta
+      - Serbuk roti
+      - Sos soya
+      - Bir
+    question: Adakah makanan ini mengandungi gluten?
+  maltese:
+    verified: false
+    allergen: Gluten
+    statement: Għandi l-marda ċelijaċa u ma nistax niekol gluten.
+    description: >-
+      Ma nistax niekol ikel li fih qamħ, segala, xgħir jew ħafur, anke f'ammonti żgħar, inkella nkun
+      marid/a serjament.
+    foundInLabel: 'Il-gluten jista'' jinstab fi:'
+    foundIn:
+      - Qamħ
+      - Segala
+      - Xgħir
+      - Ħafur
+      - Ħobż
+      - Pasta
+      - frak tal-ħobż
+      - Zalza tas-sojja
+      - Birra
+    question: Dan l-ikel fih gluten?
+  norwegian:
+    verified: false
+    allergen: Gluten
+    statement: Jeg har cøliaki og kan ikke spise gluten.
+    description: >-
+      Jeg kan ikke spise mat som inneholder hvete, rug, bygg eller havre, heller ikke i små mengder,
+      ellers blir jeg alvorlig syk.
+    foundInLabel: 'Gluten kan finnes i:'
+    foundIn:
+      - Hvete
+      - Rug
+      - Bygg
+      - Havre
+      - Brød
+      - Pasta
+      - Brødsmuler
+      - Soyasaus
+      - Øl
+    question: Inneholder denne maten gluten?
+  polish:
+    verified: false
+    allergen: Gluten
+    statement: Mam celiakię i nie mogę jeść glutenu.
+    description: >-
+      Nie mogę jeść żywności zawierającej pszenicę, żyto, jęczmień lub owies, nawet w małych
+      ilościach, bo poważnie zachoruję.
+    foundInLabel: 'Gluten może występować w:'
+    foundIn:
+      - Pszenica
+      - Żyto
+      - Jęczmień
+      - Owies
+      - Chleb
+      - Makaron
+      - Bułka tarta
+      - Sos sojowy
+      - Piwo
+    question: Czy to jedzenie zawiera gluten?
+  portuguese-brazil:
+    verified: false
+    allergen: Glúten
+    statement: Tenho doença celíaca e não posso comer glúten.
+    description: >-
+      Não posso comer alimentos que contenham trigo, centeio, cevada ou aveia, mesmo em pequenas
+      quantidades, senão fico gravemente doente.
+    foundInLabel: 'O glúten pode ser encontrado em:'
+    foundIn:
+      - Trigo
+      - Centeio
+      - Cevada
+      - Aveia
+      - Pão
+      - Massa
+      - Farinha de rosca
+      - Molho de soja
+      - Cerveja
+    question: Este alimento contém glúten?
+  romanian:
+    verified: false
+    allergen: Gluten
+    statement: Am boală celiacă și nu pot mânca gluten.
+    description: >-
+      Nu pot mânca alimente care conțin grâu, secară, orz sau ovăz, nici măcar în cantități mici,
+      altfel mă îmbolnăvesc grav.
+    foundInLabel: 'Glutenul poate fi găsit în:'
+    foundIn:
+      - Grâu
+      - Secară
+      - Orz
+      - Ovăz
+      - Pâine
+      - Paste
+      - Pesmet
+      - Sos de soia
+      - Bere
+    question: Acest aliment conține gluten?
+  russian:
+    verified: false
+    allergen: Глютен
+    statement: У меня целиакия, и я не могу есть глютен.
+    description: >-
+      Я не могу есть продукты, содержащие пшеницу, рожь, ячмень или овёс, даже в небольших
+      количествах, иначе мне станет очень плохо.
+    foundInLabel: 'Глютен может содержаться в:'
+    foundIn:
+      - Пшеница
+      - Рожь
+      - Ячмень
+      - Овёс
+      - Хлеб
+      - Макароны
+      - Панировочные сухари
+      - Соевый соус
+      - Пиво
+    question: В этой еде есть глютен?
+  serbian:
+    verified: false
+    allergen: Глутен
+    statement: Имам целијакију и не смем да једем глутен.
+    description: >-
+      Не смем да једем храну која садржи пшеницу, раж, јечам или овас, чак ни у малим количинама,
+      иначе ћу се озбиљно разболети.
+    foundInLabel: 'Глутен се може налазити у:'
+    foundIn:
+      - Пшеница
+      - Раж
+      - Јечам
+      - Овас
+      - Хлеб
+      - Тестенина
+      - Прехрамбене мрвице
+      - Соја сос
+      - Пиво
+    question: Да ли ова храна садржи глутен?
+  slovak:
+    verified: false
+    allergen: Lepok
+    statement: Mám celiakiu a nemôžem jesť lepok.
+    description: >-
+      Nemôžem jesť potraviny obsahujúce pšenicu, raž, jačmeň alebo ovos, ani v malom množstve, inak
+      vážne ochoriem.
+    foundInLabel: 'Lepok sa môže nachádzať v:'
+    foundIn:
+      - Pšenica
+      - Raž
+      - Jačmeň
+      - Ovos
+      - Chlieb
+      - Cestoviny
+      - Strúhanka
+      - Sójová omáčka
+      - Pivo
+    question: Obsahuje toto jedlo lepok?
+  slovenian:
+    verified: false
+    allergen: Gluten
+    statement: Imam celiakijo in ne smem jesti glutena.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje pšenico, rž, ječmen ali oves, tudi v majhnih količinah ne,
+      sicer bom resno zbolel/a.
+    foundInLabel: 'Gluten se lahko nahaja v:'
+    foundIn:
+      - Pšenica
+      - Rž
+      - Ječmen
+      - Oves
+      - Kruh
+      - Testenine
+      - Drobtine
+      - Sojina omaka
+      - Pivo
+    question: Ali ta jed vsebuje gluten?
+  swahili:
+    verified: false
+    allergen: Gluten
+    statement: Nina ugonjwa wa celiac na siwezi kula gluten.
+    description: >-
+      Siwezi kula chakula chenye ngano, rye, shayiri au oats, hata kidogo, la sivyo nitakuwa mgonjwa
+      sana.
+    foundInLabel: 'Gluten inaweza kupatikana katika:'
+    foundIn:
+      - Ngano
+      - Rye
+      - Shayiri
+      - Oats
+      - Mkate
+      - Pasta
+      - Makombo ya mkate
+      - Sos ya soya
+      - Bia
+    question: Je, chakula hiki kina gluten?
+  swedish:
+    verified: false
+    allergen: Gluten
+    statement: Jag har celiaki och kan inte äta gluten.
+    description: >-
+      Jag kan inte äta mat som innehåller vete, råg, korn eller havre, ens i små mängder, annars
+      blir jag allvarligt sjuk.
+    foundInLabel: 'Gluten kan finnas i:'
+    foundIn:
+      - Vete
+      - Råg
+      - Korn
+      - Havre
+      - Bröd
+      - Pasta
+      - Ströbröd
+      - Sojasås
+      - Öl
+    question: Innehåller den här maten gluten?
+  tagalog:
+    verified: false
+    allergen: Gluten
+    statement: Mayroon akong celiac disease at hindi ako pwedeng kumain ng gluten.
+    description: >-
+      Hindi ako pwedeng kumain ng pagkaing may trigo, rye, barley, o oats, kahit kaunti lang, o
+      kaya'y magkakasakit ako nang malubha.
+    foundInLabel: 'Makikita ang gluten sa:'
+    foundIn:
+      - Trigo
+      - Rye
+      - Barley
+      - Oats
+      - Tinapay
+      - Pasta
+      - Breadcrumbs
+      - Soy sauce
+      - Beer
+    question: May gluten ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: กลูเตน
+    statement: ฉันเป็นโรคเซลิแอค และกินกลูเตนไม่ได้
+    description: ฉันกินอาหารที่มีข้าวสาลี ไรย์ บาร์เลย์ หรือโอ๊ตไม่ได้ แม้เพียงเล็กน้อย ไม่เช่นนั้นจะป่วยหนัก
+    foundInLabel: 'กลูเตนอาจพบใน:'
+    foundIn:
+      - ข้าวสาลี
+      - ไรย์
+      - บาร์เลย์
+      - โอ๊ต
+      - ขนมปัง
+      - พาสต้า
+      - เกล็ดขนมปัง
+      - ซอสถั่วเหลือง
+      - เบียร์
+    question: อาหารนี้มีกลูเตนหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Глютен
+    statement: У мене целіакія, і я не можу їсти глютен.
+    description: >-
+      Я не можу їсти їжу, що містить пшеницю, жито, ячмінь або овес, навіть у невеликій кількості,
+      інакше мені стане дуже погано.
+    foundInLabel: 'Глютен може міститися в:'
+    foundIn:
+      - Пшениця
+      - Жито
+      - Ячмінь
+      - Овес
+      - Хліб
+      - Макарони
+      - Панірувальні сухарі
+      - Соєвий соус
+      - Пиво
+    question: Чи містить ця їжа глютен?
+  vietnamese:
+    verified: false
+    allergen: Gluten
+    statement: Tôi bị bệnh celiac và không thể ăn gluten.
+    description: >-
+      Tôi không thể ăn thức ăn có lúa mì, lúa mạch đen, lúa mạch hoặc yến mạch, dù chỉ một ít, nếu
+      không tôi sẽ bị ốm nặng.
+    foundInLabel: 'Gluten có thể có trong:'
+    foundIn:
+      - Lúa mì
+      - Lúa mạch đen
+      - Lúa mạch
+      - Yến mạch
+      - Bánh mì
+      - Mì ống / pasta
+      - Vụn bánh mì
+      - Nước tương
+      - Bia
+    question: Món này có chứa gluten không?

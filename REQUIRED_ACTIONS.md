@@ -23,9 +23,10 @@ Ordered by priority; the first three are enough to launch the free product.
 
 ## 3. Verify translations (safety-critical)
 
-- [ ] 154 of 168 translations are machine-drafted and marked `verified: false`.
-      Each needs a native-speaker review before it should be fully trusted.
-- [ ] You can verify the Hebrew (`he:`) sections yourself: fix wording if needed, flip
+- [ ] 672 of 686 translations are machine-drafted and marked `verified: false`
+      (14 English entries are verified). Each needs a native-speaker review before it should
+      be fully trusted.
+- [ ] You can verify the Hebrew (`hebrew:`) sections yourself: fix wording if needed, flip
       `verified: false` → `verified: true` in `data/allergens/*.yaml`, run `pnpm validate`.
 - [ ] Recruit native speakers (allergy communities, r/foodallergies, Facebook groups) for the
       other languages — CONTRIBUTING.md walks them through it with no coding.

@@ -20,8 +20,10 @@ to restaurant staff anywhere in the world.
 
 - **14 allergens** (the EU's mandatory allergen list): milk, eggs, peanuts, tree nuts,
   gluten/cereals, fish, crustaceans, molluscs, soybeans, sesame, celery, mustard, sulphites, lupin.
-- **12 languages:** English, Spanish, French, German, Italian, Portuguese, Greek, Turkish,
-  Hebrew, Arabic, Japanese, Chinese (Simplified) — with right-to-left support for Hebrew and Arabic.
+- **~50 languages** matching the Equal Eats catalog (including Arabic, Bengali, Chinese
+  Simplified/Traditional/HK, Hindi, Korean, Thai, Vietnamese, and many European languages) —
+  with right-to-left support for Hebrew and Arabic. New translations are AI-drafted and marked
+  `verified: false` until a native speaker reviews them.
 
 Want another allergen or language? See [CONTRIBUTING.md](CONTRIBUTING.md) — adding one is just a
 YAML edit.
@@ -41,7 +43,7 @@ pnpm build      # production build to dist/
 
 ```
 data/
-  allergens/*.yaml     # one file per allergen, translations keyed by language code
+  allergens/*.yaml     # one file per allergen, translations keyed by full language name
   languages.yaml       # supported languages (name, direction, per-language UI strings)
   schema/              # JSON Schema used by `pnpm validate` and CI
 src/

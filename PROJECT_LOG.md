@@ -1,5 +1,19 @@
 # Project Log
 
+## 2026-07-31 — Theme A Signal Red redesign + language expansion
+
+- Redesigned site and cards to **Theme A — Signal Red** (black header chrome, white paper,
+  vivid alert red for statements/questions, kitchen-readable CR80 cards with SVG prohibition mark).
+- Card builder always shows **double-sided** cards: chosen language on the front, English on the
+  back (including when English is selected). Print, A4 sheet, and PNG all export both sides.
+- Expanded from 12 to **49 languages** (Equal Eats catalog parity), including Korean, Thai,
+  Hindi, Vietnamese, Dutch, Polish, Russian, Portuguese (Brazil), Chinese Traditional/HK, etc.
+- Language keys use **full readable names** (`hebrew`, `turkish`, `portuguese-brazil`) instead of
+  short ISO codes; BCP-47 tags live in `locale` for HTML `lang` attributes.
+- Seed pack: `data/seed/new-language-packs.json` + `scripts/apply-language-seed.mjs`.
+- Validation: 14 allergens × 49 languages = **686 translations** (14 verified English, 672 awaiting
+  native review). Production build: **689 pages**.
+
 ## 2026-07-27 — Initial build (end to end)
 
 Built the entire Open Allergy Cards platform from an empty directory in one session.
@@ -11,8 +25,8 @@ Built the entire Open Allergy Cards platform from an empty directory in one sess
 - **Architecture:** mostly-static site. The "database" is versioned YAML files in this repo so
   the community can add/fix translations via pull requests. Orders live in Stripe (its
   dashboard is the fulfillment queue) — no database server anywhere.
-- **Stack:** Astro 7 static site + React islands, deployed to Cloudflare Pages (free tier),
-  with a single Cloudflare Pages Function for Stripe checkout.
+- **Stack:** Astro 7 static site + React islands, deployed to Cloudflare Pages / Workers (free
+  tier), with a Worker entry for Stripe checkout.
 - **Fulfillment (MVP):** manual — paid Stripe sessions carry the card configuration as
   metadata; the operator prints and ships plastic cards in batches.
 
@@ -20,27 +34,16 @@ Built the entire Open Allergy Cards platform from an empty directory in one sess
 
 | Area | Details |
 | --- | --- |
-| Card data | 14 EU allergens × 12 languages = 168 card translations in `data/allergens/*.yaml`. English verified; other 154 machine-drafted and marked `verified: false` pending native-speaker review. |
-| Languages | `data/languages.yaml`: en, es, fr, de, it, pt, el, tr, he, ar, ja, zh with per-language UI strings and text direction (Hebrew/Arabic are RTL). |
-| Schema | `data/schema/allergen.schema.json` (JSON Schema draft-07) enforced by `scripts/validate-data.mjs` (`pnpm validate`). |
-| Card renderer | `src/components/Card.tsx` — exact CR80 size (85.6 × 54 mm) using mm CSS units so browser printing is true to scale; full RTL support; Noto font stack for Greek/Hebrew/Arabic/CJK. |
-| Card builder | `src/components/CardBuilder.tsx` — live double-sided preview (chosen language + English back), optional name, shareable URLs, and free outputs: print/save-as-PDF at card size, A4 sheet with 4 copies and cut/fold guides, high-resolution PNG (via html-to-image at 4× density). |
-| Pages | Home (allergen grid, language chips, how-it-works), 168 static card pages (`/cards/[allergen]/[lang]`), `/order`, `/contribute`. |
-| Payments | `functions/api/checkout.ts` — dependency-free Stripe Checkout Session creation with card config as metadata and shipping address collection. Site degrades gracefully when Stripe env vars are absent. |
+| Card data | 14 EU allergens × languages in `data/allergens/*.yaml`. English verified; others machine-drafted and marked `verified: false`. |
+| Languages | `data/languages.yaml` with per-language UI strings and text direction (Hebrew/Arabic are RTL). |
+| Schema | `data/schema/allergen.schema.json` enforced by `scripts/validate-data.mjs` (`pnpm validate`). |
+| Card renderer | `src/components/Card.tsx` — exact CR80 size (85.6 × 54 mm), Theme A Signal Red. |
+| Card builder | `src/components/CardBuilder.tsx` — always double-sided preview + print/PNG/A4. |
+| Pages | Home, `/cards/[allergen]/[lang]`, `/order`, `/contribute`. |
+| Payments | `worker/checkout.ts` via `wrangler.jsonc` static-assets Worker. |
 | CI | `.github/workflows/ci.yml` — schema validation + full build on every push/PR. |
-| Licensing | Code MIT (`LICENSE`); card content CC BY-SA 4.0 (`data/LICENSE.md`). |
-| Docs | `README.md` (setup, deploy, env vars), `CONTRIBUTING.md` (non-coder translation guide). |
-
-### Verification performed
-
-- `pnpm validate`: 14 allergens, 12 languages, 168 translations — pass.
-- `pnpm build`: 171 static pages — pass.
-- Served `dist/` and smoke-tested home, Hebrew card page (confirmed `dir="rtl"` in HTML),
-  Arabic card content, order, and contribute pages — all 200.
-- Spot-checked translation quality (Turkish/Hebrew peanuts, Spanish gluten, Greek milk).
 
 ### Notes
 
-- Translations for the 13 non-milk allergens were drafted by four parallel agents from the
-  hand-written `milk.yaml` gold standard; all are flagged unverified until native review.
-- Initial git commit created. GitHub connection attempt timed out — see REQUIRED_ACTIONS.md.
+- Initial translations drafted by parallel agents from a hand-written `milk.yaml` gold standard.
+- Language expansion (2026-07-31) used a JSON seed pack applied by script.

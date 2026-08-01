@@ -27,7 +27,7 @@ interface OrderRequest {
 }
 
 const ID_PATTERN = /^[a-z][a-z0-9-]{0,30}$/;
-const LANG_PATTERN = /^[a-z]{2}(-[A-Za-z]{2,4})?$/;
+const LANG_PATTERN = /^[a-z][a-z0-9-]{1,40}$/;
 
 // Countries we can realistically ship to from the manual fulfillment queue.
 const SHIPPING_COUNTRIES = [

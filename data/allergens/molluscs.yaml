@@ -4,12 +4,15 @@
 id: molluscs
 emoji: 🦪
 translations:
-  en:
+  english:
     verified: true
     allergen: Molluscs
     statement: I have a severe allergy to molluscs.
-    description: I cannot eat food containing molluscs such as mussels, oysters, clams, squid, octopus or snails, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Molluscs can be found in:"
+    description: >-
+      I cannot eat food containing molluscs such as mussels, oysters, clams, squid, octopus or
+      snails, even in small amounts, or I will have a severe allergic reaction and require medical
+      attention.
+    foundInLabel: 'Molluscs can be found in:'
     foundIn:
       - Mussels
       - Oysters
@@ -20,13 +23,15 @@ translations:
       - Snails
       - Oyster sauce
     question: Does this food contain molluscs?
-
-  es:
+  spanish:
     verified: false
     allergen: Moluscos
     statement: Tengo una alergia grave a los moluscos.
-    description: No puedo comer alimentos que contengan moluscos como mejillones, ostras, almejas, calamares, pulpo o caracoles, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "Los moluscos pueden encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan moluscos como mejillones, ostras, almejas, calamares,
+      pulpo o caracoles, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica
+      grave y necesitaría atención médica.
+    foundInLabel: 'Los moluscos pueden encontrarse en:'
     foundIn:
       - Mejillones
       - Ostras
@@ -37,13 +42,15 @@ translations:
       - Caracoles
       - Salsa de ostras
     question: ¿Este alimento contiene moluscos?
-
-  fr:
+  french:
     verified: false
     allergen: Mollusques
     statement: J'ai une allergie sévère aux mollusques.
-    description: Je ne peux pas manger d'aliments contenant des mollusques tels que moules, huîtres, palourdes, calamars, poulpe ou escargots, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Les mollusques peuvent se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant des mollusques tels que moules, huîtres, palourdes,
+      calamars, poulpe ou escargots, même en petites quantités, sous peine d'une réaction allergique
+      grave nécessitant des soins médicaux.
+    foundInLabel: 'Les mollusques peuvent se trouver dans :'
     foundIn:
       - Moules
       - Huîtres
@@ -54,13 +61,15 @@ translations:
       - Escargots
       - Sauce aux huîtres
     question: Ce plat contient-il des mollusques ?
-
-  de:
+  german:
     verified: false
     allergen: Weichtiere
     statement: Ich habe eine schwere Allergie gegen Weichtiere.
-    description: Ich darf keine Lebensmittel essen, die Weichtiere wie Muscheln, Austern, Venusmuscheln, Tintenfisch, Oktopus oder Schnecken enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Weichtiere können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Weichtiere wie Muscheln, Austern, Venusmuscheln,
+      Tintenfisch, Oktopus oder Schnecken enthalten – auch nicht in kleinen Mengen –, da ich sonst
+      eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: 'Weichtiere können enthalten sein in:'
     foundIn:
       - Miesmuscheln
       - Austern
@@ -71,13 +80,15 @@ translations:
       - Schnecken
       - Austernsauce
     question: Enthält dieses Gericht Weichtiere?
-
-  it:
+  italian:
     verified: false
     allergen: Molluschi
     statement: Ho una grave allergia ai molluschi.
-    description: Non posso mangiare alimenti che contengono molluschi come cozze, ostriche, vongole, calamari, polpo o lumache, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "I molluschi possono trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono molluschi come cozze, ostriche, vongole, calamari,
+      polpo o lumache, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e
+      avrò bisogno di assistenza medica.
+    foundInLabel: 'I molluschi possono trovarsi in:'
     foundIn:
       - Cozze
       - Ostriche
@@ -88,13 +99,15 @@ translations:
       - Lumache
       - Salsa di ostriche
     question: Questo cibo contiene molluschi?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Moluscos
     statement: Tenho uma alergia grave a moluscos.
-    description: Não posso comer alimentos que contenham moluscos como mexilhões, ostras, amêijoas, lulas, polvo ou caracóis, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "Os moluscos podem encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham moluscos como mexilhões, ostras, amêijoas, lulas,
+      polvo ou caracóis, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e
+      precisarei de assistência médica.
+    foundInLabel: 'Os moluscos podem encontrar-se em:'
     foundIn:
       - Mexilhões
       - Ostras
@@ -105,13 +118,15 @@ translations:
       - Caracóis
       - Molho de ostra
     question: Este alimento contém moluscos?
-
-  el:
+  greek:
     verified: false
     allergen: Μαλάκια
     statement: Πάσχω από σοβαρή αλλεργία στα μαλάκια.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν μαλάκια, όπως μύδια, στρείδια, αχιβάδες, καλαμάρια, χταπόδι ή σαλιγκάρια, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Τα μαλάκια μπορεί να βρίσκονται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν μαλάκια, όπως μύδια, στρείδια, αχιβάδες, καλαμάρια,
+      χταπόδι ή σαλιγκάρια, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση
+      και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Τα μαλάκια μπορεί να βρίσκονται σε:'
     foundIn:
       - Μύδια
       - Στρείδια
@@ -122,13 +137,15 @@ translations:
       - Σαλιγκάρια
       - Σάλτσα στρειδιών
     question: Αυτό το φαγητό περιέχει μαλάκια;
-
-  tr:
+  turkish:
     verified: false
     allergen: Yumuşakçalar
     statement: Yumuşakçalara karşı şiddetli alerjim var.
-    description: Midye, istiridye, kum midyesi, kalamar, ahtapot veya salyangoz gibi yumuşakçalar içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Yumuşakçalar şunlarda bulunabilir:"
+    description: >-
+      Midye, istiridye, kum midyesi, kalamar, ahtapot veya salyangoz gibi yumuşakçalar içeren
+      yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve
+      tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Yumuşakçalar şunlarda bulunabilir:'
     foundIn:
       - Midye
       - İstiridye
@@ -139,13 +156,14 @@ translations:
       - Salyangoz
       - İstiridye sosu
     question: Bu yemekte midye, kalamar veya başka yumuşakçalar var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: רכיכות
     statement: יש לי אלרגיה חמורה לרכיכות.
-    description: אסור לי לאכול מזון המכיל רכיכות כגון מולים, אויסטרים, צדפות, קלמארי (דיונון), תמנון או חלזונות, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "רכיכות עשויות להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל רכיכות כגון מולים, אויסטרים, צדפות, קלמארי (דיונון), תמנון או
+      חלזונות, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'רכיכות עשויות להימצא ב:'
     foundIn:
       - מולים
       - אויסטרים
@@ -156,13 +174,14 @@ translations:
       - חלזונות
       - רוטב צדפות
     question: האם המנה הזו מכילה רכיכות?
-
-  ar:
+  arabic:
     verified: false
     allergen: الرخويات
     statement: لديّ حساسية شديدة من الرخويات.
-    description: لا أستطيع تناول أي طعام يحتوي على الرخويات مثل بلح البحر أو المحار أو الحبّار أو الأخطبوط أو الحلزون، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد توجد الرخويات في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الرخويات مثل بلح البحر أو المحار أو الحبّار أو الأخطبوط أو
+      الحلزون، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد توجد الرخويات في:'
     foundIn:
       - بلح البحر
       - المحار
@@ -173,8 +192,7 @@ translations:
       - الحلزون (الإسكارغو)
       - صلصة المحار
     question: هل يحتوي هذا الطعام على الرخويات؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 軟体動物（貝・イカ・タコなど）
     statement: 私は貝・イカ・タコなどの軟体動物に対する重度のアレルギーがあります。
@@ -190,8 +208,7 @@ translations:
       - エスカルゴ（カタツムリ）
       - オイスターソース
     question: この料理に貝・イカ・タコなどの軟体動物は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 软体动物（贝类等）
     statement: 我对软体动物（贝类等）严重过敏。
@@ -207,3 +224,690 @@ translations:
       - 蜗牛
       - 蚝油
     question: 这道菜含有贝类、鱿鱼或其他软体动物吗？
+  bengali:
+    verified: false
+    allergen: মলাস্ক (ঝিনুক-স্কুইড জাতীয়)
+    statement: আমার মলাস্কের প্রতি মারাত্মক অ্যালার্জি আছে।
+    description: >-
+      ঝিনুক, অয়েস্টার, ক্ল্যাম, স্কুইড, অক্টোপাস বা শামুক জাতীয় মলাস্ক থাকা খাবার আমি সামান্য
+      পরিমাণেও খেতে পারি না, নইলে মারাত্মক অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'মলাস্ক পাওয়া যেতে পারে:'
+    foundIn:
+      - মাসেল
+      - অয়েস্টার
+      - ক্ল্যাম
+      - স্কুইড ও ক্যালামারি
+      - অক্টোপাস
+      - স্ক্যালপ
+      - শামুক
+      - অয়েস্টার সস
+    question: এই খাবারে কি মলাস্ক আছে?
+  bulgarian:
+    verified: false
+    allergen: Мекотели
+    statement: Имам тежка алергия към мекотели.
+    description: >-
+      Не мога да ям храна, съдържаща мекотели като миди, стриди, кламове, калмари, октопод или
+      охлюви, дори в малки количества, иначе ще имам тежка алергична реакция и ще се нуждая от
+      медицинска помощ.
+    foundInLabel: 'Мекотели може да се съдържат в:'
+    foundIn:
+      - Миди
+      - Стриди
+      - Кламове
+      - Калмари
+      - Октопод
+      - Морски миди (скалопи)
+      - Охлюви
+      - Сос от стриди
+    question: Съдържа ли тази храна мекотели?
+  catalan:
+    verified: false
+    allergen: Mol·luscs
+    statement: Tinc una al·lèrgia greu als mol·luscs.
+    description: >-
+      No puc menjar aliments que continguin mol·luscs com musclos, ostres, cloïsses, calamars, pop o
+      cargols, ni tan sols en petites quantitats, o tindré una reacció al·lèrgica greu i necessitaré
+      atenció mèdica.
+    foundInLabel: 'Els mol·luscs es poden trobar a:'
+    foundIn:
+      - Musclos
+      - Ostres
+      - Cloïsses
+      - Calamars
+      - Pop
+      - Vieires / petxines de pelegrí
+      - Cargols
+      - Salsa d'ostres
+    question: Aquest aliment conté mol·luscs?
+  chinese-hong-kong:
+    verified: false
+    allergen: 軟體動物
+    statement: 我對軟體動物有嚴重敏感。
+    description: 我不能進食含有青口、蠔、蜆、魷魚、八爪魚或蝸牛等軟體動物的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要即時治療。
+    foundInLabel: 軟體動物可能存在於：
+    foundIn:
+      - 青口
+      - 蠔
+      - 蜆
+      - 魷魚／花枝
+      - 八爪魚
+      - 帶子
+      - 蝸牛
+      - 蠔油
+    question: 這道菜含有軟體動物嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 軟體動物
+    statement: 我對軟體動物有嚴重過敏。
+    description: 我不能吃含有貽貝、牡蠣、蛤蜊、魷魚、章魚或蝸牛等軟體動物的食物，即使少量也不行，否則會引發嚴重過敏反應，需要就醫。
+    foundInLabel: 軟體動物可能存在於：
+    foundIn:
+      - 貽貝
+      - 牡蠣
+      - 蛤蜊
+      - 魷魚／花枝
+      - 章魚
+      - 扇貝
+      - 蝸牛
+      - 蠔油
+    question: 這道菜含有軟體動物嗎？
+  croatian:
+    verified: false
+    allergen: Mekušci
+    statement: Imam tešku alergiju na mekušce.
+    description: >-
+      Ne smijem jesti hranu koja sadrži mekušce poput dagnji, kamenica, školjaka, lignji, hobotnice
+      ili puževa, čak ni u malim količinama, inače ću imati tešku alergijsku reakciju i trebati
+      medicinsku pomoć.
+    foundInLabel: 'Mekušci se mogu nalaziti u:'
+    foundIn:
+      - Dagnje
+      - Kamenice
+      - Školjke
+      - Lignje i kalmari
+      - Hobotnica
+      - Jakobove kapice
+      - Puževi
+      - Umak od kamenica
+    question: Sadrži li ova hrana mekušce?
+  czech:
+    verified: false
+    allergen: Měkkýši
+    statement: Mám těžkou alergii na měkkýše.
+    description: >-
+      Nemohu jíst potraviny obsahující měkkýše, jako jsou mušle, ústřice, škeble, olihně, chobotnice
+      nebo hlemýždi, a to ani v malém množství, jinak budu mít těžkou alergickou reakci a budu
+      potřebovat lékařskou pomoc.
+    foundInLabel: 'Měkkýši se mohou vyskytovat v:'
+    foundIn:
+      - Mušle
+      - Ústřice
+      - Škeble
+      - Olihně a calamari
+      - Chobotnice
+      - Hřebenatky
+      - Hlemýždi
+      - Ústřicová omáčka
+    question: Obsahuje toto jídlo měkkýše?
+  danish:
+    verified: false
+    allergen: Bløddyr
+    statement: Jeg har en alvorlig allergi over for bløddyr.
+    description: >-
+      Jeg kan ikke spise mad med bløddyr som muslinger, østers, clams, blæksprutter, octopus eller
+      snegle – heller ikke i små mængder – ellers får jeg en alvorlig allergisk reaktion og har brug
+      for lægehjælp.
+    foundInLabel: 'Bløddyr kan findes i:'
+    foundIn:
+      - Muslinger
+      - Østers
+      - Hjertemuslinger / clams
+      - Blæksprutter og calamari
+      - Octopus
+      - Kammuslinger
+      - Snegle
+      - Østerssauce
+    question: Indeholder denne mad bløddyr?
+  dutch:
+    verified: false
+    allergen: Weekdieren
+    statement: Ik heb een ernstige allergie voor weekdieren.
+    description: >-
+      Ik mag geen voedsel eten dat weekdieren bevat zoals mosselen, oesters, clams, inktvis, octopus
+      of slakken, ook niet in kleine hoeveelheden, anders krijg ik een ernstige allergische reactie
+      en heb ik medische hulp nodig.
+    foundInLabel: 'Weekdieren kunnen voorkomen in:'
+    foundIn:
+      - Mosselen
+      - Oesters
+      - Clams
+      - Inktvis en calamari
+      - Octopus
+      - Sint-jakobsschelpen
+      - Slakken
+      - Oestersaus
+    question: Bevat dit gerecht weekdieren?
+  estonian:
+    verified: false
+    allergen: Molluskid
+    statement: Mul on raske allergia molluskite vastu.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab molluskeid nagu rannakarbid, austrid, karbid, kalmaarid,
+      kaheksajalad või teod, isegi väikeses koguses, muidu tekib raske allergiline reaktsioon ja
+      vajan arstiabi.
+    foundInLabel: 'Molluskeid võib leida:'
+    foundIn:
+      - Rannakarbid
+      - Austrid
+      - Karbid
+      - Kalmaarid
+      - Kaheksajalg
+      - Kammkarbid
+      - Teod
+      - Austrite kaste
+    question: Kas selles toidus on molluskeid?
+  finnish:
+    verified: false
+    allergen: Nilviäiset
+    statement: Minulla on vakava allergia nilviäisille.
+    description: >-
+      En voi syödä ruokaa, joka sisältää nilviäisiä kuten sinisimpukoita, ostereita, simpukoita,
+      kalmaria, mustekalaa tai etanoita, edes pieninä määrinä, muuten saan vakavan allergisen
+      reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Nilviäisiä voi olla:'
+    foundIn:
+      - Sinisimpukat
+      - Osterit
+      - Simpukat
+      - Kalmari
+      - Mustekala
+      - Kampasimpukat
+      - Etanat
+      - Osterikastike
+    question: Sisältääkö tämä ruoka nilviäisiä?
+  hindi:
+    verified: false
+    allergen: मोलस्क (सीप-स्क्विड वर्ग)
+    statement: मुझे मोलस्क से गंभीर एलर्जी है।
+    description: >-
+      मसल, ऑयस्टर, क्लैम, स्क्विड, ऑक्टोपस या घोंघे जैसे मोलस्क वाला भोजन मैं थोड़ी मात्रा में भी
+      नहीं खा सकता/सकती, वरना गंभीर एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'मोलस्क इनमें हो सकते हैं:'
+    foundIn:
+      - मसल
+      - ऑयस्टर
+      - क्लैम
+      - स्क्विड और कैलामारी
+      - ऑक्टोपस
+      - स्कैलप
+      - घोंघे
+      - ऑयस्टर सॉस
+    question: क्या इस भोजन में मोलस्क हैं?
+  hungarian:
+    verified: false
+    allergen: Puhatestűek
+    statement: Súlyos allergiám van a puhatestűekre.
+    description: >-
+      Nem ehetek puhatestűeket tartalmazó ételt, például kagylót, osztrigát, kalmárt, polipot vagy
+      csigát, még kis mennyiségben sem, különben súlyos allergiás reakcióm lesz, és orvosi
+      segítségre lesz szükségem.
+    foundInLabel: 'Puhatestűek előfordulhatnak:'
+    foundIn:
+      - Kék kagyló
+      - Osztriga
+      - Kagylók
+      - Tintahal és kalmár
+      - Polip
+      - Fésűkagyló
+      - Csigák
+      - Osztrigaszósz
+    question: Tartalmaz ez az étel puhatestűeket?
+  icelandic:
+    verified: false
+    allergen: Lindýr
+    statement: Ég er með alvarlegt ofnæmi fyrir lindýrum.
+    description: >-
+      Ég má ekki borða mat sem inniheldur lindýr eins og krækling, ostrur, samlokur, smokkfisk,
+      kolkrabba eða snigla, jafnvel í litlu magni, annars fær ég alvarlegt ofnæmisviðbragð og þarf
+      læknisaðstoð.
+    foundInLabel: 'Lindýr geta verið í:'
+    foundIn:
+      - Kræklingur
+      - Ostrur
+      - Samlokur
+      - Smokkfiskur og calamari
+      - Kolkrabbi
+      - Hörpudiskur
+      - Sniglar
+      - Ostrusósa
+    question: Inniheldur þessi matur lindýr?
+  indonesian:
+    verified: false
+    allergen: Moluska
+    statement: Saya punya alergi berat terhadap moluska.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung moluska seperti kerang hijau, tiram, kerang,
+      cumi-cumi, gurita, atau siput, meskipun sedikit, atau saya akan mengalami reaksi alergi berat
+      dan membutuhkan perawatan medis.
+    foundInLabel: 'Moluska dapat ditemukan dalam:'
+    foundIn:
+      - Kerang hijau / mussels
+      - Tiram
+      - Kerang
+      - Cumi-cumi
+      - Gurita
+      - Scallop
+      - Siput
+      - Saus tiram
+    question: Apakah makanan ini mengandung moluska?
+  khmer:
+    verified: false
+    allergen: សត្វម៉ូល្លូស
+    statement: ខ្ញុំមានអាលែហ្សីធ្ងន់ធ្ងរចំពោះសត្វម៉ូល្លូស។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានខ្យង ងាវ គ្រែង មឹក អុកតូប៉ុស ឬខ្យងគោកបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នេះទេ ខ្ញុំនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ និងត្រូវការព្យាបាល។
+    foundInLabel: 'សត្វម៉ូល្លូសអាចមាននៅក្នុង:'
+    foundIn:
+      - ខ្យងសមុទ្រ
+      - ងាវ
+      - គ្រែង
+      - មឹក
+      - អុកតូប៉ុស
+      - ស្កាឡុប
+      - ខ្យងគោក
+      - ទឹកត្រីងាវ
+    question: អាហារនេះមានសត្វម៉ូល្លូសទេ?
+  korean:
+    verified: false
+    allergen: 연체동물
+    statement: 저는 연체동물에 심한 알레르기가 있습니다.
+    description: 홍합, 굴, 조개, 오징어, 문어, 달팽이 같은 연체동물이 들어간 음식은 아주 소량이라도 먹을 수 없으며, 먹으면 심각한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '연체동물이 들어 있을 수 있는 것:'
+    foundIn:
+      - 홍합
+      - 굴
+      - 조개
+      - 오징어 / 칼라마리
+      - 문어
+      - 가리비
+      - 달팽이
+      - 굴 소스
+    question: 이 음식에 연체동물이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ສັດຫອຍ (ມໍລລັດສ໌)
+    statement: ຂ້ອຍແພ້ສັດຫອຍຢ່າງຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍກິນອາຫານທີ່ມີຫອຍແມງມຸກ, ຫອຍນາງລົມ, ຫອຍ, ປາສິວ, ປາມຶກ ຫຼື ຫອຍທາກບໍ່ໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຂ້ອຍຈະມີປະຕິກິລິຍາແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ສັດຫອຍອາດມີໃນ:'
+    foundIn:
+      - ຫອຍແມງມຸກ
+      - ຫອຍນາງລົມ
+      - ຫອຍ
+      - ປາສິວ / ຄາລາມາຣີ
+      - ປາມຶກ
+      - ຫອຍແສກ
+      - ຫອຍທາກ
+      - ນ້ຳຊອດຫອຍນາງລົມ
+    question: ອາຫານນີ້ມີສັດຫອຍບໍ?
+  latvian:
+    verified: false
+    allergen: Molluski
+    statement: Man ir smaga alerģija pret molluskiem.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur molluskus, piemēram, gliemenes, austeres, gliemežvākus,
+      kalmārus, astoņkājus vai gliemežus, pat nelielā daudzumā, citādi man būs smaga alerģiska
+      reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Molluski var būt:'
+    foundIn:
+      - Gliemenes
+      - Austeres
+      - Gliemežvāki
+      - Kalmāri
+      - Astoņkāji
+      - Ķemmīšgliemenes
+      - Gliemeži
+      - Austeru mērce
+    question: Vai šajā ēdienā ir molluski?
+  lithuanian:
+    verified: false
+    allergen: Moliuskai
+    statement: Turiu sunkią alergiją moliuskams.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra moliuskų, pavyzdžiui, midijų, austrių, moliuskų, kalmarų,
+      aštuonkojų ar sraigių, net ir nedideliais kiekiais, kitaip patirsiu sunkią alerginę reakciją
+      ir man reikės medicininės pagalbos.
+    foundInLabel: 'Moliuskų gali būti:'
+    foundIn:
+      - Midijos
+      - Austrės
+      - Moliuskai / clams
+      - Kalmarai
+      - Aštuonkojai
+      - Šukutės
+      - Sraigės
+      - Austrių padažas
+    question: Ar šiame maiste yra moliuskų?
+  macedonian:
+    verified: false
+    allergen: Мекотели
+    statement: Имам тешка алергија на мекотели.
+    description: >-
+      Не смеам да јадам храна што содржи мекотели како што се школки, остриги, кламови, лигњи,
+      октопод или полжави, дури и во мали количини, инаку ќе имам тешка алергиска реакција и ќе ми
+      треба медицинска помош.
+    foundInLabel: 'Мекотели може да се најдат во:'
+    foundIn:
+      - Школки (мидии)
+      - Остриги
+      - Кламови
+      - Лигњи и каламари
+      - Октопод
+      - Скалки
+      - Полжави
+      - Сос од остриги
+    question: Дали оваа храна содржи мекотели?
+  malay:
+    verified: false
+    allergen: Moluska
+    statement: Saya mempunyai alergi teruk terhadap moluska.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi moluska seperti kupang, tiram, kerang, sotong,
+      sotong kurita atau siput, walaupun dalam jumlah kecil, atau saya akan mengalami reaksi alergi
+      teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Moluska boleh dijumpai dalam:'
+    foundIn:
+      - Kupang / mussels
+      - Tiram
+      - Kerang
+      - Sotong
+      - Sotong kurita / octopus
+      - Scallop
+      - Siput
+      - Sos tiram
+    question: Adakah makanan ini mengandungi moluska?
+  maltese:
+    verified: false
+    allergen: Molluski
+    statement: Għandi allerġija severa għall-molluski.
+    description: >-
+      Ma nistax niekol ikel li fih molluski bħal mussels, ostrijiet, clams, klamari, octopus jew
+      bebbux, anke f'ammonti żgħar, inkella jkollija reazzjoni allerġika severa u jkolli bżonn
+      attenzjoni medika.
+    foundInLabel: 'Il-molluski jistgħu jinstabu fi:'
+    foundIn:
+      - Mussels
+      - Ostrijiet
+      - Clams
+      - Klamari
+      - Octopus
+      - Scallops
+      - Bebbux
+      - Zalza tal-ostrijiet
+    question: Dan l-ikel fih molluski?
+  norwegian:
+    verified: false
+    allergen: Bløtdyr
+    statement: Jeg har alvorlig allergi mot bløtdyr.
+    description: >-
+      Jeg kan ikke spise mat som inneholder bløtdyr som blåskjell, østers, muslinger, blekksprut,
+      octopus eller snegler, heller ikke i små mengder, ellers får jeg en alvorlig allergisk
+      reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Bløtdyr kan finnes i:'
+    foundIn:
+      - Blåskjell
+      - Østers
+      - Muslinger
+      - Blekksprut og calamari
+      - Octopus
+      - Kamskjell
+      - Snegler
+      - Østerssaus
+    question: Inneholder denne maten bløtdyr?
+  polish:
+    verified: false
+    allergen: Mięczaki
+    statement: Mam ciężką alergię na mięczaki.
+    description: >-
+      Nie mogę jeść żywności zawierającej mięczaki, takie jak małże, ostrygi, małże vongole,
+      kałamarnice, ośmiornice czy ślimaki, nawet w małych ilościach, bo będę miał/a ciężką reakcję
+      alergiczną i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Mięczaki mogą występować w:'
+    foundIn:
+      - Małże (omułki)
+      - Ostrygi
+      - Małże / clams
+      - Kałamarnice i kalmary
+      - Ośmiornica
+      - Przegrzebki
+      - Ślimaki
+      - Sos ostrygowy
+    question: Czy to jedzenie zawiera mięczaki?
+  portuguese-brazil:
+    verified: false
+    allergen: Moluscos
+    statement: Tenho alergia grave a moluscos.
+    description: >-
+      Não posso comer alimentos que contenham moluscos como mexilhões, ostras, amêijoas, lulas,
+      polvo ou caracóis, mesmo em pequenas quantidades, senão terei uma reação alérgica grave e
+      precisarei de atendimento médico.
+    foundInLabel: 'Os moluscos podem ser encontrados em:'
+    foundIn:
+      - Mexilhões
+      - Ostras
+      - Amêijoas
+      - Lula e calamari
+      - Polvo
+      - Vieiras
+      - Caracóis
+      - Molho de ostra
+    question: Este alimento contém moluscos?
+  romanian:
+    verified: false
+    allergen: Moluște
+    statement: Am o alergie severă la moluște.
+    description: >-
+      Nu pot mânca alimente care conțin moluște precum midii, stridii, scoici, calamar, caracatiță
+      sau melci, nici măcar în cantități mici, altfel voi avea o reacție alergică severă și voi avea
+      nevoie de îngrijiri medicale.
+    foundInLabel: 'Moluștele pot fi găsite în:'
+    foundIn:
+      - Midii
+      - Stridii
+      - Scoici
+      - Calamar
+      - Caracatiță
+      - Scoici Saint-Jacques
+      - Melci
+      - Sos de stridii
+    question: Acest aliment conține moluște?
+  russian:
+    verified: false
+    allergen: Моллюски
+    statement: У меня тяжёлая аллергия на моллюсков.
+    description: >-
+      Я не могу есть продукты, содержащие моллюсков — мидии, устрицы, моллюски-кламы, кальмары,
+      осьминогов или улиток — даже в небольших количествах, иначе у меня будет тяжёлая аллергическая
+      реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Моллюски могут содержаться в:'
+    foundIn:
+      - Мидии
+      - Устрицы
+      - Моллюски (clams)
+      - Кальмары
+      - Осьминог
+      - Гребешки
+      - Улитки
+      - Устричный соус
+    question: В этой еде есть моллюски?
+  serbian:
+    verified: false
+    allergen: Мекушци
+    statement: Имам тешку алергију на мекушце.
+    description: >-
+      Не смем да једем храну која садржи мекушце као што су дагње, остриге, шкољке, лигње, хоботница
+      или пужеви, чак ни у малим количинама, иначе ћу имати тешку алергијску реакцију и требаће ми
+      медицинска помоћ.
+    foundInLabel: 'Мекушци се могу налазити у:'
+    foundIn:
+      - Дагње
+      - Остриге
+      - Шкољке
+      - Лигње и каламари
+      - Хоботница
+      - Јаковљеве капице
+      - Пужеви
+      - Сос од острига
+    question: Да ли ова храна садржи мекушце?
+  slovak:
+    verified: false
+    allergen: Mäkkýše
+    statement: Mám ťažkú alergiu na mäkkýše.
+    description: >-
+      Nemôžem jesť potraviny obsahujúce mäkkýše, ako sú mušle, ustrice, lastúry, olihne, chobotnice
+      alebo slimáky, ani v malom množstve, inak budem mať ťažkú alergickú reakciu a budem potrebovať
+      lekársku pomoc.
+    foundInLabel: 'Mäkkýše sa môžu nachádzať v:'
+    foundIn:
+      - Mušle
+      - Ustrice
+      - Lastúry
+      - Olihne a calamari
+      - Chobotnica
+      - Hrebienky
+      - Slimáky
+      - Ustricová omáčka
+    question: Obsahuje toto jedlo mäkkýše?
+  slovenian:
+    verified: false
+    allergen: Mehkužci
+    statement: Imam hudo alergijo na mehkužce.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje mehkužce, kot so školjke, ostrige, školjke vongole, lignji,
+      hobotnica ali polži, tudi v majhnih količinah ne, sicer bom imel/a hudo alergijsko reakcijo in
+      potreboval/a medicinsko pomoč.
+    foundInLabel: 'Mehkužci se lahko nahajajo v:'
+    foundIn:
+      - Školjke (dagnje)
+      - Ostrige
+      - Školjke / clams
+      - Lignji in kalmari
+      - Hobotnica
+      - Jakobove kapice
+      - Polži
+      - Ostrigina omaka
+    question: Ali ta jed vsebuje mehkužce?
+  swahili:
+    verified: false
+    allergen: Molluscs
+    statement: Nina mzio mkali wa molluscs.
+    description: >-
+      Siwezi kula chakula chenye molluscs kama mussels, oysters, clams, squid, octopus au konokono,
+      hata kidogo, la sivyo nitapata mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Molluscs wanaweza kupatikana katika:'
+    foundIn:
+      - Mussels
+      - Oysters
+      - Clams
+      - Squid na calamari
+      - Octopus
+      - Scallops
+      - Konokono
+      - Sos ya oyster
+    question: Je, chakula hiki kina molluscs?
+  swedish:
+    verified: false
+    allergen: Blötdjur
+    statement: Jag har en allvarlig allergi mot blötdjur.
+    description: >-
+      Jag kan inte äta mat som innehåller blötdjur som musslor, ostron, clam, bläckfisk, octopus
+      eller sniglar, ens i små mängder, annars får jag en allvarlig allergisk reaktion och behöver
+      läkarvård.
+    foundInLabel: 'Blötdjur kan finnas i:'
+    foundIn:
+      - Musslor
+      - Ostron
+      - Clams
+      - Bläckfisk och calamari
+      - Octopus
+      - Kammusslor
+      - Sniglar
+      - Ostronsås
+    question: Innehåller den här maten blötdjur?
+  tagalog:
+    verified: false
+    allergen: Molluscs
+    statement: Mayroon akong malubhang allergy sa molluscs.
+    description: >-
+      Hindi ako pwedeng kumain ng pagkaing may molluscs gaya ng tahong, talaba, halaan, pusit,
+      pugita o suso, kahit kaunti lang, o kaya'y magkakaroon ako ng malubhang allergic reaction at
+      kakailanganin ng medikal na tulong.
+    foundInLabel: 'Makikita ang molluscs sa:'
+    foundIn:
+      - Tahong (mussels)
+      - Talaba
+      - Halaan / clams
+      - Pusit at calamari
+      - Pugita
+      - Scallops
+      - Suso
+      - Oyster sauce
+    question: May molluscs ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: หอยและหมึก
+    statement: ฉันแพ้หอยและหมึกอย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีหอยแมลงภู่ หอยนางรม หอยกาบ ปลาหมึก ปลาหมึกยักษ์ หรือหอยทากไม่ได้
+      แม้เพียงเล็กน้อย ไม่เช่นนั้นจะเกิดอาการแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'หอยและหมึกอาจพบใน:'
+    foundIn:
+      - หอยแมลงภู่
+      - หอยนางรม
+      - หอยกาบ
+      - ปลาหมึก
+      - ปลาหมึกยักษ์
+      - หอยเชลล์
+      - หอยทาก
+      - ซอสหอยนางรม
+    question: อาหารนี้มีหอยหรือหมึกหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Молюски
+    statement: У мене тяжка алергія на молюсків.
+    description: >-
+      Я не можу їсти їжу, що містить молюсків — мідії, устриці, молюски-клами, кальмари, восьминогів
+      або равликів — навіть у невеликій кількості, інакше в мене буде тяжка алергічна реакція, і
+      мені знадобиться медична допомога.
+    foundInLabel: 'Молюски можуть міститися в:'
+    foundIn:
+      - Мідії
+      - Устриці
+      - Молюски (clams)
+      - Кальмари
+      - Восьминіг
+      - Гребінці
+      - Равлики
+      - Устричний соус
+    question: Чи містить ця їжа молюсків?
+  vietnamese:
+    verified: false
+    allergen: Động vật thân mềm
+    statement: Tôi bị dị ứng nặng với động vật thân mềm.
+    description: >-
+      Tôi không thể ăn thức ăn có vẹm, hàu, nghêu, mực, bạch tuộc hoặc ốc, dù chỉ một ít, nếu không
+      tôi sẽ bị phản ứng dị ứng nặng và cần được cấp cứu.
+    foundInLabel: 'Động vật thân mềm có thể có trong:'
+    foundIn:
+      - Vẹm
+      - Hàu
+      - Nghêu
+      - Mực
+      - Bạch tuộc
+      - Sò điệp
+      - Ốc
+      - Dầu hào
+    question: Món này có chứa động vật thân mềm không?

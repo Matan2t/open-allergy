@@ -4,12 +4,14 @@
 id: lupin
 emoji: 🌸
 translations:
-  en:
+  english:
     verified: true
     allergen: Lupin
     statement: I have a severe lupin allergy.
-    description: I cannot eat food containing lupin or lupin products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Lupin can be found in:"
+    description: >-
+      I cannot eat food containing lupin or lupin products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Lupin can be found in:'
     foundIn:
       - Lupin flour
       - Lupin seeds
@@ -18,13 +20,15 @@ translations:
       - Pasta
       - Meat substitutes
     question: Does this food contain lupin?
-
-  es:
+  spanish:
     verified: false
     allergen: Altramuces
     statement: Tengo una alergia grave a los altramuces.
-    description: No puedo comer alimentos que contengan altramuces o productos derivados del altramuz, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "Los altramuces pueden encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan altramuces o productos derivados del altramuz, ni
+      siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría
+      atención médica.
+    foundInLabel: 'Los altramuces pueden encontrarse en:'
     foundIn:
       - Harina de altramuz
       - Semillas de altramuz
@@ -33,13 +37,14 @@ translations:
       - Pasta
       - Sustitutos de la carne
     question: ¿Este alimento contiene altramuces?
-
-  fr:
+  french:
     verified: false
     allergen: Lupin
     statement: J'ai une allergie sévère au lupin.
-    description: Je ne peux pas manger d'aliments contenant du lupin ou des produits à base de lupin, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Le lupin peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du lupin ou des produits à base de lupin, même en
+      petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Le lupin peut se trouver dans :'
     foundIn:
       - Farine de lupin
       - Graines de lupin
@@ -48,13 +53,15 @@ translations:
       - Pâtes
       - Substituts de viande
     question: Ce plat contient-il du lupin ?
-
-  de:
+  german:
     verified: false
     allergen: Lupinen
     statement: Ich habe eine schwere Lupinenallergie.
-    description: Ich darf keine Lebensmittel essen, die Lupinen oder Lupinenprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Lupinen können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Lupinen oder Lupinenprodukte enthalten – auch nicht in
+      kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Lupinen können enthalten sein in:'
     foundIn:
       - Lupinenmehl
       - Lupinensamen
@@ -63,13 +70,15 @@ translations:
       - Nudeln
       - Fleischersatzprodukte
     question: Enthält dieses Gericht Lupinen?
-
-  it:
+  italian:
     verified: false
     allergen: Lupini
     statement: Ho una grave allergia ai lupini.
-    description: Non posso mangiare alimenti che contengono lupini o prodotti a base di lupini, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "I lupini possono trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono lupini o prodotti a base di lupini, nemmeno in
+      piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza
+      medica.
+    foundInLabel: 'I lupini possono trovarsi in:'
     foundIn:
       - Farina di lupini
       - Semi di lupino
@@ -78,13 +87,14 @@ translations:
       - Pasta
       - Sostituti della carne
     question: Questo cibo contiene lupini?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Tremoço
     statement: Tenho uma alergia grave ao tremoço.
-    description: Não posso comer alimentos que contenham tremoço ou produtos à base de tremoço, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O tremoço pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham tremoço ou produtos à base de tremoço, mesmo em
+      pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O tremoço pode encontrar-se em:'
     foundIn:
       - Farinha de tremoço
       - Sementes de tremoço
@@ -93,13 +103,14 @@ translations:
       - Massas
       - Substitutos de carne
     question: Este alimento contém tremoço?
-
-  el:
+  greek:
     verified: false
     allergen: Λούπινο
     statement: Πάσχω από σοβαρή αλλεργία στο λούπινο.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν λούπινο ή προϊόντα λούπινου, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Το λούπινο μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν λούπινο ή προϊόντα λούπινου, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Το λούπινο μπορεί να βρίσκεται σε:'
     foundIn:
       - Αλεύρι λούπινου
       - Σπόροι λούπινου
@@ -108,13 +119,14 @@ translations:
       - Ζυμαρικά
       - Υποκατάστατα κρέατος
     question: Αυτό το φαγητό περιέχει λούπινο;
-
-  tr:
+  turkish:
     verified: false
     allergen: Lüpen (acı bakla)
     statement: Şiddetli lüpen (acı bakla) alerjim var.
-    description: Lüpen (acı bakla) veya lüpen ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Lüpen şunlarda bulunabilir:"
+    description: >-
+      Lüpen (acı bakla) veya lüpen ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi
+      takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Lüpen şunlarda bulunabilir:'
     foundIn:
       - Lüpen unu
       - Lüpen tohumları
@@ -123,13 +135,14 @@ translations:
       - Makarna
       - Et yerine geçen ürünler
     question: Bu yemekte lüpen (acı bakla) var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: תורמוס (לופין)
     statement: יש לי אלרגיה חמורה לתורמוס (לופין).
-    description: אסור לי לאכול מזון המכיל תורמוס (לופין) או מוצרי תורמוס, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "תורמוס (לופין) עשוי להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל תורמוס (לופין) או מוצרי תורמוס, אפילו בכמויות קטנות, אחרת אקבל תגובה
+      אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'תורמוס (לופין) עשוי להימצא ב:'
     foundIn:
       - קמח תורמוס
       - זרעי תורמוס
@@ -138,13 +151,14 @@ translations:
       - פסטה
       - תחליפי בשר
     question: האם המנה הזו מכילה תורמוס (לופין)?
-
-  ar:
+  arabic:
     verified: false
     allergen: الترمس
     statement: لديّ حساسية شديدة من الترمس.
-    description: لا أستطيع تناول أي طعام يحتوي على الترمس أو منتجات الترمس، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد الترمس في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الترمس أو منتجات الترمس، ولو بكميات صغيرة، وإلا فسأصاب برد
+      فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد الترمس في:'
     foundIn:
       - دقيق الترمس
       - بذور الترمس
@@ -153,8 +167,7 @@ translations:
       - المعكرونة
       - بدائل اللحوم
     question: هل يحتوي هذا الطعام على الترمس؟
-
-  ja:
+  japanese:
     verified: false
     allergen: ルピナス（ルーピン豆）
     statement: 私は重度のルピナス（ルーピン豆）アレルギーがあります。
@@ -168,8 +181,7 @@ translations:
       - パスタ
       - 代替肉（肉の代用品）
     question: この料理にルピナス（ルーピン豆）は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 羽扇豆
     statement: 我对羽扇豆严重过敏。
@@ -183,3 +195,590 @@ translations:
       - 意大利面
       - 肉类替代品
     question: 这道菜含有羽扇豆吗？
+  bengali:
+    verified: false
+    allergen: লুপিন
+    statement: আমার লুপিনের প্রতি তীব্র অ্যালার্জি আছে।
+    description: >-
+      আমি লুপিন বা লুপিনজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়; না হলে আমার
+      তীব্র অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'লুপিন পাওয়া যেতে পারে:'
+    foundIn:
+      - লুপিনের আটা
+      - লুপিনের বীজ
+      - গ্লুটেন-মুক্ত বেকড পণ্য
+      - পেস্ট্রি
+      - পাস্তা
+      - মাংসের বিকল্প
+    question: এই খাবারে কি লুপিন আছে?
+  bulgarian:
+    verified: false
+    allergen: Лупина
+    statement: Имам тежка алергия към лупина.
+    description: >-
+      Не мога да ям храни, съдържащи лупина или продукти от лупина, дори в малки количества, иначе
+      ще имам тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Лупината може да се съдържа в:'
+    foundIn:
+      - Брашно от лупина
+      - Семена от лупина
+      - Безглутенови печени изделия
+      - Сладкиши и печива
+      - Паста
+      - Месни заместители
+    question: Съдържа ли тази храна лупина?
+  catalan:
+    verified: false
+    allergen: Tramús
+    statement: Tinc una al·lèrgia greu al tramús.
+    description: >-
+      No puc menjar aliments que continguin tramús o productes derivats del tramús, ni tan sols en
+      petites quantitats, perquè tindria una reacció al·lèrgica greu i necessitaria atenció mèdica.
+    foundInLabel: 'El tramús es pot trobar en:'
+    foundIn:
+      - Farina de tramús
+      - Llavors de tramús
+      - Productes de forn sense gluten
+      - Pastisseria
+      - Pasta
+      - Substituts de la carn
+    question: Aquest aliment conté tramús?
+  chinese-hong-kong:
+    verified: false
+    allergen: 羽扇豆
+    statement: 我對羽扇豆嚴重過敏。
+    description: 我不能進食含有羽扇豆或羽扇豆製品的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要求醫。
+    foundInLabel: 羽扇豆可能存在於：
+    foundIn:
+      - 羽扇豆粉
+      - 羽扇豆籽
+      - 無麩質烘焙食品
+      - 糕點
+      - 意粉
+      - 肉類替代品
+    question: 這道菜含有羽扇豆嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 羽扇豆
+    statement: 我對羽扇豆嚴重過敏。
+    description: 我不能吃含有羽扇豆或羽扇豆製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 羽扇豆可能存在於：
+    foundIn:
+      - 羽扇豆粉
+      - 羽扇豆籽
+      - 無麩質烘焙食品
+      - 糕點
+      - 義大利麵
+      - 肉類替代品
+    question: 這道菜含有羽扇豆嗎？
+  croatian:
+    verified: false
+    allergen: Lupina
+    statement: Imam tešku alergiju na lupinu.
+    description: >-
+      Ne smijem jesti hranu koja sadrži lupinu ili proizvode od lupine, čak ni u malim količinama,
+      inače ću imati tešku alergijsku reakciju i trebat će mi liječnička pomoć.
+    foundInLabel: 'Lupina se može nalaziti u:'
+    foundIn:
+      - Brašno od lupine
+      - Sjemenke lupine
+      - Bezglutenska peciva
+      - Peciva i kolači
+      - Tjestenina
+      - Mesni nadomjesci
+    question: Sadrži li ova hrana lupinu?
+  czech:
+    verified: false
+    allergen: Vlčí bob (lupin)
+    statement: Mám těžkou alergii na vlčí bob (lupin).
+    description: >-
+      Nesmím jíst potraviny obsahující vlčí bob (lupin) nebo výrobky z něj, ani v malém množství,
+      jinak budu mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Vlčí bob (lupin) se může nacházet v:'
+    foundIn:
+      - Mouka z vlčího bobu
+      - Semena vlčího bobu
+      - Bezlepkové pečivo
+      - Pečivo a zákusky
+      - Těstoviny
+      - Masové náhražky
+    question: Obsahuje toto jídlo vlčí bob (lupin)?
+  danish:
+    verified: false
+    allergen: Lupin
+    statement: Jeg har en alvorlig lupinallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder lupin eller lupinprodukter, selv i små mængder, ellers
+      får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Lupin kan findes i:'
+    foundIn:
+      - Lupinmel
+      - Lupinfrø
+      - Glutenfri bagværk
+      - Kager og wienerbrød
+      - Pasta
+      - Kødsubstitutter
+    question: Indeholder denne mad lupin?
+  dutch:
+    verified: false
+    allergen: Lupine
+    statement: Ik heb een ernstige lupineallergie.
+    description: >-
+      Ik mag geen voedsel eten dat lupine of lupineproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Lupine kan voorkomen in:'
+    foundIn:
+      - Lupinemeel
+      - Lupinezaden
+      - Glutenvrije bakwaren
+      - Gebak
+      - Pasta
+      - Vleesvervangers
+    question: Bevat dit gerecht lupine?
+  estonian:
+    verified: false
+    allergen: Lupiina
+    statement: Mul on raske lupiiniallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab lupiini või lupiinatooteid, isegi väikeses koguses,
+      vastasel juhul tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Lupiini võib leida:'
+    foundIn:
+      - Lupiinajahu
+      - Lupiineseemned
+      - Gluteenivabad küpsetised
+      - Saiakesed ja koogid
+      - Pasta
+      - Lihaasendajad
+    question: Kas selles toidus on lupiini?
+  finnish:
+    verified: false
+    allergen: Lupiini
+    statement: Minulla on vakava lupiiniallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää lupiinia tai lupiinituotteita, edes pieniä määriä, muuten
+      saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Lupiinia voi olla:'
+    foundIn:
+      - Lupiinijauho
+      - Lupiinin siemenet
+      - Gluteenittomat leivonnaiset
+      - Leivonnaiset
+      - Pasta
+      - Lihaa korvaavat tuotteet
+    question: Sisältääkö tämä ruoka lupiinia?
+  hindi:
+    verified: false
+    allergen: ल्यूपिन
+    statement: मुझे ल्यूपिन से गंभीर एलर्जी है।
+    description: >-
+      मैं ल्यूपिन या ल्यूपिन से बने उत्पादों वाला भोजन नहीं खा सकता/सकती, चाहे मात्रा कितनी भी कम
+      हो; नहीं तो मुझे गंभीर एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता की आवश्यकता होगी।
+    foundInLabel: 'ल्यूपिन इनमें मिल सकता है:'
+    foundIn:
+      - ल्यूपिन आटा
+      - ल्यूपिन के बीज
+      - ग्लूटेन-मुक्त बेक्ड सामान
+      - पेस्ट्री
+      - पास्ता
+      - मांस के विकल्प
+    question: क्या इस भोजन में ल्यूपिन है?
+  hungarian:
+    verified: false
+    allergen: Csillagfürt (lupin)
+    statement: Súlyos csillagfürt- (lupin-) allergiám van.
+    description: >-
+      Nem ehetek csillagfürtöt (lupint) vagy csillagfürt-termékeket tartalmazó ételeket, még kis
+      mennyiségben sem, különben súlyos allergiás reakcióm lesz, és orvosi segítségre lesz
+      szükségem.
+    foundInLabel: 'Csillagfürt (lupin) megtalálható ebben:'
+    foundIn:
+      - Csillagfürt-liszt
+      - Csillagfürt-magvak
+      - Gluténmentes sütemények
+      - Péksütemények
+      - Tésztafélék
+      - Húspótlók
+    question: Tartalmaz ez az étel csillagfürtöt (lupint)?
+  icelandic:
+    verified: false
+    allergen: Úlfabaun (lupin)
+    statement: Ég er með alvarlegt úlfabaunaofnæmi (lupin).
+    description: >-
+      Ég má ekki borða mat sem inniheldur úlfabaunir (lupin) eða úlfabaunaafurðir, jafnvel í litlu
+      magni, annars fæ ég alvarlegt ofnæmisviðbragð og þarf læknishjálp.
+    foundInLabel: 'Úlfabaunir (lupin) geta verið í:'
+    foundIn:
+      - Úlfabaunamjöl
+      - Úlfabaunafræ
+      - Glútenlaus bakkelsi
+      - Sætabrauð og kökur
+      - Pasta
+      - Kjötalternatívur
+    question: Inniheldur þessi matur úlfabaunir (lupin)?
+  indonesian:
+    verified: false
+    allergen: Lupin
+    statement: Saya memiliki alergi lupin yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung lupin atau produk lupin, bahkan dalam jumlah
+      kecil, atau saya akan mengalami reaksi alergi yang parah dan memerlukan perawatan medis.
+    foundInLabel: 'Lupin dapat ditemukan dalam:'
+    foundIn:
+      - Tepung lupin
+      - Biji lupin
+      - Produk roti bebas gluten
+      - Pastri
+      - Pasta
+      - Pengganti daging
+    question: Apakah makanan ini mengandung lupin?
+  khmer:
+    verified: false
+    allergen: លូភីន
+    statement: ខ្ញុំមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរទៅនឹងលូភីន។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានលូភីន ឬផលិតផលលូភីនបានទេ ទោះបីជាបរិមាណតិចក៏ដោយ បើមិនដូច្នេះទេ
+      ខ្ញុំនឹងមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរ និងត្រូវការការថែទាំពេទ្យ។
+    foundInLabel: លូភីនអាចមាននៅក្នុង៖
+    foundIn:
+      - ម្សៅលូភីន
+      - គ្រាប់លូភីន
+      - នំដុតគ្មានគ្លុយតេន
+      - នំប៉ាវ និងនំផាស្ទ្រី
+      - ប៉ាស្តា
+      - ជំនួសសាច់
+    question: តើអាហារនេះមានលូភីនទេ?
+  korean:
+    verified: false
+    allergen: 루핀
+    statement: 저는 심각한 루핀 알레르기가 있습니다.
+    description: 루핀이나 루핀 제품이 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '루핀이 들어 있을 수 있는 것:'
+    foundIn:
+      - 루핀 가루
+      - 루핀 씨앗
+      - 글루텐 프리 베이커리 제품
+      - 페이스트리
+      - 파스타
+      - 육류 대체식품
+    question: 이 음식에 루핀이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ລູພິນ
+    statement: ຂ້ອຍມີອາການແພ້ລູພິນຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີລູພິນ ຫຼື ຜະລິດຕະພັນລູພິນໄດ້ ເຖິງແມ່ນວ່າຈະເປັນຈຳນວນໜ້ອຍກໍ່ຕາມ
+      ບໍ່ດັ່ງນັ້ນຂ້ອຍຈະມີອາການແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວທາງການແພດ.
+    foundInLabel: 'ລູພິນອາດພົບໃນ:'
+    foundIn:
+      - ແປ້ງລູພິນ
+      - ເມັດລູພິນ
+      - ເຂົ້າໜົມອົບບໍ່ມີກລູເຕັນ
+      - ເຂົ້າໜົມແປ້ງ
+      - ພາສຕາ
+      - ອາຫານແທນຊີ້ນ
+    question: ອາຫານນີ້ມີລູພິນບໍ?
+  latvian:
+    verified: false
+    allergen: Lupīna
+    statement: Man ir smaga alerģija pret lupīnu.
+    description: >-
+      Es nedrīkstu ēst pārtiku, kas satur lupīnu vai lupīnu produktus, pat nelielā daudzumā, citādi
+      man būs smaga alerģiska reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Lupīnu var atrast:'
+    foundIn:
+      - Lupīnu milti
+      - Lupīnu sēklas
+      - Bezglutēna konditorejas izstrādājumi
+      - Mīklas izstrādājumi
+      - Pasta
+      - Gaļas aizstājēji
+    question: Vai šajā ēdienā ir lupīna?
+  lithuanian:
+    verified: false
+    allergen: Lubinas
+    statement: Turiu sunkią alergiją lubinams.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra lubinų ar lubinų produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Lubinų gali būti:'
+    foundIn:
+      - Lubinų miltai
+      - Lubinų sėklos
+      - Begluteniniai kepiniai
+      - Kepiniai ir pyragaičiai
+      - Makaronai
+      - Mėsos pakaitalai
+    question: Ar šiame maiste yra lubinų?
+  macedonian:
+    verified: false
+    allergen: Лупина
+    statement: Имам тешка алергија на лупина.
+    description: >-
+      Не можам да јадам храна што содржи лупина или производи од лупина, дури ни во мали количини,
+      инаку ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Лупината може да се најде во:'
+    foundIn:
+      - Брашно од лупина
+      - Семе од лупина
+      - Печива без глутен
+      - Слатки печива
+      - Тестенини
+      - Замени за месо
+    question: Дали оваа храна содржи лупина?
+  malay:
+    verified: false
+    allergen: Lupin
+    statement: Saya mempunyai alahan lupin yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi lupin atau produk lupin, walaupun dalam jumlah
+      kecil, atau saya akan mengalami reaksi alahan yang teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Lupin boleh dijumpai dalam:'
+    foundIn:
+      - Tepung lupin
+      - Biji lupin
+      - Produk bakar bebas gluten
+      - Pastri
+      - Pasta
+      - Pengganti daging
+    question: Adakah makanan ini mengandungi lupin?
+  maltese:
+    verified: false
+    allergen: Lupin
+    statement: Għandi allerġija severa għall-lupin.
+    description: >-
+      Ma nistax niekol ikel li fih lupin jew prodotti tal-lupin, anke fi kwantitajiet żgħar, inkella
+      se jkolli reazzjoni allerġika severa u se jkolli bżonn attenzjoni medika.
+    foundInLabel: 'Il-lupin jista'' jinstab fi:'
+    foundIn:
+      - Dqiq tal-lupin
+      - Żerriegħa tal-lupin
+      - Prodotti tal-forn mingħajr glutina
+      - Pastizzi u ħelu
+      - Pasta
+      - Sostituti tal-laħam
+    question: Dan l-ikel fih lupin?
+  norwegian:
+    verified: false
+    allergen: Lupin
+    statement: Jeg har en alvorlig lupinallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder lupin eller lupinprodukter, selv i små mengder, ellers
+      får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Lupin kan finnes i:'
+    foundIn:
+      - Lupinmel
+      - Lupinfrø
+      - Glutenfritt bakverk
+      - Kaker og bakverk
+      - Pasta
+      - Kjøtterstatninger
+    question: Inneholder denne maten lupin?
+  polish:
+    verified: false
+    allergen: Łubin
+    statement: Mam ciężką alergię na łubin.
+    description: >-
+      Nie mogę jeść żywności zawierającej łubin lub produkty z łubinu, nawet w małych ilościach,
+      inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Łubin może występować w:'
+    foundIn:
+      - Mąka łubinowa
+      - Nasiona łubinu
+      - Pieczywo bezglutenowe
+      - Wypieki i ciasta
+      - Makaron
+      - Zamienniki mięsa
+    question: Czy to jedzenie zawiera łubin?
+  portuguese-brazil:
+    verified: false
+    allergen: Tremoço
+    statement: Tenho alergia grave ao tremoço.
+    description: >-
+      Não posso comer alimentos que contenham tremoço ou produtos à base de tremoço, mesmo em
+      pequenas quantidades, pois terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O tremoço pode ser encontrado em:'
+    foundIn:
+      - Farinha de tremoço
+      - Sementes de tremoço
+      - Produtos de padaria sem glúten
+      - Produtos de confeitaria
+      - Massas
+      - Substitutos de carne
+    question: Este alimento contém tremoço?
+  romanian:
+    verified: false
+    allergen: Lupin
+    statement: Am o alergie severă la lupin.
+    description: >-
+      Nu pot mânca alimente care conțin lupin sau produse pe bază de lupin, nici măcar în cantități
+      mici, altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Lupinul poate fi găsit în:'
+    foundIn:
+      - Făină de lupin
+      - Semințe de lupin
+      - Produse de panificație fără gluten
+      - Patiserie
+      - Paste
+      - Substituți de carne
+    question: Acest aliment conține lupin?
+  russian:
+    verified: false
+    allergen: Люпин
+    statement: У меня тяжёлая аллергия на люпин.
+    description: >-
+      Я не могу есть продукты, содержащие люпин или изделия из люпина, даже в малых количествах,
+      иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Люпин может содержаться в:'
+    foundIn:
+      - Люпиновая мука
+      - Семена люпина
+      - Безглютеновая выпечка
+      - Сдобные изделия
+      - Макаронные изделия
+      - Заменители мяса
+    question: Содержит ли эта еда люпин?
+  serbian:
+    verified: false
+    allergen: Лупина
+    statement: Имам тешку алергију на лупину.
+    description: >-
+      Не смем да једем храну која садржи лупину или производе од лупине, чак ни у малим количинама,
+      иначе ћу имати тешку алергијску реакцију и биће ми потребна лекарска помоћ.
+    foundInLabel: 'Лупина се може наћи у:'
+    foundIn:
+      - Брашно од лупине
+      - Семе лупине
+      - Пецива без глутена
+      - Пецива и колачи
+      - Тестенине
+      - Заменици за месо
+    question: Да ли ова храна садржи лупину?
+  slovak:
+    verified: false
+    allergen: Vlčí bôb (lupina)
+    statement: Mám ťažkú alergiu na vlčí bôb (lupinu).
+    description: >-
+      Nesmím jesť potraviny obsahujúce vlčí bôb (lupinu) alebo výrobky z neho, ani v malom množstve,
+      inak budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Vlčí bôb (lupina) sa môže nachádzať v:'
+    foundIn:
+      - Múka z vlčieho bóbu
+      - Semená vlčieho bóbu
+      - Bezlepkové pečivo
+      - Pečivo a zákusky
+      - Cestoviny
+      - Mäsové náhrady
+    question: Obsahuje toto jedlo vlčí bôb (lupinu)?
+  slovenian:
+    verified: false
+    allergen: Volčji bob (lupin)
+    statement: Imam hudo alergijo na volčji bob (lupin).
+    description: >-
+      Ne smem jesti hrane, ki vsebuje volčji bob (lupin) ali izdelke iz njega, niti v majhnih
+      količinah, sicer bom imel/-a hudo alergijsko reakcijo in bom potreboval/-a zdravniško pomoč.
+    foundInLabel: 'Volčji bob (lupin) se lahko nahaja v:'
+    foundIn:
+      - Moka iz volčjega boba
+      - Semena volčjega boba
+      - Brezglutenska peciva
+      - Pecivo in slaščice
+      - Testenine
+      - Mesni nadomestki
+    question: Ali ta hrana vsebuje volčji bob (lupin)?
+  swahili:
+    verified: false
+    allergen: Lupini
+    statement: Nina mzio mkali wa lupini.
+    description: >-
+      Siwezi kula chakula chenye lupini au bidhaa za lupini, hata kwa kiasi kidogo, au nitapata
+      mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Lupini inaweza kupatikana katika:'
+    foundIn:
+      - Unga wa lupini
+      - Mbegu za lupini
+      - Vyakula vya kuoka bila gluteni
+      - Vibaridi vya unga
+      - Pasta
+      - Vibadala vya nyama
+    question: Je, chakula hiki kina lupini?
+  swedish:
+    verified: false
+    allergen: Lupin
+    statement: Jag har en allvarlig lupinallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller lupin eller lupinprodukter, ens i små mängder, annars får
+      jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Lupin kan finnas i:'
+    foundIn:
+      - Lupinjöl
+      - Lupinfrön
+      - Glutenfria bakverk
+      - Bakverk och kakor
+      - Pasta
+      - Köttsubstitut
+    question: Innehåller den här maten lupin?
+  tagalog:
+    verified: false
+    allergen: Lupin
+    statement: Mayroon akong malubhang allergy sa lupin.
+    description: >-
+      Hindi ako makakain ng pagkaing may lupin o mga produktong lupin, kahit sa maliit na dami, o
+      magkakaroon ako ng malubhang allergic reaction at kakailanganin ko ng medikal na tulong.
+    foundInLabel: 'Ang lupin ay matatagpuan sa:'
+    foundIn:
+      - Harina ng lupin
+      - Mga buto ng lupin
+      - Mga gluten-free na baked goods
+      - Mga pastry
+      - Pasta
+      - Mga kapalit ng karne
+    question: May lupin ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ลูพิน
+    statement: ฉันแพ้ลูพินอย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถรับประทานอาหารที่มีลูพินหรือผลิตภัณฑ์จากลูพินได้ แม้เพียงเล็กน้อย
+      มิฉะนั้นจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ลูพินอาจพบใน:'
+    foundIn:
+      - แป้งลูพิน
+      - เมล็ดลูพิน
+      - ขนมอบไร้กลูเตน
+      - เพสทรี
+      - พาสต้า
+      - เนื้อสัตว์ทดแทน
+    question: อาหารนี้มีลูพินหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Люпин
+    statement: У мене тяжка алергія на люпин.
+    description: >-
+      Я не можу їсти продукти, що містять люпин або вироби з люпину, навіть у невеликій кількості,
+      інакше в мене буде тяжка алергічна реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Люпин може міститися в:'
+    foundIn:
+      - Люпинове борошно
+      - Насіння люпину
+      - Безглютенова випічка
+      - Здобні вироби
+      - Макаронні вироби
+      - Замінники м'яса
+    question: Чи містить ця їжа люпин?
+  vietnamese:
+    verified: false
+    allergen: Đậu lupin
+    statement: Tôi bị dị ứng nặng với đậu lupin.
+    description: >-
+      Tôi không thể ăn thực phẩm có chứa đậu lupin hoặc sản phẩm từ đậu lupin, dù chỉ một lượng nhỏ,
+      nếu không tôi sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Đậu lupin có thể có trong:'
+    foundIn:
+      - Bột đậu lupin
+      - Hạt đậu lupin
+      - Bánh nướng không chứa gluten
+      - Bánh pastry
+      - Mì ống
+      - Thực phẩm thay thế thịt
+    question: Thức ăn này có chứa đậu lupin không?

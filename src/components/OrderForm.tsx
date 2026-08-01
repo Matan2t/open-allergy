@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { Allergen, Language } from '../lib/types';
+import { ENGLISH } from '../lib/types';
 
 export interface OrderFormProps {
   allergens: Allergen[];
@@ -83,7 +84,7 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
         <select value={allergenId} onChange={(e) => setAllergenId(e.target.value)}>
           {allergens.map((a) => (
             <option key={a.id} value={a.id}>
-              {a.emoji} {a.translations['en'].allergen}
+              {a.emoji} {a.translations[ENGLISH].allergen}
             </option>
           ))}
         </select>
@@ -123,7 +124,7 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
       </label>
 
       <p className="price-note">
-        You're ordering: <strong>{allergen.translations['en'].allergen}</strong> card in{' '}
+        You're ordering: <strong>{allergen.translations[ENGLISH].allergen}</strong> card in{' '}
         <strong>{language.name}</strong> × {quantity}. Price and shipping are shown on the secure
         Stripe checkout page. Preview your exact card design on the{' '}
         <a href={`/cards/${allergenId}/${langCode}`}>card page</a> first.

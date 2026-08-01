@@ -9,6 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "validate": "node scripts/validate-data.mjs",
+    "seed:languages": "node scripts/apply-language-seed.mjs",
     "deploy": "wrangler deploy"
   },
   "dependencies": {

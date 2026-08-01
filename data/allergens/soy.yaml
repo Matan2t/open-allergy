@@ -4,12 +4,14 @@
 id: soy
 emoji: 🫘
 translations:
-  en:
+  english:
     verified: true
     allergen: Soy
     statement: I have a severe soy allergy.
-    description: I cannot eat food containing soy or soy products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Soy can be found in:"
+    description: >-
+      I cannot eat food containing soy or soy products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Soy can be found in:'
     foundIn:
       - Soy sauce
       - Tofu
@@ -20,13 +22,14 @@ translations:
       - Soybean oil
       - Vegetable protein
     question: Does this food contain soy?
-
-  es:
+  spanish:
     verified: false
     allergen: Soja
     statement: Tengo una alergia grave a la soja.
-    description: No puedo comer alimentos que contengan soja o productos de soja, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "La soja puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan soja o productos de soja, ni siquiera en pequeñas
+      cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: 'La soja puede encontrarse en:'
     foundIn:
       - Salsa de soja
       - Tofu
@@ -37,13 +40,14 @@ translations:
       - Aceite de soja
       - Proteína vegetal
     question: ¿Este alimento contiene soja?
-
-  fr:
+  french:
     verified: false
     allergen: Soja
     statement: J'ai une allergie sévère au soja.
-    description: Je ne peux pas manger d'aliments contenant du soja ou des produits à base de soja, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Le soja peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du soja ou des produits à base de soja, même en
+      petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Le soja peut se trouver dans :'
     foundIn:
       - Sauce soja
       - Tofu
@@ -54,13 +58,15 @@ translations:
       - Huile de soja
       - Protéines végétales
     question: Ce plat contient-il du soja ?
-
-  de:
+  german:
     verified: false
     allergen: Soja
     statement: Ich habe eine schwere Sojaallergie.
-    description: Ich darf keine Lebensmittel essen, die Soja oder Sojaprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Soja kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Soja oder Sojaprodukte enthalten – auch nicht in
+      kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Soja kann enthalten sein in:'
     foundIn:
       - Sojasauce
       - Tofu
@@ -71,13 +77,14 @@ translations:
       - Sojaöl
       - Pflanzliches Eiweiß
     question: Enthält dieses Gericht Soja?
-
-  it:
+  italian:
     verified: false
     allergen: Soia
     statement: Ho una grave allergia alla soia.
-    description: Non posso mangiare alimenti che contengono soia o prodotti a base di soia, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "La soia può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono soia o prodotti a base di soia, nemmeno in piccole
+      quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: 'La soia può trovarsi in:'
     foundIn:
       - Salsa di soia
       - Tofu
@@ -88,13 +95,14 @@ translations:
       - Olio di soia
       - Proteine vegetali
     question: Questo cibo contiene soia?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Soja
     statement: Tenho uma alergia grave à soja.
-    description: Não posso comer alimentos que contenham soja ou produtos de soja, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "A soja pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham soja ou produtos de soja, mesmo em pequenas
+      quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'A soja pode encontrar-se em:'
     foundIn:
       - Molho de soja
       - Tofu
@@ -105,13 +113,14 @@ translations:
       - Óleo de soja
       - Proteína vegetal
     question: Este alimento contém soja?
-
-  el:
+  greek:
     verified: false
     allergen: Σόγια
     statement: Πάσχω από σοβαρή αλλεργία στη σόγια.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σόγια ή προϊόντα σόγιας, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Η σόγια μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν σόγια ή προϊόντα σόγιας, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Η σόγια μπορεί να βρίσκεται σε:'
     foundIn:
       - Σάλτσα σόγιας
       - Τόφου
@@ -122,13 +131,14 @@ translations:
       - Σογιέλαιο
       - Φυτική πρωτεΐνη
     question: Αυτό το φαγητό περιέχει σόγια;
-
-  tr:
+  turkish:
     verified: false
     allergen: Soya
     statement: Şiddetli soya alerjim var.
-    description: Soya veya soya ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Soya şunlarda bulunabilir:"
+    description: >-
+      Soya veya soya ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli
+      bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Soya şunlarda bulunabilir:'
     foundIn:
       - Soya sosu
       - Tofu
@@ -139,13 +149,14 @@ translations:
       - Soya yağı
       - Bitkisel protein
     question: Bu yemekte soya var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: סויה
     statement: יש לי אלרגיה חמורה לסויה.
-    description: אסור לי לאכול מזון המכיל סויה או מוצרי סויה, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "סויה עשויה להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל סויה או מוצרי סויה, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'סויה עשויה להימצא ב:'
     foundIn:
       - רוטב סויה
       - טופו
@@ -156,13 +167,14 @@ translations:
       - שמן סויה
       - חלבון צמחי
     question: האם המנה הזו מכילה סויה?
-
-  ar:
+  arabic:
     verified: false
     allergen: الصويا
     statement: لديّ حساسية شديدة من الصويا.
-    description: لا أستطيع تناول أي طعام يحتوي على الصويا أو منتجاتها، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد توجد الصويا في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الصويا أو منتجاتها، ولو بكميات صغيرة، وإلا فسأصاب برد فعل
+      تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد توجد الصويا في:'
     foundIn:
       - صلصة الصويا
       - التوفو
@@ -173,8 +185,7 @@ translations:
       - زيت فول الصويا
       - البروتين النباتي
     question: هل يحتوي هذا الطعام على الصويا؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 大豆
     statement: 私は重度の大豆アレルギーがあります。
@@ -190,8 +201,7 @@ translations:
       - 大豆油
       - 植物性たんぱく質
     question: この料理に大豆や大豆製品は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 大豆
     statement: 我对大豆严重过敏。
@@ -207,3 +217,664 @@ translations:
       - 大豆油
       - 植物蛋白
     question: 这道菜含有大豆吗？
+  bengali:
+    verified: false
+    allergen: সয়া
+    statement: আমার তীব্র সয়া অ্যালার্জি আছে।
+    description: >-
+      আমি সয়া বা সয়াজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়—নইলে তীব্র
+      অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা প্রয়োজন হবে।
+    foundInLabel: 'সয়া পাওয়া যেতে পারে:'
+    foundIn:
+      - সয়া সস
+      - টোফু
+      - এদামামে
+      - মিসো
+      - টেমপে
+      - সয়া লেসিথিন
+      - সয়াবিন তেল
+      - উদ্ভিজ্জ প্রোটিন
+    question: এই খাবারে কি সয়া আছে?
+  bulgarian:
+    verified: false
+    allergen: Соя
+    statement: Имам тежка алергия към соя.
+    description: >-
+      Не мога да ям храни, съдържащи соя или соеви продукти, дори в малки количества, иначе ще имам
+      тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Соята може да се съдържа в:'
+    foundIn:
+      - Соев сос
+      - Тофу
+      - Едамаме
+      - Мисо
+      - Темпе
+      - Соев лецитин
+      - Соево масло
+      - Растителен протеин
+    question: Съдържа ли тази храна соя?
+  catalan:
+    verified: false
+    allergen: Soja
+    statement: Tinc una al·lèrgia greu a la soja.
+    description: >-
+      No puc menjar aliments que continguin soja o productes de soja, ni tan sols en petites
+      quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'La soja es pot trobar a:'
+    foundIn:
+      - Salsa de soja
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecitina de soja
+      - Oli de soja
+      - Proteïna vegetal
+    question: Aquest aliment conté soja?
+  chinese-hong-kong:
+    verified: false
+    allergen: 大豆
+    statement: 我對大豆嚴重過敏。
+    description: 我不能進食含有大豆或大豆製品的食物，即使分量很少也不行，否則會引發嚴重過敏反應，需要求醫。
+    foundInLabel: 大豆可能存在於：
+    foundIn:
+      - 醬油
+      - 豆腐
+      - 毛豆
+      - 味噌
+      - 天貝
+      - 大豆卵磷脂
+      - 大豆油
+      - 植物蛋白
+    question: 這道菜含有大豆嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 大豆
+    statement: 我對大豆嚴重過敏。
+    description: 我不能吃含有大豆或大豆製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 大豆可能存在於：
+    foundIn:
+      - 醬油
+      - 豆腐
+      - 毛豆
+      - 味噌
+      - 天貝
+      - 大豆卵磷脂
+      - 大豆油
+      - 植物蛋白
+    question: 這道菜含有大豆嗎？
+  croatian:
+    verified: false
+    allergen: Soja
+    statement: Imam tešku alergiju na soju.
+    description: >-
+      Ne smijem jesti hranu koja sadrži soju ili sojine proizvode, čak ni u malim količinama, inače
+      ću imati tešku alergijsku reakciju i trebat će mi liječnička pomoć.
+    foundInLabel: 'Soja se može nalaziti u:'
+    foundIn:
+      - Sojin umak
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojin lecitin
+      - Sojino ulje
+      - Biljni protein
+    question: Sadrži li ova hrana soju?
+  czech:
+    verified: false
+    allergen: Sója
+    statement: Mám těžkou alergii na sóju.
+    description: >-
+      Nesmím jíst potraviny obsahující sóju nebo sójové výrobky, ani v malém množství, jinak budu
+      mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Sója se může vyskytovat v:'
+    foundIn:
+      - Sójová omáčka
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sójový lecitin
+      - Sójový olej
+      - Rostlinná bílkovina
+    question: Obsahuje toto jídlo sóju?
+  danish:
+    verified: false
+    allergen: Soja
+    statement: Jeg har en alvorlig sojaallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder soja eller sojaprodukter, selv i små mængder, da jeg
+      ellers får en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Soja kan findes i:'
+    foundIn:
+      - Sojasauce
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojalecithin
+      - Sojaolie
+      - Vegetabilsk protein
+    question: Indeholder denne mad soja?
+  dutch:
+    verified: false
+    allergen: Soja
+    statement: Ik heb een ernstige soja-allergie.
+    description: >-
+      Ik mag geen voedsel eten dat soja of sojaproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Soja kan voorkomen in:'
+    foundIn:
+      - Sojasaus
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojalecithine
+      - Sojaolie
+      - Plantaardig eiwit
+    question: Bevat dit gerecht soja?
+  estonian:
+    verified: false
+    allergen: Soja
+    statement: Mul on raske sojaallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab sojat või sojatooteid, isegi väikeses koguses, muidu tekib
+      mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Sojat võib leida:'
+    foundIn:
+      - Sojakaste
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojaletsitiin
+      - Sojaõli
+      - Taimne valk
+    question: Kas selles toidus on sojat?
+  finnish:
+    verified: false
+    allergen: Soija
+    statement: Minulla on vakava soija-allergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää soijaa tai soijatuotteita, edes pieninä määrinä, muuten
+      saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Soijaa voi olla:'
+    foundIn:
+      - Soijakastike
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Soijalesitiini
+      - Soijaöljy
+      - Kasviproteiini
+    question: Sisältääkö tämä ruoka soijaa?
+  hindi:
+    verified: false
+    allergen: सोया
+    statement: मुझे गंभीर सोया एलर्जी है।
+    description: >-
+      मैं सोया या सोया उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो—अन्यथा गंभीर
+      एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'सोया इनमें मिल सकता है:'
+    foundIn:
+      - सोया सॉस
+      - टोफू
+      - एडामामे
+      - मिसो
+      - टेम्पे
+      - सोया लेसिथिन
+      - सोयाबीन तेल
+      - वनस्पति प्रोटीन
+    question: क्या इस भोजन में सोया है?
+  hungarian:
+    verified: false
+    allergen: Szója
+    statement: Súlyos szójaallergiám van.
+    description: >-
+      Nem ehetek szóját vagy szójatermékeket tartalmazó ételeket, még kis mennyiségben sem, különben
+      súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'A szója megtalálható:'
+    foundIn:
+      - Szójaszósz
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Szójalecitin
+      - Szójaolaj
+      - Növényi fehérje
+    question: Tartalmaz ez az étel szóját?
+  icelandic:
+    verified: false
+    allergen: Soja
+    statement: Ég er með alvarlegt sojaofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur soja eða sojavörur, jafnvel í litlu magni, annars fæ ég
+      alvarleg ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Soja getur verið í:'
+    foundIn:
+      - Sojasósa
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojalecithin
+      - Sojaolía
+      - Jurtaprótein
+    question: Inniheldur þessi matur soja?
+  indonesian:
+    verified: false
+    allergen: Kedelai
+    statement: Saya memiliki alergi kedelai yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung kedelai atau produk kedelai, bahkan dalam
+      jumlah kecil, atau saya akan mengalami reaksi alergi parah dan membutuhkan perawatan medis.
+    foundInLabel: 'Kedelai dapat ditemukan dalam:'
+    foundIn:
+      - Kecap asin / saus kedelai
+      - Tahu
+      - Edamame
+      - Miso
+      - Tempe
+      - Lesitin kedelai
+      - Minyak kedelai
+      - Protein nabati
+    question: Apakah makanan ini mengandung kedelai?
+  khmer:
+    verified: false
+    allergen: សណ្តែកសៀង
+    statement: ខ្ញុំមានអាឡែហ្ស៊ីសណ្តែកសៀងធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានសណ្តែកសៀង ឬផលិតផលសណ្តែកសៀងបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នោះទេខ្ញុំនឹងមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរ និងត្រូវការការថែទាំវេជ្ជសាស្ត្រ។
+    foundInLabel: 'សណ្តែកសៀងអាចមាននៅក្នុង:'
+    foundIn:
+      - ទឹកស៊ីអ៊ីវ
+      - តៅហ៊ូ
+      - អេដាម៉ាមេ
+      - មីសូ
+      - តេមភេ
+      - លេស៊ីទីនសណ្តែកសៀង
+      - ប្រេងសណ្តែកសៀង
+      - ប្រូតេអ៊ីនបន្លែ
+    question: ម្ហូបនេះមានសណ្តែកសៀងទេ?
+  korean:
+    verified: false
+    allergen: 대두(콩)
+    statement: 저는 심한 대두(콩) 알레르기가 있습니다.
+    description: 대두나 대두 제품이 들어 있는 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '대두가 들어 있을 수 있는 것:'
+    foundIn:
+      - 간장
+      - 두부
+      - 에다마메
+      - 미소
+      - 템페
+      - 대두 레시틴
+      - 대두유
+      - 식물성 단백질
+    question: 이 음식에 대두(콩)가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ເຖົ້າຖົ່ວເຫຼືອງ
+    statement: ຂ້ອຍມີອາການແພ້ເຖົ້າຖົ່ວເຫຼືອງຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີເຖົ້າຖົ່ວເຫຼືອງ ຫຼື ຜະລິດຕະພັນຈາກເຖົ້າຖົ່ວເຫຼືອງໄດ້
+      ເຖິງແມ່ນຈຳນວນນ້ອຍໆ, ບໍ່ດັ່ງນັ້ນຈະມີອາການແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ເຖົ້າຖົ່ວເຫຼືອງອາດພົບໃນ:'
+    foundIn:
+      - ນ້ຳຊອຍເຖົ້າ
+      - ເຕົ້າຫູ
+      - ເອດາມາເມ
+      - ມິໂຊ
+      - ເຕັມເພ
+      - ເລຊິທິນເຖົ້າ
+      - ນ້ຳມັນເຖົ້າ
+      - ໂປຣຕີນຈາກພືດ
+    question: ອາຫານນີ້ມີເຖົ້າຖົ່ວເຫຼືອງບໍ?
+  latvian:
+    verified: false
+    allergen: Soja
+    statement: Man ir smaga alerģija pret soju.
+    description: >-
+      Es nedrīkstu ēst pārtiku, kas satur soju vai sojas produktus, pat nelielā daudzumā, citādi man
+      būs smaga alerģiska reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Soja var būt:'
+    foundIn:
+      - Sojas mērce
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojas lecitīns
+      - Sojas eļļa
+      - Augu proteīns
+    question: Vai šajā ēdienā ir soja?
+  lithuanian:
+    verified: false
+    allergen: Soja
+    statement: Turiu sunkią alergiją sojai.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra sojos ar sojos produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Sojos gali būti:'
+    foundIn:
+      - Sojos padažas
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojos lecitinas
+      - Sojų aliejus
+      - Augalinis baltymas
+    question: Ar šiame maiste yra sojos?
+  macedonian:
+    verified: false
+    allergen: Соја
+    statement: Имам тешка алергија на соја.
+    description: >-
+      Не можам да јадам храна што содржи соја или соини производи, дури ни во мали количини, инаку
+      ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Сојата може да се најде во:'
+    foundIn:
+      - Соин сос
+      - Тофу
+      - Едамаме
+      - Мисо
+      - Темпе
+      - Соин лецитин
+      - Соино масло
+      - Растителен протеин
+    question: Дали оваа храна содржи соја?
+  malay:
+    verified: false
+    allergen: Soya
+    statement: Saya mempunyai alahan soya yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi soya atau produk soya, walaupun dalam jumlah
+      kecil, atau saya akan mengalami tindak balas alahan yang teruk dan memerlukan rawatan
+      perubatan.
+    foundInLabel: 'Soya boleh dijumpai dalam:'
+    foundIn:
+      - Kicap soya
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lesitin soya
+      - Minyak kacang soya
+      - Protein sayuran
+    question: Adakah makanan ini mengandungi soya?
+  maltese:
+    verified: false
+    allergen: Sojja
+    statement: Għandi allerġija severa għas-sojja.
+    description: >-
+      Ma nistax niekol ikel li fih sojja jew prodotti tas-sojja, anke f'ammonti żgħar, inkella se
+      jkolli reazzjoni allerġika severa u se jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Is-sojja tista'' tinstab fi:'
+    foundIn:
+      - Zalza tas-sojja
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lesitina tas-sojja
+      - Żejt tas-sojja
+      - Proteina veġetali
+    question: Dan l-ikel fih sojja?
+  norwegian:
+    verified: false
+    allergen: Soya
+    statement: Jeg har en alvorlig soyaallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder soya eller soyaprodukter, selv i små mengder, ellers får
+      jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Soya kan finnes i:'
+    foundIn:
+      - Soyasaus
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Soyalecitin
+      - Soyaolje
+      - Vegetabilsk protein
+    question: Inneholder denne maten soya?
+  polish:
+    verified: false
+    allergen: Soja
+    statement: Mam ciężką alergię na soję.
+    description: >-
+      Nie mogę jeść żywności zawierającej soję lub produkty sojowe, nawet w małych ilościach, w
+      przeciwnym razie wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Soja może występować w:'
+    foundIn:
+      - Sos sojowy
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecytyna sojowa
+      - Olej sojowy
+      - Białko roślinne
+    question: Czy to danie zawiera soję?
+  portuguese-brazil:
+    verified: false
+    allergen: Soja
+    statement: Tenho alergia grave à soja.
+    description: >-
+      Não posso comer alimentos que contenham soja ou produtos de soja, mesmo em pequenas
+      quantidades, senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'A soja pode ser encontrada em:'
+    foundIn:
+      - Molho de soja (shoyu)
+      - Tofu
+      - Edamame
+      - Missô
+      - Tempeh
+      - Lecitina de soja
+      - Óleo de soja
+      - Proteína vegetal
+    question: Este alimento contém soja?
+  romanian:
+    verified: false
+    allergen: Soia
+    statement: Am o alergie severă la soia.
+    description: >-
+      Nu pot mânca alimente care conțin soia sau produse din soia, nici măcar în cantități mici,
+      altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Soia poate fi găsită în:'
+    foundIn:
+      - Sos de soia
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecitină de soia
+      - Ulei de soia
+      - Proteină vegetală
+    question: Acest aliment conține soia?
+  russian:
+    verified: false
+    allergen: Соя
+    statement: У меня тяжёлая аллергия на сою.
+    description: >-
+      Я не могу есть продукты, содержащие сою или соевые продукты, даже в небольших количествах,
+      иначе у меня будет тяжёлая аллергическая реакция и потребуется медицинская помощь.
+    foundInLabel: 'Соя может содержаться в:'
+    foundIn:
+      - Соевый соус
+      - Тофу
+      - Эдамаме
+      - Мисо
+      - Темпе
+      - Соевый лецитин
+      - Соевое масло
+      - Растительный белок
+    question: Содержит ли это блюдо сою?
+  serbian:
+    verified: false
+    allergen: Соја
+    statement: Имам тешку алергију на соју.
+    description: >-
+      Не смем да једем храну која садржи соју или сојине производе, чак ни у малим количинама, иначе
+      ћу имати тешку алергијску реакцију и требаће ми лекарска помоћ.
+    foundInLabel: 'Соја може бити у:'
+    foundIn:
+      - Сојин сос
+      - Тофу
+      - Едамаме
+      - Мисо
+      - Темпе
+      - Сојин лецитин
+      - Сојино уље
+      - Биљни протеин
+    question: Да ли ова храна садржи соју?
+  slovak:
+    verified: false
+    allergen: Sója
+    statement: Mám ťažkú alergiu na sóju.
+    description: >-
+      Nesmím jesť potraviny obsahujúce sóju alebo sójové výrobky, ani v malom množstve, inak budem
+      mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Sója sa môže nachádzať v:'
+    foundIn:
+      - Sójová omáčka
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sójový lecitín
+      - Sójový olej
+      - Rastlinná bielkovina
+    question: Obsahuje toto jedlo sóju?
+  slovenian:
+    verified: false
+    allergen: Soja
+    statement: Imam hudo alergijo na sojo.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje sojo ali sojine izdelke, niti v majhnih količinah, sicer bom
+      imel/a hudo alergijsko reakcijo in potreboval/a zdravniško pomoč.
+    foundInLabel: 'Soja se lahko nahaja v:'
+    foundIn:
+      - Sojina omaka
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojin lecitin
+      - Sojino olje
+      - Rastlinske beljakovine
+    question: Ali ta jed vsebuje sojo?
+  swahili:
+    verified: false
+    allergen: Soya
+    statement: Nina mzio mkali wa soya.
+    description: >-
+      Siwezi kula chakula chenye soya au bidhaa za soya, hata kwa kiasi kidogo, la sivyo nitapata
+      mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Soya inaweza kupatikana katika:'
+    foundIn:
+      - Mchuzi wa soya
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecithin ya soya
+      - Mafuta ya soya
+      - Protini za mboga
+    question: Je, chakula hiki kina soya?
+  swedish:
+    verified: false
+    allergen: Soja
+    statement: Jag har en allvarlig sojaallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller soja eller sojaprodukter, ens i små mängder, annars får
+      jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Soja kan finnas i:'
+    foundIn:
+      - Sojasås
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Sojalecitin
+      - Sojaolja
+      - Vegetabiliskt protein
+    question: Innehåller den här maten soja?
+  tagalog:
+    verified: false
+    allergen: Soy
+    statement: Mayroon akong malubhang allergy sa soy.
+    description: >-
+      Hindi ako makakain ng pagkaing may soy o produktong soy, kahit kaunti lang, o magkakaroon ako
+      ng malubhang allergic reaction at kakailanganin ang medikal na tulong.
+    foundInLabel: 'Makikita ang soy sa:'
+    foundIn:
+      - Soy sauce
+      - Tofu
+      - Edamame
+      - Miso
+      - Tempeh
+      - Soy lecithin
+      - Soybean oil
+      - Vegetable protein
+    question: May soy ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ถั่วเหลือง
+    statement: ฉันแพ้ถั่วเหลืองอย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถกินอาหารที่มีถั่วเหลืองหรือผลิตภัณฑ์จากถั่วเหลืองได้ แม้เพียงเล็กน้อย
+      มิฉะนั้นจะเกิดอาการแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ถั่วเหลืองอาจพบใน:'
+    foundIn:
+      - ซอสถั่วเหลือง
+      - เต้าหู้
+      - เอดามาเมะ
+      - มิโซะ
+      - เทมเป้
+      - เลซิทินจากถั่วเหลือง
+      - น้ำมันถั่วเหลือง
+      - โปรตีนพืช
+    question: อาหารจานนี้มีถั่วเหลืองหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Соя
+    statement: У мене важка алергія на сою.
+    description: >-
+      Я не можу їсти їжу, що містить сою або соєві продукти, навіть у невеликій кількості, інакше в
+      мене буде важка алергічна реакція і знадобиться медична допомога.
+    foundInLabel: 'Соя може міститися в:'
+    foundIn:
+      - Соєвий соус
+      - Тофу
+      - Едамаме
+      - Місо
+      - Темпе
+      - Соєвий лецитин
+      - Соєва олія
+      - Рослинний білок
+    question: Чи містить ця страва сою?
+  vietnamese:
+    verified: false
+    allergen: Đậu nành
+    statement: Tôi bị dị ứng nặng với đậu nành.
+    description: >-
+      Tôi không thể ăn thực phẩm có chứa đậu nành hoặc sản phẩm từ đậu nành, dù chỉ một lượng nhỏ,
+      nếu không tôi sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Đậu nành có thể có trong:'
+    foundIn:
+      - Nước tương
+      - Đậu phụ (tofu)
+      - Edamame
+      - Miso
+      - Tempeh
+      - Lecithin đậu nành
+      - Dầu đậu nành
+      - Protein thực vật
+    question: Món này có chứa đậu nành không?

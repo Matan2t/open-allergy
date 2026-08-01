@@ -9,15 +9,15 @@ export interface CardSideProps {
 }
 
 /**
- * One side of the card at exact CR80 physical size (85.6mm x 54mm).
- * All dimensions use mm so the browser prints it at true scale.
+ * One side of the card at exact CR80 physical size (85.6mm × 54mm).
+ * Theme A — Signal Red: black header, white body, alert-red emphasis.
  */
 export default function Card({ language, translation, emoji, personalName }: CardSideProps) {
   return (
     <div
       className="allergy-card"
       dir={language.direction}
-      lang={language.code}
+      lang={language.locale || language.code}
       role="img"
       aria-label={`${translation.allergen} allergy card in ${language.name}`}
     >
@@ -25,6 +25,18 @@ export default function Card({ language, translation, emoji, personalName }: Car
         <span className="ac-title">{language.strings.cardTitle}</span>
         <span className="ac-no-icon" aria-hidden="true">
           <span className="ac-emoji">{emoji}</span>
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="#fff" stroke="#d90429" strokeWidth="5" />
+            <line
+              x1="14"
+              y1="50"
+              x2="50"
+              y2="14"
+              stroke="#d90429"
+              strokeWidth="5.5"
+              strokeLinecap="round"
+            />
+          </svg>
         </span>
       </header>
 

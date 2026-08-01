@@ -16,7 +16,7 @@ export function getStaticPaths() {
 const { allergen, lang } = Astro.params;
 const allergenData = allergens.find((a) => a.id === allergen)!;
 const languageData = languages.find((l) => l.code === lang)!;
-const enName = allergenData.translations['en'].allergen;
+const enName = allergenData.translations['english'].allergen;
 
 const title = `${enName} allergy card in ${languageData.name} — free printable`;
 const description = `Free printable ${enName.toLowerCase()} allergy translation card in ${languageData.name}. Credit-card size, double-sided with English. Open source and verified by the community.`;

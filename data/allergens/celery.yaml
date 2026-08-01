@@ -4,12 +4,14 @@
 id: celery
 emoji: 🥬
 translations:
-  en:
+  english:
     verified: true
     allergen: Celery
     statement: I have a severe celery allergy.
-    description: I cannot eat food containing celery or celery products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Celery can be found in:"
+    description: >-
+      I cannot eat food containing celery or celery products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Celery can be found in:'
     foundIn:
       - Celery stalks
       - Celeriac (celery root)
@@ -19,13 +21,14 @@ translations:
       - Spice mixes
       - Salads
     question: Does this food contain celery?
-
-  es:
+  spanish:
     verified: false
     allergen: Apio
     statement: Tengo una alergia grave al apio.
-    description: No puedo comer alimentos que contengan apio o productos de apio, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "El apio puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan apio o productos de apio, ni siquiera en pequeñas
+      cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: 'El apio puede encontrarse en:'
     foundIn:
       - Tallos de apio
       - Apionabo (raíz de apio)
@@ -35,13 +38,14 @@ translations:
       - Mezclas de especias
       - Ensaladas
     question: ¿Este alimento contiene apio?
-
-  fr:
+  french:
     verified: false
     allergen: Céleri
     statement: J'ai une allergie sévère au céleri.
-    description: Je ne peux pas manger d'aliments contenant du céleri ou des produits à base de céleri, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Le céleri peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du céleri ou des produits à base de céleri, même en
+      petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Le céleri peut se trouver dans :'
     foundIn:
       - Céleri branche
       - Céleri-rave
@@ -51,13 +55,15 @@ translations:
       - Mélanges d'épices
       - Salades
     question: Ce plat contient-il du céleri ?
-
-  de:
+  german:
     verified: false
     allergen: Sellerie
     statement: Ich habe eine schwere Sellerieallergie.
-    description: Ich darf keine Lebensmittel essen, die Sellerie oder Sellerieprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Sellerie kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Sellerie oder Sellerieprodukte enthalten – auch nicht
+      in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche
+      Hilfe benötige.
+    foundInLabel: 'Sellerie kann enthalten sein in:'
     foundIn:
       - Stangensellerie
       - Knollensellerie
@@ -67,13 +73,15 @@ translations:
       - Gewürzmischungen
       - Salate
     question: Enthält dieses Gericht Sellerie?
-
-  it:
+  italian:
     verified: false
     allergen: Sedano
     statement: Ho una grave allergia al sedano.
-    description: Non posso mangiare alimenti che contengono sedano o prodotti a base di sedano, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "Il sedano può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono sedano o prodotti a base di sedano, nemmeno in
+      piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza
+      medica.
+    foundInLabel: 'Il sedano può trovarsi in:'
     foundIn:
       - Gambi di sedano
       - Sedano rapa
@@ -83,13 +91,14 @@ translations:
       - Miscele di spezie
       - Insalate
     question: Questo cibo contiene sedano?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Aipo
     statement: Tenho uma alergia grave ao aipo.
-    description: Não posso comer alimentos que contenham aipo ou produtos de aipo, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O aipo pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham aipo ou produtos de aipo, mesmo em pequenas
+      quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O aipo pode encontrar-se em:'
     foundIn:
       - Talos de aipo
       - Aipo-rábano (raiz de aipo)
@@ -99,13 +108,14 @@ translations:
       - Misturas de especiarias
       - Saladas
     question: Este alimento contém aipo?
-
-  el:
+  greek:
     verified: false
     allergen: Σέλινο
     statement: Πάσχω από σοβαρή αλλεργία στο σέλινο.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σέλινο ή προϊόντα σέλινου, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Το σέλινο μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν σέλινο ή προϊόντα σέλινου, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Το σέλινο μπορεί να βρίσκεται σε:'
     foundIn:
       - Κοτσάνια σέλινου
       - Σελινόριζα
@@ -115,13 +125,14 @@ translations:
       - Μείγματα μπαχαρικών
       - Σαλάτες
     question: Αυτό το φαγητό περιέχει σέλινο;
-
-  tr:
+  turkish:
     verified: false
     allergen: Kereviz
     statement: Şiddetli kereviz alerjim var.
-    description: Kereviz veya kereviz ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Kereviz şunlarda bulunabilir:"
+    description: >-
+      Kereviz veya kereviz ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde
+      şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Kereviz şunlarda bulunabilir:'
     foundIn:
       - Kereviz sapı
       - Kereviz kökü
@@ -131,13 +142,14 @@ translations:
       - Baharat karışımları
       - Salatalar
     question: Bu yemekte kereviz var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: סלרי
     statement: יש לי אלרגיה חמורה לסלרי.
-    description: אסור לי לאכול מזון המכיל סלרי או מוצרי סלרי, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "סלרי עשוי להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל סלרי או מוצרי סלרי, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'סלרי עשוי להימצא ב:'
     foundIn:
       - גבעולי סלרי
       - שורש סלרי
@@ -147,13 +159,14 @@ translations:
       - תערובות תבלינים
       - סלטים
     question: האם המנה הזו מכילה סלרי?
-
-  ar:
+  arabic:
     verified: false
     allergen: الكرفس
     statement: لديّ حساسية شديدة من الكرفس.
-    description: لا أستطيع تناول أي طعام يحتوي على الكرفس أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد الكرفس في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الكرفس أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل
+      تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد الكرفس في:'
     foundIn:
       - سيقان الكرفس
       - جذر الكرفس
@@ -163,8 +176,7 @@ translations:
       - خلطات التوابل
       - السلطات
     question: هل يحتوي هذا الطعام على الكرفس؟
-
-  ja:
+  japanese:
     verified: false
     allergen: セロリ
     statement: 私は重度のセロリアレルギーがあります。
@@ -179,8 +191,7 @@ translations:
       - ミックススパイス
       - サラダ
     question: この料理にセロリは入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 芹菜
     statement: 我对芹菜严重过敏。
@@ -195,3 +206,628 @@ translations:
       - 混合香料
       - 沙拉
     question: 这道菜含有芹菜吗？
+  bengali:
+    verified: false
+    allergen: সেলারি
+    statement: আমার তীব্র সেলারি অ্যালার্জি আছে।
+    description: >-
+      আমি সেলারি বা সেলারিজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়—নইলে তীব্র
+      অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা প্রয়োজন হবে।
+    foundInLabel: 'সেলারি পাওয়া যেতে পারে:'
+    foundIn:
+      - সেলারির ডাঁটা
+      - সেলারিয়াক (সেলারি মূল)
+      - সেলারি লবণ
+      - স্যুপ ও স্টক
+      - বুলিয়ন কিউব
+      - মশলার মিশ্রণ
+      - স্যালাড
+    question: এই খাবারে কি সেলারি আছে?
+  bulgarian:
+    verified: false
+    allergen: Целина
+    statement: Имам тежка алергия към целина.
+    description: >-
+      Не мога да ям храни, съдържащи целина или продукти от целина, дори в малки количества, иначе
+      ще имам тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Целината може да се съдържа в:'
+    foundIn:
+      - Стъбла от целина
+      - Целина корен
+      - Сол от целина
+      - Супи и бульони
+      - Бульонни кубчета
+      - Подправъчни смеси
+      - Салати
+    question: Съдържа ли тази храна целина?
+  catalan:
+    verified: false
+    allergen: Api
+    statement: Tinc una al·lèrgia greu a l'api.
+    description: >-
+      No puc menjar aliments que continguin api o productes d'api, ni tan sols en petites
+      quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'L''api es pot trobar a:'
+    foundIn:
+      - Tiges d'api
+      - Api-rave (arrel d'api)
+      - Sal d'api
+      - Sopes i caldos
+      - Cubets de caldo
+      - Mescles d'espècies
+      - Amanides
+    question: Aquest aliment conté api?
+  chinese-hong-kong:
+    verified: false
+    allergen: 芹菜
+    statement: 我對芹菜嚴重過敏。
+    description: 我不能進食含有芹菜或芹菜製品的食物，即使分量很少也不行，否則會引發嚴重過敏反應，需要求醫。
+    foundInLabel: 芹菜可能存在於：
+    foundIn:
+      - 芹菜莖
+      - 根芹（芹菜根）
+      - 芹菜鹽
+      - 湯及高湯
+      - 湯塊
+      - 混合香料
+      - 沙律
+    question: 這道菜含有芹菜嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 芹菜
+    statement: 我對芹菜嚴重過敏。
+    description: 我不能吃含有芹菜或芹菜製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 芹菜可能存在於：
+    foundIn:
+      - 芹菜莖
+      - 根芹（芹菜根）
+      - 芹菜鹽
+      - 湯和高湯
+      - 湯塊
+      - 混合香料
+      - 沙拉
+    question: 這道菜含有芹菜嗎？
+  croatian:
+    verified: false
+    allergen: Celer
+    statement: Imam tešku alergiju na celer.
+    description: >-
+      Ne smijem jesti hranu koja sadrži celer ili proizvode od celera, čak ni u malim količinama,
+      inače ću imati tešku alergijsku reakciju i trebat će mi liječnička pomoć.
+    foundInLabel: 'Celer se može nalaziti u:'
+    foundIn:
+      - Stabljike celera
+      - Korijen celera
+      - Celerova sol
+      - Juhe i temeljaci
+      - Kocke juhe
+      - Mješavine začina
+      - Salate
+    question: Sadrži li ova hrana celer?
+  czech:
+    verified: false
+    allergen: Celer
+    statement: Mám těžkou alergii na celer.
+    description: >-
+      Nesmím jíst potraviny obsahující celer nebo celerové výrobky, ani v malém množství, jinak budu
+      mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Celer se může vyskytovat v:'
+    foundIn:
+      - Řapíkatý celer
+      - Celer bulvový
+      - Celerová sůl
+      - Polévky a vývary
+      - Bujónové kostky
+      - Kořenící směsi
+      - Saláty
+    question: Obsahuje toto jídlo celer?
+  danish:
+    verified: false
+    allergen: Selleri
+    statement: Jeg har en alvorlig selleriallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder selleri eller selleriprodukter, selv i små mængder, da
+      jeg ellers får en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Selleri kan findes i:'
+    foundIn:
+      - Bladselleri
+      - Knoldselleri
+      - Sellerisalt
+      - Supper og fond
+      - Bouillonterninger
+      - Krydderiblandinger
+      - Salater
+    question: Indeholder denne mad selleri?
+  dutch:
+    verified: false
+    allergen: Selderij
+    statement: Ik heb een ernstige selderijallergie.
+    description: >-
+      Ik mag geen voedsel eten dat selderij of selderijproducten bevat, ook niet in kleine
+      hoeveelheden, anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Selderij kan voorkomen in:'
+    foundIn:
+      - Bleekselderij
+      - Knolselderij
+      - Selderijzout
+      - Soepen en bouillons
+      - Bouillonblokjes
+      - Kruidenmengsels
+      - Salades
+    question: Bevat dit gerecht selderij?
+  estonian:
+    verified: false
+    allergen: Seller
+    statement: Mul on raske selleriallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab sellerit või selleritooteid, isegi väikeses koguses, muidu
+      tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Sellerit võib leida:'
+    foundIn:
+      - Varseller
+      - Juurseller
+      - Sellerisool
+      - Supid ja puljongid
+      - Puljongikuubikud
+      - Vürtsisegud
+      - Salatid
+    question: Kas selles toidus on sellerit?
+  finnish:
+    verified: false
+    allergen: Selleri
+    statement: Minulla on vakava selleriallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää selleriä tai sellerituotteita, edes pieninä määrinä, muuten
+      saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Selleriä voi olla:'
+    foundIn:
+      - Varsiselleri
+      - Juuriselleri
+      - Sellerisuola
+      - Keitot ja liemet
+      - Liemikuutiot
+      - Mausteseokset
+      - Salaatit
+    question: Sisältääkö tämä ruoka selleriä?
+  hindi:
+    verified: false
+    allergen: सेलरी
+    statement: मुझे गंभीर सेलरी एलर्जी है।
+    description: >-
+      मैं सेलरी या सेलरी उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो—अन्यथा
+      गंभीर एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'सेलरी इनमें मिल सकती है:'
+    foundIn:
+      - सेलरी के डंठल
+      - सेलेरियाक (सेलरी जड़)
+      - सेलरी नमक
+      - सूप और स्टॉक
+      - बुलियन क्यूब
+      - मसाला मिश्रण
+      - सलाद
+    question: क्या इस भोजन में सेलरी है?
+  hungarian:
+    verified: false
+    allergen: Zeller
+    statement: Súlyos zellerallergiám van.
+    description: >-
+      Nem ehetek zellert vagy zellertermékeket tartalmazó ételeket, még kis mennyiségben sem,
+      különben súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'A zeller megtalálható:'
+    foundIn:
+      - Szárzeller
+      - Gumós zeller
+      - Zellersó
+      - Levesek és alaplevek
+      - Leveskockák
+      - Fűszerkeverékek
+      - Saláták
+    question: Tartalmaz ez az étel zellert?
+  icelandic:
+    verified: false
+    allergen: Sellerí
+    statement: Ég er með alvarlegt selleríofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur sellerí eða sellerívörur, jafnvel í litlu magni, annars
+      fæ ég alvarleg ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Sellerí getur verið í:'
+    foundIn:
+      - Sellerístilkar
+      - Sellerírót
+      - Sellerísalt
+      - Súpur og soð
+      - Súpukubbar
+      - Kryddblöndur
+      - Salat
+    question: Inniheldur þessi matur sellerí?
+  indonesian:
+    verified: false
+    allergen: Seledri
+    statement: Saya memiliki alergi seledri yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung seledri atau produk seledri, bahkan dalam
+      jumlah kecil, atau saya akan mengalami reaksi alergi parah dan membutuhkan perawatan medis.
+    foundInLabel: 'Seledri dapat ditemukan dalam:'
+    foundIn:
+      - Batang seledri
+      - Akar seledri (celeriac)
+      - Garam seledri
+      - Sup dan kaldu
+      - Kaldu blok
+      - Campuran rempah
+      - Salad
+    question: Apakah makanan ini mengandung seledri?
+  khmer:
+    verified: false
+    allergen: ខែលេរី
+    statement: ខ្ញុំមានអាឡែហ្ស៊ីខែលេរីធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានខែលេរី ឬផលិតផលខែលេរីបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នោះទេខ្ញុំនឹងមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរ និងត្រូវការការថែទាំវេជ្ជសាស្ត្រ។
+    foundInLabel: 'ខែលេរីអាចមាននៅក្នុង:'
+    foundIn:
+      - ដើមខែលេរី
+      - ឫសខែលេរី
+      - អំបិលខែលេរី
+      - ស៊ុប និងទឹកសាច់
+      - គុម្ពទឹកសាច់
+      - ល្បាយគ្រឿងទេស
+      - សាឡាត់
+    question: ម្ហូបនេះមានខែលេរីទេ?
+  korean:
+    verified: false
+    allergen: 셀러리
+    statement: 저는 심한 셀러리 알레르기가 있습니다.
+    description: 셀러리나 셀러리 제품이 들어 있는 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '셀러리가 들어 있을 수 있는 것:'
+    foundIn:
+      - 셀러리 줄기
+      - 셀러리악(셀러리 뿌리)
+      - 셀러리 솔트
+      - 수프·육수
+      - 육수 큐브
+      - 향신료 믹스
+      - 샐러드
+    question: 이 음식에 셀러리가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ຜັກເຊເລີຣີ
+    statement: ຂ້ອຍມີອາການແພ້ຜັກເຊເລີຣີຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີຜັກເຊເລີຣີ ຫຼື ຜະລິດຕະພັນຈາກຜັກເຊເລີຣີໄດ້ ເຖິງແມ່ນຈຳນວນນ້ອຍໆ,
+      ບໍ່ດັ່ງນັ້ນຈະມີອາການແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ຜັກເຊເລີຣີອາດພົບໃນ:'
+    foundIn:
+      - ລຳຕົ້ນເຊເລີຣີ
+      - ຮາກເຊເລີຣີ
+      - ເກືອເຊເລີຣີ
+      - ຊຸບ ແລະ ຊຸບກ້ອນ
+      - ກ້ອນຊຸບ
+      - ເຄືອງເທດປະສົມ
+      - ສະຫຼັດ
+    question: ອາຫານນີ້ມີຜັກເຊເລີຣີບໍ?
+  latvian:
+    verified: false
+    allergen: Selerija
+    statement: Man ir smaga alerģija pret seleriju.
+    description: >-
+      Es nedrīkstu ēst pārtiku, kas satur seleriju vai selerijas produktus, pat nelielā daudzumā,
+      citādi man būs smaga alerģiska reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Selerija var būt:'
+    foundIn:
+      - Selerijas kāti
+      - Sakņu selerija
+      - Selerijas sāls
+      - Zupas un buljoni
+      - Buljona kubiņi
+      - Garšvielu maisījumi
+      - Salāti
+    question: Vai šajā ēdienā ir selerija?
+  lithuanian:
+    verified: false
+    allergen: Salieras
+    statement: Turiu sunkią alergiją salierui.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra saliero ar saliero produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Saliero gali būti:'
+    foundIn:
+      - Saliero stiebai
+      - Saliero šaknis
+      - Saliero druska
+      - Sriubos ir sultiniai
+      - Sultinio kubeliai
+      - Prieskonių mišiniai
+      - Salotos
+    question: Ar šiame maiste yra saliero?
+  macedonian:
+    verified: false
+    allergen: Целер
+    statement: Имам тешка алергија на целер.
+    description: >-
+      Не можам да јадам храна што содржи целер или производи од целер, дури ни во мали количини,
+      инаку ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Целерот може да се најде во:'
+    foundIn:
+      - Стебла од целер
+      - Корен од целер
+      - Сол од целер
+      - Супи и чорби
+      - Коцки супа
+      - Мешавини зачини
+      - Салати
+    question: Дали оваа храна содржи целер?
+  malay:
+    verified: false
+    allergen: Saderi
+    statement: Saya mempunyai alahan saderi yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi saderi atau produk saderi, walaupun dalam
+      jumlah kecil, atau saya akan mengalami tindak balas alahan yang teruk dan memerlukan rawatan
+      perubatan.
+    foundInLabel: 'Saderi boleh dijumpai dalam:'
+    foundIn:
+      - Batang saderi
+      - Akar saderi (celeriac)
+      - Garam saderi
+      - Sup dan stok
+      - Kiub kuah
+      - Campuran rempah
+      - Salad
+    question: Adakah makanan ini mengandungi saderi?
+  maltese:
+    verified: false
+    allergen: Sedanu
+    statement: Għandi allerġija severa għas-sedanu.
+    description: >-
+      Ma nistax niekol ikel li fih sedanu jew prodotti tas-sedanu, anke f'ammonti żgħar, inkella se
+      jkolli reazzjoni allerġika severa u se jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Is-sedanu jista'' jinstab fi:'
+    foundIn:
+      - Zkuk tas-sedanu
+      - Għerq tas-sedanu
+      - Melħ tas-sedanu
+      - Sopop u stocks
+      - Kubi tal-brodu
+      - Taħlitiet ta' ħwawar
+      - Insalati
+    question: Dan l-ikel fih sedanu?
+  norwegian:
+    verified: false
+    allergen: Selleri
+    statement: Jeg har en alvorlig selleriallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder selleri eller selleriprodukter, selv i små mengder,
+      ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Selleri kan finnes i:'
+    foundIn:
+      - Stilkselleri
+      - Sellerirot
+      - Sellerisalt
+      - Supper og kraft
+      - Buljongterninger
+      - Krydderblandinger
+      - Salater
+    question: Inneholder denne maten selleri?
+  polish:
+    verified: false
+    allergen: Seler
+    statement: Mam ciężką alergię na seler.
+    description: >-
+      Nie mogę jeść żywności zawierającej seler lub produkty z selera, nawet w małych ilościach, w
+      przeciwnym razie wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Seler może występować w:'
+    foundIn:
+      - Łodygi selera
+      - Seler korzeniowy
+      - Sól selerowa
+      - Zupy i wywary
+      - Kostki rosołowe
+      - Mieszanki przypraw
+      - Sałatki
+    question: Czy to danie zawiera seler?
+  portuguese-brazil:
+    verified: false
+    allergen: Salsão
+    statement: Tenho alergia grave ao salsão.
+    description: >-
+      Não posso comer alimentos que contenham salsão ou produtos de salsão, mesmo em pequenas
+      quantidades, senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O salsão pode ser encontrado em:'
+    foundIn:
+      - Talos de salsão
+      - Raiz de salsão (aipo-rábano)
+      - Sal de salsão
+      - Sopas e caldos
+      - Cubos de caldo
+      - Misturas de temperos
+      - Saladas
+    question: Este alimento contém salsão?
+  romanian:
+    verified: false
+    allergen: Țelină
+    statement: Am o alergie severă la țelină.
+    description: >-
+      Nu pot mânca alimente care conțin țelină sau produse din țelină, nici măcar în cantități mici,
+      altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Țelina poate fi găsită în:'
+    foundIn:
+      - Tulpină de țelină
+      - Țelină rădăcină
+      - Sare de țelină
+      - Supe și fonduri
+      - Cuburi de bulion
+      - Amestecuri de condimente
+      - Salate
+    question: Acest aliment conține țelină?
+  russian:
+    verified: false
+    allergen: Сельдерей
+    statement: У меня тяжёлая аллергия на сельдерей.
+    description: >-
+      Я не могу есть продукты, содержащие сельдерей или продукты из сельдерея, даже в небольших
+      количествах, иначе у меня будет тяжёлая аллергическая реакция и потребуется медицинская
+      помощь.
+    foundInLabel: 'Сельдерей может содержаться в:'
+    foundIn:
+      - Стебли сельдерея
+      - Корневой сельдерей
+      - Сельдерейная соль
+      - Супы и бульоны
+      - Бульонные кубики
+      - Смеси специй
+      - Салаты
+    question: Содержит ли это блюдо сельдерей?
+  serbian:
+    verified: false
+    allergen: Целер
+    statement: Имам тешку алергију на целер.
+    description: >-
+      Не смем да једем храну која садржи целер или производе од целера, чак ни у малим количинама,
+      иначе ћу имати тешку алергијску реакцију и требаће ми лекарска помоћ.
+    foundInLabel: 'Целер може бити у:'
+    foundIn:
+      - Стабљике целера
+      - Корен целера
+      - Со од целера
+      - Супе и темељци
+      - Коцке супе
+      - Мешавине зачина
+      - Салате
+    question: Да ли ова храна садржи целер?
+  slovak:
+    verified: false
+    allergen: Zeler
+    statement: Mám ťažkú alergiu na zeler.
+    description: >-
+      Nesmím jesť potraviny obsahujúce zeler alebo zelerové výrobky, ani v malom množstve, inak
+      budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Zeler sa môže nachádzať v:'
+    foundIn:
+      - Stopkový zeler
+      - Zelerová buľva
+      - Zelerová soľ
+      - Polievky a vývary
+      - Bujónové kocky
+      - Koreninové zmesi
+      - Šaláty
+    question: Obsahuje toto jedlo zeler?
+  slovenian:
+    verified: false
+    allergen: Zelena
+    statement: Imam hudo alergijo na zeleno.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje zeleno ali izdelke iz zelene, niti v majhnih količinah, sicer
+      bom imel/a hudo alergijsko reakcijo in potreboval/a zdravniško pomoč.
+    foundInLabel: 'Zelena se lahko nahaja v:'
+    foundIn:
+      - Peclji zelene
+      - Koren zelene
+      - Sol zelene
+      - Juhe in jušne osnove
+      - Jušne kocke
+      - Mešanice začimb
+      - Solate
+    question: Ali ta jed vsebuje zeleno?
+  swahili:
+    verified: false
+    allergen: Seleri
+    statement: Nina mzio mkali wa seleri.
+    description: >-
+      Siwezi kula chakula chenye seleri au bidhaa za seleri, hata kwa kiasi kidogo, la sivyo
+      nitapata mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Seleri inaweza kupatikana katika:'
+    foundIn:
+      - Shina za seleri
+      - Mzizi wa seleri
+      - Chumvi ya seleri
+      - Supu na stoki
+      - Vijiti vya bulyoni
+      - Michanganyiko ya viungo
+      - Saladi
+    question: Je, chakula hiki kina seleri?
+  swedish:
+    verified: false
+    allergen: Selleri
+    statement: Jag har en allvarlig selleriallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller selleri eller selleriprodukter, ens i små mängder, annars
+      får jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Selleri kan finnas i:'
+    foundIn:
+      - Stjälkselleri
+      - Rotselleri
+      - Sellerisalt
+      - Soppor och buljong
+      - Buljongtärningar
+      - Kryddblandningar
+      - Sallader
+    question: Innehåller den här maten selleri?
+  tagalog:
+    verified: false
+    allergen: Celery
+    statement: Mayroon akong malubhang allergy sa celery.
+    description: >-
+      Hindi ako makakain ng pagkaing may celery o produktong celery, kahit kaunti lang, o
+      magkakaroon ako ng malubhang allergic reaction at kakailanganin ang medikal na tulong.
+    foundInLabel: 'Makikita ang celery sa:'
+    foundIn:
+      - Celery stalks
+      - Celeriac (celery root)
+      - Celery salt
+      - Mga sopas at stock
+      - Bouillon cubes
+      - Mga halo ng pampalasa
+      - Mga salad
+    question: May celery ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ขึ้นฉ่าย
+    statement: ฉันแพ้ขึ้นฉ่ายอย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถกินอาหารที่มีขึ้นฉ่ายหรือผลิตภัณฑ์จากขึ้นฉ่ายได้ แม้เพียงเล็กน้อย
+      มิฉะนั้นจะเกิดอาการแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ขึ้นฉ่ายอาจพบใน:'
+    foundIn:
+      - ก้านขึ้นฉ่าย
+      - รากขึ้นฉ่าย
+      - เกลือขึ้นฉ่าย
+      - ซุปและน้ำสต็อก
+      - ก้อนซุป
+      - เครื่องเทศผสม
+      - สลัด
+    question: อาหารจานนี้มีขึ้นฉ่ายหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Селера
+    statement: У мене важка алергія на селеру.
+    description: >-
+      Я не можу їсти їжу, що містить селеру або продукти з селери, навіть у невеликій кількості,
+      інакше в мене буде важка алергічна реакція і знадобиться медична допомога.
+    foundInLabel: 'Селера може міститися в:'
+    foundIn:
+      - Стебла селери
+      - Коренева селера
+      - Селерова сіль
+      - Супи та бульйони
+      - Бульйонні кубики
+      - Суміші спецій
+      - Салати
+    question: Чи містить ця страва селеру?
+  vietnamese:
+    verified: false
+    allergen: Cần tây
+    statement: Tôi bị dị ứng nặng với cần tây.
+    description: >-
+      Tôi không thể ăn thực phẩm có chứa cần tây hoặc sản phẩm từ cần tây, dù chỉ một lượng nhỏ, nếu
+      không tôi sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Cần tây có thể có trong:'
+    foundIn:
+      - Thân cần tây
+      - Củ cần tây
+      - Muối cần tây
+      - Súp và nước dùng
+      - Viên nước dùng
+      - Hỗn hợp gia vị
+      - Salad
+    question: Món này có chứa cần tây không?

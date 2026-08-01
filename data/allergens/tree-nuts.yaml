@@ -4,12 +4,15 @@
 id: tree-nuts
 emoji: 🌰
 translations:
-  en:
+  english:
     verified: true
     allergen: Tree nuts
     statement: I have a severe tree nut allergy.
-    description: I cannot eat food containing tree nuts such as almonds, walnuts, cashews, hazelnuts, pistachios or pecans, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Tree nuts can be found in:"
+    description: >-
+      I cannot eat food containing tree nuts such as almonds, walnuts, cashews, hazelnuts,
+      pistachios or pecans, even in small amounts, or I will have a severe allergic reaction and
+      require medical attention.
+    foundInLabel: 'Tree nuts can be found in:'
     foundIn:
       - Almonds
       - Walnuts
@@ -20,13 +23,15 @@ translations:
       - Nut oils
       - Desserts & baked goods
     question: Does this food contain tree nuts?
-
-  es:
+  spanish:
     verified: false
     allergen: Frutos secos
     statement: Tengo una alergia grave a los frutos secos.
-    description: No puedo comer alimentos que contengan frutos secos como almendras, nueces, anacardos, avellanas, pistachos o nueces pecanas, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "Los frutos secos pueden encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan frutos secos como almendras, nueces, anacardos,
+      avellanas, pistachos o nueces pecanas, ni siquiera en pequeñas cantidades, ya que sufriría una
+      reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: 'Los frutos secos pueden encontrarse en:'
     foundIn:
       - Almendras
       - Nueces
@@ -37,13 +42,15 @@ translations:
       - Aceites de frutos secos
       - Postres y repostería
     question: ¿Este alimento contiene frutos secos?
-
-  fr:
+  french:
     verified: false
     allergen: Fruits à coque
     statement: J'ai une allergie sévère aux fruits à coque.
-    description: Je ne peux pas manger d'aliments contenant des fruits à coque comme les amandes, les noix, les noix de cajou, les noisettes, les pistaches ou les noix de pécan, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Les fruits à coque peuvent se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant des fruits à coque comme les amandes, les noix, les
+      noix de cajou, les noisettes, les pistaches ou les noix de pécan, même en petites quantités,
+      sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Les fruits à coque peuvent se trouver dans :'
     foundIn:
       - Amandes
       - Noix
@@ -54,13 +61,15 @@ translations:
       - Huiles de fruits à coque
       - Desserts et pâtisseries
     question: Ce plat contient-il des fruits à coque ?
-
-  de:
+  german:
     verified: false
     allergen: Schalenfrüchte (Nüsse)
     statement: Ich habe eine schwere Nussallergie.
-    description: Ich darf keine Lebensmittel essen, die Schalenfrüchte wie Mandeln, Walnüsse, Cashewkerne, Haselnüsse, Pistazien oder Pekannüsse enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Nüsse können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Schalenfrüchte wie Mandeln, Walnüsse, Cashewkerne,
+      Haselnüsse, Pistazien oder Pekannüsse enthalten – auch nicht in kleinen Mengen –, da ich sonst
+      eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: 'Nüsse können enthalten sein in:'
     foundIn:
       - Mandeln
       - Walnüsse
@@ -71,13 +80,15 @@ translations:
       - Nussöle
       - Desserts und Backwaren
     question: Enthält dieses Gericht Nüsse?
-
-  it:
+  italian:
     verified: false
     allergen: Frutta a guscio
     statement: Ho una grave allergia alla frutta a guscio.
-    description: Non posso mangiare alimenti che contengono frutta a guscio come mandorle, noci, anacardi, nocciole, pistacchi o noci pecan, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "La frutta a guscio può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono frutta a guscio come mandorle, noci, anacardi,
+      nocciole, pistacchi o noci pecan, nemmeno in piccole quantità, altrimenti avrò una grave
+      reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: 'La frutta a guscio può trovarsi in:'
     foundIn:
       - Mandorle
       - Noci
@@ -88,13 +99,15 @@ translations:
       - Oli di frutta a guscio
       - Dolci e prodotti da forno
     question: Questo cibo contiene frutta a guscio?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Frutos de casca rija
     statement: Tenho uma alergia grave a frutos de casca rija.
-    description: Não posso comer alimentos que contenham frutos de casca rija, como amêndoas, nozes, cajus, avelãs, pistácios ou nozes-pecã, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "Os frutos de casca rija podem encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham frutos de casca rija, como amêndoas, nozes, cajus,
+      avelãs, pistácios ou nozes-pecã, mesmo em pequenas quantidades, pois terei uma reação alérgica
+      grave e precisarei de assistência médica.
+    foundInLabel: 'Os frutos de casca rija podem encontrar-se em:'
     foundIn:
       - Amêndoas
       - Nozes
@@ -105,13 +118,15 @@ translations:
       - Óleos de frutos secos
       - Sobremesas e produtos de pastelaria
     question: Este alimento contém frutos de casca rija?
-
-  el:
+  greek:
     verified: false
     allergen: Ξηροί καρποί
     statement: Πάσχω από σοβαρή αλλεργία στους ξηρούς καρπούς.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν ξηρούς καρπούς όπως αμύγδαλα, καρύδια, κάσιους, φουντούκια, φιστίκια Αιγίνης ή πεκάν, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Οι ξηροί καρποί μπορεί να βρίσκονται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν ξηρούς καρπούς όπως αμύγδαλα, καρύδια, κάσιους,
+      φουντούκια, φιστίκια Αιγίνης ή πεκάν, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή
+      αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Οι ξηροί καρποί μπορεί να βρίσκονται σε:'
     foundIn:
       - Αμύγδαλα
       - Καρύδια
@@ -122,13 +137,15 @@ translations:
       - Έλαια ξηρών καρπών
       - Επιδόρπια και αρτοσκευάσματα
     question: Αυτό το φαγητό περιέχει ξηρούς καρπούς;
-
-  tr:
+  turkish:
     verified: false
     allergen: Sert kabuklu yemişler
     statement: Şiddetli sert kabuklu yemiş (kuruyemiş) alerjim var.
-    description: Badem, ceviz, kaju, fındık, Antep fıstığı veya pekan gibi sert kabuklu yemişler içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Sert kabuklu yemişler şunlarda bulunabilir:"
+    description: >-
+      Badem, ceviz, kaju, fındık, Antep fıstığı veya pekan gibi sert kabuklu yemişler içeren
+      yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve
+      tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Sert kabuklu yemişler şunlarda bulunabilir:'
     foundIn:
       - Badem
       - Ceviz
@@ -139,13 +156,14 @@ translations:
       - Kuruyemiş yağları
       - Tatlılar ve unlu mamuller
     question: Bu yemekte sert kabuklu yemiş var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: אגוזים
     statement: יש לי אלרגיה חמורה לאגוזים.
-    description: אסור לי לאכול מזון המכיל אגוזים כגון שקדים, אגוזי מלך, קשיו, אגוזי לוז, פיסטוקים או פקאן, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "אגוזים עשויים להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל אגוזים כגון שקדים, אגוזי מלך, קשיו, אגוזי לוז, פיסטוקים או פקאן,
+      אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'אגוזים עשויים להימצא ב:'
     foundIn:
       - שקדים
       - אגוזי מלך
@@ -156,13 +174,14 @@ translations:
       - שמני אגוזים
       - קינוחים ומאפים
     question: האם המנה הזו מכילה אגוזים?
-
-  ar:
+  arabic:
     verified: false
     allergen: المكسرات
     statement: لديّ حساسية شديدة من المكسرات.
-    description: لا أستطيع تناول أي طعام يحتوي على المكسرات مثل اللوز والجوز والكاجو والبندق والفستق والبقان، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد توجد المكسرات في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على المكسرات مثل اللوز والجوز والكاجو والبندق والفستق والبقان،
+      ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد توجد المكسرات في:'
     foundIn:
       - اللوز
       - الجوز (عين الجمل)
@@ -173,12 +192,12 @@ translations:
       - زيوت المكسرات
       - الحلويات والمخبوزات
     question: هل يحتوي هذا الطعام على المكسرات؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 木の実（ナッツ類）
     statement: 私は重度の木の実（ナッツ類）アレルギーがあります。
-    description: アーモンド、くるみ、カシューナッツ、ヘーゼルナッツ、ピスタチオ、ピーカンナッツなどの木の実を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    description: >-
+      アーモンド、くるみ、カシューナッツ、ヘーゼルナッツ、ピスタチオ、ピーカンナッツなどの木の実を含む食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
     foundInLabel: 木の実（ナッツ類）が含まれる可能性のあるもの：
     foundIn:
       - アーモンド
@@ -190,8 +209,7 @@ translations:
       - ナッツオイル
       - デザート・焼き菓子
     question: この料理にナッツ類は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 坚果
     statement: 我对坚果严重过敏。
@@ -207,3 +225,692 @@ translations:
       - 坚果油
       - 甜点和烘焙食品
     question: 这道菜含有坚果吗？
+  bengali:
+    verified: false
+    allergen: বাদাম (গাছের বাদাম)
+    statement: আমার গাছের বাদামে তীব্র অ্যালার্জি আছে।
+    description: >-
+      আমি গাছের বাদামযুক্ত খাবার খেতে পারি না, যেমন বাদাম, আখরোট, কাজু, হ্যাজেলনাট, পেস্তা বা পেকান,
+      এমনকি অল্প পরিমাণেও নয়; খেলে তীব্র অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'গাছের বাদাম পাওয়া যেতে পারে:'
+    foundIn:
+      - বাদাম (আলমন্ড)
+      - আখরোট
+      - কাজু
+      - হ্যাজেলনাট
+      - পেস্তা
+      - পেস্তো
+      - বাদামের তেল
+      - মিষ্টি ও বেকড খাবার
+    question: এই খাবারে কি গাছের বাদাম আছে?
+  bulgarian:
+    verified: false
+    allergen: Ядки
+    statement: Имам тежка алергия към ядки.
+    description: >-
+      Не мога да ям храни, съдържащи ядки като бадеми, орехи, кашу, лешници, шамфъстък или пеканови
+      ядки, дори в малки количества, иначе ще имам тежка алергична реакция и ще ми трябва медицинска
+      помощ.
+    foundInLabel: 'Ядките могат да се съдържат в:'
+    foundIn:
+      - Бадеми
+      - Орехи
+      - Кашу
+      - Лешници
+      - Шамфъстък
+      - Песто
+      - Ядкови масла
+      - Десерти и печени изделия
+    question: Съдържа ли тази храна ядки?
+  catalan:
+    verified: false
+    allergen: Fruits secs
+    statement: Tinc una al·lèrgia greu als fruits secs.
+    description: >-
+      No puc menjar aliments que continguin fruits secs com ametlles, nous, anacards, avellanes,
+      pistatxos o nous pecanes, ni tan sols en petites quantitats, o tindré una reacció al·lèrgica
+      greu i necessitaré atenció mèdica.
+    foundInLabel: 'Els fruits secs es poden trobar a:'
+    foundIn:
+      - Ametlles
+      - Nous
+      - Anacards
+      - Avellanes
+      - Pistatxos
+      - Pesto
+      - Olis de fruits secs
+      - Postres i productes de forn
+    question: Aquest aliment conté fruits secs?
+  chinese-hong-kong:
+    verified: false
+    allergen: 樹堅果
+    statement: 我對樹堅果嚴重過敏。
+    description: 我不能進食含有樹堅果的食物，例如杏仁、核桃、腰果、榛子、開心果或碧根果，即使分量很少也不行，否則會引起嚴重過敏反應，需要求醫。
+    foundInLabel: 樹堅果可能存在於：
+    foundIn:
+      - 杏仁
+      - 核桃
+      - 腰果
+      - 榛子
+      - 開心果
+      - 香蒜醬（pesto）
+      - 堅果油
+      - 甜品及烘焙食品
+    question: 這道菜含有樹堅果嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 樹堅果
+    statement: 我對樹堅果嚴重過敏。
+    description: 我不能食用含有樹堅果的食物，例如杏仁、核桃、腰果、榛果、開心果或胡桃，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 樹堅果可能存在於：
+    foundIn:
+      - 杏仁
+      - 核桃
+      - 腰果
+      - 榛果
+      - 開心果
+      - 青醬（pesto）
+      - 堅果油
+      - 甜點與烘焙食品
+    question: 這道菜含有樹堅果嗎？
+  croatian:
+    verified: false
+    allergen: Orašasti plodovi
+    statement: Imam tešku alergiju na orašaste plodove.
+    description: >-
+      Ne smijem jesti hranu koja sadrži orašaste plodove poput badema, oraha, indijskih oraščića,
+      lješnjaka, pistacija ili pekana, čak ni u malim količinama, inače ću imati tešku alergijsku
+      reakciju i trebat ću liječničku pomoć.
+    foundInLabel: 'Orašasti plodovi mogu se nalaziti u:'
+    foundIn:
+      - Bademi
+      - Orasi
+      - Indijski oraščići
+      - Lješnjaci
+      - Pistacije
+      - Pesto
+      - Ulja od orašastih plodova
+      - Deserti i peciva
+    question: Sadrži li ova hrana orašaste plodove?
+  czech:
+    verified: false
+    allergen: Skořápkové plody
+    statement: Mám těžkou alergii na skořápkové plody.
+    description: >-
+      Nesmím jíst potraviny obsahující skořápkové plody, jako jsou mandle, vlašské ořechy, kešu,
+      lískové ořechy, pistácie nebo pekanové ořechy, ani v malém množství, jinak budu mít těžkou
+      alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Skořápkové plody se mohou vyskytovat v:'
+    foundIn:
+      - Mandle
+      - Vlašské ořechy
+      - Kešu
+      - Lískové ořechy
+      - Pistácie
+      - Pesto
+      - Ořechové oleje
+      - Dezerty a pečivo
+    question: Obsahuje toto jídlo skořápkové plody?
+  danish:
+    verified: false
+    allergen: Trænødder
+    statement: Jeg har en alvorlig trænøddeallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder trænødder som mandler, valnødder, cashewnødder,
+      hasselnødder, pistacienødder eller pekannødder, heller ikke i små mængder, ellers får jeg en
+      alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Trænødder kan findes i:'
+    foundIn:
+      - Mandler
+      - Valnødder
+      - Cashewnødder
+      - Hasselnødder
+      - Pistacienødder
+      - Pesto
+      - Nøddeolier
+      - Desserter og bagværk
+    question: Indeholder denne mad trænødder?
+  dutch:
+    verified: false
+    allergen: Noten
+    statement: Ik heb een ernstige notenallergie.
+    description: >-
+      Ik mag geen voedsel eten dat noten bevat, zoals amandelen, walnoten, cashewnoten, hazelnoten,
+      pistachenoten of pecannoten, ook niet in kleine hoeveelheden, anders krijg ik een ernstige
+      allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Noten kunnen voorkomen in:'
+    foundIn:
+      - Amandelen
+      - Walnoten
+      - Cashewnoten
+      - Hazelnoten
+      - Pistachenoten
+      - Pesto
+      - Notenoliën
+      - Desserts en gebak
+    question: Bevat dit gerecht noten?
+  estonian:
+    verified: false
+    allergen: Pähklid
+    statement: Mul on raske pähkliallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab pähkleid, nagu mandlid, kreeka pähklid, india pähklid,
+      sarapuupähklid, pistaatsiad või pekanipähklid, isegi väikestes kogustes, muidu tekib mul raske
+      allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Pähkleid võib leiduda:'
+    foundIn:
+      - Mandlid
+      - Kreeka pähklid
+      - India pähklid
+      - Sarapuupähklid
+      - Pistaatsiad
+      - Pesto
+      - Pähkliõlid
+      - Magustoidud ja küpsetised
+    question: Kas selles toidus on pähkleid?
+  finnish:
+    verified: false
+    allergen: Pähkinät
+    statement: Minulla on vakava pähkinäallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää pähkinöitä, kuten manteleita, saksanpähkinöitä,
+      cashewpähkinöitä, hasselpähkinöitä, pistaasipähkinöitä tai pekaanipähkinöitä, edes pieniä
+      määriä, muuten saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Pähkinää voi olla:'
+    foundIn:
+      - Mantelit
+      - Saksanpähkinät
+      - Cashewpähkinät
+      - Hasselpähkinät
+      - Pistaasipähkinät
+      - Pesto
+      - Pähkinäöljyt
+      - Jälkiruoat ja leivonnaiset
+    question: Sisältääkö tämä ruoka pähkinöitä?
+  hindi:
+    verified: false
+    allergen: वृक्ष मेवे
+    statement: मुझे वृक्ष मेवों से गंभीर एलर्जी है।
+    description: >-
+      मैं बादाम, अखरोट, काजू, हेज़लनट, पिस्ता या पेकान जैसे वृक्ष मेवों वाला खाना नहीं खा सकता/सकती,
+      भले ही मात्रा कम हो; नहीं तो गंभीर एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता लगेगी।
+    foundInLabel: 'वृक्ष मेवे इनमें मिल सकते हैं:'
+    foundIn:
+      - बादाम
+      - अखरोट
+      - काजू
+      - हेज़लनट
+      - पिस्ता
+      - पेस्टो
+      - मेवों का तेल
+      - मिठाई और बेकरी वस्तुएँ
+    question: क्या इस खाने में वृक्ष मेवे हैं?
+  hungarian:
+    verified: false
+    allergen: Diófélék
+    statement: Súlyos dióféle-allergiám van.
+    description: >-
+      Nem ehetek dióféléket tartalmazó ételt, például mandulát, diót, kesudiót, mogyorót, pisztáciát
+      vagy pekándiót, még kis mennyiségben sem, különben súlyos allergiás reakcióm lesz, és orvosi
+      segítségre lesz szükségem.
+    foundInLabel: 'A diófélék megtalálhatók:'
+    foundIn:
+      - Mandula
+      - Dió
+      - Kesudió
+      - Mogyoró
+      - Pisztácia
+      - Pesto
+      - Dióolajok
+      - Desszertek és sütemények
+    question: Tartalmaz ez az étel dióféléket?
+  icelandic:
+    verified: false
+    allergen: Trjáhnetur
+    statement: Ég er með alvarlegt trjáhnetuofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur trjáhnetur eins og möndlur, valhnetur, kasjúhnetur,
+      heslihnetur, pistasíuhnetur eða pekanhnetur, jafnvel í litlu magni, annars fæ ég alvarleg
+      ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Trjáhnetur geta verið í:'
+    foundIn:
+      - Möndlur
+      - Valhnetur
+      - Kasjúhnetur
+      - Heslihnetur
+      - Pistasíuhnetur
+      - Pesto
+      - Hnetuolíur
+      - Eftirréttir og bakstur
+    question: Inniheldur þessi matur trjáhnetur?
+  indonesian:
+    verified: false
+    allergen: Kacang pohon
+    statement: Saya memiliki alergi kacang pohon yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung kacang pohon seperti almond, kenari, mete,
+      hazelnut, pistachio, atau pecan, bahkan dalam jumlah kecil, atau saya akan mengalami reaksi
+      alergi yang parah dan membutuhkan perawatan medis.
+    foundInLabel: 'Kacang pohon dapat ditemukan dalam:'
+    foundIn:
+      - Almond
+      - Kenari
+      - Kacang mete
+      - Hazelnut
+      - Pistachio
+      - Pesto
+      - Minyak kacang
+      - Dessert dan kue
+    question: Apakah makanan ini mengandung kacang pohon?
+  khmer:
+    verified: false
+    allergen: គ្រាប់ឈើ
+    statement: ខ្ញុំមានអាលែហ្សីគ្រាប់ឈើធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានគ្រាប់ឈើដូចជា អាល់ម៉ុន គ្រាប់វ៉ាល់ណាត់ គ្រាប់ស្វាយចន្ទី ហេហ្សែលណាត់
+      ពីស្តាស្យូ ឬ ផេខេន បានទេ ទោះបីតិចតួចក៏ដោយ បើមិនដូច្នោះទេនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ
+      និងត្រូវការព្យាបាល។
+    foundInLabel: គ្រាប់ឈើអាចមាននៅក្នុង៖
+    foundIn:
+      - អាល់ម៉ុន
+      - គ្រាប់វ៉ាល់ណាត់
+      - គ្រាប់ស្វាយចន្ទី
+      - ហេហ្សែលណាត់
+      - ពីស្តាស្យូ
+      - ប៉េស្តូ
+      - ប្រេងគ្រាប់
+      - បង្អែម និងនំ
+    question: អាហារនេះមានគ្រាប់ឈើទេ?
+  korean:
+    verified: false
+    allergen: 견과류
+    statement: 저는 심각한 견과류 알레르기가 있습니다.
+    description: 아몬드, 호두, 캐슈넛, 헤이즐넛, 피스타치오, 피칸 같은 견과류가 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '견과류가 들어 있을 수 있는 것:'
+    foundIn:
+      - 아몬드
+      - 호두
+      - 캐슈넛
+      - 헤이즐넛
+      - 피스타치오
+      - 페스토
+      - 견과 오일
+      - 디저트·베이커리
+    question: 이 음식에 견과류가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ຖົ່ວໄມ້
+    statement: ຂ້ອຍມີອາລແອກີ້ຖົ່ວໄມ້ຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີຖົ່ວໄມ້ ເຊັ່ນ ອານມອນ ຫຼວດ ຄາຊູ ເຮເຊວນັດ ພິສທາຊິໂອ ຫຼື ເພແຄນ ໄດ້
+      ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ ຖ້າບໍ່ດັ່ງນັ້ນຈະມີປະຕິກິລິຍາອາລແອກີ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ຖົ່ວໄມ້ອາດພົບໃນ:'
+    foundIn:
+      - ອານມອນ
+      - ຫຼວດ
+      - ຄາຊູ
+      - ເຮເຊວນັດ
+      - ພິສທາຊິໂອ
+      - ເພສໂຕ
+      - ນ້ຳມັນຖົ່ວ
+      - ຂອງຫວານ ແລະ ເຂົ້າໜົມ
+    question: ອາຫານນີ້ມີຖົ່ວໄມ້ບໍ?
+  latvian:
+    verified: false
+    allergen: Rieksti
+    statement: Man ir smaga riekstu alerģija.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur riekstus, piemēram, mandeles, valriekstus, Indijas
+      riekstus, lazdu riekstus, pistācijas vai pekanriekstus, pat nelielos daudzumos, citādi būs
+      smaga alerģiska reakcija un vajadzēs medicīnisko palīdzību.
+    foundInLabel: 'Rieksti var būt:'
+    foundIn:
+      - Mandeles
+      - Valrieksti
+      - Indijas rieksti
+      - Lazdu rieksti
+      - Pistācijas
+      - Pesto
+      - Riekstu eļļas
+      - Deserti un maizes izstrādājumi
+    question: Vai šajā ēdienā ir rieksti?
+  lithuanian:
+    verified: false
+    allergen: Riešutai
+    statement: Turiu sunkią alergiją riešutams.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra riešutų, pavyzdžiui, migdolų, graikinių riešutų,
+      anakardžių, lazdynų riešutų, pistacijų ar pekaninių riešutų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Riešutų gali būti:'
+    foundIn:
+      - Migdolai
+      - Graikiniai riešutai
+      - Anakardžiai
+      - Lazdynų riešutai
+      - Pistacijos
+      - Pesto
+      - Riešutų aliejai
+      - Desertai ir kepiniai
+    question: Ar šiame maiste yra riešutų?
+  macedonian:
+    verified: false
+    allergen: Јаткасти плодови
+    statement: Имам тешка алергија на јаткасти плодови.
+    description: >-
+      Не смеам да јадам храна што содржи јаткасти плодови како бадеми, ореви, индиски ореви,
+      лешници, пистачи или пекани, дури ни во мали количини, инаку ќе имам тешка алергиска реакција
+      и ќе ми треба медицинска помош.
+    foundInLabel: 'Јаткастите плодови може да се најдат во:'
+    foundIn:
+      - Бадеми
+      - Ореви
+      - Индиски ореви
+      - Лешници
+      - Пистачи
+      - Песто
+      - Масла од јаткасти плодови
+      - Десерти и печива
+    question: Дали оваа храна содржи јаткасти плодови?
+  malay:
+    verified: false
+    allergen: Kacang pokok
+    statement: Saya mempunyai alahan kacang pokok yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi kacang pokok seperti badam, walnut, cashew,
+      hazelnut, pistachio atau pecan, walaupun dalam jumlah kecil, atau saya akan mengalami reaksi
+      alahan yang teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Kacang pokok boleh dijumpai dalam:'
+    foundIn:
+      - Badam
+      - Walnut
+      - Cashew
+      - Hazelnut
+      - Pistachio
+      - Pesto
+      - Minyak kacang
+      - Pencuci mulut dan produk bakeri
+    question: Adakah makanan ini mengandungi kacang pokok?
+  maltese:
+    verified: false
+    allergen: Ġewż tas-siġar
+    statement: Għandi allerġija severa għall-ġewż tas-siġar.
+    description: >-
+      Ma nistax niekol ikel li jkun fih ġewż tas-siġar bħal lewż, ġewż, anakardji, ġewż tal-lellewx,
+      pistakkji jew pekan, anke f'ammonti żgħar, inkella se jkolli reazzjoni allerġika severa u se
+      jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Il-ġewż tas-siġar jista'' jinstab fi:'
+    foundIn:
+      - Lewż
+      - Ġewż
+      - Anakardji
+      - Ġewż tal-lellewx
+      - Pistakkji
+      - Pesto
+      - Żjut tal-ġewż
+      - Deżerti u prodotti tal-forn
+    question: Dan l-ikel fih ġewż tas-siġar?
+  norwegian:
+    verified: false
+    allergen: Trenøtter
+    statement: Jeg har en alvorlig trenøttallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder trenøtter som mandler, valnøtter, cashewnøtter,
+      hasselnøtter, pistasjnøtter eller pekannøtter, heller ikke i små mengder, ellers får jeg en
+      alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Trenøtter kan finnes i:'
+    foundIn:
+      - Mandler
+      - Valnøtter
+      - Cashewnøtter
+      - Hasselnøtter
+      - Pistasjnøtter
+      - Pesto
+      - Nøtteoljer
+      - Desserter og bakevarer
+    question: Inneholder denne maten trenøtter?
+  polish:
+    verified: false
+    allergen: Orzechy
+    statement: Mam ciężką alergię na orzechy.
+    description: >-
+      Nie mogę jeść potraw zawierających orzechy, takie jak migdały, orzechy włoskie, nerkowce,
+      orzechy laskowe, pistacje lub pekany, nawet w małych ilościach — inaczej wystąpi u mnie ciężka
+      reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Orzechy mogą występować w:'
+    foundIn:
+      - Migdały
+      - Orzechy włoskie
+      - Nerkowce
+      - Orzechy laskowe
+      - Pistacje
+      - Pesto
+      - Oleje orzechowe
+      - Desery i wypieki
+    question: Czy to danie zawiera orzechy?
+  portuguese-brazil:
+    verified: false
+    allergen: Nozes
+    statement: Eu tenho alergia grave a nozes.
+    description: >-
+      Não posso comer alimentos que contenham nozes, como amêndoas, nozes, castanhas-de-caju,
+      avelãs, pistaches ou pecãs, mesmo em pequenas quantidades, senão terei uma reação alérgica
+      grave e precisarei de atendimento médico.
+    foundInLabel: 'As nozes podem ser encontradas em:'
+    foundIn:
+      - Amêndoas
+      - Nozes
+      - Castanha-de-caju
+      - Avelãs
+      - Pistache
+      - Pesto
+      - Óleos de nozes
+      - Sobremesas e produtos de padaria
+    question: Este alimento contém nozes?
+  romanian:
+    verified: false
+    allergen: Fructe cu coajă lemnoasă
+    statement: Am o alergie severă la fructele cu coajă lemnoasă.
+    description: >-
+      Nu pot mânca alimente care conțin fructe cu coajă lemnoasă, cum ar fi migdale, nuci, caju,
+      alune, fistic sau pecan, nici măcar în cantități mici, altfel voi avea o reacție alergică
+      severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Fructele cu coajă lemnoasă pot fi găsite în:'
+    foundIn:
+      - Migdale
+      - Nuci
+      - Caju
+      - Alune
+      - Fistic
+      - Pesto
+      - Uleiuri din nuci
+      - Deserturi și produse de patiserie
+    question: Acest aliment conține fructe cu coajă lemnoasă?
+  russian:
+    verified: false
+    allergen: Орехи
+    statement: У меня тяжёлая аллергия на орехи.
+    description: >-
+      Я не могу есть еду, содержащую орехи, такие как миндаль, грецкие орехи, кешью, фундук,
+      фисташки или пекан, даже в небольших количествах — иначе у меня будет тяжёлая аллергическая
+      реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Орехи могут содержаться в:'
+    foundIn:
+      - Миндаль
+      - Грецкие орехи
+      - Кешью
+      - Фундук
+      - Фисташки
+      - Песто
+      - Ореховые масла
+      - Десерты и выпечка
+    question: В этом блюде есть орехи?
+  serbian:
+    verified: false
+    allergen: Орашасти плодови
+    statement: Имам тешку алергију на орашасте плодове.
+    description: >-
+      Не смем да једем храну која садржи орашасте плодове као што су бадеми, ораси, индијски ораси,
+      лешници, пистаћи или пекани, чак ни у малим количинама, иначе ћу имати тешку алергијску
+      реакцију и требаће ми медицинска помоћ.
+    foundInLabel: 'Орашасти плодови могу се наћи у:'
+    foundIn:
+      - Бадеми
+      - Ораси
+      - Индијски ораси
+      - Лешници
+      - Пистаћи
+      - Песто
+      - Уља од орашастих плодова
+      - Десерти и пецива
+    question: Да ли ова храна садржи орашасте плодове?
+  slovak:
+    verified: false
+    allergen: Orechy
+    statement: Mám ťažkú alergiu na orechy.
+    description: >-
+      Nesmiem jesť potraviny obsahujúce orechy, ako sú mandle, vlašské orechy, kešu, lieskové
+      orechy, pistácie alebo pekanové orechy, ani v malom množstve, inak budem mať ťažkú alergickú
+      reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Orechy sa môžu nachádzať v:'
+    foundIn:
+      - Mandle
+      - Vlašské orechy
+      - Kešu
+      - Lieskové orechy
+      - Pistácie
+      - Pesto
+      - Orechové oleje
+      - Dezerty a pečivo
+    question: Obsahuje toto jedlo orechy?
+  slovenian:
+    verified: false
+    allergen: Oreščki
+    statement: Imam hudo alergijo na oreščke.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje oreščke, kot so mandlji, orehi, indijski oreščki, lešniki,
+      pistacije ali pekani, niti v majhnih količinah, sicer bom imel/imela hudo alergijsko reakcijo
+      in bom potreboval/potrebovala zdravniško pomoč.
+    foundInLabel: 'Oreščki se lahko nahajajo v:'
+    foundIn:
+      - Mandlji
+      - Orehi
+      - Indijski oreščki
+      - Lešniki
+      - Pistacije
+      - Pesto
+      - Olja iz oreščkov
+      - Slastice in pecivo
+    question: Ali ta jed vsebuje oreščke?
+  swahili:
+    verified: false
+    allergen: Karanga za miti
+    statement: Nina mzio mkali wa karanga za miti.
+    description: >-
+      Siwezi kula chakula chenye karanga za miti kama lozi, walnuts, korosho, hazelnuts, pistachio
+      au pecan, hata kwa kiasi kidogo, la sivyo nitapata mmenyuko mkali wa mzio na nitahitaji
+      matibabu.
+    foundInLabel: 'Karanga za miti zinaweza kupatikana katika:'
+    foundIn:
+      - Lozi
+      - Walnuts
+      - Korosho
+      - Hazelnuts
+      - Pistachio
+      - Pesto
+      - Mafuta ya karanga
+      - Vitindao na vyakula vilivyookwa
+    question: Je, chakula hiki kina karanga za miti?
+  swedish:
+    verified: false
+    allergen: Nötter
+    statement: Jag har en allvarlig nötallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller nötter som mandlar, valnötter, cashewnötter, hasselnötter,
+      pistaschnötter eller pekannötter, ens i små mängder, annars får jag en allvarlig allergisk
+      reaktion och behöver läkarvård.
+    foundInLabel: 'Nötter kan finnas i:'
+    foundIn:
+      - Mandlar
+      - Valnötter
+      - Cashewnötter
+      - Hasselnötter
+      - Pistaschnötter
+      - Pesto
+      - Nötoljor
+      - Desserter och bakverk
+    question: Innehåller den här maten nötter?
+  tagalog:
+    verified: false
+    allergen: Tree nuts
+    statement: Mayroon akong malubhang allergy sa tree nuts.
+    description: >-
+      Hindi ako makakain ng pagkaing may tree nuts gaya ng almonds, walnuts, cashews, hazelnuts,
+      pistachios o pecans, kahit kaunti lang, o magkakaroon ako ng malubhang allergic reaction at
+      kakailanganin ng medikal na tulong.
+    foundInLabel: 'Ang tree nuts ay maaaring matagpuan sa:'
+    foundIn:
+      - Almonds
+      - Walnuts
+      - Cashews
+      - Hazelnuts
+      - Pistachios
+      - Pesto
+      - Mga nut oil
+      - Mga dessert at baked goods
+    question: May tree nuts ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ถั่วเปลือกแข็ง
+    statement: ฉันแพ้ถั่วเปลือกแข็งอย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีถั่วเปลือกแข็ง เช่น อัลมอนด์ วอลนัท เม็ดมะม่วงหิมพานต์ เฮเซลนัท พิสตาชิโอ
+      หรือพีแคน ไม่ได้ แม้เพียงเล็กน้อย เพราะจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ถั่วเปลือกแข็งอาจพบใน:'
+    foundIn:
+      - อัลมอนด์
+      - วอลนัท
+      - เม็ดมะม่วงหิมพานต์
+      - เฮเซลนัท
+      - พิสตาชิโอ
+      - เพสโต
+      - น้ำมันถั่ว
+      - ของหวานและเบเกอรี่
+    question: อาหารนี้มีถั่วเปลือกแข็งหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Горіхи
+    statement: У мене важка алергія на горіхи.
+    description: >-
+      Я не можу їсти їжу, що містить горіхи, наприклад мигдаль, волоські горіхи, кеш’ю, фундук,
+      фісташки або пекан, навіть у невеликій кількості — інакше буде важка алергічна реакція, і мені
+      знадобиться медична допомога.
+    foundInLabel: 'Горіхи можуть міститися в:'
+    foundIn:
+      - Мигдаль
+      - Волоські горіхи
+      - Кеш’ю
+      - Фундук
+      - Фісташки
+      - Песто
+      - Горіхові олії
+      - Десерти та випічка
+    question: Чи містить ця страва горіхи?
+  vietnamese:
+    verified: false
+    allergen: Hạt cây
+    statement: Tôi bị dị ứng nặng với hạt cây.
+    description: >-
+      Tôi không thể ăn thực phẩm có hạt cây như hạnh nhân, óc chó, hạt điều, hạt phỉ, pistachio hoặc
+      pecan, dù chỉ một lượng nhỏ — nếu không sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Hạt cây có thể có trong:'
+    foundIn:
+      - Hạnh nhân
+      - Óc chó
+      - Hạt điều
+      - Hạt phỉ
+      - Pistachio
+      - Pesto
+      - Dầu hạt
+      - Tráng miệng và bánh nướng
+    question: Món này có chứa hạt cây không?

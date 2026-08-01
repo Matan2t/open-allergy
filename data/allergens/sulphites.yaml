@@ -4,12 +4,14 @@
 id: sulphites
 emoji: 🍷
 translations:
-  en:
+  english:
     verified: true
     allergen: Sulphites
     statement: I have a severe sensitivity to sulphites.
-    description: I cannot consume food or drinks containing sulphites, even in small amounts, or I will have a severe reaction and require medical attention.
-    foundInLabel: "Sulphites can be found in:"
+    description: >-
+      I cannot consume food or drinks containing sulphites, even in small amounts, or I will have a
+      severe reaction and require medical attention.
+    foundInLabel: 'Sulphites can be found in:'
     foundIn:
       - Wine
       - Beer & cider
@@ -19,13 +21,14 @@ translations:
       - Fruit juices
       - Processed meats
     question: Does this food or drink contain sulphites?
-
-  es:
+  spanish:
     verified: false
     allergen: Sulfitos
     statement: Tengo una sensibilidad grave a los sulfitos.
-    description: No puedo consumir alimentos ni bebidas que contengan sulfitos, ni siquiera en pequeñas cantidades, ya que sufriría una reacción grave y necesitaría atención médica.
-    foundInLabel: "Los sulfitos pueden encontrarse en:"
+    description: >-
+      No puedo consumir alimentos ni bebidas que contengan sulfitos, ni siquiera en pequeñas
+      cantidades, ya que sufriría una reacción grave y necesitaría atención médica.
+    foundInLabel: 'Los sulfitos pueden encontrarse en:'
     foundIn:
       - Vino
       - Cerveza y sidra
@@ -35,13 +38,14 @@ translations:
       - Zumos de fruta
       - Carnes procesadas
     question: ¿Este alimento o bebida contiene sulfitos?
-
-  fr:
+  french:
     verified: false
     allergen: Sulfites
     statement: J'ai une sensibilité sévère aux sulfites.
-    description: Je ne peux pas consommer d'aliments ni de boissons contenant des sulfites, même en petites quantités, sous peine d'une réaction grave nécessitant des soins médicaux.
-    foundInLabel: "Les sulfites peuvent se trouver dans :"
+    description: >-
+      Je ne peux pas consommer d'aliments ni de boissons contenant des sulfites, même en petites
+      quantités, sous peine d'une réaction grave nécessitant des soins médicaux.
+    foundInLabel: 'Les sulfites peuvent se trouver dans :'
     foundIn:
       - Vin
       - Bière et cidre
@@ -51,13 +55,14 @@ translations:
       - Jus de fruits
       - Charcuterie
     question: Ce plat ou cette boisson contient-il des sulfites ?
-
-  de:
+  german:
     verified: false
     allergen: Sulfite
     statement: Ich habe eine schwere Sulfitunverträglichkeit.
-    description: Ich darf keine Lebensmittel oder Getränke zu mir nehmen, die Sulfite enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Sulfite können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel oder Getränke zu mir nehmen, die Sulfite enthalten – auch nicht in
+      kleinen Mengen –, da ich sonst eine schwere Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: 'Sulfite können enthalten sein in:'
     foundIn:
       - Wein
       - Bier und Cidre
@@ -67,13 +72,14 @@ translations:
       - Fruchtsäfte
       - Verarbeitete Fleischwaren
     question: Enthält dieses Gericht oder Getränk Sulfite?
-
-  it:
+  italian:
     verified: false
     allergen: Solfiti
     statement: Ho una grave sensibilità ai solfiti.
-    description: Non posso consumare alimenti o bevande che contengono solfiti, nemmeno in piccole quantità, altrimenti avrò una grave reazione e avrò bisogno di assistenza medica.
-    foundInLabel: "I solfiti possono trovarsi in:"
+    description: >-
+      Non posso consumare alimenti o bevande che contengono solfiti, nemmeno in piccole quantità,
+      altrimenti avrò una grave reazione e avrò bisogno di assistenza medica.
+    foundInLabel: 'I solfiti possono trovarsi in:'
     foundIn:
       - Vino
       - Birra e sidro
@@ -83,13 +89,14 @@ translations:
       - Succhi di frutta
       - Carni lavorate
     question: Questo cibo o questa bevanda contiene solfiti?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Sulfitos
     statement: Tenho uma sensibilidade grave aos sulfitos.
-    description: Não posso consumir alimentos ou bebidas que contenham sulfitos, mesmo em pequenas quantidades, pois terei uma reação grave e precisarei de assistência médica.
-    foundInLabel: "Os sulfitos podem encontrar-se em:"
+    description: >-
+      Não posso consumir alimentos ou bebidas que contenham sulfitos, mesmo em pequenas quantidades,
+      pois terei uma reação grave e precisarei de assistência médica.
+    foundInLabel: 'Os sulfitos podem encontrar-se em:'
     foundIn:
       - Vinho
       - Cerveja e sidra
@@ -99,13 +106,14 @@ translations:
       - Sumos de fruta
       - Carnes processadas
     question: Este alimento ou bebida contém sulfitos?
-
-  el:
+  greek:
     verified: false
     allergen: Θειώδη
     statement: Έχω σοβαρή ευαισθησία στα θειώδη.
-    description: Δεν μπορώ να καταναλώσω τρόφιμα ή ποτά που περιέχουν θειώδη, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Τα θειώδη μπορεί να βρίσκονται σε:"
+    description: >-
+      Δεν μπορώ να καταναλώσω τρόφιμα ή ποτά που περιέχουν θειώδη, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Τα θειώδη μπορεί να βρίσκονται σε:'
     foundIn:
       - Κρασί
       - Μπύρα και μηλίτης
@@ -115,13 +123,14 @@ translations:
       - Χυμοί φρούτων
       - Επεξεργασμένα κρέατα
     question: Αυτό το φαγητό ή το ποτό περιέχει θειώδη;
-
-  tr:
+  turkish:
     verified: false
     allergen: Sülfitler
     statement: Sülfitlere karşı şiddetli hassasiyetim var.
-    description: Sülfit içeren yiyecek veya içecekleri az miktarda bile tüketemem; aksi takdirde şiddetli bir reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Sülfitler şunlarda bulunabilir:"
+    description: >-
+      Sülfit içeren yiyecek veya içecekleri az miktarda bile tüketemem; aksi takdirde şiddetli bir
+      reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Sülfitler şunlarda bulunabilir:'
     foundIn:
       - Şarap
       - Bira ve elma şarabı
@@ -131,13 +140,14 @@ translations:
       - Meyve suları
       - İşlenmiş etler
     question: Bu yiyecek veya içecekte sülfit var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: סולפיטים
     statement: יש לי רגישות חמורה לסולפיטים.
-    description: אסור לי לצרוך מזון או משקאות המכילים סולפיטים, אפילו בכמויות קטנות, אחרת אקבל תגובה חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "סולפיטים עשויים להימצא ב:"
+    description: >-
+      אסור לי לצרוך מזון או משקאות המכילים סולפיטים, אפילו בכמויות קטנות, אחרת אקבל תגובה חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'סולפיטים עשויים להימצא ב:'
     foundIn:
       - יין
       - בירה וסיידר
@@ -147,13 +157,14 @@ translations:
       - מיצי פירות
       - בשר מעובד
     question: האם המנה או המשקה הזה מכילים סולפיטים?
-
-  ar:
+  arabic:
     verified: false
     allergen: السلفيت (الكبريتيت)
     statement: لديّ حساسية شديدة من السلفيت (الكبريتيت).
-    description: لا أستطيع تناول أي طعام أو شراب يحتوي على السلفيت، ولو بكميات صغيرة، وإلا فسأصاب برد فعل شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد السلفيت في:"
+    description: >-
+      لا أستطيع تناول أي طعام أو شراب يحتوي على السلفيت، ولو بكميات صغيرة، وإلا فسأصاب برد فعل شديد
+      وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد السلفيت في:'
     foundIn:
       - النبيذ
       - البيرة وعصير التفاح المخمّر
@@ -163,8 +174,7 @@ translations:
       - عصائر الفاكهة
       - اللحوم المصنّعة
     question: هل يحتوي هذا الطعام أو الشراب على السلفيت؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 亜硫酸塩
     statement: 私は重度の亜硫酸塩過敏症があります。
@@ -179,8 +189,7 @@ translations:
       - 果汁ジュース
       - 加工肉
     question: この料理や飲み物に亜硫酸塩は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 亚硫酸盐
     statement: 我对亚硫酸盐严重过敏。
@@ -195,3 +204,626 @@ translations:
       - 果汁
       - 加工肉制品
     question: 这道菜或饮品含有亚硫酸盐吗？
+  bengali:
+    verified: false
+    allergen: সালফাইট
+    statement: আমার সালফাইটের প্রতি তীব্র সংবেদনশীলতা আছে।
+    description: >-
+      আমি সালফাইটযুক্ত খাবার বা পানীয় খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়; না হলে আমার তীব্র
+      প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'সালফাইট পাওয়া যেতে পারে:'
+    foundIn:
+      - ওয়াইন
+      - বিয়ার ও সাইডার
+      - শুকনো ফল
+      - ভিনিগার
+      - আচারজাত খাবার
+      - ফলের রস
+      - প্রক্রিয়াজাত মাংস
+    question: এই খাবার বা পানীয়ে কি সালফাইট আছে?
+  bulgarian:
+    verified: false
+    allergen: Сулфити
+    statement: Имам тежка чувствителност към сулфити.
+    description: >-
+      Не мога да консумирам храни или напитки, съдържащи сулфити, дори в малки количества, иначе ще
+      имам тежка реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Сулфитите могат да се съдържат в:'
+    foundIn:
+      - Вино
+      - Бира и сайдер
+      - Сушени плодове
+      - Оцет
+      - Мариновани храни
+      - Плодови сокове
+      - Преработени меса
+    question: Съдържа ли тази храна или напитка сулфити?
+  catalan:
+    verified: false
+    allergen: Sulfits
+    statement: Tinc una sensibilitat greu als sulfits.
+    description: >-
+      No puc consumir aliments ni begudes que continguin sulfits, ni tan sols en petites quantitats,
+      perquè tindria una reacció greu i necessitaria atenció mèdica.
+    foundInLabel: 'Els sulfits es poden trobar en:'
+    foundIn:
+      - Vi
+      - Cervesa i sidra
+      - Fruita dessecada
+      - Vinagre
+      - Aliments envinagrats
+      - Sucs de fruita
+      - Carns processades
+    question: Aquest aliment o beguda conté sulfits?
+  chinese-hong-kong:
+    verified: false
+    allergen: 亞硫酸鹽
+    statement: 我對亞硫酸鹽嚴重敏感。
+    description: 我不能進食含有亞硫酸鹽的食物或飲品，即使分量很少也不行，否則會引起嚴重反應，需要求醫。
+    foundInLabel: 亞硫酸鹽可能存在於：
+    foundIn:
+      - 葡萄酒
+      - 啤酒及蘋果酒
+      - 果乾
+      - 醋
+      - 醃製食品
+      - 果汁
+      - 加工肉類
+    question: 這道菜或飲品含有亞硫酸鹽嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 亞硫酸鹽
+    statement: 我對亞硫酸鹽嚴重敏感。
+    description: 我不能食用含有亞硫酸鹽的食物或飲品，即使少量也不行，否則會引發嚴重的反應，需要就醫。
+    foundInLabel: 亞硫酸鹽可能存在於：
+    foundIn:
+      - 葡萄酒
+      - 啤酒和蘋果酒
+      - 果乾
+      - 醋
+      - 醃製食品
+      - 果汁
+      - 加工肉製品
+    question: 這道菜或飲品含有亞硫酸鹽嗎？
+  croatian:
+    verified: false
+    allergen: Sulfiti
+    statement: Imam tešku osjetljivost na sulfite.
+    description: >-
+      Ne smijem konzumirati hranu ili pića koja sadrže sulfite, čak ni u malim količinama, inače ću
+      imati tešku reakciju i trebat će mi liječnička pomoć.
+    foundInLabel: 'Sulfiti se mogu nalaziti u:'
+    foundIn:
+      - Vino
+      - Pivo i cider
+      - Sušeno voće
+      - Ocat
+      - Ukiseljena hrana
+      - Voćni sokovi
+      - Prerađeno meso
+    question: Sadrži li ova hrana ili piće sulfite?
+  czech:
+    verified: false
+    allergen: Siřičitany
+    statement: Mám těžkou citlivost na siřičitany.
+    description: >-
+      Nesmím konzumovat potraviny ani nápoje obsahující siřičitany, ani v malém množství, jinak budu
+      mít těžkou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Siřičitany se mohou nacházet v:'
+    foundIn:
+      - Víno
+      - Pivo a cider
+      - Sušené ovoce
+      - Ocet
+      - Nakládané potraviny
+      - Ovocné šťávy
+      - Zpracované maso
+    question: Obsahuje toto jídlo nebo nápoj siřičitany?
+  danish:
+    verified: false
+    allergen: Sulfitter
+    statement: Jeg har en alvorlig følsomhed over for sulfitter.
+    description: >-
+      Jeg kan ikke indtage mad eller drikkevarer, der indeholder sulfitter, selv i små mængder,
+      ellers får jeg en alvorlig reaktion og har brug for lægehjælp.
+    foundInLabel: 'Sulfitter kan findes i:'
+    foundIn:
+      - Vin
+      - Øl og cider
+      - Tørret frugt
+      - Eddike
+      - Syltede fødevarer
+      - Frugtjuicer
+      - Forarbejdet kød
+    question: Indeholder denne mad eller drikke sulfitter?
+  dutch:
+    verified: false
+    allergen: Sulfieten
+    statement: Ik heb een ernstige gevoeligheid voor sulfieten.
+    description: >-
+      Ik mag geen voedsel of dranken consumeren die sulfieten bevatten, ook niet in kleine
+      hoeveelheden, anders krijg ik een ernstige reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Sulfieten kunnen voorkomen in:'
+    foundIn:
+      - Wijn
+      - Bier en cider
+      - Gedroogd fruit
+      - Azijn
+      - Ingelegde voedingsmiddelen
+      - Vruchtensappen
+      - Bewerkt vlees
+    question: Bevat dit gerecht of deze drank sulfieten?
+  estonian:
+    verified: false
+    allergen: Sulfitid
+    statement: Mul on raske tundlikkus sulfitite suhtes.
+    description: >-
+      Ma ei tohi tarbida toitu ega jooke, mis sisaldavad sulfiteid, isegi väikeses koguses, vastasel
+      juhul tekib mul raske reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Sulfitteid võib leida:'
+    foundIn:
+      - Vein
+      - Õlu ja siider
+      - Kuivatatud puuvili
+      - Äädikas
+      - Marineeritud toidud
+      - Puuviljamahlad
+      - Töödeldud liha
+    question: Kas selles toidus või joogis on sulfiteid?
+  finnish:
+    verified: false
+    allergen: Sulfiitit
+    statement: Minulla on vakava herkkyys sulfiiteille.
+    description: >-
+      En voi nauttia ruokaa tai juomia, jotka sisältävät sulfiitteja, edes pieniä määriä, muuten
+      saan vakavan reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Sulfiitteja voi olla:'
+    foundIn:
+      - Viini
+      - Olut ja siideri
+      - Kuivatut hedelmät
+      - Etikka
+      - Säilötyt ja peitatut elintarvikkeet
+      - Hedelmämehut
+      - Prosessoidut lihatuotteet
+    question: Sisältääkö tämä ruoka tai juoma sulfiitteja?
+  hindi:
+    verified: false
+    allergen: सल्फाइट
+    statement: मुझे सल्फाइट के प्रति गंभीर संवेदनशीलता है।
+    description: >-
+      मैं सल्फाइट युक्त भोजन या पेय नहीं ले सकता/सकती, चाहे मात्रा कितनी भी कम हो; नहीं तो मुझे
+      गंभीर प्रतिक्रिया होगी और चिकित्सा सहायता की आवश्यकता होगी।
+    foundInLabel: 'सल्फाइट इनमें मिल सकते हैं:'
+    foundIn:
+      - वाइन
+      - बीयर और साइडर
+      - सूखे फल
+      - सिरका
+      - अचार वाले खाद्य पदार्थ
+      - फलों का रस
+      - प्रसंस्कृत मांस
+    question: क्या इस भोजन या पेय में सल्फाइट हैं?
+  hungarian:
+    verified: false
+    allergen: Szulfitok
+    statement: Súlyos szulfitérzékenységem van.
+    description: >-
+      Nem fogyaszthatok szulfitokat tartalmazó ételeket vagy italokat, még kis mennyiségben sem,
+      különben súlyos reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'Szulfitok megtalálhatók ebben:'
+    foundIn:
+      - Bor
+      - Sör és cider
+      - Aszalt gyümölcs
+      - Ecet
+      - Savanyított élelmiszerek
+      - Gyümölcslevek
+      - Feldolgozott húsok
+    question: Tartalmaz ez az étel vagy ital szulfitokat?
+  icelandic:
+    verified: false
+    allergen: Súlfít
+    statement: Ég er með alvarlegt súlfítóþol.
+    description: >-
+      Ég má ekki neyta matar eða drykkja sem innihalda súlfít, jafnvel í litlu magni, annars fæ ég
+      alvarlegt viðbragð og þarf læknishjálp.
+    foundInLabel: 'Súlfít geta verið í:'
+    foundIn:
+      - Vín
+      - Bjór og eplavín
+      - Þurrkaðir ávextir
+      - Edik
+      - Súrsaður matur
+      - Ávaxtasafar
+      - Unnar kjötvörur
+    question: Inniheldur þessi matur eða drykkur súlfít?
+  indonesian:
+    verified: false
+    allergen: Sulfit
+    statement: Saya memiliki sensitivitas yang parah terhadap sulfit.
+    description: >-
+      Saya tidak boleh mengonsumsi makanan atau minuman yang mengandung sulfit, bahkan dalam jumlah
+      kecil, atau saya akan mengalami reaksi yang parah dan memerlukan perawatan medis.
+    foundInLabel: 'Sulfit dapat ditemukan dalam:'
+    foundIn:
+      - Anggur (wine)
+      - Bir dan sari apel
+      - Buah kering
+      - Cuka
+      - Makanan acar
+      - Jus buah
+      - Daging olahan
+    question: Apakah makanan atau minuman ini mengandung sulfit?
+  khmer:
+    verified: false
+    allergen: ស៊ុលហ្វីត
+    statement: ខ្ញុំមានភាពរសើបធ្ងន់ធ្ងរទៅនឹងស៊ុលហ្វីត។
+    description: >-
+      ខ្ញុំមិនអាចទទួលទានអាហារ ឬភេសជ្ជៈដែលមានស៊ុលហ្វីតបានទេ ទោះបីជាបរិមាណតិចក៏ដោយ បើមិនដូច្នេះទេ
+      ខ្ញុំនឹងមានប្រតិកម្មធ្ងន់ធ្ងរ និងត្រូវការការថែទាំពេទ្យ។
+    foundInLabel: ស៊ុលហ្វីតអាចមាននៅក្នុង៖
+    foundIn:
+      - ស្រា
+      - ស្រាបៀរ និងសៃដឺ
+      - ផ្លែឈើស្ងួត
+      - ទឹកខ្មេះ
+      - អាហារជ្រលក់
+      - ទឹកផ្លែឈើ
+      - សាច់កែច្នៃ
+    question: តើអាហារ ឬភេសជ្ជៈនេះមានស៊ុលហ្វីតទេ?
+  korean:
+    verified: false
+    allergen: 아황산염
+    statement: 저는 아황산염에 심각한 과민 반응이 있습니다.
+    description: 아황산염이 들어간 음식이나 음료는 소량이라도 섭취할 수 없습니다. 섭취하면 심한 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '아황산염이 들어 있을 수 있는 것:'
+    foundIn:
+      - 와인
+      - 맥주와 사이다
+      - 건과일
+      - 식초
+      - 절임 식품
+      - 과일 주스
+      - 가공육
+    question: 이 음식이나 음료에 아황산염이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ຊັລໄຟທ໌
+    statement: ຂ້ອຍມີຄວາມອ່ອນໄຫວຮຸນແຮງຕໍ່ຊັລໄຟທ໌.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດບໍລິໂພກອາຫານ ຫຼື ເຄື່ອງດື່ມທີ່ມີຊັລໄຟທ໌ໄດ້ ເຖິງແມ່ນວ່າຈະເປັນຈຳນວນໜ້ອຍກໍ່ຕາມ
+      ບໍ່ດັ່ງນັ້ນຂ້ອຍຈະມີອາການຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວທາງການແພດ.
+    foundInLabel: 'ຊັລໄຟທ໌ອາດພົບໃນ:'
+    foundIn:
+      - ແວງ
+      - ເບຍ ແລະ ໄຊເດີ
+      - ໝາກໄມ້ແຫ້ງ
+      - ນ້ຳສົ້ມ
+      - ອາຫານດອງ
+      - ນ້ຳໝາກໄມ້
+      - ຊີ້ນປຸງແຕ່ງ
+    question: ອາຫານ ຫຼື ເຄື່ອງດື່ມນີ້ມີຊັລໄຟທ໌ບໍ?
+  latvian:
+    verified: false
+    allergen: Sulfīti
+    statement: Man ir smaga jutība pret sulfītiem.
+    description: >-
+      Es nedrīkstu lietot pārtiku vai dzērienus, kas satur sulfītus, pat nelielā daudzumā, citādi
+      man būs smaga reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Sulfītus var atrast:'
+    foundIn:
+      - Vīns
+      - Alus un sidrs
+      - Žāvēti augļi
+      - Etiķis
+      - Marinēti produkti
+      - Augļu sulas
+      - Pārstrādāta gaļa
+    question: Vai šajā ēdienā vai dzērienā ir sulfīti?
+  lithuanian:
+    verified: false
+    allergen: Sulfitai
+    statement: Turiu sunkų jautrumą sulfitams.
+    description: >-
+      Negaliu vartoti maisto ar gėrimų, kuriuose yra sulfitų, net ir nedideliais kiekiais, kitaip
+      patirsiu sunkią reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Sulfitų gali būti:'
+    foundIn:
+      - Vynas
+      - Alus ir sidras
+      - Džiovinti vaisiai
+      - Actas
+      - Marinuoti maisto produktai
+      - Vaisių sultys
+      - Perdirbta mėsa
+    question: Ar šiame maiste ar gėrime yra sulfitų?
+  macedonian:
+    verified: false
+    allergen: Сулфити
+    statement: Имам тешка чувствителност на сулфити.
+    description: >-
+      Не можам да консумирам храна или пијалаци што содржат сулфити, дури ни во мали количини, инаку
+      ќе имам тешка реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Сулфитите може да се најдат во:'
+    foundIn:
+      - Вино
+      - Пиво и сајдер
+      - Сушено овошје
+      - Оцет
+      - Маринирана храна
+      - Овошни сокови
+      - Преработено месо
+    question: Дали оваа храна или пијалак содржи сулфити?
+  malay:
+    verified: false
+    allergen: Sulfit
+    statement: Saya mempunyai sensitiviti teruk terhadap sulfit.
+    description: >-
+      Saya tidak boleh mengambil makanan atau minuman yang mengandungi sulfit, walaupun dalam jumlah
+      kecil, atau saya akan mengalami reaksi yang teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Sulfit boleh dijumpai dalam:'
+    foundIn:
+      - Wain
+      - Bir dan sider
+      - Buah kering
+      - Cuka
+      - Makanan jeruk
+      - Jus buah
+      - Daging diproses
+    question: Adakah makanan atau minuman ini mengandungi sulfit?
+  maltese:
+    verified: false
+    allergen: Sulfiti
+    statement: Għandi sensittività severa għas-sulfiti.
+    description: >-
+      Ma nistax nikkonsma ikel jew xorb li fihom sulfiti, anke fi kwantitajiet żgħar, inkella se
+      jkolli reazzjoni severa u se jkolli bżonn attenzjoni medika.
+    foundInLabel: 'Is-sulfiti jistgħu jinstabu fi:'
+    foundIn:
+      - Inbid
+      - Birra u cider
+      - Frott niexef
+      - Ħall
+      - Ikel ippickjat
+      - Merħbiet tal-frott
+      - Laħam ipproċessat
+    question: Dan l-ikel jew xorb fih sulfiti?
+  norwegian:
+    verified: false
+    allergen: Sulfitter
+    statement: Jeg har en alvorlig følsomhet for sulfitter.
+    description: >-
+      Jeg kan ikke innta mat eller drikke som inneholder sulfitter, selv i små mengder, ellers får
+      jeg en alvorlig reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Sulfitter kan finnes i:'
+    foundIn:
+      - Vin
+      - Øl og sider
+      - Tørket frukt
+      - Eddik
+      - Syltede matvarer
+      - Fruktjuicer
+      - Bearbeidet kjøtt
+    question: Inneholder denne maten eller drikken sulfitter?
+  polish:
+    verified: false
+    allergen: Siarczyny
+    statement: Mam ciężką nadwrażliwość na siarczyny.
+    description: >-
+      Nie mogę spożywać żywności ani napojów zawierających siarczyny, nawet w małych ilościach,
+      inaczej wystąpi u mnie ciężka reakcja i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Siarczyny mogą występować w:'
+    foundIn:
+      - Wino
+      - Piwo i cydr
+      - Suszone owoce
+      - Ocet
+      - Marynowana żywność
+      - Soki owocowe
+      - Przetworzone mięso
+    question: Czy to jedzenie lub napój zawiera siarczyny?
+  portuguese-brazil:
+    verified: false
+    allergen: Sulfitos
+    statement: Tenho sensibilidade grave a sulfitos.
+    description: >-
+      Não posso consumir alimentos ou bebidas que contenham sulfitos, mesmo em pequenas quantidades,
+      pois terei uma reação grave e precisarei de atendimento médico.
+    foundInLabel: 'Os sulfitos podem ser encontrados em:'
+    foundIn:
+      - Vinho
+      - Cerveja e sidra
+      - Frutas secas
+      - Vinagre
+      - Alimentos em conserva
+      - Sucos de fruta
+      - Carnes processadas
+    question: Este alimento ou bebida contém sulfitos?
+  romanian:
+    verified: false
+    allergen: Sulfiți
+    statement: Am o sensibilitate severă la sulfiți.
+    description: >-
+      Nu pot consuma alimente sau băuturi care conțin sulfiți, nici măcar în cantități mici, altfel
+      voi avea o reacție severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Sulfiții pot fi găsiți în:'
+    foundIn:
+      - Vin
+      - Bere și cidru
+      - Fructe uscate
+      - Oțet
+      - Alimente murate
+      - Sucuri de fructe
+      - Carne procesată
+    question: Acest aliment sau băutură conține sulfiți?
+  russian:
+    verified: false
+    allergen: Сульфиты
+    statement: У меня тяжёлая чувствительность к сульфитам.
+    description: >-
+      Я не могу употреблять продукты или напитки, содержащие сульфиты, даже в малых количествах,
+      иначе у меня будет тяжёлая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Сульфиты могут содержаться в:'
+    foundIn:
+      - Вино
+      - Пиво и сидр
+      - Сухофрукты
+      - Уксус
+      - Маринованные продукты
+      - Фруктовые соки
+      - Обработанное мясо
+    question: Содержит ли эта еда или напиток сульфиты?
+  serbian:
+    verified: false
+    allergen: Сулфити
+    statement: Имам тешку осетљивост на сулфите.
+    description: >-
+      Не смем да конзумирам храну или пића која садрже сулфите, чак ни у малим количинама, иначе ћу
+      имати тешку реакцију и биће ми потребна лекарска помоћ.
+    foundInLabel: 'Сулфити се могу наћи у:'
+    foundIn:
+      - Вино
+      - Пиво и сајдер
+      - Сушено воће
+      - Сирће
+      - Кисела храна
+      - Воћни сокови
+      - Прерађено месо
+    question: Да ли ова храна или пиће садржи сулфите?
+  slovak:
+    verified: false
+    allergen: Siričitany
+    statement: Mám ťažkú citlivosť na siričitany.
+    description: >-
+      Nesmím konzumovať potraviny ani nápoje obsahujúce siričitany, ani v malom množstve, inak budem
+      mať ťažkú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Siričitany sa môžu nachádzať v:'
+    foundIn:
+      - Víno
+      - Pivo a cider
+      - Sušené ovocie
+      - Ocot
+      - Nakladané potraviny
+      - Ovocné šťavy
+      - Spracované mäso
+    question: Obsahuje toto jedlo alebo nápoj siričitany?
+  slovenian:
+    verified: false
+    allergen: Sulfiti
+    statement: Imam hudo občutljivost na sulfite.
+    description: >-
+      Ne smem uživati hrane ali pijač, ki vsebujejo sulfite, niti v majhnih količinah, sicer bom
+      imel/-a hudo reakcijo in bom potreboval/-a zdravniško pomoč.
+    foundInLabel: 'Sulfiti se lahko nahajajo v:'
+    foundIn:
+      - Vino
+      - Pivo in cider
+      - Suho sadje
+      - Kis
+      - Vložena živila
+      - Sadni sokovi
+      - Predelano meso
+    question: Ali ta hrana ali pijača vsebuje sulfite?
+  swahili:
+    verified: false
+    allergen: Salifaiti
+    statement: Nina unyeti mkali kwa salifaiti.
+    description: >-
+      Siwezi kutumia chakula au vinywaji vyenye salifaiti, hata kwa kiasi kidogo, au nitapata
+      mmenyuko mkali na nitahitaji matibabu.
+    foundInLabel: 'Salifaiti inaweza kupatikana katika:'
+    foundIn:
+      - Mvinyo
+      - Bia na sideri
+      - Matunda yaliyokaushwa
+      - Siki
+      - Vyakula vilivyopikelwa
+      - Juisi za matunda
+      - Nyama zilizochakatwa
+    question: Je, chakula au kinywaji hiki kina salifaiti?
+  swedish:
+    verified: false
+    allergen: Sulfit
+    statement: Jag har en allvarlig känslighet för sulfiter.
+    description: >-
+      Jag kan inte äta eller dricka något som innehåller sulfiter, ens i små mängder, annars får jag
+      en allvarlig reaktion och behöver läkarvård.
+    foundInLabel: 'Sulfiter kan finnas i:'
+    foundIn:
+      - Vin
+      - Öl och cider
+      - Torkad frukt
+      - Ättika
+      - Inlagd mat
+      - Fruktjuicer
+      - Processat kött
+    question: Innehåller den här maten eller drycken sulfiter?
+  tagalog:
+    verified: false
+    allergen: Mga sulphite
+    statement: Mayroon akong malubhang sensitivity sa mga sulphite.
+    description: >-
+      Hindi ako makakain o makakainom ng pagkain o inuming may sulphite, kahit sa maliit na dami, o
+      magkakaroon ako ng malubhang reaksyon at kakailanganin ko ng medikal na tulong.
+    foundInLabel: 'Ang mga sulphite ay matatagpuan sa:'
+    foundIn:
+      - Alak (wine)
+      - Beer at cider
+      - Tuyong prutas
+      - Suka
+      - Mga pikel / adobong pagkain
+      - Mga fruit juice
+      - Mga processed na karne
+    question: May sulphite ba ang pagkain o inuming ito?
+  thai:
+    verified: false
+    allergen: ซัลไฟต์
+    statement: ฉันแพ้ซัลไฟต์อย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถรับประทานอาหารหรือเครื่องดื่มที่มีซัลไฟต์ได้ แม้เพียงเล็กน้อย
+      มิฉะนั้นจะเกิดปฏิกิริยารุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ซัลไฟต์อาจพบใน:'
+    foundIn:
+      - ไวน์
+      - เบียร์และไซเดอร์
+      - ผลไม้แห้ง
+      - น้ำส้มสายชู
+      - อาหารดอง
+      - น้ำผลไม้
+      - เนื้อแปรรูป
+    question: อาหารหรือเครื่องดื่มนี้มีซัลไฟต์หรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Сульфіти
+    statement: У мене тяжка чутливість до сульфітів.
+    description: >-
+      Я не можу вживати продукти чи напої, що містять сульфіти, навіть у невеликій кількості, інакше
+      в мене буде тяжка реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Сульфіти можуть міститися в:'
+    foundIn:
+      - Вино
+      - Пиво та сидр
+      - Сухофрукти
+      - Оцет
+      - Мариновані продукти
+      - Фруктові соки
+      - Оброблене м'ясо
+    question: Чи містить ця їжа або напій сульфіти?
+  vietnamese:
+    verified: false
+    allergen: Sulfit
+    statement: Tôi bị nhạy cảm nặng với sulfit.
+    description: >-
+      Tôi không thể dùng thực phẩm hoặc đồ uống có chứa sulfit, dù chỉ một lượng nhỏ, nếu không tôi
+      sẽ bị phản ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Sulfit có thể có trong:'
+    foundIn:
+      - Rượu vang
+      - Bia và cider
+      - Trái cây sấy khô
+      - Giấm
+      - Thực phẩm muối chua
+      - Nước ép trái cây
+      - Thịt chế biến sẵn
+    question: Thức ăn hoặc đồ uống này có chứa sulfit không?
