@@ -1,11 +1,29 @@
 import { useEffect, useRef, useState } from 'react';
-import { toPng } from 'html-to-image';
+import { getFontEmbedCSS, toBlob } from 'html-to-image';
 import Card from './Card';
 import type { Allergen, Language } from '../lib/types';
 import { ENGLISH } from '../lib/types';
 import { GITHUB_URL } from '../lib/site';
 
 type PrintMode = 'single' | 'sheet';
+
+interface SaveFilePickerWindow {
+  showSaveFilePicker?: (options: {
+    suggestedName?: string;
+    types?: Array<{ accept: Record<string, string[]> }>;
+  }) => Promise<FileSystemFileHandle>;
+}
+
+/** Convert millimeters to CSS pixels at 96 dpi. */
+const MM_TO_PX = 96 / 25.4;
+const mmToPx = (mm: number) => Math.round(mm * MM_TO_PX);
+
+const CARD_WIDTH_PX = mmToPx(85.6);
+const CARD_HEIGHT_PX = mmToPx(54);
+const EXPORT_PAD_PX = mmToPx(4);
+const EXPORT_GAP_PX = mmToPx(4);
+const EXPORT_WIDTH_PX = CARD_WIDTH_PX + EXPORT_PAD_PX * 2;
+const EXPORT_HEIGHT_PX = CARD_HEIGHT_PX * 2 + EXPORT_GAP_PX + EXPORT_PAD_PX * 2;
 
 export interface CardBuilderProps {
   allergens: Allergen[];
@@ -26,6 +44,10 @@ export default function CardBuilder({
   const [printMode, setPrintMode] = useState<PrintMode>('single');
   const [pendingPrint, setPendingPrint] = useState(false);
   const [exporting, setExporting] = useState(false);
+  const [exportError, setExportError] = useState<string | null>(null);
+  const [readyDownload, setReadyDownload] = useState<{ url: string; filename: string } | null>(
+    null,
+  );
   const pngRef = useRef<HTMLDivElement>(null);
 
   const allergen = allergens.find((a) => a.id === allergenId) ?? allergens[0];
@@ -55,19 +77,79 @@ export default function CardBuilder({
     setPendingPrint(true);
   }
 
+  useEffect(() => {
+    return () => {
+      if (readyDownload) URL.revokeObjectURL(readyDownload.url);
+    };
+  }, [readyDownload]);
+
   async function handleDownloadPng() {
     if (!pngRef.current) return;
+
+    if (readyDownload) {
+      URL.revokeObjectURL(readyDownload.url);
+      setReadyDownload(null);
+    }
+    setExportError(null);
     setExporting(true);
+
+    const filename = `allergy-card-${allergen.id}-${language.code}.png`;
+    let fileHandle: FileSystemFileHandle | null = null;
+
     try {
-      const dataUrl = await toPng(pngRef.current, {
-        pixelRatio: 4,
+      const savePicker = (window as Window & SaveFilePickerWindow).showSaveFilePicker;
+      if (savePicker) {
+        try {
+          fileHandle = await savePicker({
+            suggestedName: filename,
+            types: [{ accept: { 'image/png': ['.png'] } }],
+          });
+        } catch (error) {
+          if ((error as DOMException).name === 'AbortError') return;
+        }
+      }
+
+      await document.fonts.ready;
+
+      const fontEmbedCSS = await getFontEmbedCSS(pngRef.current, { cacheBust: true }).catch(
+        () => undefined,
+      );
+
+      const blob = await toBlob(pngRef.current, {
+        width: EXPORT_WIDTH_PX,
+        height: EXPORT_HEIGHT_PX,
+        pixelRatio: 3,
         backgroundColor: '#ffffff',
         cacheBust: true,
+        skipFonts: !fontEmbedCSS,
+        fontEmbedCSS: fontEmbedCSS ?? undefined,
       });
+
+      if (!blob) throw new Error('PNG export returned an empty image');
+
+      if (fileHandle) {
+        const writable = await fileHandle.createWritable();
+        await writable.write(blob);
+        await writable.close();
+        return;
+      }
+
+      const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.download = `allergy-card-${allergen.id}-${language.code}.png`;
-      link.href = dataUrl;
+      link.href = url;
+      link.download = filename;
+      link.rel = 'noopener';
+      document.body.appendChild(link);
       link.click();
+      link.remove();
+
+      // Browsers often block programmatic downloads after async work; keep a manual fallback.
+      setReadyDownload({ url, filename });
+    } catch (error) {
+      console.error('PNG export failed:', error);
+      setExportError(
+        'Could not create the PNG. Try Print card (or save as PDF), or click the link below if it appears.',
+      );
     } finally {
       setExporting(false);
     }
@@ -184,10 +266,19 @@ export default function CardBuilder({
         <button type="button" className="btn" onClick={handleDownloadPng} disabled={exporting}>
           {exporting ? 'Preparing…' : 'Download PNG'}
         </button>
+        {readyDownload && (
+          <a className="btn btn-primary" href={readyDownload.url} download={readyDownload.filename}>
+            Save PNG file
+          </a>
+        )}
         <a className="btn" href={orderUrl}>
           Order a plastic card
         </a>
       </div>
+
+      {exportError && (
+        <p className="builder-error no-print" role="alert">{exportError}</p>
+      )}
 
       <p className="builder-hint no-print">
         Free forever. Every card is double-sided: your chosen language on the front, English on
@@ -235,18 +326,8 @@ export default function CardBuilder({
 
       <div
         ref={pngRef}
+        className="png-export"
         aria-hidden="true"
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: '-300%',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '4mm',
-          padding: '4mm',
-          background: '#ffffff',
-          width: 'fit-content',
-        }}
       >
         {cardPair}
       </div>

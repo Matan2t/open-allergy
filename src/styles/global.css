@@ -546,6 +546,22 @@ input:focus {
   border-inline-start: 0.3mm dashed #999;
 }
 
+/* Off-screen but in-layout capture target for PNG export (html-to-image). */
+.png-export {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  gap: 4mm;
+  padding: 4mm;
+  background: #ffffff;
+  width: fit-content;
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* ============================================================
    Hero & sections
    ============================================================ */
@@ -818,6 +834,14 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
+}
+
+.builder-error {
+  color: var(--red);
+  font-size: 0.9rem;
+  max-width: 46rem;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .builder-hint {
