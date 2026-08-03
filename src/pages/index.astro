@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card';
 import { allergens, languages, getAllergen, getLanguage } from '../lib/data';
-import { GITHUB_URL, SITE_NAME } from '../lib/site';
+import { GITHUB_URL, KOFI_IMAGE, KOFI_URL, SITE_NAME } from '../lib/site';
 
 const heroAllergen = getAllergen('milk') ?? allergens[0];
 const heroLanguage = getLanguage('greek') ?? languages[0];
@@ -74,7 +74,7 @@ const langCount = languages.length;
     </p>
   </section>
 
-  <section class="section">
+  <section class="section" id="how-it-works">
     <h2>How it works</h2>
     <ol class="steps">
       <li>
@@ -107,6 +107,19 @@ const langCount = languages.length;
       where native speakers review and verify each translation. If something is wrong, anyone can
       fix it for everyone - instead of paying a company to maybe fix it someday. Unverified
       translations are clearly marked until a native speaker signs off.
+    </p>
+  </section>
+
+  <section class="section support-section">
+    <h2>Keep it free</h2>
+    <p class="section-lead">
+      Downloads stay free for every family. If these cards helped you travel or eat out with more
+      peace of mind, a small coffee keeps the site running and the translations growing.
+    </p>
+    <p class="support-actions">
+      <a class="kofi-button" href={KOFI_URL} target="_blank" rel="noopener noreferrer">
+        <img src={KOFI_IMAGE} height="36" alt="Buy Me a Coffee at ko-fi.com" />
+      </a>
     </p>
   </section>
 </Layout>
