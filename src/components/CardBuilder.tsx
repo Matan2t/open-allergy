@@ -41,7 +41,12 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
   const [readyDownload, setReadyDownload] = useState<{ url: string; filename: string } | null>(
     null,
   );
+  const [fullscreenOpen, setFullscreenOpen] = useState(false);
+  const [fullscreenSide, setFullscreenSide] = useState<'front' | 'back'>('front');
+  const [fullscreenScale, setFullscreenScale] = useState(1);
   const pngRef = useRef<HTMLDivElement>(null);
+  const fullscreenFitRef = useRef<HTMLDivElement>(null);
+  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
 
   const allergen = allergens.find((a) => a.id === allergenId) ?? allergens[0];
   const english = languages.find((l) => l.code === ENGLISH) ?? languages[0];
@@ -92,6 +97,73 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       if (readyDownload) URL.revokeObjectURL(readyDownload.url);
     };
   }, [readyDownload]);
+
+  useEffect(() => {
+    if (!fullscreenOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === 'Escape') setFullscreenOpen(false);
+      if (event.key === 'f' || event.key === 'F') {
+        setFullscreenSide((side) => (side === 'front' ? 'back' : 'front'));
+      }
+    }
+    window.addEventListener('keydown', onKeyDown);
+
+    const fit = fullscreenFitRef.current;
+    const syncScale = () => {
+      if (!fit) return;
+      // Card is laid out at 85.6mm wide; scale it to fill the fit box.
+      const cardWidthPx = (85.6 * 96) / 25.4;
+      setFullscreenScale(fit.clientWidth / cardWidthPx);
+    };
+    syncScale();
+    const resizeObserver =
+      typeof ResizeObserver !== 'undefined' ? new ResizeObserver(syncScale) : null;
+    if (fit && resizeObserver) resizeObserver.observe(fit);
+    window.addEventListener('resize', syncScale);
+
+    let cancelled = false;
+    async function requestWakeLock() {
+      try {
+        if ('wakeLock' in navigator) {
+          wakeLockRef.current = await navigator.wakeLock.request('screen');
+        }
+      } catch {
+        // Wake Lock is optional (unsupported, denied, or battery saver).
+      }
+    }
+    void requestWakeLock();
+
+    async function onVisibilityChange() {
+      if (document.visibilityState === 'visible' && !cancelled) {
+        await requestWakeLock();
+      }
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange);
+
+    return () => {
+      cancelled = true;
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', onKeyDown);
+      window.removeEventListener('resize', syncScale);
+      resizeObserver?.disconnect();
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+      void wakeLockRef.current?.release();
+      wakeLockRef.current = null;
+    };
+  }, [fullscreenOpen]);
+
+  function openFullscreen() {
+    setFullscreenSide('front');
+    setFullscreenOpen(true);
+  }
+
+  function closeFullscreen() {
+    setFullscreenOpen(false);
+  }
 
   async function handleDownloadPng() {
     if (!pngRef.current) return;
@@ -177,6 +249,23 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
   const frontLabel =
     frontLanguage.code === ENGLISH ? 'Front - English' : `Front - ${frontLanguage.name}`;
   const backLabel = 'Back - English';
+
+  const fullscreenCard =
+    fullscreenSide === 'front' ? (
+      <Card
+        language={frontLanguage}
+        translation={front}
+        emoji={allergen.emoji}
+        personalName={personalName || undefined}
+      />
+    ) : (
+      <Card
+        language={backLanguage}
+        translation={backTranslation}
+        emoji={allergen.emoji}
+        personalName={personalName || undefined}
+      />
+    );
 
   const cardPair = (
     <>
@@ -267,7 +356,10 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       </div>
 
       <div className="builder-actions no-print">
-        <button type="button" className="btn btn-primary" onClick={() => handlePrint('single')}>
+        <button type="button" className="btn btn-primary" onClick={openFullscreen}>
+          View online (fullscreen)
+        </button>
+        <button type="button" className="btn" onClick={() => handlePrint('single')}>
           Print card (or save as PDF)
         </button>
         <button type="button" className="btn" onClick={() => handlePrint('sheet')}>
@@ -293,10 +385,70 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       )}
 
       <p className="builder-hint no-print">
-        Free forever. Every card is double-sided: your chosen language on the front, English on
-        the back. Print at home on thick paper, laminate it, or take the PNG to any print shop.
+        Free forever. Show the card fullscreen on your phone to restaurant staff, or print it at
+        home. Every card is double-sided: your chosen language on the front, English on the back.
         Standard credit-card size (85.6 × 54 mm).
       </p>
+
+      {fullscreenOpen && (
+        <div
+          className="card-fullscreen no-print"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${front.allergen} allergy card - ${frontLanguage.name}`}
+        >
+          <div className="card-fullscreen-bar">
+            <p className="card-fullscreen-title">
+              {fullscreenSide === 'front' ? frontLabel : backLabel}
+            </p>
+            <div className="card-fullscreen-actions">
+              {frontLanguage.code !== ENGLISH && (
+                <button
+                  type="button"
+                  className="btn"
+                  onClick={() =>
+                    setFullscreenSide((side) => (side === 'front' ? 'back' : 'front'))
+                  }
+                >
+                  {fullscreenSide === 'front' ? 'Show English' : `Show ${frontLanguage.name}`}
+                </button>
+              )}
+              <button type="button" className="btn btn-primary" onClick={closeFullscreen}>
+                Close
+              </button>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            className="card-fullscreen-stage"
+            onClick={() =>
+              frontLanguage.code !== ENGLISH &&
+              setFullscreenSide((side) => (side === 'front' ? 'back' : 'front'))
+            }
+            aria-label={
+              frontLanguage.code === ENGLISH
+                ? 'Allergy card'
+                : 'Tap to flip between languages'
+            }
+          >
+            <div className="card-fullscreen-fit" ref={fullscreenFitRef}>
+              <div
+                className="card-fullscreen-scale"
+                style={{ transform: `scale(${fullscreenScale})` }}
+              >
+                {fullscreenCard}
+              </div>
+            </div>
+          </button>
+
+          <p className="card-fullscreen-hint">
+            {frontLanguage.code === ENGLISH
+              ? 'Hand your phone to staff. Press Close or Escape when done.'
+              : 'Tap the card to flip. Hand your phone to staff. Press Close or Escape when done.'}
+          </p>
+        </div>
+      )}
 
       <div className={`print-area ${printMode === 'single' ? 'print-single' : 'print-sheet'}`}>
         {printMode === 'single' ? (

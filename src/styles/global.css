@@ -352,37 +352,45 @@ input:focus {
 .ac-found {
   flex: 1;
   min-width: 0;
+  text-align: start;
+  align-self: stretch;
 }
 
 .ac-found-label {
   font-size: 2.25mm;
   font-weight: 800;
   color: #111;
+  text-align: start;
 }
 
 .ac-found-list {
   margin: 0.45mm 0 0;
   padding: 0;
   list-style: none;
-  columns: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 2.4mm;
+  row-gap: 0.15mm;
+  align-content: start;
+  justify-items: start;
   font-size: 2.05mm;
   font-weight: 600;
   color: #222;
+  text-align: start;
 }
 
 .ac-found-list li {
-  break-inside: avoid;
+  width: 100%;
   padding-inline-start: 2.1mm;
   position: relative;
-  margin-bottom: 0.15mm;
+  text-align: start;
 }
 
 .ac-found-list li::before {
   content: '';
   position: absolute;
   inset-inline-start: 0;
-  top: 0.85mm;
+  top: 0.55mm;
   width: 1.1mm;
   height: 1.1mm;
   background: var(--ac-red);
@@ -850,6 +858,102 @@ input:focus {
   max-width: 46rem;
   margin: 0;
   line-height: 1.5;
+}
+
+/* Fullscreen online card viewer (phone / tablet, no print needed) */
+.card-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.card-fullscreen-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  background: #111;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.card-fullscreen-title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.card-fullscreen-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-fullscreen-actions .btn {
+  background: #1c1c1c;
+  border-color: #444;
+  color: #fff;
+}
+
+.card-fullscreen-actions .btn:hover {
+  border-color: var(--red);
+  background: #222;
+}
+
+.card-fullscreen-actions .btn-primary {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.card-fullscreen-stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-fullscreen-fit {
+  width: min(94vw, calc((100dvh - 7.5rem) * 85.6 / 54));
+  max-width: 100%;
+  aspect-ratio: 85.6 / 54;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.2vw;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+}
+
+.card-fullscreen-scale {
+  position: absolute;
+  inset: 0;
+  width: 85.6mm;
+  height: 54mm;
+  transform-origin: top left;
+}
+
+.card-fullscreen-scale .allergy-card {
+  box-shadow: none;
+}
+
+.card-fullscreen-hint {
+  margin: 0;
+  padding: 0.65rem 1rem 1rem;
+  text-align: center;
+  color: #bdbdbd;
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
 
 /* ============================================================
