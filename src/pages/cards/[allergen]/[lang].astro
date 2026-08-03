@@ -18,7 +18,7 @@ const allergenData = allergens.find((a) => a.id === allergen)!;
 const languageData = languages.find((l) => l.code === lang)!;
 const enName = allergenData.translations['english'].allergen;
 
-const title = `${enName} allergy card in ${languageData.name} — free printable`;
+const title = `${enName} allergy card in ${languageData.name} - free printable`;
 const description = `Free printable ${enName.toLowerCase()} allergy translation card in ${languageData.name}. Credit-card size, double-sided with English. Open source and verified by the community.`;
 ---
 
@@ -26,12 +26,10 @@ const description = `Free printable ${enName.toLowerCase()} allergy translation 
   <section class="section">
     <h2 class="no-print">
       {allergenData.emoji}
-      {enName} allergy card — {languageData.name}
+      {enName} allergy card - {languageData.name}
     </h2>
     <CardBuilder
       client:load
-      allergens={allergens}
-      languages={languages}
       initialAllergen={allergenData.id}
       initialLang={languageData.code}
     />

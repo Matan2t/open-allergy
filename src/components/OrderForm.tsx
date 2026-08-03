@@ -1,11 +1,6 @@
 import { useEffect, useState } from 'react';
-import type { Allergen, Language } from '../lib/types';
+import { allergens, languages } from '../lib/data';
 import { ENGLISH } from '../lib/types';
-
-export interface OrderFormProps {
-  allergens: Allergen[];
-  languages: Language[];
-}
 
 type Status =
   | { kind: 'idle' }
@@ -16,9 +11,9 @@ type Status =
 
 const NOT_CONFIGURED_MESSAGE =
   'Online ordering is not enabled on this deployment yet. You can still download and print ' +
-  'your card for free — or take the PNG to any local print shop.';
+  'your card for free - or take the PNG to any local print shop.';
 
-export default function OrderForm({ allergens, languages }: OrderFormProps) {
+export default function OrderForm() {
   const [allergenId, setAllergenId] = useState(allergens[0].id);
   const [langCode, setLangCode] = useState(languages[0].code);
   const [personalName, setPersonalName] = useState('');
@@ -34,7 +29,7 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
     if (l && languages.some((x) => x.code === l)) setLangCode(l);
     if (params.get('success')) setStatus({ kind: 'success' });
     if (params.get('canceled')) setStatus({ kind: 'canceled' });
-  }, [allergens, languages]);
+  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -64,7 +59,12 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
   }
 
   const allergen = allergens.find((a) => a.id === allergenId) ?? allergens[0];
-  const language = languages.find((l) => l.code === langCode) ?? languages[0];
+  const availableLanguages = languages
+    .filter((l) => allergen.translations[l.code])
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const language =
+    availableLanguages.find((l) => l.code === langCode) ?? availableLanguages[0] ?? languages[0];
 
   return (
     <form className="order-form" onSubmit={handleSubmit}>
@@ -75,7 +75,7 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
         </p>
       )}
       {status.kind === 'canceled' && (
-        <p className="alert alert-error">Checkout was canceled — nothing was charged.</p>
+        <p className="alert alert-error">Checkout was canceled - nothing was charged.</p>
       )}
       {status.kind === 'error' && <p className="alert alert-error">{status.message}</p>}
 
@@ -91,11 +91,11 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
       </label>
 
       <label className="field">
-        Language (English is always on the back)
-        <select value={langCode} onChange={(e) => setLangCode(e.target.value)}>
-          {languages.map((l) => (
+        Language (English is always on the back) - {availableLanguages.length} available
+        <select value={language.code} onChange={(e) => setLangCode(e.target.value)}>
+          {availableLanguages.map((l) => (
             <option key={l.code} value={l.code}>
-              {l.name} — {l.nativeName}
+              {l.name} - {l.nativeName}
             </option>
           ))}
         </select>
@@ -119,19 +119,12 @@ export default function OrderForm({ allergens, languages }: OrderFormProps) {
           min={1}
           max={10}
           value={quantity}
-          onChange={(e) => setQuantity(Math.min(10, Math.max(1, Number(e.target.value) || 1)))}
+          onChange={(e) => setQuantity(Number(e.target.value) || 1)}
         />
       </label>
 
-      <p className="price-note">
-        You're ordering: <strong>{allergen.translations[ENGLISH].allergen}</strong> card in{' '}
-        <strong>{language.name}</strong> × {quantity}. Price and shipping are shown on the secure
-        Stripe checkout page. Preview your exact card design on the{' '}
-        <a href={`/cards/${allergenId}/${langCode}`}>card page</a> first.
-      </p>
-
       <button type="submit" className="btn btn-primary" disabled={status.kind === 'submitting'}>
-        {status.kind === 'submitting' ? 'Redirecting to checkout…' : 'Continue to secure checkout'}
+        {status.kind === 'submitting' ? 'Redirecting to checkout…' : 'Continue to checkout'}
       </button>
     </form>
   );

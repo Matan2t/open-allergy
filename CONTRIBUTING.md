@@ -1,7 +1,7 @@
 # Contributing
 
 Thank you for helping make allergy cards free and accurate for everyone. The most valuable
-contribution is **translation review by native speakers** — no coding required.
+contribution is **translation review by native speakers** - no coding required.
 
 ## Verify or fix a translation (no coding required)
 
@@ -17,7 +17,7 @@ contribution is **translation review by native speakers** — no coding required
 
 1. Copy an existing file in `data/allergens/` (e.g. `milk.yaml`) to `<allergen-id>.yaml`.
    The id must be lowercase kebab-case (e.g. `tree-nuts`).
-2. Fill in the English (`english:`) entry first — it is the source text for all translations.
+2. Fill in the English (`english:`) entry first - it is the source text for all translations.
 3. Add translations for as many languages as you can. Machine-drafted translations are welcome
    as a starting point but must be marked `verified: false`.
 4. Run `pnpm validate` to check the file against the schema.
@@ -40,10 +40,10 @@ english:
 ## Add a new language
 
 1. Add the language to `data/languages.yaml` with:
-   - `code`: full readable slug (e.g. `hebrew`, `portuguese-brazil`) — used in URLs and YAML keys
-   - `locale`: BCP-47 tag (e.g. `he`, `pt-BR`) — used for HTML `lang` attributes
+   - `code`: full readable slug (e.g. `hebrew`, `portuguese-brazil`) - used in URLs and YAML keys
+   - `locale`: BCP-47 tag (e.g. `he`, `pt-BR`) - used for HTML `lang` attributes
    - English name, native name, text direction (`ltr` or `rtl`), and shared UI strings
-2. Add a translation section under that same `code` to each file in `data/allergens/` — partial
+2. Add a translation section under that same `code` to each file in `data/allergens/` - partial
    coverage is fine; cards are only offered for languages that have a translation.
 3. Run `pnpm validate`.
 

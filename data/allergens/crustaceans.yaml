@@ -64,7 +64,7 @@ translations:
     statement: Ich habe eine schwere Allergie gegen Krebstiere.
     description: >-
       Ich darf keine Lebensmittel essen, die Krebstiere wie Garnelen, Shrimps, Krabben, Hummer oder
-      Flusskrebse enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische
+      Flusskrebse enthalten - auch nicht in kleinen Mengen -, da ich sonst eine schwere allergische
       Reaktion erleide und ärztliche Hilfe benötige.
     foundInLabel: 'Krebstiere können enthalten sein in:'
     foundIn:
@@ -334,8 +334,8 @@ translations:
     allergen: Skaldyr (krebsdyr)
     statement: Jeg har en alvorlig allergi over for krebsdyr.
     description: >-
-      Jeg kan ikke spise mad med krebsdyr som rejer, krabber, hummer eller flodkrebs – heller ikke i
-      små mængder – ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+      Jeg kan ikke spise mad med krebsdyr som rejer, krabber, hummer eller flodkrebs - heller ikke i
+      små mængder - ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
     foundInLabel: 'Krebsdyr kan findes i:'
     foundIn:
       - Rejer
@@ -684,7 +684,7 @@ translations:
     allergen: Ракообразные
     statement: У меня тяжёлая аллергия на ракообразных.
     description: >-
-      Я не могу есть продукты, содержащие ракообразных — креветок, крабов, омаров или раков — даже в
+      Я не могу есть продукты, содержащие ракообразных - креветок, крабов, омаров или раков - даже в
       небольших количествах, иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется
       медицинская помощь.
     foundInLabel: 'Ракообразные могут содержаться в:'
@@ -824,7 +824,7 @@ translations:
     allergen: Ракоподібні
     statement: У мене тяжка алергія на ракоподібних.
     description: >-
-      Я не можу їсти їжу, що містить ракоподібних — креветок, крабів, омарів чи раків — навіть у
+      Я не можу їсти їжу, що містить ракоподібних - креветок, крабів, омарів чи раків - навіть у
       невеликій кількості, інакше в мене буде тяжка алергічна реакція, і мені знадобиться медична
       допомога.
     foundInLabel: 'Ракоподібні можуть міститися в:'

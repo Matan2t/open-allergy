@@ -67,7 +67,7 @@ translations:
     statement: Ich habe eine schwere Allergie gegen Weichtiere.
     description: >-
       Ich darf keine Lebensmittel essen, die Weichtiere wie Muscheln, Austern, Venusmuscheln,
-      Tintenfisch, Oktopus oder Schnecken enthalten – auch nicht in kleinen Mengen –, da ich sonst
+      Tintenfisch, Oktopus oder Schnecken enthalten - auch nicht in kleinen Mengen -, da ich sonst
       eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
     foundInLabel: 'Weichtiere können enthalten sein in:'
     foundIn:
@@ -356,7 +356,7 @@ translations:
     statement: Jeg har en alvorlig allergi over for bløddyr.
     description: >-
       Jeg kan ikke spise mad med bløddyr som muslinger, østers, clams, blæksprutter, octopus eller
-      snegle – heller ikke i små mængder – ellers får jeg en alvorlig allergisk reaktion og har brug
+      snegle - heller ikke i små mængder - ellers får jeg en alvorlig allergisk reaktion og har brug
       for lægehjælp.
     foundInLabel: 'Bløddyr kan findes i:'
     foundIn:
@@ -729,8 +729,8 @@ translations:
     allergen: Моллюски
     statement: У меня тяжёлая аллергия на моллюсков.
     description: >-
-      Я не могу есть продукты, содержащие моллюсков — мидии, устрицы, моллюски-кламы, кальмары,
-      осьминогов или улиток — даже в небольших количествах, иначе у меня будет тяжёлая аллергическая
+      Я не могу есть продукты, содержащие моллюсков - мидии, устрицы, моллюски-кламы, кальмары,
+      осьминогов или улиток - даже в небольших количествах, иначе у меня будет тяжёлая аллергическая
       реакция, и мне потребуется медицинская помощь.
     foundInLabel: 'Моллюски могут содержаться в:'
     foundIn:
@@ -879,8 +879,8 @@ translations:
     allergen: Молюски
     statement: У мене тяжка алергія на молюсків.
     description: >-
-      Я не можу їсти їжу, що містить молюсків — мідії, устриці, молюски-клами, кальмари, восьминогів
-      або равликів — навіть у невеликій кількості, інакше в мене буде тяжка алергічна реакція, і
+      Я не можу їсти їжу, що містить молюсків - мідії, устриці, молюски-клами, кальмари, восьминогів
+      або равликів - навіть у невеликій кількості, інакше в мене буде тяжка алергічна реакція, і
       мені знадобиться медична допомога.
     foundInLabel: 'Молюски можуть міститися в:'
     foundIn:

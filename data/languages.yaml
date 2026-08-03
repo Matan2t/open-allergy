@@ -1,4 +1,4 @@
-# Supported languages — Equal Eats catalog parity (~50).
+# Supported languages (~50).
 # `code` is the full readable slug used in URLs and YAML keys (e.g. hebrew).
 # `locale` is the BCP-47 tag used for HTML lang= attributes (e.g. he).
 # `strings` are shared card texts that do not vary per allergen.

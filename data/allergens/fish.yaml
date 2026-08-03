@@ -62,8 +62,8 @@ translations:
     allergen: Fisch
     statement: Ich habe eine schwere Fischallergie.
     description: >-
-      Ich darf keine Lebensmittel essen, die Fisch oder Fischprodukte enthalten – auch nicht in
-      kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      Ich darf keine Lebensmittel essen, die Fisch oder Fischprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
       benötige.
     foundInLabel: 'Fisch kann enthalten sein in:'
     foundIn:
@@ -328,7 +328,7 @@ translations:
     allergen: Fisk
     statement: Jeg har en alvorlig allergi over for fisk.
     description: >-
-      Jeg kan ikke spise mad med fisk eller fiskeprodukter – heller ikke i små mængder – ellers får
+      Jeg kan ikke spise mad med fisk eller fiskeprodukter - heller ikke i små mængder - ellers får
       jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
     foundInLabel: 'Fisk kan findes i:'
     foundIn:

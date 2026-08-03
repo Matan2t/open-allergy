@@ -65,7 +65,7 @@ for (const file of files) {
   try {
     doc = loadYaml(readFileSync(join(allergensDir, file), 'utf8'));
   } catch (e) {
-    errors.push(`${path}: YAML parse error — ${e.message}`);
+    errors.push(`${path}: YAML parse error - ${e.message}`);
     continue;
   }
 

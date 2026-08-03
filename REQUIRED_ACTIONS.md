@@ -3,11 +3,11 @@
 Owner checklist to take the project from "built locally" to "live and earning".
 Ordered by priority; the first three are enough to launch the free product.
 
-## 1. Publish to GitHub (required for the open-source loop) — DONE 2026-07-27
+## 1. Publish to GitHub (required for the open-source loop) - DONE 2026-07-27
 
 - [x] Create a public GitHub repository: <https://github.com/Matan2t/open-allergy>.
 - [x] Push this repo (`main` is the default branch; stale `master` deleted).
-- [x] Update `GITHUB_URL` in [`src/lib/site.ts`](src/lib/site.ts) to the real repo URL —
+- [x] Update `GITHUB_URL` in [`src/lib/site.ts`](src/lib/site.ts) to the real repo URL -
       every "help review this translation" / "edit on GitHub" link on the site uses it.
 - [ ] Optionally add issue templates for "translation fix" and "new language".
 
@@ -15,7 +15,7 @@ Ordered by priority; the first three are enough to launch the free product.
 
 - [ ] Cloudflare project connected to GitHub (`open-allergy`). Settings:
       **Build command:** `pnpm build` · **Deploy command:** `pnpm run deploy`
-      (uses committed `wrangler.jsonc` — do **not** use bare `npx wrangler deploy`, which
+      (uses committed `wrangler.jsonc` - do **not** use bare `npx wrangler deploy`, which
       tries to auto-reconfigure Astro and fails in this pnpm workspace).
 - [x] Set `site` in [`astro.config.mjs`](astro.config.mjs) and `CARD_FOOTER_BRAND` in
       [`src/lib/site.ts`](src/lib/site.ts) to `open-allergy.pages.dev` (update if you add a
@@ -29,7 +29,7 @@ Ordered by priority; the first three are enough to launch the free product.
 - [ ] You can verify the Hebrew (`hebrew:`) sections yourself: fix wording if needed, flip
       `verified: false` → `verified: true` in `data/allergens/*.yaml`, run `pnpm validate`.
 - [ ] Recruit native speakers (allergy communities, r/foodallergies, Facebook groups) for the
-      other languages — CONTRIBUTING.md walks them through it with no coding.
+      other languages - CONTRIBUTING.md walks them through it with no coding.
 
 ## 4. Enable paid plastic card orders (revenue)
 
@@ -57,6 +57,6 @@ Ordered by priority; the first three are enough to launch the free product.
 
 - [ ] Stripe webhook + order database if volume outgrows the dashboard-as-queue approach.
 - [ ] Automated paper-card dropshipping (Gelato/Printful) as a cheaper physical option.
-- [ ] Custom multi-allergen cards; non-food allergy cards (penicillin etc. — just new YAML files).
+- [ ] Custom multi-allergen cards; non-food allergy cards (penicillin etc. - just new YAML files).
 - [ ] More languages (Vietnamese, Thai, Korean, Hindi are common travel gaps).
 - [ ] SEO: sitemap, per-page structured data, and an OpenGraph card image per allergen.

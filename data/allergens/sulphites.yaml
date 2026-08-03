@@ -60,8 +60,8 @@ translations:
     allergen: Sulfite
     statement: Ich habe eine schwere Sulfitunverträglichkeit.
     description: >-
-      Ich darf keine Lebensmittel oder Getränke zu mir nehmen, die Sulfite enthalten – auch nicht in
-      kleinen Mengen –, da ich sonst eine schwere Reaktion erleide und ärztliche Hilfe benötige.
+      Ich darf keine Lebensmittel oder Getränke zu mir nehmen, die Sulfite enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere Reaktion erleide und ärztliche Hilfe benötige.
     foundInLabel: 'Sulfite können enthalten sein in:'
     foundIn:
       - Wein

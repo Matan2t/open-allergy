@@ -1,5 +1,5 @@
 /* ============================================================
-   Theme A — Signal Red
+   Theme A - Signal Red
    Medical clarity: black header, white paper, vivid alert red.
    ============================================================ */
 :root {
@@ -249,7 +249,7 @@ input:focus {
 }
 
 /* ============================================================
-   Allergy card — CR80 (85.6mm × 54mm) — Theme A Signal Red
+   Allergy card - CR80 (85.6mm × 54mm) - Theme A Signal Red
    ============================================================ */
 .allergy-card {
   --ac-red: #d90429;

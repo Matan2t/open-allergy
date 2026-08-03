@@ -4,7 +4,7 @@
  * Creates a Stripe Checkout Session for a plastic card order. The card
  * configuration (allergen, language, personalization) is attached as session
  * metadata, so the Stripe Dashboard's list of paid sessions doubles as the
- * fulfillment queue — no database needed.
+ * fulfillment queue - no database needed.
  *
  * Required environment variables (set on the Cloudflare Workers project under
  * Settings -> Variables and Secrets):
@@ -73,7 +73,7 @@ export async function handleCheckout(request: Request, env: CheckoutEnv): Promis
   }
 
   const siteUrl = (env.SITE_URL ?? new URL(request.url).origin).replace(/\/$/, '');
-  const productName = `Plastic allergy card — ${allergen} (${lang.toUpperCase()} + EN)`;
+  const productName = `Plastic allergy card - ${allergen} (${lang.toUpperCase()} + EN)`;
 
   // Stripe's API takes form-encoded bodies; calling it directly via fetch
   // keeps the function dependency-free.

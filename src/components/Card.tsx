@@ -10,7 +10,7 @@ export interface CardSideProps {
 
 /**
  * One side of the card at exact CR80 physical size (85.6mm × 54mm).
- * Theme A — Signal Red: black header, white body, alert-red emphasis.
+ * Theme A - Signal Red: black header, white body, alert-red emphasis.
  */
 export default function Card({ language, translation, emoji, personalName }: CardSideProps) {
   return (

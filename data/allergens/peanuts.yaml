@@ -65,8 +65,8 @@ translations:
     allergen: Erdnüsse
     statement: Ich habe eine schwere Erdnussallergie.
     description: >-
-      Ich darf keine Lebensmittel essen, die Erdnüsse oder Erdnussprodukte enthalten – auch nicht in
-      kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      Ich darf keine Lebensmittel essen, die Erdnüsse oder Erdnussprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
       benötige.
     foundInLabel: 'Erdnüsse können enthalten sein in:'
     foundIn:
@@ -654,7 +654,7 @@ translations:
     statement: Mam ciężką alergię na orzeszki ziemne.
     description: >-
       Nie mogę jeść potraw zawierających orzeszki ziemne lub produkty z orzeszków ziemnych, nawet w
-      małych ilościach — inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy
+      małych ilościach - inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy
       medycznej.
     foundInLabel: 'Orzeszki ziemne mogą występować w:'
     foundIn:
@@ -709,7 +709,7 @@ translations:
     allergen: Арахис
     statement: У меня тяжёлая аллергия на арахис.
     description: >-
-      Я не могу есть еду, содержащую арахис или продукты из арахиса, даже в небольших количествах —
+      Я не могу есть еду, содержащую арахис или продукты из арахиса, даже в небольших количествах -
       иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
     foundInLabel: 'Арахис может содержаться в:'
     foundIn:
@@ -853,7 +853,7 @@ translations:
     allergen: Арахіс
     statement: У мене важка алергія на арахіс.
     description: >-
-      Я не можу їсти їжу, що містить арахіс або продукти з арахісу, навіть у невеликій кількості —
+      Я не можу їсти їжу, що містить арахіс або продукти з арахісу, навіть у невеликій кількості -
       інакше буде важка алергічна реакція, і мені знадобиться медична допомога.
     foundInLabel: 'Арахіс може міститися в:'
     foundIn:
@@ -871,7 +871,7 @@ translations:
     allergen: Đậu phộng
     statement: Tôi bị dị ứng nặng với đậu phộng.
     description: >-
-      Tôi không thể ăn thực phẩm có đậu phộng hoặc chế phẩm từ đậu phộng, dù chỉ một lượng nhỏ — nếu
+      Tôi không thể ăn thực phẩm có đậu phộng hoặc chế phẩm từ đậu phộng, dù chỉ một lượng nhỏ - nếu
       không sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
     foundInLabel: 'Đậu phộng có thể có trong:'
     foundIn:

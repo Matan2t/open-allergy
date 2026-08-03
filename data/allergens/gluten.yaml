@@ -66,8 +66,8 @@ translations:
     allergen: Gluten
     statement: Ich habe Zöliakie und darf kein Gluten essen.
     description: >-
-      Ich darf keine Lebensmittel essen, die Weizen, Roggen, Gerste oder Hafer enthalten – auch
-      nicht in kleinen Mengen –, da ich sonst ernsthaft krank werde.
+      Ich darf keine Lebensmittel essen, die Weizen, Roggen, Gerste oder Hafer enthalten - auch
+      nicht in kleinen Mengen -, da ich sonst ernsthaft krank werde.
     foundInLabel: 'Gluten kann enthalten sein in:'
     foundIn:
       - Weizen
@@ -362,7 +362,7 @@ translations:
     allergen: Gluten
     statement: Jeg har cøliaki og kan ikke spise gluten.
     description: >-
-      Jeg kan ikke spise mad med hvede, rug, byg eller havre – heller ikke i små mængder – ellers
+      Jeg kan ikke spise mad med hvede, rug, byg eller havre - heller ikke i små mængder - ellers
       bliver jeg alvorligt syg.
     foundInLabel: 'Gluten kan findes i:'
     foundIn:

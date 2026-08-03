@@ -1,6 +1,6 @@
 # Open Allergy Cards
 
-**Free, open-source allergy translation cards — print at home, in any language, forever free.**
+**Free, open-source allergy translation cards - print at home, in any language, forever free.**
 
 Commercial services charge up to $90 for a single allergy translation card. This project gives
 everyone the same thing for free: pick your allergy, pick a language, and print a double-sided
@@ -14,18 +14,18 @@ to restaurant staff anywhere in the world.
   until a native speaker reviews them. Every card links directly to its source file on GitHub.
 - **Optional physical cards.** If you want a durable plastic card mailed to you, you can order one
   for a small fee that covers printing, shipping, and keeps the project running. This is entirely
-  optional — the free downloads are identical in content.
+  optional - the free downloads are identical in content.
 
 ## Content
 
 - **14 allergens** (the EU's mandatory allergen list): milk, eggs, peanuts, tree nuts,
   gluten/cereals, fish, crustaceans, molluscs, soybeans, sesame, celery, mustard, sulphites, lupin.
-- **~50 languages** matching the Equal Eats catalog (including Arabic, Bengali, Chinese
-  Simplified/Traditional/HK, Hindi, Korean, Thai, Vietnamese, and many European languages) —
-  with right-to-left support for Hebrew and Arabic. New translations are AI-drafted and marked
-  `verified: false` until a native speaker reviews them.
+- **49 languages** (including Arabic, Bengali, Chinese Simplified/Traditional/HK, Hindi, Korean,
+  Thai, Vietnamese, and many European languages) - with right-to-left support for Hebrew and
+  Arabic. New translations are AI-drafted and marked `verified: false` until a native speaker
+  reviews them.
 
-Want another allergen or language? See [CONTRIBUTING.md](CONTRIBUTING.md) — adding one is just a
+Want another allergen or language? See [CONTRIBUTING.md](CONTRIBUTING.md) - adding one is just a
 YAML edit.
 
 ## Development
@@ -56,12 +56,12 @@ scripts/               # data validation
 ## Deployment
 
 The site deploys to [Cloudflare Workers](https://workers.cloudflare.com) (free tier) as a
-static-assets Worker — the Astro build in `dist/` is served as assets and the Worker in
+static-assets Worker - the Astro build in `dist/` is served as assets and the Worker in
 `worker/` handles only `/api/*`:
 
 1. Create a git-connected Workers project pointing at this repo
    (Workers & Pages → Create → import the repository).
-2. Build command: `pnpm build` — deploy command: `npx wrangler deploy`
+2. Build command: `pnpm build` - deploy command: `npx wrangler deploy`
    (configuration is read from `wrangler.jsonc`).
 
 ### Enabling physical card orders (optional)
@@ -77,7 +77,7 @@ Settings → Variables and Secrets (`STRIPE_SECRET_KEY` should be a Secret):
 | `SITE_URL`          | Public URL of the deployed site                    |
 
 Paid orders appear in the Stripe Dashboard with the allergen, language, and personalization as
-session metadata — that list is the fulfillment queue.
+session metadata - that list is the fulfillment queue.
 
 ## Licenses
 

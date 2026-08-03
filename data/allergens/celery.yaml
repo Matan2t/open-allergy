@@ -60,8 +60,8 @@ translations:
     allergen: Sellerie
     statement: Ich habe eine schwere Sellerieallergie.
     description: >-
-      Ich darf keine Lebensmittel essen, die Sellerie oder Sellerieprodukte enthalten – auch nicht
-      in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche
+      Ich darf keine Lebensmittel essen, die Sellerie oder Sellerieprodukte enthalten - auch nicht
+      in kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche
       Hilfe benötige.
     foundInLabel: 'Sellerie kann enthalten sein in:'
     foundIn:
@@ -211,7 +211,7 @@ translations:
     allergen: সেলারি
     statement: আমার তীব্র সেলারি অ্যালার্জি আছে।
     description: >-
-      আমি সেলারি বা সেলারিজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়—নইলে তীব্র
+      আমি সেলারি বা সেলারিজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়-নইলে তীব্র
       অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা প্রয়োজন হবে।
     foundInLabel: 'সেলারি পাওয়া যেতে পারে:'
     foundIn:
@@ -394,7 +394,7 @@ translations:
     allergen: सेलरी
     statement: मुझे गंभीर सेलरी एलर्जी है।
     description: >-
-      मैं सेलरी या सेलरी उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो—अन्यथा
+      मैं सेलरी या सेलरी उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो-अन्यथा
       गंभीर एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
     foundInLabel: 'सेलरी इनमें मिल सकती है:'
     foundIn:

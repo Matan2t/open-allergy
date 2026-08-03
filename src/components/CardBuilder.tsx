@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { getFontEmbedCSS, toBlob } from 'html-to-image';
 import Card from './Card';
-import type { Allergen, Language } from '../lib/types';
+import { allergens, languages } from '../lib/data';
 import { ENGLISH } from '../lib/types';
 import { GITHUB_URL } from '../lib/site';
 
@@ -26,18 +26,11 @@ const EXPORT_WIDTH_PX = CARD_WIDTH_PX + EXPORT_PAD_PX * 2;
 const EXPORT_HEIGHT_PX = CARD_HEIGHT_PX * 2 + EXPORT_GAP_PX + EXPORT_PAD_PX * 2;
 
 export interface CardBuilderProps {
-  allergens: Allergen[];
-  languages: Language[];
   initialAllergen: string;
   initialLang: string;
 }
 
-export default function CardBuilder({
-  allergens,
-  languages,
-  initialAllergen,
-  initialLang,
-}: CardBuilderProps) {
+export default function CardBuilder({ initialAllergen, initialLang }: CardBuilderProps) {
   const [allergenId, setAllergenId] = useState(initialAllergen);
   const [langCode, setLangCode] = useState(initialLang);
   const [personalName, setPersonalName] = useState('');
@@ -51,18 +44,35 @@ export default function CardBuilder({
   const pngRef = useRef<HTMLDivElement>(null);
 
   const allergen = allergens.find((a) => a.id === allergenId) ?? allergens[0];
-  const language = languages.find((l) => l.code === langCode) ?? languages[0];
   const english = languages.find((l) => l.code === ENGLISH) ?? languages[0];
+
+  // Only list languages that have a translation for the selected allergen.
+  const availableLanguages = languages
+    .filter((l) => allergen.translations[l.code])
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  const language =
+    availableLanguages.find((l) => l.code === langCode) ??
+    availableLanguages.find((l) => l.code === ENGLISH) ??
+    availableLanguages[0] ??
+    english;
 
   const translation = allergen.translations[language.code];
   const enTranslation = allergen.translations[ENGLISH];
+
+  useEffect(() => {
+    if (!allergen.translations[langCode] && language.code !== langCode) {
+      setLangCode(language.code);
+    }
+  }, [allergen, langCode, language.code]);
 
   useEffect(() => {
     const path = `/cards/${allergen.id}/${language.code}`;
     if (window.location.pathname !== path) {
       window.history.replaceState(null, '', path);
     }
-    document.title = `${enTranslation.allergen} allergy card in ${language.name} — Open Allergy Cards`;
+    document.title = `${enTranslation.allergen} allergy card in ${language.name} - Open Allergy Cards`;
   }, [allergen.id, language.code, language.name, enTranslation.allergen]);
 
   useEffect(() => {
@@ -165,8 +175,8 @@ export default function CardBuilder({
   const orderUrl = `/order?allergen=${allergen.id}&lang=${language.code}`;
 
   const frontLabel =
-    frontLanguage.code === ENGLISH ? 'Front — English' : `Front — ${frontLanguage.name}`;
-  const backLabel = 'Back — English';
+    frontLanguage.code === ENGLISH ? 'Front - English' : `Front - ${frontLanguage.name}`;
+  const backLabel = 'Back - English';
 
   const cardPair = (
     <>
@@ -200,11 +210,11 @@ export default function CardBuilder({
         </label>
 
         <label className="field">
-          Language (front)
+          Language (front) - {availableLanguages.length} available
           <select value={language.code} onChange={(e) => setLangCode(e.target.value)}>
-            {languages.map((l) => (
+            {availableLanguages.map((l) => (
               <option key={l.code} value={l.code}>
-                {l.name} — {l.nativeName}
+                {l.name} - {l.nativeName}
               </option>
             ))}
           </select>
@@ -227,7 +237,7 @@ export default function CardBuilder({
           <span className="badge badge-verified">✓ Translation verified by a native speaker</span>
         ) : (
           <span className="badge badge-unverified">
-            ⚠ Community translation, not yet verified —{' '}
+            ⚠ Community translation, not yet verified -{' '}
             <a href={editUrl} target="_blank" rel="noopener noreferrer">
               help review it
             </a>
@@ -277,7 +287,9 @@ export default function CardBuilder({
       </div>
 
       {exportError && (
-        <p className="builder-error no-print" role="alert">{exportError}</p>
+        <p className="builder-error no-print" role="alert">
+          {exportError}
+        </p>
       )}
 
       <p className="builder-hint no-print">
@@ -324,11 +336,7 @@ export default function CardBuilder({
         <style>{`@page { size: ${printMode === 'single' ? '85.6mm 54mm' : 'A4 portrait'}; margin: ${printMode === 'single' ? '0' : '8mm'}; }`}</style>
       </div>
 
-      <div
-        ref={pngRef}
-        className="png-export"
-        aria-hidden="true"
-      >
+      <div ref={pngRef} className="png-export" aria-hidden="true">
         {cardPair}
       </div>
     </div>

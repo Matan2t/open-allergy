@@ -1,24 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import OrderForm from '../components/OrderForm';
-import { allergens, languages } from '../lib/data';
 ---
 
-<Layout title="Order a plastic card — Open Allergy Cards">
+<Layout title="Order a plastic card - Open Allergy Cards">
   <section class="section">
     <h2>Order a durable plastic card</h2>
     <p class="section-lead">
       Downloading and printing your card is <strong>always free</strong>. If you'd like a durable,
-      waterproof plastic card (standard credit-card size, double-sided — your language + English)
+      waterproof plastic card (standard credit-card size, double-sided - your language + English)
       mailed to you, order one here for a small fee that covers printing, shipping, and keeps this
       project running.
     </p>
     <p class="notice" style="max-width: 46rem; margin-top: 1rem;">
-      The plastic card contains exactly the same content as the free download — you are paying for
+      The plastic card contains exactly the same content as the free download - you are paying for
       the physical card and shipping, never for the design or translation.
     </p>
     <div style="margin-top: 1.5rem;">
-      <OrderForm client:load allergens={allergens} languages={languages} />
+      <OrderForm client:load />
     </div>
   </section>
 </Layout>

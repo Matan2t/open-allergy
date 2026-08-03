@@ -63,8 +63,8 @@ translations:
     allergen: Soja
     statement: Ich habe eine schwere Sojaallergie.
     description: >-
-      Ich darf keine Lebensmittel essen, die Soja oder Sojaprodukte enthalten – auch nicht in
-      kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      Ich darf keine Lebensmittel essen, die Soja oder Sojaprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
       benötige.
     foundInLabel: 'Soja kann enthalten sein in:'
     foundIn:
@@ -222,7 +222,7 @@ translations:
     allergen: সয়া
     statement: আমার তীব্র সয়া অ্যালার্জি আছে।
     description: >-
-      আমি সয়া বা সয়াজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়—নইলে তীব্র
+      আমি সয়া বা সয়াজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়-নইলে তীব্র
       অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা প্রয়োজন হবে।
     foundInLabel: 'সয়া পাওয়া যেতে পারে:'
     foundIn:
@@ -416,7 +416,7 @@ translations:
     allergen: सोया
     statement: मुझे गंभीर सोया एलर्जी है।
     description: >-
-      मैं सोया या सोया उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो—अन्यथा गंभीर
+      मैं सोया या सोया उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो-अन्यथा गंभीर
       एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
     foundInLabel: 'सोया इनमें मिल सकता है:'
     foundIn:
