@@ -4,12 +4,14 @@
 id: eggs
 emoji: 🥚
 translations:
-  en:
+  english:
     verified: true
     allergen: Eggs
     statement: I have a severe egg allergy.
-    description: I cannot eat food containing eggs or egg products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Egg can be found in:"
+    description: >-
+      I cannot eat food containing eggs or egg products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Egg can be found in:'
     foundIn:
       - Albumin
       - Mayonnaise
@@ -20,13 +22,15 @@ translations:
       - Custard
       - Some sauces
     question: Does this food contain egg?
-
-  es:
+  spanish:
     verified: false
     allergen: Huevos
     statement: Tengo una alergia grave al huevo.
-    description: No puedo comer alimentos que contengan huevo o productos derivados del huevo, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "El huevo puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan huevo o productos derivados del huevo, ni siquiera en
+      pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención
+      médica.
+    foundInLabel: 'El huevo puede encontrarse en:'
     foundIn:
       - Albúmina
       - Mayonesa
@@ -37,13 +41,14 @@ translations:
       - Natillas y crema pastelera
       - Algunas salsas
     question: ¿Este alimento contiene huevo?
-
-  fr:
+  french:
     verified: false
     allergen: Œufs
     statement: J'ai une allergie sévère aux œufs.
-    description: Je ne peux pas manger d'aliments contenant des œufs ou des produits à base d'œufs, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Les œufs peuvent se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant des œufs ou des produits à base d'œufs, même en
+      petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Les œufs peuvent se trouver dans :'
     foundIn:
       - Albumine
       - Mayonnaise
@@ -54,13 +59,14 @@ translations:
       - Crème pâtissière
       - Certaines sauces
     question: Ce plat contient-il des œufs ?
-
-  de:
+  german:
     verified: false
     allergen: Eier
     statement: Ich habe eine schwere Ei-Allergie.
-    description: Ich darf keine Lebensmittel essen, die Eier oder Eiprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Eier können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Eier oder Eiprodukte enthalten - auch nicht in kleinen
+      Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: 'Eier können enthalten sein in:'
     foundIn:
       - Albumin
       - Mayonnaise
@@ -71,13 +77,14 @@ translations:
       - Pudding und Cremespeisen
       - Manche Soßen
     question: Enthält dieses Gericht Ei?
-
-  it:
+  italian:
     verified: false
     allergen: Uova
     statement: Ho una grave allergia alle uova.
-    description: Non posso mangiare alimenti che contengono uova o prodotti a base di uova, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "Le uova possono trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono uova o prodotti a base di uova, nemmeno in piccole
+      quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: 'Le uova possono trovarsi in:'
     foundIn:
       - Albumina
       - Maionese
@@ -88,13 +95,14 @@ translations:
       - Crema pasticcera
       - Alcune salse
     question: Questo cibo contiene uova?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Ovos
     statement: Tenho uma alergia grave ao ovo.
-    description: Não posso comer alimentos que contenham ovo ou produtos à base de ovo, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O ovo pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham ovo ou produtos à base de ovo, mesmo em pequenas
+      quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O ovo pode encontrar-se em:'
     foundIn:
       - Albumina
       - Maionese
@@ -105,13 +113,14 @@ translations:
       - Creme de pasteleiro
       - Alguns molhos
     question: Este alimento contém ovo?
-
-  el:
+  greek:
     verified: false
     allergen: Αυγά
     statement: Πάσχω από σοβαρή αλλεργία στο αυγό.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν αυγό ή προϊόντα αυγού, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Το αυγό μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν αυγό ή προϊόντα αυγού, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Το αυγό μπορεί να βρίσκεται σε:'
     foundIn:
       - Αλβουμίνη
       - Μαγιονέζα
@@ -122,13 +131,14 @@ translations:
       - Κρέμα ζαχαροπλαστικής
       - Ορισμένες σάλτσες
     question: Αυτό το φαγητό περιέχει αυγό;
-
-  tr:
+  turkish:
     verified: false
     allergen: Yumurta
     statement: Şiddetli yumurta alerjim var.
-    description: Yumurta veya yumurta ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Yumurta şunlarda bulunabilir:"
+    description: >-
+      Yumurta veya yumurta ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde
+      şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Yumurta şunlarda bulunabilir:'
     foundIn:
       - Albümin
       - Mayonez
@@ -139,13 +149,14 @@ translations:
       - Kremalı tatlılar ve muhallebi
       - Bazı soslar
     question: Bu yemekte yumurta var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: ביצים
     statement: יש לי אלרגיה חמורה לביצים.
-    description: אסור לי לאכול מזון המכיל ביצים או מוצרי ביצים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "ביצים עשויות להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל ביצים או מוצרי ביצים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית
+      חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'ביצים עשויות להימצא ב:'
     foundIn:
       - אלבומין
       - מיונז
@@ -156,13 +167,14 @@ translations:
       - קרם פטיסייר
       - רטבים מסוימים
     question: האם המנה הזו מכילה ביצים?
-
-  ar:
+  arabic:
     verified: false
     allergen: البيض
     statement: لديّ حساسية شديدة من البيض.
-    description: لا أستطيع تناول أي طعام يحتوي على البيض أو منتجات البيض، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد البيض في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على البيض أو منتجات البيض، ولو بكميات صغيرة، وإلا فسأصاب برد فعل
+      تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد البيض في:'
     foundIn:
       - الألبومين
       - المايونيز
@@ -173,8 +185,7 @@ translations:
       - الكاسترد
       - بعض الصلصات
     question: هل يحتوي هذا الطعام على البيض؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 卵
     statement: 私は重度の卵アレルギーがあります。
@@ -190,8 +201,7 @@ translations:
       - カスタード
       - 一部のソース
     question: この料理に卵は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 鸡蛋
     statement: 我对鸡蛋严重过敏。
@@ -207,3 +217,663 @@ translations:
       - 蛋奶糊（卡仕达）
       - 某些酱料
     question: 这道菜含有鸡蛋吗？
+  bengali:
+    verified: false
+    allergen: ডিম
+    statement: আমার ডিমে তীব্র অ্যালার্জি আছে।
+    description: >-
+      আমি ডিম বা ডিমজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি অল্প পরিমাণেও নয়; খেলে তীব্র
+      অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'ডিম পাওয়া যেতে পারে:'
+    foundIn:
+      - অ্যালবুমিন
+      - মেয়োনিজ
+      - মেরিঙ্গ
+      - বেকড খাবার
+      - তাজা পাস্তা
+      - ব্যাটার
+      - কাস্টার্ড
+      - কিছু সস
+    question: এই খাবারে কি ডিম আছে?
+  bulgarian:
+    verified: false
+    allergen: Яйца
+    statement: Имам тежка алергия към яйца.
+    description: >-
+      Не мога да ям храни, съдържащи яйца или яйчни продукти, дори в малки количества, иначе ще имам
+      тежка алергична реакция и ще ми трябва медицинска помощ.
+    foundInLabel: 'Яйцата могат да се съдържат в:'
+    foundIn:
+      - Албумин
+      - Майонеза
+      - Меренг
+      - Печени изделия
+      - Прясна паста
+      - Панировка
+      - Крем
+      - Някои сосове
+    question: Съдържа ли тази храна яйце?
+  catalan:
+    verified: false
+    allergen: Ous
+    statement: Tinc una al·lèrgia greu a l'ou.
+    description: >-
+      No puc menjar aliments que continguin ou o productes derivats de l'ou, ni tan sols en petites
+      quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'L''ou es pot trobar a:'
+    foundIn:
+      - Albúmina
+      - Maionesa
+      - Merenga
+      - Productes de forn
+      - Pasta fresca
+      - Rebozat
+      - Crema anglesa
+      - Algunes salses
+    question: Aquest aliment conté ou?
+  chinese-hong-kong:
+    verified: false
+    allergen: 蛋
+    statement: 我對蛋嚴重過敏。
+    description: 我不能進食含有蛋或蛋類製品的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要求醫。
+    foundInLabel: 蛋可能存在於：
+    foundIn:
+      - 蛋白
+      - 蛋黃醬
+      - 蛋白霜
+      - 烘焙食品
+      - 新鮮意粉
+      - 麵漿
+      - 卡士達
+      - 部分醬汁
+    question: 這道菜含有蛋嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 蛋
+    statement: 我對蛋嚴重過敏。
+    description: 我不能食用含有蛋或蛋製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 蛋可能存在於：
+    foundIn:
+      - 蛋白
+      - 美乃滋
+      - 蛋白霜
+      - 烘焙食品
+      - 新鮮義大利麵
+      - 麵糊
+      - 卡士達
+      - 部分醬料
+    question: 這道菜含有蛋嗎？
+  croatian:
+    verified: false
+    allergen: Jaja
+    statement: Imam tešku alergiju na jaja.
+    description: >-
+      Ne smijem jesti hranu koja sadrži jaja ili proizvode od jaja, čak ni u malim količinama, inače
+      ću imati tešku alergijsku reakciju i trebat ću liječničku pomoć.
+    foundInLabel: 'Jaje se može nalaziti u:'
+    foundIn:
+      - Albumin
+      - Majoneza
+      - Mereng
+      - Peciva
+      - Svježa tjestenina
+      - Poh
+      - Krema
+      - Neki umaci
+    question: Sadrži li ova hrana jaje?
+  czech:
+    verified: false
+    allergen: Vejce
+    statement: Mám těžkou alergii na vejce.
+    description: >-
+      Nesmím jíst potraviny obsahující vejce nebo vaječné výrobky, ani v malém množství, jinak budu
+      mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Vejce se mohou vyskytovat v:'
+    foundIn:
+      - Albumin
+      - Majonéza
+      - Pusinky
+      - Pečivo
+      - Čerstvé těstoviny
+      - Těsto
+      - Pudink
+      - Některé omáčky
+    question: Obsahuje toto jídlo vejce?
+  danish:
+    verified: false
+    allergen: Æg
+    statement: Jeg har en alvorlig æggeallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder æg eller æggeprodukter, heller ikke i små mængder,
+      ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Æg kan findes i:'
+    foundIn:
+      - Albumin
+      - Mayonnaise
+      - Marengs
+      - Bagværk
+      - Frisk pasta
+      - Dej
+      - Creme
+      - Visse saucer
+    question: Indeholder denne mad æg?
+  dutch:
+    verified: false
+    allergen: Eieren
+    statement: Ik heb een ernstige eierallergie.
+    description: >-
+      Ik mag geen voedsel eten dat eieren of eiproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Ei kan voorkomen in:'
+    foundIn:
+      - Albumine
+      - Mayonaise
+      - Meringue
+      - Gebak
+      - Verse pasta
+      - Beslag
+      - Custard
+      - Sommige sauzen
+    question: Bevat dit gerecht ei?
+  estonian:
+    verified: false
+    allergen: Munad
+    statement: Mul on raske munaallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab muna või munatooteid, isegi väikestes kogustes, muidu
+      tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Muna võib leiduda:'
+    foundIn:
+      - Albumiin
+      - Majonees
+      - Bese
+      - Küpsetised
+      - Värske pasta
+      - Taigen
+      - Vanillikaste
+      - Mõned kastmed
+    question: Kas selles toidus on muna?
+  finnish:
+    verified: false
+    allergen: Kananmuna
+    statement: Minulla on vakava kananmuna-allergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää kananmunaa tai munatuotteita, edes pieniä määriä, muuten
+      saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Kananmunaa voi olla:'
+    foundIn:
+      - Albumiini
+      - Majoneesi
+      - Marenki
+      - Leivonnaiset
+      - Tuore pasta
+      - Taikina
+      - Vaniljakastike
+      - Jotkut kastikkeet
+    question: Sisältääkö tämä ruoka kananmunaa?
+  hindi:
+    verified: false
+    allergen: अंडे
+    statement: मुझे अंडे से गंभीर एलर्जी है।
+    description: >-
+      मैं अंडे या अंडे से बने उत्पादों वाला खाना नहीं खा सकता/सकती, भले ही मात्रा कम हो; नहीं तो
+      गंभीर एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता लगेगी।
+    foundInLabel: 'अंडा इनमें मिल सकता है:'
+    foundIn:
+      - एल्ब्यूमिन
+      - मेयोनीज़
+      - मेरिंग
+      - बेकरी वस्तुएँ
+      - ताज़ा पास्ता
+      - बैटर
+      - कस्टर्ड
+      - कुछ सॉस
+    question: क्या इस खाने में अंडा है?
+  hungarian:
+    verified: false
+    allergen: Tojás
+    statement: Súlyos tojásallergiám van.
+    description: >-
+      Nem ehetek tojást vagy tojásterméket tartalmazó ételt, még kis mennyiségben sem, különben
+      súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'A tojás megtalálható:'
+    foundIn:
+      - Albumin
+      - Majonéz
+      - Habcsók
+      - Sütőipari termékek
+      - Friss tészta
+      - Bundázás
+      - Puding
+      - Egyes szószok
+    question: Tartalmaz ez az étel tojást?
+  icelandic:
+    verified: false
+    allergen: Egg
+    statement: Ég er með alvarlegt eggjaofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur egg eða eggjaafurðir, jafnvel í litlu magni, annars fæ
+      ég alvarleg ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Egg geta verið í:'
+    foundIn:
+      - Albúmín
+      - Majones
+      - Marengs
+      - Bakstur
+      - Fersk pasta
+      - Deig
+      - Krem
+      - Sumar sósur
+    question: Inniheldur þessi matur egg?
+  indonesian:
+    verified: false
+    allergen: Telur
+    statement: Saya memiliki alergi telur yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung telur atau produk telur, bahkan dalam jumlah
+      kecil, atau saya akan mengalami reaksi alergi yang parah dan membutuhkan perawatan medis.
+    foundInLabel: 'Telur dapat ditemukan dalam:'
+    foundIn:
+      - Albumin
+      - Mayones
+      - Meringue
+      - Kue dan roti
+      - Pasta segar
+      - Adonan
+      - Custard
+      - Beberapa saus
+    question: Apakah makanan ini mengandung telur?
+  khmer:
+    verified: false
+    allergen: ស៊ុត
+    statement: ខ្ញុំមានអាលែហ្សីស៊ុតធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានស៊ុត ឬផលិតផលស៊ុតបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នោះទេនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ និងត្រូវការព្យាបាល។
+    foundInLabel: ស៊ុតអាចមាននៅក្នុង៖
+    foundIn:
+      - អាល់ប៊ុយមីន
+      - ម៉ាយ៉ូនេស
+      - មេរ៉ាំង
+      - នំប៉័ង និងនំ
+      - ប៉ាស្តាស្រស់
+      - ពពុះម្សៅ
+      - កាស្តាដ
+      - ទឹកជ្រលក់មួយចំនួន
+    question: អាហារនេះមានស៊ុតទេ?
+  korean:
+    verified: false
+    allergen: 계란
+    statement: 저는 심각한 계란 알레르기가 있습니다.
+    description: 계란이나 계란 제품이 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '계란이 들어 있을 수 있는 것:'
+    foundIn:
+      - 알부민
+      - 마요네즈
+      - 머랭
+      - 베이커리 제품
+      - 생면
+      - 반죽·튀김옷
+      - 커스터드
+      - 일부 소스
+    question: 이 음식에 계란이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ໄຂ່
+    statement: ຂ້ອຍມີອາລແອກີ້ໄຂ່ຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີໄຂ່ ຫຼື ຜະລິດຕະພັນໄຂ່ໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຈະມີປະຕິກິລິຍາອາລແອກີ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ໄຂ່ອາດພົບໃນ:'
+    foundIn:
+      - ອາລບູມິນ
+      - ມາໂຍເນສ
+      - ເມີແຣງ
+      - ເຂົ້າຈີ່ ແລະ ເຂົ້າໜົມ
+      - ພາສຕາສົດ
+      - ແປ້ງຊຸບ
+      - ຄັສຕາດ
+      - ນ້ຳແຊບບາງຊະນິດ
+    question: ອາຫານນີ້ມີໄຂ່ບໍ?
+  latvian:
+    verified: false
+    allergen: Olas
+    statement: Man ir smaga olu alerģija.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur olas vai olu produktus, pat nelielos daudzumos, citādi būs
+      smaga alerģiska reakcija un vajadzēs medicīnisko palīdzību.
+    foundInLabel: 'Olas var būt:'
+    foundIn:
+      - Albumīns
+      - Majonēze
+      - Beze
+      - Maizes izstrādājumi
+      - Svaigi makaroni
+      - Mīkla
+      - Krēms
+      - Dažas mērces
+    question: Vai šajā ēdienā ir olas?
+  lithuanian:
+    verified: false
+    allergen: Kiaušiniai
+    statement: Turiu sunkią alergiją kiaušiniams.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra kiaušinių ar kiaušinių produktų, net ir nedideliais
+      kiekiais, kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Kiaušinių gali būti:'
+    foundIn:
+      - Albuminas
+      - Majonezas
+      - Merengas
+      - Kepiniai
+      - Švieži makaronai
+      - Tešla
+      - Kremas
+      - Kai kurie padažai
+    question: Ar šiame maiste yra kiaušinių?
+  macedonian:
+    verified: false
+    allergen: Јајца
+    statement: Имам тешка алергија на јајца.
+    description: >-
+      Не смеам да јадам храна што содржи јајца или јајчени производи, дури ни во мали количини,
+      инаку ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Јајцето може да се најде во:'
+    foundIn:
+      - Албумин
+      - Мајонез
+      - Меренг
+      - Печива
+      - Свежа паста
+      - Панирање
+      - Крем
+      - Некои сосови
+    question: Дали оваа храна содржи јајце?
+  malay:
+    verified: false
+    allergen: Telur
+    statement: Saya mempunyai alahan telur yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi telur atau produk telur, walaupun dalam jumlah
+      kecil, atau saya akan mengalami reaksi alahan yang teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Telur boleh dijumpai dalam:'
+    foundIn:
+      - Albumin
+      - Mayones
+      - Meringue
+      - Produk bakeri
+      - Pasta segar
+      - Adunan
+      - Kastard
+      - Sesetengah sos
+    question: Adakah makanan ini mengandungi telur?
+  maltese:
+    verified: false
+    allergen: Bajd
+    statement: Għandi allerġija severa għall-bajd.
+    description: >-
+      Ma nistax niekol ikel li jkun fih bajd jew prodotti tal-bajd, anke f'ammonti żgħar, inkella se
+      jkolli reazzjoni allerġika severa u se jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Il-bajd jista'' jinstab fi:'
+    foundIn:
+      - Albumina
+      - Majoneż
+      - Meringa
+      - Prodotti tal-forn
+      - Pasta friska
+      - Għaġina
+      - Custard
+      - Xi zlazi
+    question: Dan l-ikel fih bajd?
+  norwegian:
+    verified: false
+    allergen: Egg
+    statement: Jeg har en alvorlig eggallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder egg eller eggprodukter, heller ikke i små mengder,
+      ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Egg kan finnes i:'
+    foundIn:
+      - Albumin
+      - Majones
+      - Marengs
+      - Bakevarer
+      - Fersk pasta
+      - Røre
+      - Vaniljekrem
+      - Noen sauser
+    question: Inneholder denne maten egg?
+  polish:
+    verified: false
+    allergen: Jaja
+    statement: Mam ciężką alergię na jaja.
+    description: >-
+      Nie mogę jeść potraw zawierających jaja lub produkty jajeczne, nawet w małych ilościach -
+      inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Jaja mogą występować w:'
+    foundIn:
+      - Albumina
+      - Majonez
+      - Beza
+      - Wypieki
+      - Świeży makaron
+      - Panierka
+      - Budyń / krem
+      - Niektóre sosy
+    question: Czy to danie zawiera jajka?
+  portuguese-brazil:
+    verified: false
+    allergen: Ovos
+    statement: Eu tenho alergia grave a ovo.
+    description: >-
+      Não posso comer alimentos que contenham ovo ou derivados de ovo, mesmo em pequenas
+      quantidades, senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O ovo pode ser encontrado em:'
+    foundIn:
+      - Albumina
+      - Maionese
+      - Merengue
+      - Produtos de padaria
+      - Massa fresca
+      - Empanado
+      - Creme / pudim
+      - Alguns molhos
+    question: Este alimento contém ovo?
+  romanian:
+    verified: false
+    allergen: Ouă
+    statement: Am o alergie severă la ouă.
+    description: >-
+      Nu pot mânca alimente care conțin ouă sau produse pe bază de ou, nici măcar în cantități mici,
+      altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Oul poate fi găsit în:'
+    foundIn:
+      - Albumină
+      - Maioneză
+      - Bezea
+      - Produse de patiserie
+      - Paste proaspete
+      - Aluat / pane
+      - Cremă
+      - Unele sosuri
+    question: Acest aliment conține ou?
+  russian:
+    verified: false
+    allergen: Яйца
+    statement: У меня тяжёлая аллергия на яйца.
+    description: >-
+      Я не могу есть еду, содержащую яйца или яичные продукты, даже в небольших количествах - иначе
+      у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Яйца могут содержаться в:'
+    foundIn:
+      - Альбумин
+      - Майонез
+      - Безе
+      - Выпечка
+      - Свежая паста
+      - Кляр
+      - Крем / заварной крем
+      - Некоторые соусы
+    question: В этом блюде есть яйца?
+  serbian:
+    verified: false
+    allergen: Јаја
+    statement: Имам тешку алергију на јаја.
+    description: >-
+      Не смем да једем храну која садржи јаја или производе од јаја, чак ни у малим количинама,
+      иначе ћу имати тешку алергијску реакцију и требаће ми медицинска помоћ.
+    foundInLabel: 'Јаје се може наћи у:'
+    foundIn:
+      - Албумин
+      - Мајонез
+      - Меренг
+      - Пецива
+      - Свежа тестанина
+      - Поховање
+      - Крем
+      - Неки сосови
+    question: Да ли ова храна садржи јаје?
+  slovak:
+    verified: false
+    allergen: Vajcia
+    statement: Mám ťažkú alergiu na vajcia.
+    description: >-
+      Nesmiem jesť potraviny obsahujúce vajcia alebo vaječné výrobky, ani v malom množstve, inak
+      budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Vajcia sa môžu nachádzať v:'
+    foundIn:
+      - Albumín
+      - Majonéza
+      - Pusinky
+      - Pečivo
+      - Čerstvé cestoviny
+      - Cesto
+      - Puding
+      - Niektoré omáčky
+    question: Obsahuje toto jedlo vajcia?
+  slovenian:
+    verified: false
+    allergen: Jajca
+    statement: Imam hudo alergijo na jajca.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje jajca ali jajčne izdelke, niti v majhnih količinah, sicer bom
+      imel/imela hudo alergijsko reakcijo in bom potreboval/potrebovala zdravniško pomoč.
+    foundInLabel: 'Jajca se lahko nahajajo v:'
+    foundIn:
+      - Albumin
+      - Majoneza
+      - Poljubčki
+      - Pecivo
+      - Sveže testenine
+      - Paniranje
+      - Krema
+      - Nekatere omake
+    question: Ali ta jed vsebuje jajca?
+  swahili:
+    verified: false
+    allergen: Mayai
+    statement: Nina mzio mkali wa mayai.
+    description: >-
+      Siwezi kula chakula chenye mayai au bidhaa za mayai, hata kwa kiasi kidogo, la sivyo nitapata
+      mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Mayai yanaweza kupatikana katika:'
+    foundIn:
+      - Albumin
+      - Mayonesi
+      - Meringue
+      - Vyakula vilivyookwa
+      - Pasta safi
+      - Mchanganyiko wa unga
+      - Kastadi
+      - Baadhi ya michuzi
+    question: Je, chakula hiki kina yai?
+  swedish:
+    verified: false
+    allergen: Ägg
+    statement: Jag har en allvarlig äggallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller ägg eller äggprodukter, ens i små mängder, annars får jag
+      en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Ägg kan finnas i:'
+    foundIn:
+      - Albumin
+      - Majonnäs
+      - Maräng
+      - Bakverk
+      - Färsk pasta
+      - Smet
+      - Vaniljsås
+      - Vissa såser
+    question: Innehåller den här maten ägg?
+  tagalog:
+    verified: false
+    allergen: Itlog
+    statement: Mayroon akong malubhang allergy sa itlog.
+    description: >-
+      Hindi ako makakain ng pagkaing may itlog o produktong itlog, kahit kaunti lang, o magkakaroon
+      ako ng malubhang allergic reaction at kakailanganin ng medikal na tulong.
+    foundInLabel: 'Ang itlog ay maaaring matagpuan sa:'
+    foundIn:
+      - Albumin
+      - Mayonesa
+      - Meringue
+      - Mga baked goods
+      - Sariwang pasta
+      - Batter
+      - Custard
+      - Ilang mga sauce
+    question: May itlog ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ไข่
+    statement: ฉันแพ้ไข่อย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีไข่หรือผลิตภัณฑ์จากไข่ไม่ได้ แม้เพียงเล็กน้อย
+      เพราะจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ไข่อาจพบใน:'
+    foundIn:
+      - อัลบูมิน
+      - มายองเนส
+      - เมอแรงก์
+      - เบเกอรี่
+      - พาสต้าสด
+      - แป้งชุบ
+      - คัสตาร์ด
+      - ซอสบางชนิด
+    question: อาหารนี้มีไข่หรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Яйця
+    statement: У мене важка алергія на яйця.
+    description: >-
+      Я не можу їсти їжу, що містить яйця або яєчні продукти, навіть у невеликій кількості - інакше
+      буде важка алергічна реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Яйця можуть міститися в:'
+    foundIn:
+      - Альбумін
+      - Майонез
+      - Безе
+      - Випічка
+      - Свіжа паста
+      - Кляр
+      - Крем
+      - Деякі соуси
+    question: Чи містить ця страва яйця?
+  vietnamese:
+    verified: false
+    allergen: Trứng
+    statement: Tôi bị dị ứng nặng với trứng.
+    description: >-
+      Tôi không thể ăn thực phẩm có trứng hoặc chế phẩm từ trứng, dù chỉ một lượng nhỏ - nếu không
+      sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Trứng có thể có trong:'
+    foundIn:
+      - Albumin
+      - Sốt mayonnaise
+      - Meringue
+      - Bánh nướng
+      - Mì ống tươi
+      - Bột chiên
+      - Custard
+      - Một số loại sốt
+    question: Món này có chứa trứng không?

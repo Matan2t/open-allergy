@@ -4,12 +4,14 @@
 id: peanuts
 emoji: 🥜
 translations:
-  en:
+  english:
     verified: true
     allergen: Peanuts
     statement: I have a severe peanut allergy.
-    description: I cannot eat food containing peanuts or peanut products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Peanuts can be found in:"
+    description: >-
+      I cannot eat food containing peanuts or peanut products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Peanuts can be found in:'
     foundIn:
       - Peanut butter
       - Peanut oil
@@ -20,13 +22,15 @@ translations:
       - Trail mix
       - Many Asian dishes
     question: Does this food contain peanuts?
-
-  es:
+  spanish:
     verified: false
     allergen: Cacahuetes (maní)
     statement: Tengo una alergia grave al cacahuete (maní).
-    description: No puedo comer alimentos que contengan cacahuetes o productos derivados del cacahuete, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "El cacahuete puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan cacahuetes o productos derivados del cacahuete, ni
+      siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría
+      atención médica.
+    foundInLabel: 'El cacahuete puede encontrarse en:'
     foundIn:
       - Mantequilla de cacahuete
       - Aceite de cacahuete
@@ -37,13 +41,15 @@ translations:
       - Mezclas de frutos secos
       - Muchos platos asiáticos
     question: ¿Este alimento contiene cacahuete?
-
-  fr:
+  french:
     verified: false
     allergen: Arachides (cacahuètes)
     statement: J'ai une allergie sévère aux arachides (cacahuètes).
-    description: Je ne peux pas manger d'aliments contenant des arachides ou des produits à base d'arachide, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Les arachides peuvent se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant des arachides ou des produits à base d'arachide,
+      même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins
+      médicaux.
+    foundInLabel: 'Les arachides peuvent se trouver dans :'
     foundIn:
       - Beurre de cacahuète
       - Huile d'arachide
@@ -54,13 +60,15 @@ translations:
       - Mélanges de fruits secs
       - De nombreux plats asiatiques
     question: Ce plat contient-il des arachides ?
-
-  de:
+  german:
     verified: false
     allergen: Erdnüsse
     statement: Ich habe eine schwere Erdnussallergie.
-    description: Ich darf keine Lebensmittel essen, die Erdnüsse oder Erdnussprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Erdnüsse können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Erdnüsse oder Erdnussprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Erdnüsse können enthalten sein in:'
     foundIn:
       - Erdnussbutter
       - Erdnussöl
@@ -71,13 +79,15 @@ translations:
       - Studentenfutter
       - Viele asiatische Gerichte
     question: Enthält dieses Gericht Erdnüsse?
-
-  it:
+  italian:
     verified: false
     allergen: Arachidi
     statement: Ho una grave allergia alle arachidi.
-    description: Non posso mangiare alimenti che contengono arachidi o prodotti a base di arachidi, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "Le arachidi possono trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono arachidi o prodotti a base di arachidi, nemmeno in
+      piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza
+      medica.
+    foundInLabel: 'Le arachidi possono trovarsi in:'
     foundIn:
       - Burro di arachidi
       - Olio di arachidi
@@ -88,13 +98,14 @@ translations:
       - Mix di frutta secca
       - Molti piatti asiatici
     question: Questo cibo contiene arachidi?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Amendoim
     statement: Tenho uma alergia grave ao amendoim.
-    description: Não posso comer alimentos que contenham amendoim ou produtos à base de amendoim, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O amendoim pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham amendoim ou produtos à base de amendoim, mesmo em
+      pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O amendoim pode encontrar-se em:'
     foundIn:
       - Manteiga de amendoim
       - Óleo de amendoim
@@ -105,13 +116,14 @@ translations:
       - Misturas de frutos secos
       - Muitos pratos asiáticos
     question: Este alimento contém amendoim?
-
-  el:
+  greek:
     verified: false
     allergen: Αράπικα φιστίκια
     statement: Πάσχω από σοβαρή αλλεργία στα αράπικα φιστίκια.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν αράπικα φιστίκια ή προϊόντα τους, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Τα αράπικα φιστίκια μπορεί να βρίσκονται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν αράπικα φιστίκια ή προϊόντα τους, ούτε σε μικρές
+      ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Τα αράπικα φιστίκια μπορεί να βρίσκονται σε:'
     foundIn:
       - Φιστικοβούτυρο
       - Αραχιδέλαιο (φιστικέλαιο)
@@ -122,13 +134,14 @@ translations:
       - Μείγματα ξηρών καρπών
       - Πολλά ασιατικά πιάτα
     question: Αυτό το φαγητό περιέχει αράπικα φιστίκια;
-
-  tr:
+  turkish:
     verified: false
     allergen: Yer fıstığı
     statement: Şiddetli yer fıstığı alerjim var.
-    description: Yer fıstığı veya yer fıstığı ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Yer fıstığı şunlarda bulunabilir:"
+    description: >-
+      Yer fıstığı veya yer fıstığı ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi
+      takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Yer fıstığı şunlarda bulunabilir:'
     foundIn:
       - Fıstık ezmesi
       - Yer fıstığı yağı
@@ -139,13 +152,14 @@ translations:
       - Kuruyemiş karışımları
       - Birçok Asya yemeği
     question: Bu yemekte yer fıstığı var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: בוטנים
     statement: יש לי אלרגיה חמורה לבוטנים.
-    description: אסור לי לאכול מזון המכיל בוטנים או מוצרי בוטנים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "בוטנים עשויים להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל בוטנים או מוצרי בוטנים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית
+      חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'בוטנים עשויים להימצא ב:'
     foundIn:
       - חמאת בוטנים
       - שמן בוטנים
@@ -156,13 +170,14 @@ translations:
       - תערובת פיצוחים
       - מנות אסייתיות רבות
     question: האם המנה הזו מכילה בוטנים?
-
-  ar:
+  arabic:
     verified: false
     allergen: الفول السوداني
     statement: لديّ حساسية شديدة من الفول السوداني.
-    description: لا أستطيع تناول أي طعام يحتوي على الفول السوداني أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد الفول السوداني في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الفول السوداني أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد
+      فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد الفول السوداني في:'
     foundIn:
       - زبدة الفول السوداني
       - زيت الفول السوداني
@@ -173,8 +188,7 @@ translations:
       - خليط المكسرات
       - كثير من الأطباق الآسيوية
     question: هل يحتوي هذا الطعام على الفول السوداني؟
-
-  ja:
+  japanese:
     verified: false
     allergen: ピーナッツ（落花生）
     statement: 私は重度のピーナッツアレルギーがあります。
@@ -190,8 +204,7 @@ translations:
       - ミックスナッツ
       - 多くのアジア料理
     question: この料理にピーナッツは入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 花生
     statement: 我对花生严重过敏。
@@ -207,3 +220,667 @@ translations:
       - 什锦果仁
       - 许多亚洲菜肴
     question: 这道菜含有花生吗？
+  bengali:
+    verified: false
+    allergen: চিনাবাদাম
+    statement: আমার চিনাবাদামে তীব্র অ্যালার্জি আছে।
+    description: >-
+      আমি চিনাবাদাম বা চিনাবাদামজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি অল্প পরিমাণেও নয়; খেলে
+      তীব্র অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'চিনাবাদাম পাওয়া যেতে পারে:'
+    foundIn:
+      - চিনাবাদামের মাখন
+      - চিনাবাদামের তেল
+      - গ্রাউন্ডনাট
+      - সাতে সস
+      - বেকড খাবার
+      - মিষ্টি ও ক্যান্ডি
+      - ট্রেইল মিক্স
+      - অনেক এশীয় খাবার
+    question: এই খাবারে কি চিনাবাদাম আছে?
+  bulgarian:
+    verified: false
+    allergen: Фъстъци
+    statement: Имам тежка алергия към фъстъци.
+    description: >-
+      Не мога да ям храни, съдържащи фъстъци или фъстъчени продукти, дори в малки количества, иначе
+      ще имам тежка алергична реакция и ще ми трябва медицинска помощ.
+    foundInLabel: 'Фъстъците могат да се съдържат в:'
+    foundIn:
+      - Фъстъчено масло
+      - Фъстъчено масло / олио
+      - Земни ядки
+      - Сос сате
+      - Печени изделия
+      - Сладкиши и бонбони
+      - Ядкови смеси
+      - Много азиатски ястия
+    question: Съдържа ли тази храна фъстъци?
+  catalan:
+    verified: false
+    allergen: Cacauets
+    statement: Tinc una al·lèrgia greu al cacauet.
+    description: >-
+      No puc menjar aliments que continguin cacauets o productes derivats del cacauet, ni tan sols
+      en petites quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'El cacauet es pot trobar a:'
+    foundIn:
+      - Mantega de cacauet
+      - Oli de cacauet
+      - Cacauets
+      - Salsa satay
+      - Productes de forn
+      - Dolços i llaminadures
+      - Mescla de fruits secs
+      - Molts plats asiàtics
+    question: Aquest aliment conté cacauets?
+  chinese-hong-kong:
+    verified: false
+    allergen: 花生
+    statement: 我對花生嚴重過敏。
+    description: 我不能進食含有花生或花生製品的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要求醫。
+    foundInLabel: 花生可能存在於：
+    foundIn:
+      - 花生醬
+      - 花生油
+      - 落花生
+      - 沙爹醬
+      - 烘焙食品
+      - 糖果甜點
+      - 果仁混合
+      - 不少亞洲菜
+    question: 這道菜含有花生嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 花生
+    statement: 我對花生嚴重過敏。
+    description: 我不能食用含有花生或花生製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 花生可能存在於：
+    foundIn:
+      - 花生醬
+      - 花生油
+      - 落花生
+      - 沙爹醬
+      - 烘焙食品
+      - 糖果與甜點
+      - 綜合堅果
+      - 許多亞洲料理
+    question: 這道菜含有花生嗎？
+  croatian:
+    verified: false
+    allergen: Kikiriki
+    statement: Imam tešku alergiju na kikiriki.
+    description: >-
+      Ne smijem jesti hranu koja sadrži kikiriki ili proizvode od kikirikija, čak ni u malim
+      količinama, inače ću imati tešku alergijsku reakciju i trebat ću liječničku pomoć.
+    foundInLabel: 'Kikiriki se može nalaziti u:'
+    foundIn:
+      - Kikiriki maslac
+      - Ulje od kikirikija
+      - Kikiriki
+      - Satay umak
+      - Peciva
+      - Slatkiši i bomboni
+      - Mješavina orašastih plodova
+      - Mnoga azijska jela
+    question: Sadrži li ova hrana kikiriki?
+  czech:
+    verified: false
+    allergen: Arašídy
+    statement: Mám těžkou alergii na arašídy.
+    description: >-
+      Nesmím jíst potraviny obsahující arašídy nebo arašídové výrobky, ani v malém množství, jinak
+      budu mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Arašídy se mohou vyskytovat v:'
+    foundIn:
+      - Arašídové máslo
+      - Arašídový olej
+      - Podzemnice olejná
+      - Satay omáčka
+      - Pečivo
+      - Sladkosti a bonbony
+      - Směs ořechů
+      - Mnoho asijských jídel
+    question: Obsahuje toto jídlo arašídy?
+  danish:
+    verified: false
+    allergen: Peanuts
+    statement: Jeg har en alvorlig peanutallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder peanuts eller peanutprodukter, heller ikke i små
+      mængder, ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Peanuts kan findes i:'
+    foundIn:
+      - Peanutbutter
+      - Peanutolie
+      - Jordnødder
+      - Sataysauce
+      - Bagværk
+      - Slik og godteri
+      - Nøddemix
+      - Mange asiatiske retter
+    question: Indeholder denne mad peanuts?
+  dutch:
+    verified: false
+    allergen: Pinda's
+    statement: Ik heb een ernstige pinda-allergie.
+    description: >-
+      Ik mag geen voedsel eten dat pinda's of pindaproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Pinda''s kunnen voorkomen in:'
+    foundIn:
+      - Pindakaas
+      - Pindaolie
+      - Aardnoten
+      - Satésaus
+      - Gebak
+      - Snoep en candy
+      - Notenmix
+      - Veel Aziatische gerechten
+    question: Bevat dit gerecht pinda's?
+  estonian:
+    verified: false
+    allergen: Maapähklid
+    statement: Mul on raske maapähkliallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab maapähkleid või maapähklitooteid, isegi väikestes
+      kogustes, muidu tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Maapähkleid võib leiduda:'
+    foundIn:
+      - Maapähklivõi
+      - Maapähkliõli
+      - Maapähklid
+      - Satay kaste
+      - Küpsetised
+      - Maiustused
+      - Pähklisegu
+      - Paljud Aasia road
+    question: Kas selles toidus on maapähkleid?
+  finnish:
+    verified: false
+    allergen: Maapähkinät
+    statement: Minulla on vakava maapähkinäallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää maapähkinöitä tai maapähkinätuotteita, edes pieniä määriä,
+      muuten saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Maapähkinöitä voi olla:'
+    foundIn:
+      - Maapähkinävoi
+      - Maapähkinäöljy
+      - Maapähkinät
+      - Satay-kastike
+      - Leivonnaiset
+      - Makeiset
+      - Pähkinäsekoitus
+      - Monet aasialaiset ruoat
+    question: Sisältääkö tämä ruoka maapähkinöitä?
+  hindi:
+    verified: false
+    allergen: मूंगफली
+    statement: मुझे मूंगफली से गंभीर एलर्जी है।
+    description: >-
+      मैं मूंगफली या मूंगफली से बने उत्पादों वाला खाना नहीं खा सकता/सकती, भले ही मात्रा कम हो; नहीं
+      तो गंभीर एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता लगेगी।
+    foundInLabel: 'मूंगफली इनमें मिल सकती है:'
+    foundIn:
+      - पीनट बटर
+      - पीनट ऑयल
+      - ग्राउंडनट
+      - सते सॉस
+      - बेकरी वस्तुएँ
+      - मिठाइयाँ और कैंडी
+      - ट्रेल मिक्स
+      - कई एशियाई व्यंजन
+    question: क्या इस खाने में मूंगफली है?
+  hungarian:
+    verified: false
+    allergen: Földimogyoró
+    statement: Súlyos földimogyoró-allergiám van.
+    description: >-
+      Nem ehetek földimogyorót vagy földimogyoró-terméket tartalmazó ételt, még kis mennyiségben
+      sem, különben súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'A földimogyoró megtalálható:'
+    foundIn:
+      - Földimogyoróvaj
+      - Földimogyoróolaj
+      - Földimogyoró
+      - Satay szósz
+      - Sütőipari termékek
+      - Édességek
+      - Magkeverék
+      - Sok ázsiai étel
+    question: Tartalmaz ez az étel földimogyorót?
+  icelandic:
+    verified: false
+    allergen: Jarðhnetur
+    statement: Ég er með alvarlegt jarðhnetuofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur jarðhnetur eða jarðhnetuafurðir, jafnvel í litlu magni,
+      annars fæ ég alvarleg ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Jarðhnetur geta verið í:'
+    foundIn:
+      - Jarðhnetusmjör
+      - Jarðhnetuolía
+      - Jarðhnetur
+      - Satay sósa
+      - Bakstur
+      - Sælgæti
+      - Hnetublanda
+      - Margir asískir réttir
+    question: Inniheldur þessi matur jarðhnetur?
+  indonesian:
+    verified: false
+    allergen: Kacang tanah
+    statement: Saya memiliki alergi kacang tanah yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung kacang tanah atau produk kacang tanah, bahkan
+      dalam jumlah kecil, atau saya akan mengalami reaksi alergi yang parah dan membutuhkan
+      perawatan medis.
+    foundInLabel: 'Kacang tanah dapat ditemukan dalam:'
+    foundIn:
+      - Selai kacang
+      - Minyak kacang tanah
+      - Kacang tanah
+      - Saus satay
+      - Kue dan roti
+      - Permen dan gula-gula
+      - Campuran kacang
+      - Banyak masakan Asia
+    question: Apakah makanan ini mengandung kacang tanah?
+  khmer:
+    verified: false
+    allergen: សណ្តែកដី
+    statement: ខ្ញុំមានអាលែហ្សីសណ្តែកដីធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានសណ្តែកដី ឬផលិតផលសណ្តែកដីបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នោះទេនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ និងត្រូវការព្យាបាល។
+    foundInLabel: សណ្តែកដីអាចមាននៅក្នុង៖
+    foundIn:
+      - ប៊័រសណ្តែកដី
+      - ប្រេងសណ្តែកដី
+      - សណ្តែកដី
+      - ទឹកជ្រលក់សាទេ
+      - នំប៉័ង និងនំ
+      - ស្ករគ្រាប់
+      - លាយគ្រាប់
+      - ម្ហូបអាស៊ីជាច្រើន
+    question: អាហារនេះមានសណ្តែកដីទេ?
+  korean:
+    verified: false
+    allergen: 땅콩
+    statement: 저는 심각한 땅콩 알레르기가 있습니다.
+    description: 땅콩이나 땅콩 제품이 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '땅콩이 들어 있을 수 있는 것:'
+    foundIn:
+      - 땅콩버터
+      - 땅콩기름
+      - 땅콩
+      - 사테이 소스
+      - 베이커리 제품
+      - 사탕·과자
+      - 견과 믹스
+      - 많은 아시아 요리
+    question: 이 음식에 땅콩이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ຖົ່ວດິນ
+    statement: ຂ້ອຍມີອາລແອກີ້ຖົ່ວດິນຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີຖົ່ວດິນ ຫຼື ຜະລິດຕະພັນຖົ່ວດິນໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຈະມີປະຕິກິລິຍາອາລແອກີ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ຖົ່ວດິນອາດພົບໃນ:'
+    foundIn:
+      - ເນີຍຖົ່ວ
+      - ນ້ຳມັນຖົ່ວດິນ
+      - ຖົ່ວດິນ
+      - ນ້ຳແຊບຊາເຕ
+      - ເຂົ້າຈີ່ ແລະ ເຂົ້າໜົມ
+      - ຂອງຫວານ
+      - ຖົ່ວປະສົມ
+      - ອາຫານເອເຊຍຫຼາຍຊະນິດ
+    question: ອາຫານນີ້ມີຖົ່ວດິນບໍ?
+  latvian:
+    verified: false
+    allergen: Zemesrieksti
+    statement: Man ir smaga zemesriekstu alerģija.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur zemesriekstus vai zemesriekstu produktus, pat nelielos
+      daudzumos, citādi būs smaga alerģiska reakcija un vajadzēs medicīnisko palīdzību.
+    foundInLabel: 'Zemesrieksti var būt:'
+    foundIn:
+      - Zemesriekstu sviests
+      - Zemesriekstu eļļa
+      - Zemesrieksti
+      - Satay mērce
+      - Maizes izstrādājumi
+      - Saldumi
+      - Riekstu maisījums
+      - Daudzi Āzijas ēdieni
+    question: Vai šajā ēdienā ir zemesrieksti?
+  lithuanian:
+    verified: false
+    allergen: Žemės riešutai
+    statement: Turiu sunkią alergiją žemės riešutams.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra žemės riešutų ar jų produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Žemės riešutų gali būti:'
+    foundIn:
+      - Žemės riešutų sviestas
+      - Žemės riešutų aliejus
+      - Žemės riešutai
+      - Satay padažas
+      - Kepiniai
+      - Saldumynai
+      - Riešutų mišinys
+      - Daug Azijos patiekalų
+    question: Ar šiame maiste yra žemės riešutų?
+  macedonian:
+    verified: false
+    allergen: Кикирики
+    statement: Имам тешка алергија на кикирики.
+    description: >-
+      Не смеам да јадам храна што содржи кикирики или производи од кикирики, дури ни во мали
+      количини, инаку ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Кикириките може да се најдат во:'
+    foundIn:
+      - Кикирики путер
+      - Кикирики масло
+      - Кикирики
+      - Сате сос
+      - Печива
+      - Слаткиши
+      - Мешавина од јаткасти плодови
+      - Многу азиски јадења
+    question: Дали оваа храна содржи кикирики?
+  malay:
+    verified: false
+    allergen: Kacang tanah
+    statement: Saya mempunyai alahan kacang tanah yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi kacang tanah atau produk kacang tanah,
+      walaupun dalam jumlah kecil, atau saya akan mengalami reaksi alahan yang teruk dan memerlukan
+      rawatan perubatan.
+    foundInLabel: 'Kacang tanah boleh dijumpai dalam:'
+    foundIn:
+      - Mentega kacang
+      - Minyak kacang tanah
+      - Kacang tanah
+      - Sos satay
+      - Produk bakeri
+      - Manisan dan gula-gula
+      - Campuran kacang
+      - Banyak hidangan Asia
+    question: Adakah makanan ini mengandungi kacang tanah?
+  maltese:
+    verified: false
+    allergen: Karawett
+    statement: Għandi allerġija severa għall-karawett.
+    description: >-
+      Ma nistax niekol ikel li jkun fih karawett jew prodotti tal-karawett, anke f'ammonti żgħar,
+      inkella se jkolli reazzjoni allerġika severa u se jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Il-karawett jista'' jinstab fi:'
+    foundIn:
+      - Butir tal-karawett
+      - Żejt tal-karawett
+      - Karawett
+      - Zalza satay
+      - Prodotti tal-forn
+      - Ħelu u ħelu
+      - Taħlita ta' ġewż
+      - Ħafna platti Asjatiċi
+    question: Dan l-ikel fih karawett?
+  norwegian:
+    verified: false
+    allergen: Peanøtter
+    statement: Jeg har en alvorlig peanøttallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder peanøtter eller peanøttprodukter, heller ikke i små
+      mengder, ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Peanøtter kan finnes i:'
+    foundIn:
+      - Peanøttsmør
+      - Peanøttolje
+      - Jordnøtter
+      - Sataysaus
+      - Bakevarer
+      - Godteri
+      - Nøttemiks
+      - Mange asiatiske retter
+    question: Inneholder denne maten peanøtter?
+  polish:
+    verified: false
+    allergen: Orzeszki ziemne
+    statement: Mam ciężką alergię na orzeszki ziemne.
+    description: >-
+      Nie mogę jeść potraw zawierających orzeszki ziemne lub produkty z orzeszków ziemnych, nawet w
+      małych ilościach - inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy
+      medycznej.
+    foundInLabel: 'Orzeszki ziemne mogą występować w:'
+    foundIn:
+      - Masło orzechowe
+      - Olej arachidowy
+      - Orzeszki ziemne
+      - Sos satay
+      - Wypieki
+      - Słodycze
+      - Mieszanka orzechów
+      - Wiele dań azjatyckich
+    question: Czy to danie zawiera orzeszki ziemne?
+  portuguese-brazil:
+    verified: false
+    allergen: Amendoim
+    statement: Eu tenho alergia grave a amendoim.
+    description: >-
+      Não posso comer alimentos que contenham amendoim ou derivados de amendoim, mesmo em pequenas
+      quantidades, senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O amendoim pode ser encontrado em:'
+    foundIn:
+      - Pasta de amendoim
+      - Óleo de amendoim
+      - Amendoim
+      - Molho satay
+      - Produtos de padaria
+      - Doces e balas
+      - Mix de nuts
+      - Muitos pratos asiáticos
+    question: Este alimento contém amendoim?
+  romanian:
+    verified: false
+    allergen: Arahide
+    statement: Am o alergie severă la arahide.
+    description: >-
+      Nu pot mânca alimente care conțin arahide sau produse pe bază de arahide, nici măcar în
+      cantități mici, altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri
+      medicale.
+    foundInLabel: 'Arahidele pot fi găsite în:'
+    foundIn:
+      - Unt de arahide
+      - Ulei de arahide
+      - Arahide
+      - Sos satay
+      - Produse de patiserie
+      - Dulciuri
+      - Amestec de nuci
+      - Multe feluri asiatice
+    question: Acest aliment conține arahide?
+  russian:
+    verified: false
+    allergen: Арахис
+    statement: У меня тяжёлая аллергия на арахис.
+    description: >-
+      Я не могу есть еду, содержащую арахис или продукты из арахиса, даже в небольших количествах -
+      иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Арахис может содержаться в:'
+    foundIn:
+      - Арахисовая паста
+      - Арахисовое масло
+      - Земляной орех
+      - Соус сатай
+      - Выпечка
+      - Сладости и конфеты
+      - Смесь орехов
+      - Многие азиатские блюда
+    question: В этом блюде есть арахис?
+  serbian:
+    verified: false
+    allergen: Кикирики
+    statement: Имам тешку алергију на кикирики.
+    description: >-
+      Не смем да једем храну која садржи кикирики или производе од кикирикија, чак ни у малим
+      количинама, иначе ћу имати тешку алергијску реакцију и требаће ми медицинска помоћ.
+    foundInLabel: 'Кикирики се може наћи у:'
+    foundIn:
+      - Кикирики путер
+      - Уље од кикирикија
+      - Кикирики
+      - Сате сос
+      - Пецива
+      - Слаткиши
+      - Мешавина орашастих плодова
+      - Многа азијска јела
+    question: Да ли ова храна садржи кикирики?
+  slovak:
+    verified: false
+    allergen: Arašidy
+    statement: Mám ťažkú alergiu na arašidy.
+    description: >-
+      Nesmiem jesť potraviny obsahujúce arašidy alebo arašidové výrobky, ani v malom množstve, inak
+      budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Arašidy sa môžu nachádzať v:'
+    foundIn:
+      - Arašidové maslo
+      - Arašidový olej
+      - Arašidy
+      - Satay omáčka
+      - Pečivo
+      - Sladkosti
+      - Zmes orechov
+      - Mnohé ázijské jedlá
+    question: Obsahuje toto jedlo arašidy?
+  slovenian:
+    verified: false
+    allergen: Arašidi
+    statement: Imam hudo alergijo na arašide.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje arašide ali arašidove izdelke, niti v majhnih količinah, sicer
+      bom imel/imela hudo alergijsko reakcijo in bom potreboval/potrebovala zdravniško pomoč.
+    foundInLabel: 'Arašidi se lahko nahajajo v:'
+    foundIn:
+      - Arašidovo maslo
+      - Arašidovo olje
+      - Arašidi
+      - Satay omaka
+      - Pecivo
+      - Slaščice
+      - Mešanica oreščkov
+      - Številne azijske jedi
+    question: Ali ta jed vsebuje arašide?
+  swahili:
+    verified: false
+    allergen: Karanga
+    statement: Nina mzio mkali wa karanga.
+    description: >-
+      Siwezi kula chakula chenye karanga au bidhaa za karanga, hata kwa kiasi kidogo, la sivyo
+      nitapata mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Karanga zinaweza kupatikana katika:'
+    foundIn:
+      - Siagi ya karanga
+      - Mafuta ya karanga
+      - Karanga
+      - Mchuzi wa satay
+      - Vyakula vilivyookwa
+      - Peremende na pipi
+      - Mchanganyiko wa karanga
+      - Sahani nyingi za Asia
+    question: Je, chakula hiki kina karanga?
+  swedish:
+    verified: false
+    allergen: Jordnötter
+    statement: Jag har en allvarlig jordnötsallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller jordnötter eller jordnötsprodukter, ens i små mängder,
+      annars får jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Jordnötter kan finnas i:'
+    foundIn:
+      - Jordnötssmör
+      - Jordnötsolja
+      - Jordnötter
+      - Sataysås
+      - Bakverk
+      - Godis
+      - Nötmix
+      - Många asiatiska rätter
+    question: Innehåller den här maten jordnötter?
+  tagalog:
+    verified: false
+    allergen: Mani
+    statement: Mayroon akong malubhang allergy sa mani.
+    description: >-
+      Hindi ako makakain ng pagkaing may mani o produktong mani, kahit kaunti lang, o magkakaroon
+      ako ng malubhang allergic reaction at kakailanganin ng medikal na tulong.
+    foundInLabel: 'Ang mani ay maaaring matagpuan sa:'
+    foundIn:
+      - Peanut butter
+      - Mantika ng mani
+      - Mani
+      - Satay sauce
+      - Mga baked goods
+      - Mga kendi at sweets
+      - Trail mix
+      - Maraming Asian dishes
+    question: May mani ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ถั่วลิสง
+    statement: ฉันแพ้ถั่วลิสงอย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีถั่วลิสงหรือผลิตภัณฑ์จากถั่วลิสงไม่ได้ แม้เพียงเล็กน้อย
+      เพราะจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ถั่วลิสงอาจพบใน:'
+    foundIn:
+      - เนยถั่ว
+      - น้ำมันถั่วลิสง
+      - ถั่วลิสง
+      - ซอสสะเต๊ะ
+      - เบเกอรี่
+      - ของหวานและลูกกวาด
+      - ถั่วผสม
+      - อาหารเอเชียหลายชนิด
+    question: อาหารนี้มีถั่วลิสงหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Арахіс
+    statement: У мене важка алергія на арахіс.
+    description: >-
+      Я не можу їсти їжу, що містить арахіс або продукти з арахісу, навіть у невеликій кількості -
+      інакше буде важка алергічна реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Арахіс може міститися в:'
+    foundIn:
+      - Арахісова паста
+      - Арахісова олія
+      - Земляний горіх
+      - Соус сатай
+      - Випічка
+      - Солодощі
+      - Суміш горіхів
+      - Багато азійських страв
+    question: Чи містить ця страва арахіс?
+  vietnamese:
+    verified: false
+    allergen: Đậu phộng
+    statement: Tôi bị dị ứng nặng với đậu phộng.
+    description: >-
+      Tôi không thể ăn thực phẩm có đậu phộng hoặc chế phẩm từ đậu phộng, dù chỉ một lượng nhỏ - nếu
+      không sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Đậu phộng có thể có trong:'
+    foundIn:
+      - Bơ đậu phộng
+      - Dầu đậu phộng
+      - Đậu phộng
+      - Sốt satay
+      - Bánh nướng
+      - Kẹo và đồ ngọt
+      - Hạt hỗn hợp
+      - Nhiều món Á
+    question: Món này có chứa đậu phộng không?

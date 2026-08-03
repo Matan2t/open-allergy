@@ -4,12 +4,14 @@
 id: mustard
 emoji: 🫙
 translations:
-  en:
+  english:
     verified: true
     allergen: Mustard
     statement: I have a severe mustard allergy.
-    description: I cannot eat food containing mustard or mustard products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Mustard can be found in:"
+    description: >-
+      I cannot eat food containing mustard or mustard products, even in small amounts, or I will
+      have a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mustard can be found in:'
     foundIn:
       - Mustard seeds
       - Mustard powder
@@ -19,13 +21,15 @@ translations:
       - Curries
       - Pickles
     question: Does this food contain mustard?
-
-  es:
+  spanish:
     verified: false
     allergen: Mostaza
     statement: Tengo una alergia grave a la mostaza.
-    description: No puedo comer alimentos que contengan mostaza o productos derivados de la mostaza, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "La mostaza puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan mostaza o productos derivados de la mostaza, ni
+      siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría
+      atención médica.
+    foundInLabel: 'La mostaza puede encontrarse en:'
     foundIn:
       - Semillas de mostaza
       - Mostaza en polvo
@@ -35,13 +39,15 @@ translations:
       - Currys
       - Encurtidos
     question: ¿Este alimento contiene mostaza?
-
-  fr:
+  french:
     verified: false
     allergen: Moutarde
     statement: J'ai une allergie sévère à la moutarde.
-    description: Je ne peux pas manger d'aliments contenant de la moutarde ou des produits à base de moutarde, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "La moutarde peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant de la moutarde ou des produits à base de moutarde,
+      même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins
+      médicaux.
+    foundInLabel: 'La moutarde peut se trouver dans :'
     foundIn:
       - Graines de moutarde
       - Moutarde en poudre
@@ -51,13 +57,15 @@ translations:
       - Currys
       - Cornichons et pickles
     question: Ce plat contient-il de la moutarde ?
-
-  de:
+  german:
     verified: false
     allergen: Senf
     statement: Ich habe eine schwere Senfallergie.
-    description: Ich darf keine Lebensmittel essen, die Senf oder Senfprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Senf kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Senf oder Senfprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Senf kann enthalten sein in:'
     foundIn:
       - Senfkörner
       - Senfpulver
@@ -67,13 +75,15 @@ translations:
       - Currys
       - Eingelegtes Gemüse
     question: Enthält dieses Gericht Senf?
-
-  it:
+  italian:
     verified: false
     allergen: Senape
     statement: Ho una grave allergia alla senape.
-    description: Non posso mangiare alimenti che contengono senape o prodotti a base di senape, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "La senape può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono senape o prodotti a base di senape, nemmeno in
+      piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza
+      medica.
+    foundInLabel: 'La senape può trovarsi in:'
     foundIn:
       - Semi di senape
       - Senape in polvere
@@ -83,13 +93,14 @@ translations:
       - Curry
       - Sottaceti
     question: Questo cibo contiene senape?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Mostarda
     statement: Tenho uma alergia grave à mostarda.
-    description: Não posso comer alimentos que contenham mostarda ou produtos à base de mostarda, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "A mostarda pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham mostarda ou produtos à base de mostarda, mesmo em
+      pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'A mostarda pode encontrar-se em:'
     foundIn:
       - Sementes de mostarda
       - Mostarda em pó
@@ -99,13 +110,14 @@ translations:
       - Caril
       - Pickles
     question: Este alimento contém mostarda?
-
-  el:
+  greek:
     verified: false
     allergen: Μουστάρδα
     statement: Πάσχω από σοβαρή αλλεργία στη μουστάρδα.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν μουστάρδα ή προϊόντα μουστάρδας, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Η μουστάρδα μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν μουστάρδα ή προϊόντα μουστάρδας, ούτε σε μικρές
+      ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Η μουστάρδα μπορεί να βρίσκεται σε:'
     foundIn:
       - Σπόροι μουστάρδας
       - Μουστάρδα σε σκόνη
@@ -115,13 +127,14 @@ translations:
       - Κάρι
       - Τουρσιά
     question: Αυτό το φαγητό περιέχει μουστάρδα;
-
-  tr:
+  turkish:
     verified: false
     allergen: Hardal
     statement: Şiddetli hardal alerjim var.
-    description: Hardal veya hardal ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Hardal şunlarda bulunabilir:"
+    description: >-
+      Hardal veya hardal ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde
+      şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Hardal şunlarda bulunabilir:'
     foundIn:
       - Hardal tohumu
       - Hardal tozu
@@ -131,13 +144,14 @@ translations:
       - Köri
       - Turşular
     question: Bu yemekte hardal var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: חרדל
     statement: יש לי אלרגיה חמורה לחרדל.
-    description: אסור לי לאכול מזון המכיל חרדל או מוצרי חרדל, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "חרדל עשוי להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל חרדל או מוצרי חרדל, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'חרדל עשוי להימצא ב:'
     foundIn:
       - זרעי חרדל
       - אבקת חרדל
@@ -147,13 +161,14 @@ translations:
       - קארי
       - חמוצים
     question: האם המנה הזו מכילה חרדל?
-
-  ar:
+  arabic:
     verified: false
     allergen: الخردل
     statement: لديّ حساسية شديدة من الخردل.
-    description: لا أستطيع تناول أي طعام يحتوي على الخردل أو منتجات الخردل، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد الخردل في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الخردل أو منتجات الخردل، ولو بكميات صغيرة، وإلا فسأصاب برد
+      فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد الخردل في:'
     foundIn:
       - بذور الخردل
       - مسحوق الخردل
@@ -163,8 +178,7 @@ translations:
       - الكاري
       - المخللات
     question: هل يحتوي هذا الطعام على الخردل؟
-
-  ja:
+  japanese:
     verified: false
     allergen: マスタード（からし）
     statement: 私は重度のマスタード（からし）アレルギーがあります。
@@ -179,8 +193,7 @@ translations:
       - カレー
       - ピクルス（漬物）
     question: この料理にマスタード（からし）は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 芥末
     statement: 我对芥末严重过敏。
@@ -195,3 +208,631 @@ translations:
       - 咖喱
       - 腌菜
     question: 这道菜含有芥末吗？
+  bengali:
+    verified: false
+    allergen: সরিষা
+    statement: আমার সরিষার প্রতি তীব্র অ্যালার্জি আছে।
+    description: >-
+      আমি সরিষা বা সরিষাজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়; না হলে আমার
+      তীব্র অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'সরিষা পাওয়া যেতে পারে:'
+    foundIn:
+      - সরিষার বীজ
+      - সরিষার গুঁড়ো
+      - মেয়োনিজ
+      - স্যালাড ড্রেসিং
+      - ম্যারিনেড ও সস
+      - কারি
+      - আচার
+    question: এই খাবারে কি সরিষা আছে?
+  bulgarian:
+    verified: false
+    allergen: Горчица
+    statement: Имам тежка алергия към горчица.
+    description: >-
+      Не мога да ям храни, съдържащи горчица или продукти от горчица, дори в малки количества, иначе
+      ще имам тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Горчицата може да се съдържа в:'
+    foundIn:
+      - Горчични семена
+      - Горчичен прах
+      - Майонеза
+      - Салатни дресинги
+      - Маринати и сосове
+      - Кърита
+      - Кисели краставички и туршии
+    question: Съдържа ли тази храна горчица?
+  catalan:
+    verified: false
+    allergen: Mostassa
+    statement: Tinc una al·lèrgia greu a la mostassa.
+    description: >-
+      No puc menjar aliments que continguin mostassa o productes derivats de la mostassa, ni tan
+      sols en petites quantitats, perquè tindria una reacció al·lèrgica greu i necessitaria atenció
+      mèdica.
+    foundInLabel: 'La mostassa es pot trobar en:'
+    foundIn:
+      - Llavors de mostassa
+      - Mostassa en pols
+      - Maionesa
+      - Amaniments per a amanides
+      - Marinades i salses
+      - Curri
+      - Escabetxos
+    question: Aquest aliment conté mostassa?
+  chinese-hong-kong:
+    verified: false
+    allergen: 芥末
+    statement: 我對芥末嚴重過敏。
+    description: 我不能進食含有芥末或芥末製品的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要求醫。
+    foundInLabel: 芥末可能存在於：
+    foundIn:
+      - 芥末籽
+      - 芥末粉
+      - 蛋黃醬
+      - 沙律醬
+      - 醃料及醬汁
+      - 咖喱
+      - 醃菜
+    question: 這道菜含有芥末嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 芥末
+    statement: 我對芥末嚴重過敏。
+    description: 我不能吃含有芥末或芥末製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 芥末可能存在於：
+    foundIn:
+      - 芥末籽
+      - 芥末粉
+      - 蛋黃醬
+      - 沙拉醬
+      - 醃料和醬汁
+      - 咖哩
+      - 醃菜
+    question: 這道菜含有芥末嗎？
+  croatian:
+    verified: false
+    allergen: Gorušica
+    statement: Imam tešku alergiju na gorušicu.
+    description: >-
+      Ne smijem jesti hranu koja sadrži gorušicu ili proizvode od gorušice, čak ni u malim
+      količinama, inače ću imati tešku alergijsku reakciju i trebat će mi liječnička pomoć.
+    foundInLabel: 'Gorušica se može nalaziti u:'
+    foundIn:
+      - Sjemenke gorušice
+      - Gorušični prah
+      - Majoneza
+      - Preljevi za salatu
+      - Marinade i umaci
+      - Curry jela
+      - Kiseli krastavci
+    question: Sadrži li ova hrana gorušicu?
+  czech:
+    verified: false
+    allergen: Hořčice
+    statement: Mám těžkou alergii na hořčici.
+    description: >-
+      Nesmím jíst potraviny obsahující hořčici nebo výrobky z hořčice, ani v malém množství, jinak
+      budu mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Hořčice se může nacházet v:'
+    foundIn:
+      - Hořčičná semínka
+      - Hořčičný prášek
+      - Majonéza
+      - Salátové zálivky
+      - Marinády a omáčky
+      - Kari
+      - Nakládaná zelenina
+    question: Obsahuje toto jídlo hořčici?
+  danish:
+    verified: false
+    allergen: Sennep
+    statement: Jeg har en alvorlig sennepsallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder sennep eller sennepsprodukter, selv i små mængder,
+      ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Sennep kan findes i:'
+    foundIn:
+      - Sennepsfrø
+      - Sennepspulver
+      - Mayonnaise
+      - Salatsaucer
+      - Marinader og saucer
+      - Curryretter
+      - Syltede agurker
+    question: Indeholder denne mad sennep?
+  dutch:
+    verified: false
+    allergen: Mosterd
+    statement: Ik heb een ernstige mosterdallergie.
+    description: >-
+      Ik mag geen voedsel eten dat mosterd of mosterdproducten bevat, ook niet in kleine
+      hoeveelheden, anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Mosterd kan voorkomen in:'
+    foundIn:
+      - Mosterdzaad
+      - Mosterdpoeder
+      - Mayonaise
+      - Saladedressings
+      - Marinades en sauzen
+      - Currys
+      - Augurken en pickles
+    question: Bevat dit gerecht mosterd?
+  estonian:
+    verified: false
+    allergen: Sinep
+    statement: Mul on raske sinepiallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab sinepit või sinepitooteid, isegi väikeses koguses,
+      vastasel juhul tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Sinepit võib leida:'
+    foundIn:
+      - Sinepiseemned
+      - Sinepipulber
+      - Majonees
+      - Salatidressingid
+      - Marinaadid ja kastmed
+      - Karriroad
+      - Marineeritud köögiviljad
+    question: Kas selles toidus on sinepit?
+  finnish:
+    verified: false
+    allergen: Sinappi
+    statement: Minulla on vakava sinappiallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää sinappia tai sinappituotteita, edes pieniä määriä, muuten
+      saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Sinappia voi olla:'
+    foundIn:
+      - Sinapinsiemenet
+      - Sinappijauhe
+      - Majoneesi
+      - Salaatinkastikkeet
+      - Marinadit ja kastikkeet
+      - Curryt
+      - Säilykkeet ja pikkelsit
+    question: Sisältääkö tämä ruoka sinappia?
+  hindi:
+    verified: false
+    allergen: सरसों
+    statement: मुझे सरसों से गंभीर एलर्जी है।
+    description: >-
+      मैं सरसों या सरसों से बने उत्पादों वाला भोजन नहीं खा सकता/सकती, चाहे मात्रा कितनी भी कम हो;
+      नहीं तो मुझे गंभीर एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता की आवश्यकता होगी।
+    foundInLabel: 'सरसों इनमें मिल सकती है:'
+    foundIn:
+      - सरसों के बीज
+      - सरसों का पाउडर
+      - मेयोनीज़
+      - सलाद ड्रेसिंग
+      - मैरिनेड और सॉस
+      - करी
+      - अचार
+    question: क्या इस भोजन में सरसों है?
+  hungarian:
+    verified: false
+    allergen: Mustár
+    statement: Súlyos mustárallergiám van.
+    description: >-
+      Nem ehetek mustárt vagy mustártermékeket tartalmazó ételeket, még kis mennyiségben sem,
+      különben súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'Mustár megtalálható ebben:'
+    foundIn:
+      - Mustármag
+      - Mustárpor
+      - Majonéz
+      - Salátaöntetek
+      - Pácok és szószok
+      - Curryk
+      - Savanyúságok
+    question: Tartalmaz ez az étel mustárt?
+  icelandic:
+    verified: false
+    allergen: Sinep
+    statement: Ég er með alvarlegt sinepofnæmi.
+    description: >-
+      Ég má ekki borða mat sem inniheldur sinep eða sinepafurðir, jafnvel í litlu magni, annars fæ
+      ég alvarlegt ofnæmisviðbragð og þarf læknishjálp.
+    foundInLabel: 'Sinep getur verið í:'
+    foundIn:
+      - Sinepfræ
+      - Sinepduft
+      - Majones
+      - Salatsósur
+      - Marineringar og sósur
+      - Karriréttir
+      - Súrsað grænmeti
+    question: Inniheldur þessi matur sinep?
+  indonesian:
+    verified: false
+    allergen: Mustard
+    statement: Saya memiliki alergi mustard yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung mustard atau produk mustard, bahkan dalam
+      jumlah kecil, atau saya akan mengalami reaksi alergi yang parah dan memerlukan perawatan
+      medis.
+    foundInLabel: 'Mustard dapat ditemukan dalam:'
+    foundIn:
+      - Biji mustard
+      - Bubuk mustard
+      - Mayones
+      - Saus salad
+      - Marinade dan saus
+      - Kari
+      - Acar
+    question: Apakah makanan ini mengandung mustard?
+  khmer:
+    verified: false
+    allergen: ម៉ាស្តាដ
+    statement: ខ្ញុំមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរទៅនឹងម៉ាស្តាដ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានម៉ាស្តាដ ឬផលិតផលម៉ាស្តាដបានទេ ទោះបីជាបរិមាណតិចក៏ដោយ បើមិនដូច្នេះទេ
+      ខ្ញុំនឹងមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរ និងត្រូវការការថែទាំពេទ្យ។
+    foundInLabel: ម៉ាស្តាដអាចមាននៅក្នុង៖
+    foundIn:
+      - គ្រាប់ម៉ាស្តាដ
+      - ម្សៅម៉ាស្តាដ
+      - ម៉ាយ៉ូនេស
+      - ទឹកជ្រលក់សាឡាត់
+      - ទឹកជ្រលក់ និងសូស
+      - ការី
+      - បន្លែជ្រលក់
+    question: តើអាហារនេះមានម៉ាស្តាដទេ?
+  korean:
+    verified: false
+    allergen: 겨자
+    statement: 저는 심각한 겨자 알레르기가 있습니다.
+    description: 겨자나 겨자 제품이 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '겨자가 들어 있을 수 있는 것:'
+    foundIn:
+      - 겨자씨
+      - 겨자 가루
+      - 마요네즈
+      - 샐러드 드레싱
+      - 마리네이드와 소스
+      - 카레
+      - 피클
+    question: 이 음식에 겨자가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ມັດສະຕາດ
+    statement: ຂ້ອຍມີອາການແພ້ມັດສະຕາດຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີມັດສະຕາດ ຫຼື ຜະລິດຕະພັນມັດສະຕາດໄດ້ ເຖິງແມ່ນວ່າຈະເປັນຈຳນວນໜ້ອຍກໍ່ຕາມ
+      ບໍ່ດັ່ງນັ້ນຂ້ອຍຈະມີອາການແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວທາງການແພດ.
+    foundInLabel: 'ມັດສະຕາດອາດພົບໃນ:'
+    foundIn:
+      - ເມັດມັດສະຕາດ
+      - ຜົງມັດສະຕາດ
+      - ມາໂຢເນສ
+      - ນ້ຳສະຫຼັດ
+      - ນ້ຳແຊ່ ແລະ ແຊ້ສ
+      - ຂ້າວແຄຣີ
+      - ຜັກດອງ
+    question: ອາຫານນີ້ມີມັດສະຕາດບໍ?
+  latvian:
+    verified: false
+    allergen: Sinepes
+    statement: Man ir smaga alerģija pret sinepēm.
+    description: >-
+      Es nedrīkstu ēst pārtiku, kas satur sinepes vai sinepju produktus, pat nelielā daudzumā,
+      citādi man būs smaga alerģiska reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Sinepes var atrasties:'
+    foundIn:
+      - Sinepju sēklas
+      - Sinepju pulveris
+      - Majonēze
+      - Salātu mērces
+      - Marinādes un mērces
+      - Karija ēdieni
+      - Marinēti dārzeņi
+    question: Vai šajā ēdienā ir sinepes?
+  lithuanian:
+    verified: false
+    allergen: Garstyčios
+    statement: Turiu sunkią alergiją garstyčioms.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra garstyčių ar garstyčių produktų, net ir nedideliais
+      kiekiais, kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Garstyčių gali būti:'
+    foundIn:
+      - Garstyčių sėklos
+      - Garstyčių milteliai
+      - Majonezas
+      - Salotų padažai
+      - Marinatai ir padažai
+      - Kario patiekalai
+      - Marinuotos daržovės
+    question: Ar šiame maiste yra garstyčių?
+  macedonian:
+    verified: false
+    allergen: Горчица
+    statement: Имам тешка алергија на горчица.
+    description: >-
+      Не можам да јадам храна што содржи горчица или производи од горчица, дури ни во мали количини,
+      инаку ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Горчицата може да се најде во:'
+    foundIn:
+      - Семе од горчица
+      - Прав од горчица
+      - Мајонез
+      - Преливи за салата
+      - Маринади и сосови
+      - Кари јадења
+      - Кисели краставички
+    question: Дали оваа храна содржи горчица?
+  malay:
+    verified: false
+    allergen: Mustard
+    statement: Saya mempunyai alahan mustard yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi mustard atau produk mustard, walaupun dalam
+      jumlah kecil, atau saya akan mengalami reaksi alahan yang teruk dan memerlukan rawatan
+      perubatan.
+    foundInLabel: 'Mustard boleh dijumpai dalam:'
+    foundIn:
+      - Biji mustard
+      - Serbuk mustard
+      - Mayones
+      - Dressing salad
+      - Perapan dan sos
+      - Kari
+      - Jeruk
+    question: Adakah makanan ini mengandungi mustard?
+  maltese:
+    verified: false
+    allergen: Mustarda
+    statement: Għandi allerġija severa għall-mustarda.
+    description: >-
+      Ma nistax niekol ikel li fih mustarda jew prodotti tal-mustarda, anke fi kwantitajiet żgħar,
+      inkella se jkolli reazzjoni allerġika severa u se jkolli bżonn attenzjoni medika.
+    foundInLabel: 'Il-mustarda tista'' tinstab fi:'
+    foundIn:
+      - Żerriegħa tal-mustarda
+      - Trab tal-mustarda
+      - Majoneż
+      - Dressings tas-salad
+      - Marinati u zlazi
+      - Curries
+      - Pickles
+    question: Dan l-ikel fih mustarda?
+  norwegian:
+    verified: false
+    allergen: Sennep
+    statement: Jeg har en alvorlig sennepsallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder sennep eller sennepsprodukter, selv i små mengder,
+      ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Sennep kan finnes i:'
+    foundIn:
+      - Sennepsfrø
+      - Sennepspulver
+      - Majones
+      - Salatsauser
+      - Marinader og sauser
+      - Curryretter
+      - Sylteagurk
+    question: Inneholder denne maten sennep?
+  polish:
+    verified: false
+    allergen: Gorczyca
+    statement: Mam ciężką alergię na gorczycę.
+    description: >-
+      Nie mogę jeść żywności zawierającej gorczycę lub produkty z gorczycy, nawet w małych
+      ilościach, inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy
+      medycznej.
+    foundInLabel: 'Gorczyca może występować w:'
+    foundIn:
+      - Nasiona gorczycy
+      - Proszek gorczycowy
+      - Majonez
+      - Dressingi do sałatek
+      - Marynaty i sosy
+      - Potrawy curry
+      - Kiszonki i marynaty
+    question: Czy to jedzenie zawiera gorczycę?
+  portuguese-brazil:
+    verified: false
+    allergen: Mostarda
+    statement: Tenho alergia grave à mostarda.
+    description: >-
+      Não posso comer alimentos que contenham mostarda ou produtos à base de mostarda, mesmo em
+      pequenas quantidades, pois terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'A mostarda pode ser encontrada em:'
+    foundIn:
+      - Sementes de mostarda
+      - Mostarda em pó
+      - Maionese
+      - Molhos para salada
+      - Marinadas e molhos
+      - Curry
+      - Picles
+    question: Este alimento contém mostarda?
+  romanian:
+    verified: false
+    allergen: Muștar
+    statement: Am o alergie severă la muștar.
+    description: >-
+      Nu pot mânca alimente care conțin muștar sau produse pe bază de muștar, nici măcar în
+      cantități mici, altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri
+      medicale.
+    foundInLabel: 'Muștarul poate fi găsit în:'
+    foundIn:
+      - Semințe de muștar
+      - Muștar pudră
+      - Maioneză
+      - Dressinguri pentru salată
+      - Marinade și sosuri
+      - Curry
+      - Murături
+    question: Acest aliment conține muștar?
+  russian:
+    verified: false
+    allergen: Горчица
+    statement: У меня тяжёлая аллергия на горчицу.
+    description: >-
+      Я не могу есть продукты, содержащие горчицу или изделия из горчицы, даже в малых количествах,
+      иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Горчица может содержаться в:'
+    foundIn:
+      - Горчичные семена
+      - Горчичный порошок
+      - Майонез
+      - Салатные заправки
+      - Маринады и соусы
+      - Карри
+      - Соленья и маринады
+    question: Содержит ли эта еда горчицу?
+  serbian:
+    verified: false
+    allergen: Сенф
+    statement: Имам тешку алергију на сенф.
+    description: >-
+      Не смем да једем храну која садржи сенф или производе од сенфа, чак ни у малим количинама,
+      иначе ћу имати тешку алергијску реакцију и биће ми потребна лекарска помоћ.
+    foundInLabel: 'Сенф се може наћи у:'
+    foundIn:
+      - Семе сенфа
+      - Прашак од сенфа
+      - Мајонез
+      - Преливи за салату
+      - Маринаде и сосови
+      - Кари јела
+      - Кисели краставци
+    question: Да ли ова храна садржи сенф?
+  slovak:
+    verified: false
+    allergen: Horčica
+    statement: Mám ťažkú alergiu na horčicu.
+    description: >-
+      Nesmím jesť potraviny obsahujúce horčicu alebo výrobky z horčice, ani v malom množstve, inak
+      budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Horčica sa môže nachádzať v:'
+    foundIn:
+      - Horčičné semienka
+      - Horčičný prášok
+      - Majonéza
+      - Šalátové zálievky
+      - Marinády a omáčky
+      - Kari
+      - Nakladaná zelenina
+    question: Obsahuje toto jedlo horčicu?
+  slovenian:
+    verified: false
+    allergen: Gorčica
+    statement: Imam hudo alergijo na gorčico.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje gorčico ali izdelke iz gorčice, niti v majhnih količinah,
+      sicer bom imel/-a hudo alergijsko reakcijo in bom potreboval/-a zdravniško pomoč.
+    foundInLabel: 'Gorčica se lahko nahaja v:'
+    foundIn:
+      - Semena gorčice
+      - Gorčični prah
+      - Majoneza
+      - Previvi za solato
+      - Marinade in omake
+      - Curry jedi
+      - Kisla zelenjava
+    question: Ali ta hrana vsebuje gorčico?
+  swahili:
+    verified: false
+    allergen: Haradali
+    statement: Nina mzio mkali wa haradali.
+    description: >-
+      Siwezi kula chakula chenye haradali au bidhaa za haradali, hata kwa kiasi kidogo, au nitapata
+      mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Haradali inaweza kupatikana katika:'
+    foundIn:
+      - Mbegu za haradali
+      - Unga wa haradali
+      - Mayonnaise
+      - Mafuta ya saladi
+      - Marinades na michuzi
+      - Curry
+      - Pikle
+    question: Je, chakula hiki kina haradali?
+  swedish:
+    verified: false
+    allergen: Senap
+    statement: Jag har en allvarlig senapsallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller senap eller senapsprodukter, ens i små mängder, annars får
+      jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Senap kan finnas i:'
+    foundIn:
+      - Senapsfrön
+      - Senapspulver
+      - Majonnäs
+      - Salladsdressingar
+      - Marinader och såser
+      - Curryrätter
+      - Inlagd gurka
+    question: Innehåller den här maten senap?
+  tagalog:
+    verified: false
+    allergen: Mustasa
+    statement: Mayroon akong malubhang allergy sa mustasa.
+    description: >-
+      Hindi ako makakain ng pagkaing may mustasa o mga produktong mustasa, kahit sa maliit na dami,
+      o magkakaroon ako ng malubhang allergic reaction at kakailanganin ko ng medikal na tulong.
+    foundInLabel: 'Ang mustasa ay matatagpuan sa:'
+    foundIn:
+      - Mga buto ng mustasa
+      - Pulbos ng mustasa
+      - Mayonesa
+      - Mga salad dressing
+      - Mga marinade at sarsa
+      - Mga curry
+      - Mga pikel
+    question: May mustasa ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: มัสตาร์ด
+    statement: ฉันแพ้มัสตาร์ดอย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถรับประทานอาหารที่มีมัสตาร์ดหรือผลิตภัณฑ์จากมัสตาร์ดได้ แม้เพียงเล็กน้อย
+      มิฉะนั้นจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'มัสตาร์ดอาจพบใน:'
+    foundIn:
+      - เมล็ดมัสตาร์ด
+      - ผงมัสตาร์ด
+      - มายองเนส
+      - น้ำสลัด
+      - น้ำหมักและซอส
+      - แกงกะหรี่
+      - ผักดอง
+    question: อาหารนี้มีมัสตาร์ดหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Гірчиця
+    statement: У мене тяжка алергія на гірчицю.
+    description: >-
+      Я не можу їсти продукти, що містять гірчицю або вироби з гірчиці, навіть у невеликій
+      кількості, інакше в мене буде тяжка алергічна реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Гірчиця може міститися в:'
+    foundIn:
+      - Насіння гірчиці
+      - Гірчичний порошок
+      - Майонез
+      - Салатні заправки
+      - Маринади та соуси
+      - Каррі
+      - Соління та маринади
+    question: Чи містить ця їжа гірчицю?
+  vietnamese:
+    verified: false
+    allergen: Mù tạt
+    statement: Tôi bị dị ứng nặng với mù tạt.
+    description: >-
+      Tôi không thể ăn thực phẩm có chứa mù tạt hoặc sản phẩm từ mù tạt, dù chỉ một lượng nhỏ, nếu
+      không tôi sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Mù tạt có thể có trong:'
+    foundIn:
+      - Hạt mù tạt
+      - Bột mù tạt
+      - Sốt mayonnaise
+      - Nước sốt salad
+      - Nước ướp và sốt
+      - Cà ri
+      - Dưa chua
+    question: Thức ăn này có chứa mù tạt không?

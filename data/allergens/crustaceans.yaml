@@ -4,12 +4,15 @@
 id: crustaceans
 emoji: 🦐
 translations:
-  en:
+  english:
     verified: true
     allergen: Crustaceans
     statement: I have a severe allergy to crustacean shellfish.
-    description: I cannot eat food containing crustaceans such as shrimp, prawns, crab, lobster or crayfish, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Crustaceans can be found in:"
+    description: >-
+      I cannot eat food containing crustaceans such as shrimp, prawns, crab, lobster or crayfish,
+      even in small amounts, or I will have a severe allergic reaction and require medical
+      attention.
+    foundInLabel: 'Crustaceans can be found in:'
     foundIn:
       - Shrimp & prawns
       - Crab
@@ -19,13 +22,15 @@ translations:
       - Seafood soups
       - Fried rice & noodle dishes
     question: Does this food contain shrimp, crab or other crustaceans?
-
-  es:
+  spanish:
     verified: false
     allergen: Crustáceos
     statement: Tengo una alergia grave a los crustáceos.
-    description: No puedo comer alimentos que contengan crustáceos como gambas, langostinos, cangrejo, langosta o cangrejo de río, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "Los crustáceos pueden encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan crustáceos como gambas, langostinos, cangrejo, langosta
+      o cangrejo de río, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica
+      grave y necesitaría atención médica.
+    foundInLabel: 'Los crustáceos pueden encontrarse en:'
     foundIn:
       - Gambas y langostinos
       - Cangrejo
@@ -35,13 +40,15 @@ translations:
       - Sopas de marisco
       - Arroces y fideos salteados
     question: ¿Este alimento contiene gambas, cangrejo u otros crustáceos?
-
-  fr:
+  french:
     verified: false
     allergen: Crustacés
     statement: J'ai une allergie sévère aux crustacés.
-    description: Je ne peux pas manger d'aliments contenant des crustacés tels que crevettes, gambas, crabe, homard ou écrevisses, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Les crustacés peuvent se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant des crustacés tels que crevettes, gambas, crabe,
+      homard ou écrevisses, même en petites quantités, sous peine d'une réaction allergique grave
+      nécessitant des soins médicaux.
+    foundInLabel: 'Les crustacés peuvent se trouver dans :'
     foundIn:
       - Crevettes et gambas
       - Crabe
@@ -51,13 +58,15 @@ translations:
       - Soupes de fruits de mer
       - Riz et nouilles sautés
     question: Ce plat contient-il des crevettes, du crabe ou d'autres crustacés ?
-
-  de:
+  german:
     verified: false
     allergen: Krebstiere
     statement: Ich habe eine schwere Allergie gegen Krebstiere.
-    description: Ich darf keine Lebensmittel essen, die Krebstiere wie Garnelen, Shrimps, Krabben, Hummer oder Flusskrebse enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Krebstiere können enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Krebstiere wie Garnelen, Shrimps, Krabben, Hummer oder
+      Flusskrebse enthalten - auch nicht in kleinen Mengen -, da ich sonst eine schwere allergische
+      Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: 'Krebstiere können enthalten sein in:'
     foundIn:
       - Garnelen und Shrimps
       - Krabben
@@ -67,13 +76,15 @@ translations:
       - Meeresfrüchtesuppen
       - Gebratener Reis und Nudelgerichte
     question: Enthält dieses Gericht Garnelen, Krabben oder andere Krebstiere?
-
-  it:
+  italian:
     verified: false
     allergen: Crostacei
     statement: Ho una grave allergia ai crostacei.
-    description: Non posso mangiare alimenti che contengono crostacei come gamberi, gamberetti, granchio, astice o gamberi di fiume, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "I crostacei possono trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono crostacei come gamberi, gamberetti, granchio,
+      astice o gamberi di fiume, nemmeno in piccole quantità, altrimenti avrò una grave reazione
+      allergica e avrò bisogno di assistenza medica.
+    foundInLabel: 'I crostacei possono trovarsi in:'
     foundIn:
       - Gamberi e gamberetti
       - Granchio
@@ -83,13 +94,15 @@ translations:
       - Zuppe di pesce e frutti di mare
       - Riso e noodles saltati
     question: Questo cibo contiene gamberi, granchio o altri crostacei?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Crustáceos
     statement: Tenho uma alergia grave a crustáceos.
-    description: Não posso comer alimentos que contenham crustáceos como camarão, gambas, caranguejo, lavagante ou lagostim, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "Os crustáceos podem encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham crustáceos como camarão, gambas, caranguejo, lavagante
+      ou lagostim, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei
+      de assistência médica.
+    foundInLabel: 'Os crustáceos podem encontrar-se em:'
     foundIn:
       - Camarões e gambas
       - Caranguejo
@@ -99,13 +112,15 @@ translations:
       - Sopas de marisco
       - Arroz e massas salteadas
     question: Este alimento contém camarão, caranguejo ou outros crustáceos?
-
-  el:
+  greek:
     verified: false
     allergen: Καρκινοειδή
     statement: Πάσχω από σοβαρή αλλεργία στα καρκινοειδή.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν καρκινοειδή, όπως γαρίδες, καβούρι, αστακό ή καραβίδες, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Τα καρκινοειδή μπορεί να βρίσκονται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν καρκινοειδή, όπως γαρίδες, καβούρι, αστακό ή καραβίδες,
+      ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ
+      ιατρική βοήθεια.
+    foundInLabel: 'Τα καρκινοειδή μπορεί να βρίσκονται σε:'
     foundIn:
       - Γαρίδες
       - Καβούρι
@@ -115,13 +130,15 @@ translations:
       - Σούπες θαλασσινών
       - Τηγανητό ρύζι και νουντλς
     question: Αυτό το φαγητό περιέχει γαρίδες, καβούρι ή άλλα καρκινοειδή;
-
-  tr:
+  turkish:
     verified: false
     allergen: Kabuklular
     statement: Kabuklu deniz ürünlerine karşı şiddetli alerjim var.
-    description: Karides, yengeç, ıstakoz veya kerevit gibi kabuklular içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Kabuklular şunlarda bulunabilir:"
+    description: >-
+      Karides, yengeç, ıstakoz veya kerevit gibi kabuklular içeren yiyecekleri az miktarda bile
+      yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç
+      duyarım.
+    foundInLabel: 'Kabuklular şunlarda bulunabilir:'
     foundIn:
       - Karides
       - Yengeç
@@ -131,13 +148,14 @@ translations:
       - Deniz ürünlü çorbalar
       - Kızarmış pilav ve noodle yemekleri
     question: Bu yemekte karides, yengeç veya başka kabuklular var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: סרטנאים
     statement: יש לי אלרגיה חמורה לסרטנאים.
-    description: אסור לי לאכול מזון המכיל סרטנאים כגון שרימפס, סרטן, לובסטר או סרטני נהרות, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "סרטנאים עשויים להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל סרטנאים כגון שרימפס, סרטן, לובסטר או סרטני נהרות, אפילו בכמויות
+      קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'סרטנאים עשויים להימצא ב:'
     foundIn:
       - שרימפס
       - סרטן
@@ -147,13 +165,14 @@ translations:
       - מרקי פירות ים
       - אורז מוקפץ ומנות נודלס
     question: האם המנה הזו מכילה שרימפס, סרטן או סרטנאים אחרים?
-
-  ar:
+  arabic:
     verified: false
     allergen: القشريات
     statement: لديّ حساسية شديدة من القشريات.
-    description: لا أستطيع تناول أي طعام يحتوي على القشريات مثل الروبيان (الجمبري) أو السلطعون أو الكركند أو جراد البحر، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد توجد القشريات في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على القشريات مثل الروبيان (الجمبري) أو السلطعون أو الكركند أو
+      جراد البحر، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد توجد القشريات في:'
     foundIn:
       - الروبيان (الجمبري)
       - السلطعون
@@ -163,8 +182,7 @@ translations:
       - شوربات المأكولات البحرية
       - الأرز المقلي وأطباق النودلز
     question: هل يحتوي هذا الطعام على الروبيان أو السلطعون أو غيرها من القشريات؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 甲殻類
     statement: 私は重度の甲殻類アレルギーがあります。
@@ -179,8 +197,7 @@ translations:
       - 海鮮スープ
       - チャーハン・麺料理
     question: この料理にエビ・カニなどの甲殻類は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 甲壳类
     statement: 我对甲壳类海鲜严重过敏。
@@ -195,3 +212,645 @@ translations:
       - 海鲜汤
       - 炒饭和炒面
     question: 这道菜含有虾、蟹或其他甲壳类吗？
+  bengali:
+    verified: false
+    allergen: ক্রাস্টেসিয়ান (চিংড়িজাতীয়)
+    statement: আমার ক্রাস্টেসিয়ান শেলফিশের প্রতি মারাত্মক অ্যালার্জি আছে।
+    description: >-
+      চিংড়ি, কাঁকড়া, লবস্টার বা ক্রেফিশ জাতীয় ক্রাস্টেসিয়ান থাকা খাবার আমি সামান্য পরিমাণেও খেতে
+      পারি না, নইলে মারাত্মক অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'ক্রাস্টেসিয়ান পাওয়া যেতে পারে:'
+    foundIn:
+      - চিংড়ি ও প্রন
+      - কাঁকড়া
+      - লবস্টার
+      - ক্রেফিশ
+      - চিংড়ির পেস্ট
+      - সীফুড স্যুপ
+      - ফ্রাইড রাইস ও নুডলস
+    question: এই খাবারে কি চিংড়ি, কাঁকড়া বা অন্য ক্রাস্টেসিয়ান আছে?
+  bulgarian:
+    verified: false
+    allergen: Ракообразни
+    statement: Имам тежка алергия към ракообразни.
+    description: >-
+      Не мога да ям храна, съдържаща ракообразни като скариди, раци, омари или речни раци, дори в
+      малки количества, иначе ще имам тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Ракообразни може да се съдържат в:'
+    foundIn:
+      - Скариди
+      - Раци
+      - Омари
+      - Речни раци
+      - Паста от скариди
+      - Морски супи
+      - Пържен ориз и юфка
+    question: Съдържа ли тази храна скариди, раци или други ракообразни?
+  catalan:
+    verified: false
+    allergen: Crustacis
+    statement: Tinc una al·lèrgia greu als crustacis.
+    description: >-
+      No puc menjar aliments que continguin crustacis com gambes, llagostins, cranc, llagosta o
+      cranc de riu, ni tan sols en petites quantitats, o tindré una reacció al·lèrgica greu i
+      necessitaré atenció mèdica.
+    foundInLabel: 'Els crustacis es poden trobar a:'
+    foundIn:
+      - Gambes i llagostins
+      - Cranc
+      - Llagosta
+      - Cranc de riu
+      - Pasta de gambes
+      - Sopes de marisc
+      - Arròs fregit i fideus
+    question: Aquest aliment conté gambes, cranc o altres crustacis?
+  chinese-hong-kong:
+    verified: false
+    allergen: 甲殼類
+    statement: 我對甲殼類海鮮有嚴重敏感。
+    description: 我不能進食含有蝦、蟹、龍蝦或小龍蝦等甲殼類的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要即時治療。
+    foundInLabel: 甲殼類可能存在於：
+    foundIn:
+      - 蝦
+      - 蟹
+      - 龍蝦
+      - 小龍蝦
+      - 蝦醬
+      - 海鮮湯
+      - 炒飯及炒麵
+    question: 這道菜含有蝦、蟹或其他甲殼類嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 甲殼類
+    statement: 我對甲殼類海鮮有嚴重過敏。
+    description: 我不能吃含有蝦、蟹、龍蝦或小龍蝦等甲殼類的食物，即使少量也不行，否則會引發嚴重過敏反應，需要就醫。
+    foundInLabel: 甲殼類可能存在於：
+    foundIn:
+      - 蝦
+      - 蟹
+      - 龍蝦
+      - 小龍蝦
+      - 蝦醬
+      - 海鮮湯
+      - 炒飯與炒麵
+    question: 這道菜含有蝦、蟹或其他甲殼類嗎？
+  croatian:
+    verified: false
+    allergen: Ljuskari
+    statement: Imam tešku alergiju na ljuskare.
+    description: >-
+      Ne smijem jesti hranu koja sadrži ljuskare poput škampâ, rakova, jastoga ili riječnih rakova,
+      čak ni u malim količinama, inače ću imati tešku alergijsku reakciju i trebati medicinsku
+      pomoć.
+    foundInLabel: 'Ljuskari se mogu nalaziti u:'
+    foundIn:
+      - Škampi i kozice
+      - Rakovi
+      - Jastog
+      - Riječni rakovi
+      - Pasta od škampâ
+      - Juhe od plodova mora
+      - Pržena riža i tjestenina
+    question: Sadrži li ova hrana škampe, rakove ili druge ljuskare?
+  czech:
+    verified: false
+    allergen: Korýši
+    statement: Mám těžkou alergii na korýše.
+    description: >-
+      Nemohu jíst potraviny obsahující korýše, jako jsou krevety, krabi, humři nebo raci, a to ani v
+      malém množství, jinak budu mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Korýši se mohou vyskytovat v:'
+    foundIn:
+      - Krevety a garnáty
+      - Krabi
+      - Humři
+      - Raci
+      - Krevetová pasta
+      - Mořské polévky
+      - Smažená rýže a nudle
+    question: Obsahuje toto jídlo krevety, kraby nebo jiné korýše?
+  danish:
+    verified: false
+    allergen: Skaldyr (krebsdyr)
+    statement: Jeg har en alvorlig allergi over for krebsdyr.
+    description: >-
+      Jeg kan ikke spise mad med krebsdyr som rejer, krabber, hummer eller flodkrebs - heller ikke i
+      små mængder - ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Krebsdyr kan findes i:'
+    foundIn:
+      - Rejer
+      - Krabber
+      - Hummer
+      - Flodkrebs
+      - Rejepasta
+      - Fiskesupper med skaldyr
+      - Stegte ris- og nudelretter
+    question: Indeholder denne mad rejer, krabber eller andre krebsdyr?
+  dutch:
+    verified: false
+    allergen: Schaaldieren
+    statement: Ik heb een ernstige allergie voor schaaldieren.
+    description: >-
+      Ik mag geen voedsel eten dat schaaldieren bevat zoals garnalen, krab, kreeft of rivierkreeft,
+      ook niet in kleine hoeveelheden, anders krijg ik een ernstige allergische reactie en heb ik
+      medische hulp nodig.
+    foundInLabel: 'Schaaldieren kunnen voorkomen in:'
+    foundIn:
+      - Garnalen
+      - Krab
+      - Kreeft
+      - Rivierkreeft
+      - Garnalenpasta
+      - Zeevruchtensoep
+      - Nasi en noedelgerechten
+    question: Bevat dit gerecht garnalen, krab of andere schaaldieren?
+  estonian:
+    verified: false
+    allergen: Koorikloomad
+    statement: Mul on raske allergia koorikloomade vastu.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab koorikloomi nagu krevetid, krabid, homaarid või vähid,
+      isegi väikeses koguses, muidu tekib raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Koorikloomi võib leida:'
+    foundIn:
+      - Krevetid
+      - Krabid
+      - Homaarid
+      - Vähid
+      - Krevetipasta
+      - Mereandidesupid
+      - Praetud riisi- ja nuudlitoidud
+    question: Kas selles toidus on krevette, krabisid või teisi koorikloomi?
+  finnish:
+    verified: false
+    allergen: Äyriäiset
+    statement: Minulla on vakava allergia äyriäisille.
+    description: >-
+      En voi syödä ruokaa, joka sisältää äyriäisiä kuten katkarapuja, taskurapuja, hummereita tai
+      rapuja, edes pieninä määrinä, muuten saan vakavan allergisen reaktion ja tarvitsen lääkärin
+      apua.
+    foundInLabel: 'Äyriäisiä voi olla:'
+    foundIn:
+      - Katkaravut
+      - Taskuravut / crab
+      - Hummerit
+      - Ravut
+      - Katkaraputahna
+      - Äyriäiskeitot
+      - Paistettu riisi ja nuudelit
+    question: Sisältääkö tämä ruoka katkarapuja, taskurapuja tai muita äyriäisiä?
+  hindi:
+    verified: false
+    allergen: क्रस्टेशियन (झींगा-केकड़ा वर्ग)
+    statement: मुझे क्रस्टेशियन शेलफिश से गंभीर एलर्जी है।
+    description: >-
+      झींगा, केकड़ा, लॉबस्टर या क्रेफ़िश जैसे क्रस्टेशियन वाला भोजन मैं थोड़ी मात्रा में भी नहीं खा
+      सकता/सकती, वरना गंभीर एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'क्रस्टेशियन इनमें हो सकते हैं:'
+    foundIn:
+      - झींगा और प्रॉन
+      - केकड़ा
+      - लॉबस्टर
+      - क्रेफ़िश
+      - झींगे का पेस्ट
+      - सीफ़ूड सूप
+      - फ्राइड राइस और नूडल्स
+    question: क्या इस भोजन में झींगा, केकड़ा या अन्य क्रस्टेशियन हैं?
+  hungarian:
+    verified: false
+    allergen: Rákfélék
+    statement: Súlyos allergiám van a rákfélékre.
+    description: >-
+      Nem ehetek rákféléket tartalmazó ételt, például garnélarákot, rákot, homárt vagy folyami
+      rákot, még kis mennyiségben sem, különben súlyos allergiás reakcióm lesz, és orvosi segítségre
+      lesz szükségem.
+    foundInLabel: 'Rákfélék előfordulhatnak:'
+    foundIn:
+      - Garnélarák
+      - Rák
+      - Homár
+      - Folyami rák
+      - Garnélarákpaszta
+      - Tengeri levesek
+      - Sült rizs és tésztás ételek
+    question: Tartalmaz ez az étel garnélarákot, rákot vagy más rákféléket?
+  icelandic:
+    verified: false
+    allergen: Krabbadýr
+    statement: Ég er með alvarlegt ofnæmi fyrir krabbadýrum.
+    description: >-
+      Ég má ekki borða mat sem inniheldur krabbadýr eins og rækjur, krabba, humar eða vatnakrabba,
+      jafnvel í litlu magni, annars fær ég alvarlegt ofnæmisviðbragð og þarf læknisaðstoð.
+    foundInLabel: 'Krabbadýr geta verið í:'
+    foundIn:
+      - Rækjur
+      - Krabbar
+      - Humar
+      - Vatnakrabbar
+      - Rækjupasta
+      - Sjávarfangsúpur
+      - Steiktar hrísgrjóna- og núðluréttir
+    question: Inniheldur þessi matur rækjur, krabba eða önnur krabbadýr?
+  indonesian:
+    verified: false
+    allergen: Krustasea
+    statement: Saya punya alergi berat terhadap krustasea (udang-kepiting).
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung krustasea seperti udang, kepiting, lobster,
+      atau crayfish, meskipun sedikit, atau saya akan mengalami reaksi alergi berat dan membutuhkan
+      perawatan medis.
+    foundInLabel: 'Krustasea dapat ditemukan dalam:'
+    foundIn:
+      - Udang
+      - Kepiting
+      - Lobster
+      - Crayfish / udang sungai
+      - Terasi udang
+      - Sup seafood
+      - Nasi goreng dan mi goreng
+    question: Apakah makanan ini mengandung udang, kepiting, atau krustasea lain?
+  khmer:
+    verified: false
+    allergen: សត្វក្រាស្តាសេអាន
+    statement: ខ្ញុំមានអាលែហ្សីធ្ងន់ធ្ងរចំពោះសត្វក្រាស្តាសេអាន។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានបង្គា ក្តាម បង្កង ឬក្តាមទឹកសាបបានទេ ទោះបីតិចតួចក៏ដោយ បើមិនដូច្នេះទេ
+      ខ្ញុំនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ និងត្រូវការព្យាបាល។
+    foundInLabel: 'សត្វក្រាស្តាសេអានអាចមាននៅក្នុង:'
+    foundIn:
+      - បង្គា
+      - ក្តាម
+      - បង្កង
+      - ក្តាមទឹកសាប
+      - កាពិបង្គា
+      - ស៊ុបសមុទ្រ
+      - បាយឆា និងមីឆា
+    question: អាហារនេះមានបង្គា ក្តាម ឬសត្វក្រាស្តាសេអានផ្សេងទៀតទេ?
+  korean:
+    verified: false
+    allergen: 갑각류
+    statement: 저는 갑각류에 심한 알레르기가 있습니다.
+    description: 새우, 게, 랍스터, 가재 같은 갑각류가 들어간 음식은 아주 소량이라도 먹을 수 없으며, 먹으면 심각한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '갑각류가 들어 있을 수 있는 것:'
+    foundIn:
+      - 새우
+      - 게
+      - 랍스터
+      - 가재
+      - 새우젓 / 새우 페이스트
+      - 해물 수프
+      - 볶음밥과 볶음면
+    question: 이 음식에 새우, 게 또는 다른 갑각류가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ສັດກະດູກແຂງ (ກຸ້ງ-ປູ)
+    statement: ຂ້ອຍແພ້ສັດກະດູກແຂງຢ່າງຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍກິນອາຫານທີ່ມີກຸ້ງ, ປູ, ກຸ້ງກະດອງ ຫຼື ປູນ້ຳຈືດບໍ່ໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຂ້ອຍຈະມີປະຕິກິລິຍາແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ສັດກະດູກແຂງອາດມີໃນ:'
+    foundIn:
+      - ກຸ້ງ
+      - ປູ
+      - ກຸ້ງກະດອງ / ລອບສະເຕີ
+      - ປູນ້ຳຈືດ
+      - ກະປິກຸ້ງ
+      - ແກງອາຫານທະເລ
+      - ເຂົ້າຜັດ ແລະ ຫມີ້ຜັດ
+    question: ອາຫານນີ້ມີກຸ້ງ, ປູ ຫຼື ສັດກະດູກແຂງອື່ນບໍ?
+  latvian:
+    verified: false
+    allergen: Vēžveidīgie
+    statement: Man ir smaga alerģija pret vēžveidīgajiem.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur vēžveidīgos, piemēram, garneles, krabjus, omārus vai vēžus,
+      pat nelielā daudzumā, citādi man būs smaga alerģiska reakcija un būs nepieciešama medicīniskā
+      palīdzība.
+    foundInLabel: 'Vēžveidīgie var būt:'
+    foundIn:
+      - Garneles
+      - Krabji
+      - Omāri
+      - Vēži
+      - Garneļu pasta
+      - Jūras produktu zupas
+      - Cepti rīsi un nūdeles
+    question: Vai šajā ēdienā ir garneles, krabji vai citi vēžveidīgie?
+  lithuanian:
+    verified: false
+    allergen: Vėžiagyviai
+    statement: Turiu sunkią alergiją vėžiagyviams.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra vėžiagyvių, pavyzdžiui, krevečių, krabų, omarų ar vėžių,
+      net ir nedideliais kiekiais, kitaip patirsiu sunkią alerginę reakciją ir man reikės
+      medicininės pagalbos.
+    foundInLabel: 'Vėžiagyvių gali būti:'
+    foundIn:
+      - Krevetės
+      - Krabai
+      - Omarai
+      - Vėžiai
+      - Krevečių pasta
+      - Jūros gėrybių sriubos
+      - Kepti ryžiai ir makaronai
+    question: Ar šiame maiste yra krevečių, krabų ar kitų vėžiagyvių?
+  macedonian:
+    verified: false
+    allergen: Ракови
+    statement: Имам тешка алергија на ракови.
+    description: >-
+      Не смеам да јадам храна што содржи ракови како што се шкампи, ракови, јастози или речни
+      ракови, дури и во мали количини, инаку ќе имам тешка алергиска реакција и ќе ми треба
+      медицинска помош.
+    foundInLabel: 'Ракови може да се најдат во:'
+    foundIn:
+      - Шкампи и козици
+      - Ракови
+      - Јастог
+      - Речни ракови
+      - Паста од шкампи
+      - Супи од морска храна
+      - Пржен ориз и тестенини
+    question: Дали оваа храна содржи шкампи, ракови или други ракови?
+  malay:
+    verified: false
+    allergen: Krustasea
+    statement: Saya mempunyai alergi teruk terhadap krustasea.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi krustasea seperti udang, ketam, lobster atau
+      crayfish, walaupun dalam jumlah kecil, atau saya akan mengalami reaksi alergi teruk dan
+      memerlukan rawatan perubatan.
+    foundInLabel: 'Krustasea boleh dijumpai dalam:'
+    foundIn:
+      - Udang
+      - Ketam
+      - Lobster
+      - Crayfish
+      - Pes udang
+      - Sup makanan laut
+      - Nasi goreng dan mi
+    question: Adakah makanan ini mengandungi udang, ketam atau krustasea lain?
+  maltese:
+    verified: false
+    allergen: Krustaċji
+    statement: Għandi allerġija severa għall-krustaċji.
+    description: >-
+      Ma nistax niekol ikel li fih krustaċji bħal gamberi, granċ, lumaka tal-baħar (lobster) jew
+      crayfish, anke f'ammonti żgħar, inkella jkollija reazzjoni allerġika severa u jkolli bżonn
+      attenzjoni medika.
+    foundInLabel: 'Il-krustaċji jistgħu jinstabu fi:'
+    foundIn:
+      - Gamberi
+      - Granċ
+      - Lobster
+      - Crayfish
+      - Pasta tal-gamberi
+      - Sopop tal-frott tal-baħar
+      - Ross u noodles moqli
+    question: Dan l-ikel fih gamberi, granċ jew krustaċji oħra?
+  norwegian:
+    verified: false
+    allergen: Skalldyr (krepsdyr)
+    statement: Jeg har alvorlig allergi mot krepsdyr.
+    description: >-
+      Jeg kan ikke spise mat som inneholder krepsdyr som reker, krabbe, hummer eller kreps, heller
+      ikke i små mengder, ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Krepsdyr kan finnes i:'
+    foundIn:
+      - Reker
+      - Krabbe
+      - Hummer
+      - Kreps
+      - Rekepasta
+      - Sjømatsupper
+      - Stekte ris- og nuddelretter
+    question: Inneholder denne maten reker, krabbe eller andre krepsdyr?
+  polish:
+    verified: false
+    allergen: Skorupiaki
+    statement: Mam ciężką alergię na skorupiaki.
+    description: >-
+      Nie mogę jeść żywności zawierającej skorupiaki, takie jak krewetki, kraby, homary czy raki,
+      nawet w małych ilościach, bo będę miał/a ciężką reakcję alergiczną i będę potrzebować pomocy
+      medycznej.
+    foundInLabel: 'Skorupiaki mogą występować w:'
+    foundIn:
+      - Krewetki
+      - Krab
+      - Homar
+      - Raki
+      - Pasta z krewetek
+      - Zupy owoców morza
+      - Smażony ryż i makaron
+    question: Czy to jedzenie zawiera krewetki, kraba lub inne skorupiaki?
+  portuguese-brazil:
+    verified: false
+    allergen: Crustáceos
+    statement: Tenho alergia grave a crustáceos.
+    description: >-
+      Não posso comer alimentos que contenham crustáceos como camarão, caranguejo, lagosta ou
+      lagostim, mesmo em pequenas quantidades, senão terei uma reação alérgica grave e precisarei de
+      atendimento médico.
+    foundInLabel: 'Os crustáceos podem ser encontrados em:'
+    foundIn:
+      - Camarão
+      - Caranguejo
+      - Lagosta
+      - Lagostim
+      - Pasta de camarão
+      - Sopas de frutos do mar
+      - Arroz frito e macarrão
+    question: Este alimento contém camarão, caranguejo ou outros crustáceos?
+  romanian:
+    verified: false
+    allergen: Crustacee
+    statement: Am o alergie severă la crustacee.
+    description: >-
+      Nu pot mânca alimente care conțin crustacee precum creveți, crab, homar sau raci de râu, nici
+      măcar în cantități mici, altfel voi avea o reacție alergică severă și voi avea nevoie de
+      îngrijiri medicale.
+    foundInLabel: 'Crustaceele pot fi găsite în:'
+    foundIn:
+      - Creveți
+      - Crab
+      - Homar
+      - Raci de râu
+      - Pastă de creveți
+      - Supe de fructe de mare
+      - Orez prăjit și tăiței
+    question: Acest aliment conține creveți, crab sau alte crustacee?
+  russian:
+    verified: false
+    allergen: Ракообразные
+    statement: У меня тяжёлая аллергия на ракообразных.
+    description: >-
+      Я не могу есть продукты, содержащие ракообразных - креветок, крабов, омаров или раков - даже в
+      небольших количествах, иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется
+      медицинская помощь.
+    foundInLabel: 'Ракообразные могут содержаться в:'
+    foundIn:
+      - Креветки
+      - Крабы
+      - Омары
+      - Раки
+      - Паста из креветок
+      - Супы из морепродуктов
+      - Жареный рис и лапша
+    question: В этой еде есть креветки, крабы или другие ракообразные?
+  serbian:
+    verified: false
+    allergen: Љускари
+    statement: Имам тешку алергију на љускаре.
+    description: >-
+      Не смем да једем храну која садржи љускаре као што су шкампи, ракови, јастози или речни
+      ракови, чак ни у малим количинама, иначе ћу имати тешку алергијску реакцију и требаће ми
+      медицинска помоћ.
+    foundInLabel: 'Љускари се могу налазити у:'
+    foundIn:
+      - Шкампи и козице
+      - Ракови
+      - Јастог
+      - Речни ракови
+      - Паста од шкампа
+      - Супе од морских плодова
+      - Пржени пиринач и тестенина
+    question: Да ли ова храна садржи шкампе, ракове или друге љускаре?
+  slovak:
+    verified: false
+    allergen: Kôrovce
+    statement: Mám ťažkú alergiu na kôrovce.
+    description: >-
+      Nemôžem jesť potraviny obsahujúce kôrovce, ako sú krevety, kraby, homáre alebo raci, ani v
+      malom množstve, inak budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Kôrovce sa môžu nachádzať v:'
+    foundIn:
+      - Krevety
+      - Kraby
+      - Homáre
+      - Raci
+      - Krevetová pasta
+      - Morské polievky
+      - Vyprážaná ryža a rezance
+    question: Obsahuje toto jedlo krevety, kraby alebo iné kôrovce?
+  slovenian:
+    verified: false
+    allergen: Raki
+    statement: Imam hudo alergijo na rake.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje rake, kot so kozice, rakovice, jastogi ali rečni raki, tudi v
+      majhnih količinah ne, sicer bom imel/a hudo alergijsko reakcijo in potreboval/a medicinsko
+      pomoč.
+    foundInLabel: 'Raki se lahko nahajajo v:'
+    foundIn:
+      - Kozice
+      - Rakovice
+      - Jastog
+      - Rečni raki
+      - Pasta iz kozic
+      - Juhe iz morskih sadežev
+      - Ocvrti riž in testenine
+    question: Ali ta jed vsebuje kozice, rakovice ali druge rake?
+  swahili:
+    verified: false
+    allergen: Crustacea
+    statement: Nina mzio mkali wa crustacea (kamba na kaa).
+    description: >-
+      Siwezi kula chakula chenye crustacea kama kamba, kaa, lobster au crayfish, hata kidogo, la
+      sivyo nitapata mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Crustacea wanaweza kupatikana katika:'
+    foundIn:
+      - Kamba
+      - Kaa
+      - Lobster
+      - Crayfish
+      - Unga/pasta ya kamba
+      - Supu za bahari
+      - Wali wa kukaanga na tambi
+    question: Je, chakula hiki kina kamba, kaa au crustacea wengine?
+  swedish:
+    verified: false
+    allergen: Kräftdjur
+    statement: Jag har en allvarlig allergi mot kräftdjur.
+    description: >-
+      Jag kan inte äta mat som innehåller kräftdjur som räkor, krabba, hummer eller kräftor, ens i
+      små mängder, annars får jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Kräftdjur kan finnas i:'
+    foundIn:
+      - Räkor
+      - Krabba
+      - Hummer
+      - Kräftor
+      - Räkpasta
+      - Skaldjurssoppor
+      - Stekt ris och nudlar
+    question: Innehåller den här maten räkor, krabba eller andra kräftdjur?
+  tagalog:
+    verified: false
+    allergen: Crustaceans
+    statement: Mayroon akong malubhang allergy sa crustacean shellfish.
+    description: >-
+      Hindi ako pwedeng kumain ng pagkaing may crustaceans gaya ng hipon, alimango, lobster o
+      crayfish, kahit kaunti lang, o kaya'y magkakaroon ako ng malubhang allergic reaction at
+      kakailanganin ng medikal na tulong.
+    foundInLabel: 'Makikita ang crustaceans sa:'
+    foundIn:
+      - Hipon at prawns
+      - Alimango
+      - Lobster
+      - Crayfish
+      - Shrimp paste (bagoong)
+      - Seafood soups
+      - Fried rice at pancit
+    question: May hipon, alimango o ibang crustaceans ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: สัตว์น้ำเปลือกแข็ง
+    statement: ฉันแพ้สัตว์น้ำเปลือกแข็งอย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีกุ้ง ปู กุ้งมังกร หรือกั้งไม่ได้ แม้เพียงเล็กน้อย
+      ไม่เช่นนั้นจะเกิดอาการแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'สัตว์น้ำเปลือกแข็งอาจพบใน:'
+    foundIn:
+      - กุ้ง
+      - ปู
+      - กุ้งมังกร
+      - กั้ง
+      - กะปิกุ้ง
+      - ซุปซีฟู้ด
+      - ข้าวผัดและบะหมี่ผัด
+    question: อาหารนี้มีกุ้ง ปู หรือสัตว์น้ำเปลือกแข็งอื่นหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Ракоподібні
+    statement: У мене тяжка алергія на ракоподібних.
+    description: >-
+      Я не можу їсти їжу, що містить ракоподібних - креветок, крабів, омарів чи раків - навіть у
+      невеликій кількості, інакше в мене буде тяжка алергічна реакція, і мені знадобиться медична
+      допомога.
+    foundInLabel: 'Ракоподібні можуть міститися в:'
+    foundIn:
+      - Креветки
+      - Краби
+      - Омари
+      - Раки
+      - Паста з креветок
+      - Супи з морепродуктів
+      - Смажений рис і локшина
+    question: Чи містить ця їжа креветок, крабів або інших ракоподібних?
+  vietnamese:
+    verified: false
+    allergen: Động vật giáp xác
+    statement: Tôi bị dị ứng nặng với động vật giáp xác.
+    description: >-
+      Tôi không thể ăn thức ăn có tôm, cua, tôm hùm hoặc tôm càng, dù chỉ một ít, nếu không tôi sẽ
+      bị phản ứng dị ứng nặng và cần được cấp cứu.
+    foundInLabel: 'Động vật giáp xác có thể có trong:'
+    foundIn:
+      - Tôm
+      - Cua
+      - Tôm hùm
+      - Tôm càng
+      - Mắm tôm / pasta tôm
+      - Súp hải sản
+      - Cơm chiên và mì xào
+    question: Món này có tôm, cua hoặc động vật giáp xác khác không?

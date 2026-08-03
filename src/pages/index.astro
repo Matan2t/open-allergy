@@ -2,32 +2,42 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card';
 import { allergens, languages, getAllergen, getLanguage } from '../lib/data';
-import { GITHUB_URL } from '../lib/site';
+import { GITHUB_URL, SITE_NAME } from '../lib/site';
 
 const heroAllergen = getAllergen('milk') ?? allergens[0];
-const heroLanguage = getLanguage('el') ?? languages[0];
+const heroLanguage = getLanguage('greek') ?? languages[0];
 const heroTranslation =
-  heroAllergen.translations[heroLanguage.code] ?? heroAllergen.translations['en'];
+  heroAllergen.translations[heroLanguage.code] ?? heroAllergen.translations['english'];
+const enLanguage = getLanguage('english') ?? languages[0];
+const enTranslation = heroAllergen.translations['english'];
+const langCount = languages.length;
 ---
 
 <Layout>
   <section class="hero">
     <div class="hero-text">
-      <h1>Allergy translation cards. <em>Free, forever.</em></h1>
-      <p>
-        Other sites charge up to $90 for a single allergy card. Here you pick your allergy, pick a
-        language, and print a professional double-sided card at home — at no cost, with no account,
-        and no catch. Open source, translated and verified by the community.
+      <span class="hero-brand">{SITE_NAME}</span>
+      <h1>Be clear. <em>Eat safe.</em></h1>
+      <p class="hero-lead">
+        Free double-sided allergy cards in {langCount} languages - your language on the front,
+        English on the back. Print at home. No account. No charge. Open source forever.
       </p>
-      <p>
-        <a class="btn btn-primary" href="/cards/milk/en">Make my free card</a>
+      <p class="hero-actions">
+        <a class="btn btn-primary" href="/cards/milk/greek">Make my free card</a>
         <a class="btn" href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
           Star on GitHub
         </a>
       </p>
     </div>
-    <div class="hero-card screen-only">
-      <Card language={heroLanguage} translation={heroTranslation} emoji={heroAllergen.emoji} />
+    <div class="hero-visual screen-only">
+      <div class="hero-card-stack">
+        <div class="hero-back" aria-hidden="true">
+          <Card language={enLanguage} translation={enTranslation} emoji={heroAllergen.emoji} />
+        </div>
+        <div class="hero-front">
+          <Card language={heroLanguage} translation={heroTranslation} emoji={heroAllergen.emoji} />
+        </div>
+      </div>
     </div>
   </section>
 
@@ -37,9 +47,9 @@ const heroTranslation =
       {
         allergens.map((a) => (
           <li>
-            <a href={`/cards/${a.id}/en`}>
+            <a href={`/cards/${a.id}/english`}>
               <span class="emoji">{a.emoji}</span>
-              {a.translations['en'].allergen}
+              {a.translations['english'].allergen}
             </a>
           </li>
         ))
@@ -58,8 +68,8 @@ const heroTranslation =
         ))
       }
     </ul>
-    <p>
-      Missing your language? <a href="/contribute">Add it with a pull request</a> — no coding
+    <p class="section-lead" style="margin-top: 1rem;">
+      Missing your language? <a href="/contribute">Add it with a pull request</a> - no coding
       required.
     </p>
   </section>
@@ -69,20 +79,22 @@ const heroTranslation =
     <ol class="steps">
       <li>
         <h3>Choose allergy and language</h3>
-        <p>14 allergens, 12 languages, every combination previewed live in your browser.</p>
+        <p>
+          14 allergens, {langCount} languages. Live preview of both card sides in your browser.
+        </p>
       </li>
       <li>
-        <h3>Print or download — free</h3>
+        <h3>Show, print, or download - free</h3>
         <p>
-          Print at true credit-card size, save as PDF, download a high-resolution PNG, or print an
-          A4 sheet with cut lines.
+          Open the card fullscreen on your phone for staff, print at true credit-card size, save as
+          PDF, download a high-resolution PNG, or print an A4 sheet with cut lines.
         </p>
       </li>
       <li>
         <h3>Optional: order a plastic card</h3>
         <p>
           Want a durable plastic card mailed to you? Order one for a small fee that keeps this
-          project running. The free downloads are identical.
+          project running. Free downloads are identical in content.
         </p>
       </li>
     </ol>
@@ -90,11 +102,11 @@ const heroTranslation =
 
   <section class="section">
     <h2>Why open source?</h2>
-    <p style="max-width: 46rem; color: var(--ink-soft);">
-      Translation accuracy is a safety issue. Every card's text lives in a public GitHub
-      repository where native speakers review and verify each translation. If something is wrong,
-      anyone can fix it for everyone — instead of paying a company to maybe fix it someday.
-      Unverified translations are clearly marked until a native speaker signs off.
+    <p class="section-lead">
+      Translation accuracy is a safety issue. Every card's text lives in a public GitHub repository
+      where native speakers review and verify each translation. If something is wrong, anyone can
+      fix it for everyone - instead of paying a company to maybe fix it someday. Unverified
+      translations are clearly marked until a native speaker signs off.
     </p>
   </section>
 </Layout>

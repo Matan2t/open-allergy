@@ -4,12 +4,14 @@
 id: fish
 emoji: 🐟
 translations:
-  en:
+  english:
     verified: true
     allergen: Fish
     statement: I have a severe fish allergy.
-    description: I cannot eat food containing fish or fish products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Fish can be found in:"
+    description: >-
+      I cannot eat food containing fish or fish products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Fish can be found in:'
     foundIn:
       - Anchovies
       - Fish sauce
@@ -19,13 +21,15 @@ translations:
       - Fish stock & broth
       - Caviar
     question: Does this food contain fish?
-
-  es:
+  spanish:
     verified: false
     allergen: Pescado
     statement: Tengo una alergia grave al pescado.
-    description: No puedo comer alimentos que contengan pescado o productos derivados del pescado, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "El pescado puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan pescado o productos derivados del pescado, ni siquiera
+      en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención
+      médica.
+    foundInLabel: 'El pescado puede encontrarse en:'
     foundIn:
       - Anchoas
       - Salsa de pescado
@@ -35,13 +39,15 @@ translations:
       - Caldo y fumet de pescado
       - Caviar
     question: ¿Este alimento contiene pescado?
-
-  fr:
+  french:
     verified: false
     allergen: Poisson
     statement: J'ai une allergie sévère au poisson.
-    description: Je ne peux pas manger d'aliments contenant du poisson ou des produits à base de poisson, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Le poisson peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du poisson ou des produits à base de poisson, même
+      en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins
+      médicaux.
+    foundInLabel: 'Le poisson peut se trouver dans :'
     foundIn:
       - Anchois
       - Sauce de poisson (nuoc-mâm)
@@ -51,13 +57,15 @@ translations:
       - Fumet et bouillon de poisson
       - Caviar
     question: Ce plat contient-il du poisson ?
-
-  de:
+  german:
     verified: false
     allergen: Fisch
     statement: Ich habe eine schwere Fischallergie.
-    description: Ich darf keine Lebensmittel essen, die Fisch oder Fischprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Fisch kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Fisch oder Fischprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Fisch kann enthalten sein in:'
     foundIn:
       - Sardellen
       - Fischsauce
@@ -67,13 +75,15 @@ translations:
       - Fischfond und Fischbrühe
       - Kaviar
     question: Enthält dieses Gericht Fisch?
-
-  it:
+  italian:
     verified: false
     allergen: Pesce
     statement: Ho una grave allergia al pesce.
-    description: Non posso mangiare alimenti che contengono pesce o prodotti a base di pesce, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "Il pesce può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono pesce o prodotti a base di pesce, nemmeno in
+      piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza
+      medica.
+    foundInLabel: 'Il pesce può trovarsi in:'
     foundIn:
       - Acciughe
       - Salsa di pesce
@@ -83,13 +93,14 @@ translations:
       - Brodo e fumetto di pesce
       - Caviale
     question: Questo cibo contiene pesce?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Peixe
     statement: Tenho uma alergia grave ao peixe.
-    description: Não posso comer alimentos que contenham peixe ou produtos de peixe, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O peixe pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham peixe ou produtos de peixe, mesmo em pequenas
+      quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O peixe pode encontrar-se em:'
     foundIn:
       - Anchovas
       - Molho de peixe
@@ -99,13 +110,14 @@ translations:
       - Caldo de peixe
       - Caviar
     question: Este alimento contém peixe?
-
-  el:
+  greek:
     verified: false
     allergen: Ψάρι
     statement: Πάσχω από σοβαρή αλλεργία στο ψάρι.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν ψάρι ή προϊόντα ψαριού, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Το ψάρι μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν ψάρι ή προϊόντα ψαριού, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Το ψάρι μπορεί να βρίσκεται σε:'
     foundIn:
       - Αντζούγιες
       - Σάλτσα ψαριού
@@ -115,13 +127,14 @@ translations:
       - Ζωμός ψαριού
       - Χαβιάρι
     question: Αυτό το φαγητό περιέχει ψάρι;
-
-  tr:
+  turkish:
     verified: false
     allergen: Balık
     statement: Şiddetli balık alerjim var.
-    description: Balık veya balık ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Balık şunlarda bulunabilir:"
+    description: >-
+      Balık veya balık ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli
+      bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Balık şunlarda bulunabilir:'
     foundIn:
       - Ançüez (hamsi)
       - Balık sosu
@@ -131,13 +144,14 @@ translations:
       - Balık suyu
       - Havyar
     question: Bu yemekte balık var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: דגים
     statement: יש לי אלרגיה חמורה לדגים.
-    description: אסור לי לאכול מזון המכיל דגים או מוצרי דגים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "דגים עשויים להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל דגים או מוצרי דגים, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'דגים עשויים להימצא ב:'
     foundIn:
       - אנשובי
       - רוטב דגים
@@ -147,13 +161,14 @@ translations:
       - ציר ומרק דגים
       - קוויאר
     question: האם המנה הזו מכילה דגים?
-
-  ar:
+  arabic:
     verified: false
     allergen: السمك
     statement: لديّ حساسية شديدة من السمك.
-    description: لا أستطيع تناول أي طعام يحتوي على السمك أو منتجات السمك، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد السمك في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على السمك أو منتجات السمك، ولو بكميات صغيرة، وإلا فسأصاب برد فعل
+      تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد السمك في:'
     foundIn:
       - الأنشوجة
       - صلصة السمك
@@ -163,8 +178,7 @@ translations:
       - مرق السمك
       - الكافيار
     question: هل يحتوي هذا الطعام على السمك؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 魚
     statement: 私は重度の魚アレルギーがあります。
@@ -179,8 +193,7 @@ translations:
       - 魚のだし・スープ
       - キャビア
     question: この料理に魚は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 鱼
     statement: 我对鱼严重过敏。
@@ -195,3 +208,626 @@ translations:
       - 鱼汤和鱼高汤
       - 鱼子酱
     question: 这道菜含有鱼吗？
+  bengali:
+    verified: false
+    allergen: মাছ
+    statement: আমার মাছের প্রতি মারাত্মক অ্যালার্জি আছে।
+    description: >-
+      মাছ বা মাছজাত পণ্য থাকা খাবার আমি সামান্য পরিমাণেও খেতে পারি না, নইলে মারাত্মক অ্যালার্জির
+      প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'মাছ পাওয়া যেতে পারে:'
+    foundIn:
+      - অ্যাঞ্চোভি
+      - ফিশ সস
+      - ওরচেস্টারশায়ার সস
+      - সিজার ড্রেসিং
+      - সুরিমি (ক্র্যাব স্টিক)
+      - মাছের স্টক ও ব্রথ
+      - ক্যাভিয়ার
+    question: এই খাবারে কি মাছ আছে?
+  bulgarian:
+    verified: false
+    allergen: Риба
+    statement: Имам тежка алергия към риба.
+    description: >-
+      Не мога да ям храна, съдържаща риба или рибни продукти, дори в малки количества, иначе ще имам
+      тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Риба може да се съдържа в:'
+    foundIn:
+      - Аншоа
+      - Рибен сос
+      - Уорчестърски сос
+      - Цезар дресинг
+      - Сурими (ракови пръчици)
+      - Рибен бульон
+      - Хайвер
+    question: Съдържа ли тази храна риба?
+  catalan:
+    verified: false
+    allergen: Peix
+    statement: Tinc una al·lèrgia greu al peix.
+    description: >-
+      No puc menjar aliments que continguin peix o productes de peix, ni tan sols en petites
+      quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'El peix es pot trobar a:'
+    foundIn:
+      - Anxoves
+      - Salsa de peix
+      - Salsa Worcestershire
+      - Amaniment Cèsar
+      - Surimi (barres de cranc)
+      - Brou de peix
+      - Caviar
+    question: Aquest aliment conté peix?
+  chinese-hong-kong:
+    verified: false
+    allergen: 魚
+    statement: 我對魚有嚴重敏感。
+    description: 我不能進食含有魚或魚製品的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要即時治療。
+    foundInLabel: 魚可能存在於：
+    foundIn:
+      - 鯷魚
+      - 魚露
+      - 喼汁（伍斯特醬）
+      - 凱撒沙律醬
+      - 蟹柳（魚糜製品）
+      - 魚湯及魚高湯
+      - 魚子醬
+    question: 這道菜含有魚嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 魚
+    statement: 我對魚有嚴重過敏。
+    description: 我不能吃含有魚或魚製品的食物，即使少量也不行，否則會引發嚴重過敏反應，需要就醫。
+    foundInLabel: 魚可能存在於：
+    foundIn:
+      - 鯷魚
+      - 魚露
+      - 伍斯特醬
+      - 凱撒沙拉醬
+      - 蟹肉棒（魚漿製品）
+      - 魚湯與魚高湯
+      - 魚子醬
+    question: 這道菜含有魚嗎？
+  croatian:
+    verified: false
+    allergen: Riba
+    statement: Imam tešku alergiju na ribu.
+    description: >-
+      Ne smijem jesti hranu koja sadrži ribu ili riblje proizvode, čak ni u malim količinama, inače
+      ću imati tešku alergijsku reakciju i trebati medicinsku pomoć.
+    foundInLabel: 'Riba se može nalaziti u:'
+    foundIn:
+      - Inćuni
+      - Riblji umak
+      - Worcestershire umak
+      - Cezar preljev
+      - Surimi (štapići od rakova)
+      - Riblji fond i juha
+      - Kavijar
+    question: Sadrži li ova hrana ribu?
+  czech:
+    verified: false
+    allergen: Ryby
+    statement: Mám těžkou alergii na ryby.
+    description: >-
+      Nemohu jíst potraviny obsahující ryby nebo rybí výrobky, a to ani v malém množství, jinak budu
+      mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Ryby se mohou vyskytovat v:'
+    foundIn:
+      - Ančovičky
+      - Rybí omáčka
+      - Worcesterská omáčka
+      - Caesar dresink
+      - Surimi (krabí tyčinky)
+      - Rybí vývar
+      - Kaviár
+    question: Obsahuje toto jídlo ryby?
+  danish:
+    verified: false
+    allergen: Fisk
+    statement: Jeg har en alvorlig allergi over for fisk.
+    description: >-
+      Jeg kan ikke spise mad med fisk eller fiskeprodukter - heller ikke i små mængder - ellers får
+      jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Fisk kan findes i:'
+    foundIn:
+      - Ansjoser
+      - Fiskesauce
+      - Worcestershiresauce
+      - Caesardressing
+      - Surimi (krabbestænger)
+      - Fiskefond og -bouillon
+      - Kaviar
+    question: Indeholder denne mad fisk?
+  dutch:
+    verified: false
+    allergen: Vis
+    statement: Ik heb een ernstige allergie voor vis.
+    description: >-
+      Ik mag geen voedsel eten dat vis of visproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Vis kan voorkomen in:'
+    foundIn:
+      - Ansjovis
+      - Vissaus
+      - Worcestersaus
+      - Caesardressing
+      - Surimi (krabstick)
+      - Visbouillon
+      - Kaviaar
+    question: Bevat dit gerecht vis?
+  estonian:
+    verified: false
+    allergen: Kala
+    statement: Mul on raske kalallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab kala või kalatooteid, isegi väikeses koguses, muidu tekib
+      raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Kala võib leida:'
+    foundIn:
+      - Anšoovis
+      - Kalakaste
+      - Worcestershire’i kaste
+      - Caesari kaste
+      - Surimi (krabipulgad)
+      - Kalapuljong
+      - Kaaviar
+    question: Kas selles toidus on kala?
+  finnish:
+    verified: false
+    allergen: Kala
+    statement: Minulla on vakava kala-allergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää kalaa tai kalatuotteita, edes pieninä määrinä, muuten saan
+      vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Kalaa voi olla:'
+    foundIn:
+      - Anjovis
+      - Kalakastike
+      - Worcestershire-kastike
+      - Caesar-kastike
+      - Surimi (raputikut)
+      - Kalaliemi
+      - Kaviaari
+    question: Sisältääkö tämä ruoka kalaa?
+  hindi:
+    verified: false
+    allergen: मछली
+    statement: मुझे मछली से गंभीर एलर्जी है।
+    description: >-
+      मछली या मछली से बने उत्पाद वाला भोजन मैं थोड़ी मात्रा में भी नहीं खा सकता/सकती, वरना गंभीर
+      एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'मछली इनमें हो सकती है:'
+    foundIn:
+      - एंचोवी
+      - फिश सॉस
+      - वॉर्सेस्टरशायर सॉस
+      - सीज़र ड्रेसिंग
+      - सुरिमी (क्रैब स्टिक)
+      - मछली का स्टॉक और ब्रॉथ
+      - कैवियार
+    question: क्या इस भोजन में मछली है?
+  hungarian:
+    verified: false
+    allergen: Hal
+    statement: Súlyos hallallergiám van.
+    description: >-
+      Nem ehetek halat vagy haltartalmú termékeket tartalmazó ételt, még kis mennyiségben sem,
+      különben súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'Hal előfordulhat:'
+    foundIn:
+      - Szardella
+      - Hal szósz
+      - Worcestershire szósz
+      - Cézár öntet
+      - Surimi (rákpálcika)
+      - Halalaplé és -leves
+      - Kaviár
+    question: Tartalmaz ez az étel halat?
+  icelandic:
+    verified: false
+    allergen: Fiskur
+    statement: Ég er með alvarlegt ofnæmi fyrir fiski.
+    description: >-
+      Ég má ekki borða mat sem inniheldur fisk eða fiskafurðir, jafnvel í litlu magni, annars fær ég
+      alvarlegt ofnæmisviðbragð og þarf læknisaðstoð.
+    foundInLabel: 'Fiskur getur verið í:'
+    foundIn:
+      - Ansjósur
+      - Fiskasósa
+      - Worcestershire-sósa
+      - Caesar dressing
+      - Surimi (krabbaspússur)
+      - Fiskikraftur og soð
+      - Kavíar
+    question: Inniheldur þessi matur fisk?
+  indonesian:
+    verified: false
+    allergen: Ikan
+    statement: Saya punya alergi ikan yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung ikan atau produk ikan, meskipun sedikit, atau
+      saya akan mengalami reaksi alergi berat dan membutuhkan perawatan medis.
+    foundInLabel: 'Ikan dapat ditemukan dalam:'
+    foundIn:
+      - Ikan teri (anchovy)
+      - Saus ikan
+      - Saus Worcestershire
+      - Dressing Caesar
+      - Surimi (crab stick)
+      - Kaldu ikan
+      - Kaviar
+    question: Apakah makanan ini mengandung ikan?
+  khmer:
+    verified: false
+    allergen: ត្រី
+    statement: ខ្ញុំមានអាលែហ្សីធ្ងន់ធ្ងរចំពោះត្រី។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានត្រី ឬផលិតផលត្រីបានទេ ទោះបីតិចតួចក៏ដោយ បើមិនដូច្នេះទេ
+      ខ្ញុំនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ និងត្រូវការព្យាបាល។
+    foundInLabel: 'ត្រីអាចមាននៅក្នុង:'
+    foundIn:
+      - ត្រីអង់ឈូវី
+      - ទឹកត្រី
+      - ទឹកជ្រលក់ Worcestershire
+      - ទឹកជ្រលក់ Caesar
+      - ស៊ូរីមី (ដំបងក្តាម)
+      - ស៊ុបត្រី
+      - ខាវីយ៉ា
+    question: អាហារនេះមានត្រីទេ?
+  korean:
+    verified: false
+    allergen: 생선
+    statement: 저는 생선에 심한 알레르기가 있습니다.
+    description: 생선이나 생선 가공품이 들어간 음식은 아주 소량이라도 먹을 수 없으며, 먹으면 심각한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '생선이 들어 있을 수 있는 것:'
+    foundIn:
+      - 앤초비
+      - 액젓 / 피시 소스
+      - 우스터 소스
+      - 시저 드레싱
+      - 게맛살(수리미)
+      - 생선 육수
+      - 캐비아
+    question: 이 음식에 생선이 들어 있나요?
+  lao:
+    verified: false
+    allergen: ປາ
+    statement: ຂ້ອຍແພ້ປາຢ່າງຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍກິນອາຫານທີ່ມີປາ ຫຼື ຜະລິດຕະພັນຈາກປາບໍ່ໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຂ້ອຍຈະມີປະຕິກິລິຍາແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ປາອາດມີໃນ:'
+    foundIn:
+      - ປາແອນຊໍວີ
+      - ນ້ຳປາ
+      - ນ້ຳຊອດ Worcestershire
+      - ນ້ຳສະຫຼັດ Caesar
+      - ຊູຣິມິ (ໄສ້ກະປູ)
+      - ນ້ຳຊຸບປາ
+      - ແຄວີຢາ
+    question: ອາຫານນີ້ມີປາບໍ?
+  latvian:
+    verified: false
+    allergen: Zivis
+    statement: Man ir smaga alerģija pret zivīm.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur zivis vai zivju produktus, pat nelielā daudzumā, citādi man
+      būs smaga alerģiska reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Zivis var būt:'
+    foundIn:
+      - Anšovi
+      - Zivju mērce
+      - Vusteršīras mērce
+      - Cēzara mērce
+      - Surimi (krabju nūjiņas)
+      - Zivju buljons
+      - Kaviārs
+    question: Vai šajā ēdienā ir zivis?
+  lithuanian:
+    verified: false
+    allergen: Žuvis
+    statement: Turiu sunkią alergiją žuviai.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra žuvies ar žuvies produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Žuvies gali būti:'
+    foundIn:
+      - Ančiuviai
+      - Žuvies padažas
+      - Vusteršyro padažas
+      - Cezario padažas
+      - Surimi (krabų lazdelės)
+      - Žuvies sultinys
+      - Ikrai
+    question: Ar šiame maiste yra žuvies?
+  macedonian:
+    verified: false
+    allergen: Риба
+    statement: Имам тешка алергија на риба.
+    description: >-
+      Не смеам да јадам храна што содржи риба или рибини производи, дури и во мали количини, инаку
+      ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Риба може да се најде во:'
+    foundIn:
+      - Инчуни
+      - Рибин сос
+      - Ворчестер сос
+      - Цезар прелив
+      - Сурими (ракови стапчиња)
+      - Рибин чорба/бујон
+      - Кавијар
+    question: Дали оваа храна содржи риба?
+  malay:
+    verified: false
+    allergen: Ikan
+    statement: Saya mempunyai alergi ikan yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi ikan atau produk ikan, walaupun dalam jumlah
+      kecil, atau saya akan mengalami reaksi alergi teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Ikan boleh dijumpai dalam:'
+    foundIn:
+      - Ikan bilis / anchovy
+      - Sos ikan
+      - Sos Worcestershire
+      - Dressing Caesar
+      - Surimi (ketam tiruan)
+      - Stok & kuah ikan
+      - Kaviar
+    question: Adakah makanan ini mengandungi ikan?
+  maltese:
+    verified: false
+    allergen: Ħut
+    statement: Għandi allerġija severa għall-ħut.
+    description: >-
+      Ma nistax niekol ikel li fih ħut jew prodotti tal-ħut, anke f'ammonti żgħar, inkella jkollija
+      reazzjoni allerġika severa u jkolli bżonn attenzjoni medika.
+    foundInLabel: 'Il-ħut jista'' jinstab fi:'
+    foundIn:
+      - Inċova
+      - Zalza tal-ħut
+      - Zalza Worcestershire
+      - Dressing Caesar
+      - Surimi (sticks tal-granċ)
+      - Brodu tal-ħut
+      - Kavjar
+    question: Dan l-ikel fih ħut?
+  norwegian:
+    verified: false
+    allergen: Fisk
+    statement: Jeg har alvorlig allergi mot fisk.
+    description: >-
+      Jeg kan ikke spise mat som inneholder fisk eller fiskeprodukter, heller ikke i små mengder,
+      ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Fisk kan finnes i:'
+    foundIn:
+      - Ansjos
+      - Fiskesaus
+      - Worcestershiresaus
+      - Caesardressing
+      - Surimi (krabbesticks)
+      - Fiskekraft og -buljong
+      - Kaviar
+    question: Inneholder denne maten fisk?
+  polish:
+    verified: false
+    allergen: Ryby
+    statement: Mam ciężką alergię na ryby.
+    description: >-
+      Nie mogę jeść żywności zawierającej ryby lub produkty rybne, nawet w małych ilościach, bo będę
+      miał/a ciężką reakcję alergiczną i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Ryby mogą występować w:'
+    foundIn:
+      - Anchois
+      - Sos rybny
+      - Sos Worcestershire
+      - Dressing Caesar
+      - Surimi (paluszki krabowe)
+      - Bulion rybny
+      - Kawior
+    question: Czy to jedzenie zawiera ryby?
+  portuguese-brazil:
+    verified: false
+    allergen: Peixe
+    statement: Tenho alergia grave a peixe.
+    description: >-
+      Não posso comer alimentos que contenham peixe ou produtos de peixe, mesmo em pequenas
+      quantidades, senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O peixe pode ser encontrado em:'
+    foundIn:
+      - Anchovas
+      - Molho de peixe
+      - Molho inglês (Worcestershire)
+      - Molho Caesar
+      - Surimi (stick de caranguejo)
+      - Caldo de peixe
+      - Caviar
+    question: Este alimento contém peixe?
+  romanian:
+    verified: false
+    allergen: Pește
+    statement: Am o alergie severă la pește.
+    description: >-
+      Nu pot mânca alimente care conțin pește sau produse din pește, nici măcar în cantități mici,
+      altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Peștele poate fi găsit în:'
+    foundIn:
+      - Anșoa
+      - Sos de pește
+      - Sos Worcestershire
+      - Dressing Caesar
+      - Surimi (bete de crab)
+      - Supă / fond de pește
+      - Caviar
+    question: Acest aliment conține pește?
+  russian:
+    verified: false
+    allergen: Рыба
+    statement: У меня тяжёлая аллергия на рыбу.
+    description: >-
+      Я не могу есть продукты, содержащие рыбу или рыбные изделия, даже в небольших количествах,
+      иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Рыба может содержаться в:'
+    foundIn:
+      - Анчоусы
+      - Рыбный соус
+      - Ворчестерский соус
+      - Соус «Цезарь»
+      - Сурими (крабовые палочки)
+      - Рыбный бульон
+      - Икра
+    question: В этой еде есть рыба?
+  serbian:
+    verified: false
+    allergen: Риба
+    statement: Имам тешку алергију на рибу.
+    description: >-
+      Не смем да једем храну која садржи рибу или рибље производе, чак ни у малим количинама, иначе
+      ћу имати тешку алергијску реакцију и требаће ми медицинска помоћ.
+    foundInLabel: 'Риба се може налазити у:'
+    foundIn:
+      - Инћуни
+      - Рибљи сос
+      - Ворчестер сос
+      - Цезар прелив
+      - Сурими (штапићи од рака)
+      - Рибљи чорба/бујон
+      - Кавијар
+    question: Да ли ова храна садржи рибу?
+  slovak:
+    verified: false
+    allergen: Ryby
+    statement: Mám ťažkú alergiu na ryby.
+    description: >-
+      Nemôžem jesť potraviny obsahujúce ryby alebo rybacie výrobky, ani v malom množstve, inak budem
+      mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Ryby sa môžu nachádzať v:'
+    foundIn:
+      - Ančovičky
+      - Rybacia omáčka
+      - Worcesterská omáčka
+      - Cézar dresing
+      - Surimi (krabie tyčinky)
+      - Rybací vývar
+      - Kaviár
+    question: Obsahuje toto jedlo ryby?
+  slovenian:
+    verified: false
+    allergen: Ribe
+    statement: Imam hudo alergijo na ribe.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje ribe ali ribje izdelke, tudi v majhnih količinah ne, sicer bom
+      imel/a hudo alergijsko reakcijo in potreboval/a medicinsko pomoč.
+    foundInLabel: 'Ribe se lahko nahajajo v:'
+    foundIn:
+      - Inčuni
+      - Ribja omaka
+      - Worcestershire omaka
+      - Cezar preliv
+      - Surimi (palčke iz rakov)
+      - Ribja juha / osnovna juha
+      - Kaviar
+    question: Ali ta jed vsebuje ribe?
+  swahili:
+    verified: false
+    allergen: Samaki
+    statement: Nina mzio mkali wa samaki.
+    description: >-
+      Siwezi kula chakula chenye samaki au bidhaa za samaki, hata kidogo, la sivyo nitapata mmenyuko
+      mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Samaki wanaweza kupatikana katika:'
+    foundIn:
+      - Anchovy
+      - Sos ya samaki
+      - Sos ya Worcestershire
+      - Dressing ya Caesar
+      - Surimi (fimbo za kaa)
+      - Mchuzi / stock ya samaki
+      - Caviar
+    question: Je, chakula hiki kina samaki?
+  swedish:
+    verified: false
+    allergen: Fisk
+    statement: Jag har en allvarlig fiskallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller fisk eller fiskprodukter, ens i små mängder, annars får
+      jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Fisk kan finnas i:'
+    foundIn:
+      - Ansjovis
+      - Fisksås
+      - Worcestershiresås
+      - Caesardressing
+      - Surimi (krabbsticks)
+      - Fiskfond och buljong
+      - Kaviar
+    question: Innehåller den här maten fisk?
+  tagalog:
+    verified: false
+    allergen: Isda
+    statement: Mayroon akong malubhang allergy sa isda.
+    description: >-
+      Hindi ako pwedeng kumain ng pagkaing may isda o produktong isda, kahit kaunti lang, o kaya'y
+      magkakaroon ako ng malubhang allergic reaction at kakailanganin ng medikal na tulong.
+    foundInLabel: 'Makikita ang isda sa:'
+    foundIn:
+      - Anchovies
+      - Fish sauce (patis)
+      - Worcestershire sauce
+      - Caesar dressing
+      - Surimi (crab sticks)
+      - Fish stock at broth
+      - Caviar
+    question: May isda ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: ปลา
+    statement: ฉันแพ้ปลาอย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีปลาหรือผลิตภัณฑ์จากปลาไม่ได้ แม้เพียงเล็กน้อย
+      ไม่เช่นนั้นจะเกิดอาการแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'ปลาอาจพบใน:'
+    foundIn:
+      - แอนโชวี่
+      - น้ำปลา
+      - ซอสวูสเตอร์เชอร์
+      - น้ำสลัดซีซาร์
+      - ซูริมิ (ปูอัด)
+      - น้ำสต็อกและน้ำซุปปลา
+      - คาเวียร์
+    question: อาหารนี้มีปลาหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Риба
+    statement: У мене тяжка алергія на рибу.
+    description: >-
+      Я не можу їсти їжу, що містить рибу або рибні продукти, навіть у невеликій кількості, інакше в
+      мене буде тяжка алергічна реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Риба може міститися в:'
+    foundIn:
+      - Анчоуси
+      - Рибний соус
+      - Ворчестерський соус
+      - Соус «Цезар»
+      - Сурімі (крабові палички)
+      - Рибний бульйон
+      - Ікра
+    question: Чи містить ця їжа рибу?
+  vietnamese:
+    verified: false
+    allergen: Cá
+    statement: Tôi bị dị ứng nặng với cá.
+    description: >-
+      Tôi không thể ăn thức ăn có cá hoặc sản phẩm từ cá, dù chỉ một ít, nếu không tôi sẽ bị phản
+      ứng dị ứng nặng và cần được cấp cứu.
+    foundInLabel: 'Cá có thể có trong:'
+    foundIn:
+      - Cá cơm (anchovy)
+      - Nước mắm
+      - Sốt Worcestershire
+      - Sốt Caesar
+      - Surimi (thanh cua)
+      - Nước dùng / nước sốt cá
+      - Trứng cá muối (caviar)
+    question: Món này có chứa cá không?

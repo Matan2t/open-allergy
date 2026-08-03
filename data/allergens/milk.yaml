@@ -4,12 +4,14 @@
 id: milk
 emoji: 🥛
 translations:
-  en:
+  english:
     verified: true
     allergen: Milk
     statement: I have a severe milk allergy.
-    description: I cannot eat food containing milk or milk products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Milk can be found in:"
+    description: >-
+      I cannot eat food containing milk or milk products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Milk can be found in:'
     foundIn:
       - Casein
       - Whey
@@ -20,13 +22,14 @@ translations:
       - Lactose
       - Baked goods
     question: Does this food contain milk?
-
-  es:
+  spanish:
     verified: false
     allergen: Leche
     statement: Tengo una alergia grave a la leche.
-    description: No puedo comer alimentos que contengan leche o productos lácteos, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "La leche puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan leche o productos lácteos, ni siquiera en pequeñas
+      cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: 'La leche puede encontrarse en:'
     foundIn:
       - Caseína
       - Suero de leche
@@ -37,13 +40,14 @@ translations:
       - Lactosa
       - Bollería y repostería
     question: ¿Este alimento contiene leche?
-
-  fr:
+  french:
     verified: false
     allergen: Lait
     statement: J'ai une allergie sévère au lait.
-    description: Je ne peux pas manger d'aliments contenant du lait ou des produits laitiers, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Le lait peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du lait ou des produits laitiers, même en petites
+      quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Le lait peut se trouver dans :'
     foundIn:
       - Caséine
       - Lactosérum
@@ -54,13 +58,15 @@ translations:
       - Lactose
       - Pâtisseries et viennoiseries
     question: Ce plat contient-il du lait ?
-
-  de:
+  german:
     verified: false
     allergen: Milch
     statement: Ich habe eine schwere Milchallergie.
-    description: Ich darf keine Lebensmittel essen, die Milch oder Milchprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Milch kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Milch oder Milchprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Milch kann enthalten sein in:'
     foundIn:
       - Kasein
       - Molke
@@ -71,13 +77,14 @@ translations:
       - Laktose
       - Backwaren
     question: Enthält dieses Gericht Milch?
-
-  it:
+  italian:
     verified: false
     allergen: Latte
     statement: Ho una grave allergia al latte.
-    description: Non posso mangiare alimenti che contengono latte o latticini, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "Il latte può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono latte o latticini, nemmeno in piccole quantità,
+      altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: 'Il latte può trovarsi in:'
     foundIn:
       - Caseina
       - Siero di latte
@@ -88,13 +95,14 @@ translations:
       - Lattosio
       - Prodotti da forno
     question: Questo cibo contiene latte?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Leite
     statement: Tenho uma alergia grave ao leite.
-    description: Não posso comer alimentos que contenham leite ou produtos lácteos, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O leite pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham leite ou produtos lácteos, mesmo em pequenas
+      quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O leite pode encontrar-se em:'
     foundIn:
       - Caseína
       - Soro de leite
@@ -105,13 +113,14 @@ translations:
       - Lactose
       - Produtos de pastelaria
     question: Este alimento contém leite?
-
-  el:
+  greek:
     verified: false
     allergen: Γάλα
     statement: Πάσχω από σοβαρή αλλεργία στο γάλα.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν γάλα ή γαλακτοκομικά προϊόντα, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Το γάλα μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν γάλα ή γαλακτοκομικά προϊόντα, ούτε σε μικρές
+      ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Το γάλα μπορεί να βρίσκεται σε:'
     foundIn:
       - Καζεΐνη
       - Ορός γάλακτος
@@ -122,13 +131,14 @@ translations:
       - Λακτόζη
       - Αρτοσκευάσματα
     question: Αυτό το φαγητό περιέχει γάλα;
-
-  tr:
+  turkish:
     verified: false
     allergen: Süt
     statement: Şiddetli süt alerjim var.
-    description: Süt veya süt ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Süt şunlarda bulunabilir:"
+    description: >-
+      Süt veya süt ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir
+      alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Süt şunlarda bulunabilir:'
     foundIn:
       - Kazein
       - Peynir altı suyu
@@ -139,13 +149,14 @@ translations:
       - Laktoz
       - Unlu mamuller
     question: Bu yemekte süt var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: חלב
     statement: יש לי אלרגיה חמורה לחלב.
-    description: אסור לי לאכול מזון המכיל חלב או מוצרי חלב, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "חלב עשוי להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל חלב או מוצרי חלב, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'חלב עשוי להימצא ב:'
     foundIn:
       - קזאין
       - מי גבינה
@@ -156,13 +167,14 @@ translations:
       - לקטוז
       - מאפים
     question: האם המנה הזו מכילה חלב?
-
-  ar:
+  arabic:
     verified: false
     allergen: الحليب
     statement: لديّ حساسية شديدة من الحليب.
-    description: لا أستطيع تناول أي طعام يحتوي على الحليب أو منتجات الألبان، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد الحليب في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على الحليب أو منتجات الألبان، ولو بكميات صغيرة، وإلا فسأصاب برد
+      فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد الحليب في:'
     foundIn:
       - الكازين
       - مصل اللبن
@@ -173,8 +185,7 @@ translations:
       - اللاكتوز
       - المخبوزات
     question: هل يحتوي هذا الطعام على الحليب؟
-
-  ja:
+  japanese:
     verified: false
     allergen: 乳
     statement: 私は重度の乳アレルギーがあります。
@@ -190,8 +201,7 @@ translations:
       - 乳糖
       - パン・焼き菓子
     question: この料理に牛乳や乳製品は入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 牛奶
     statement: 我对牛奶严重过敏。
@@ -207,3 +217,663 @@ translations:
       - 乳糖
       - 烘焙食品
     question: 这道菜含有牛奶吗？
+  bengali:
+    verified: false
+    allergen: দুধ
+    statement: আমার দুধে তীব্র অ্যালার্জি আছে।
+    description: >-
+      আমি দুধ বা দুগ্ধজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি অল্প পরিমাণেও নয়; খেলে তীব্র
+      অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা সহায়তা লাগবে।
+    foundInLabel: 'দুধ পাওয়া যেতে পারে:'
+    foundIn:
+      - কেসিন
+      - হোয়ে
+      - পনির
+      - মাখন
+      - ক্রিম
+      - দই
+      - ল্যাকটোজ
+      - বেকড খাবার
+    question: এই খাবারে কি দুধ আছে?
+  bulgarian:
+    verified: false
+    allergen: Мляко
+    statement: Имам тежка алергия към мляко.
+    description: >-
+      Не мога да ям храни, съдържащи мляко или млечни продукти, дори в малки количества, иначе ще
+      имам тежка алергична реакция и ще ми трябва медицинска помощ.
+    foundInLabel: 'Млякото може да се съдържа в:'
+    foundIn:
+      - Казеин
+      - Суроватка
+      - Сирене
+      - Масло
+      - Сметана
+      - Кисело мляко
+      - Лактоза
+      - Печени изделия
+    question: Съдържа ли тази храна мляко?
+  catalan:
+    verified: false
+    allergen: Llet
+    statement: Tinc una al·lèrgia greu a la llet.
+    description: >-
+      No puc menjar aliments que continguin llet o productes lactis, ni tan sols en petites
+      quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'La llet es pot trobar a:'
+    foundIn:
+      - Caseïna
+      - Sèrum de llet
+      - Formatge
+      - Mantega
+      - Nata
+      - Iogurt
+      - Lactosa
+      - Productes de forn
+    question: Aquest aliment conté llet?
+  chinese-hong-kong:
+    verified: false
+    allergen: 牛奶
+    statement: 我對牛奶嚴重過敏。
+    description: 我不能進食含有牛奶或奶類製品的食物，即使分量很少也不行，否則會引起嚴重過敏反應，需要求醫。
+    foundInLabel: 牛奶可能存在於：
+    foundIn:
+      - 酪蛋白
+      - 乳清
+      - 芝士
+      - 牛油
+      - 忌廉
+      - 乳酪
+      - 乳糖
+      - 烘焙食品
+    question: 這道菜含有牛奶嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 牛奶
+    statement: 我對牛奶嚴重過敏。
+    description: 我不能食用含有牛奶或乳製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 牛奶可能存在於：
+    foundIn:
+      - 酪蛋白
+      - 乳清
+      - 起司
+      - 奶油
+      - 鮮奶油
+      - 優格
+      - 乳糖
+      - 烘焙食品
+    question: 這道菜含有牛奶嗎？
+  croatian:
+    verified: false
+    allergen: Mlijeko
+    statement: Imam tešku alergiju na mlijeko.
+    description: >-
+      Ne smijem jesti hranu koja sadrži mlijeko ili mliječne proizvode, čak ni u malim količinama,
+      inače ću imati tešku alergijsku reakciju i trebat ću liječničku pomoć.
+    foundInLabel: 'Mlijeko se može nalaziti u:'
+    foundIn:
+      - Kazein
+      - Sirutka
+      - Sir
+      - Maslac
+      - Vrhnje
+      - Jogurt
+      - Laktoza
+      - Peciva
+    question: Sadrži li ova hrana mlijeko?
+  czech:
+    verified: false
+    allergen: Mléko
+    statement: Mám těžkou alergii na mléko.
+    description: >-
+      Nesmím jíst potraviny obsahující mléko nebo mléčné výrobky, ani v malém množství, jinak budu
+      mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Mléko se může vyskytovat v:'
+    foundIn:
+      - Kasein
+      - Syrovátka
+      - Sýr
+      - Máslo
+      - Smetana
+      - Jogurt
+      - Laktóza
+      - Pečivo
+    question: Obsahuje toto jídlo mléko?
+  danish:
+    verified: false
+    allergen: Mælk
+    statement: Jeg har en alvorlig mælkeallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder mælk eller mælkeprodukter, heller ikke i små mængder,
+      ellers får jeg en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Mælk kan findes i:'
+    foundIn:
+      - Kasein
+      - Valle
+      - Ost
+      - Smør
+      - Fløde
+      - Yoghurt
+      - Laktose
+      - Bagværk
+    question: Indeholder denne mad mælk?
+  dutch:
+    verified: false
+    allergen: Melk
+    statement: Ik heb een ernstige melkallergie.
+    description: >-
+      Ik mag geen voedsel eten dat melk of melkproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Melk kan voorkomen in:'
+    foundIn:
+      - Caseïne
+      - Wei
+      - Kaas
+      - Boter
+      - Room
+      - Yoghurt
+      - Lactose
+      - Gebak
+    question: Bevat dit gerecht melk?
+  estonian:
+    verified: false
+    allergen: Piim
+    statement: Mul on raske piimaallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab piima või piimatooteid, isegi väikestes kogustes, muidu
+      tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Piima võib leiduda:'
+    foundIn:
+      - Kaseiin
+      - Vadak
+      - Juust
+      - Või
+      - Koor
+      - Jogurt
+      - Laktoos
+      - Küpsetised
+    question: Kas selles toidus on piima?
+  finnish:
+    verified: false
+    allergen: Maito
+    statement: Minulla on vakava maitoallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää maitoa tai maitotuotteita, edes pieniä määriä, muuten saan
+      vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Maitoa voi olla:'
+    foundIn:
+      - Kaseiini
+      - Hera
+      - Juusto
+      - Voi
+      - Kerma
+      - Jogurtti
+      - Laktoosi
+      - Leivonnaiset
+    question: Sisältääkö tämä ruoka maitoa?
+  hindi:
+    verified: false
+    allergen: दूध
+    statement: मुझे दूध से गंभीर एलर्जी है।
+    description: >-
+      मैं दूध या दूध से बने उत्पादों वाला खाना नहीं खा सकता/सकती, भले ही मात्रा कम हो; नहीं तो गंभीर
+      एलर्जिक प्रतिक्रिया होगी और चिकित्सा सहायता लगेगी।
+    foundInLabel: 'दूध इनमें मिल सकता है:'
+    foundIn:
+      - कैसीन
+      - व्हे
+      - पनीर/चीज़
+      - मक्खन
+      - क्रीम
+      - दही
+      - लैक्टोज़
+      - बेकरी वस्तुएँ
+    question: क्या इस खाने में दूध है?
+  hungarian:
+    verified: false
+    allergen: Tej
+    statement: Súlyos tejallergiám van.
+    description: >-
+      Nem ehetek tejet vagy tejterméket tartalmazó ételt, még kis mennyiségben sem, különben súlyos
+      allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'A tej megtalálható:'
+    foundIn:
+      - Kazein
+      - Savó
+      - Sajt
+      - Vaj
+      - Tejszín
+      - Joghurt
+      - Laktóz
+      - Sütőipari termékek
+    question: Tartalmaz ez az étel tejet?
+  icelandic:
+    verified: false
+    allergen: Mjólk
+    statement: Ég er með alvarlegt mjólkurofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur mjólk eða mjólkurafurðir, jafnvel í litlu magni, annars
+      fæ ég alvarleg ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Mjólk getur verið í:'
+    foundIn:
+      - Kasein
+      - Mysa
+      - Ostur
+      - Smjör
+      - Rjómi
+      - Jógúrt
+      - Laktósi
+      - Bakstur
+    question: Inniheldur þessi matur mjólk?
+  indonesian:
+    verified: false
+    allergen: Susu
+    statement: Saya memiliki alergi susu yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung susu atau produk susu, bahkan dalam jumlah
+      kecil, atau saya akan mengalami reaksi alergi yang parah dan membutuhkan perawatan medis.
+    foundInLabel: 'Susu dapat ditemukan dalam:'
+    foundIn:
+      - Kasein
+      - Whey
+      - Keju
+      - Mentega
+      - Krim
+      - Yogurt
+      - Laktosa
+      - Kue dan roti
+    question: Apakah makanan ini mengandung susu?
+  khmer:
+    verified: false
+    allergen: ទឹកដោះគោ
+    statement: ខ្ញុំមានអាលែហ្សីទឹកដោះគោធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានទឹកដោះគោ ឬផលិតផលទឹកដោះគោបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នោះទេនឹងមានប្រតិកម្មអាលែហ្សីធ្ងន់ធ្ងរ និងត្រូវការព្យាបាល។
+    foundInLabel: ទឹកដោះគោអាចមាននៅក្នុង៖
+    foundIn:
+      - កាសេអ៊ីន
+      - ហ្វេ
+      - ឈីស
+      - ប៊ឺ
+      - គ្រីម
+      - យ៉ាអួ
+      - ឡាក់តូស
+      - នំប៉័ង និងនំ
+    question: អាហារនេះមានទឹកដោះគោទេ?
+  korean:
+    verified: false
+    allergen: 우유
+    statement: 저는 심각한 우유 알레르기가 있습니다.
+    description: 우유나 유제품이 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '우유가 들어 있을 수 있는 것:'
+    foundIn:
+      - 카제인
+      - 유청
+      - 치즈
+      - 버터
+      - 크림
+      - 요거트
+      - 유당
+      - 베이커리 제품
+    question: 이 음식에 우유가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ນົມ
+    statement: ຂ້ອຍມີອາລແອກີ້ນົມຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີນົມ ຫຼື ຜະລິດຕະພັນນົມໄດ້ ເຖິງແມ່ນຈະນ້ອຍກໍ່ຕາມ
+      ຖ້າບໍ່ດັ່ງນັ້ນຈະມີປະຕິກິລິຍາອາລແອກີ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ນົມອາດພົບໃນ:'
+    foundIn:
+      - ກາເຊອິນ
+      - ເວ
+      - ຊີສ
+      - ເນີຍ
+      - ຄຣີມ
+      - ໂຍເກີດ
+      - ແລັກໂຕສ
+      - ເຂົ້າຈີ່ ແລະ ເຂົ້າໜົມ
+    question: ອາຫານນີ້ມີນົມບໍ?
+  latvian:
+    verified: false
+    allergen: Piens
+    statement: Man ir smaga piena alerģija.
+    description: >-
+      Es nedrīkstu ēst ēdienu, kas satur pienu vai piena produktus, pat nelielos daudzumos, citādi
+      būs smaga alerģiska reakcija un vajadzēs medicīnisko palīdzību.
+    foundInLabel: 'Piens var būt:'
+    foundIn:
+      - Kazeīns
+      - Sūkalas
+      - Siers
+      - Sviests
+      - Krējums
+      - Jogurts
+      - Laktoze
+      - Maizes izstrādājumi
+    question: Vai šajā ēdienā ir piens?
+  lithuanian:
+    verified: false
+    allergen: Pienas
+    statement: Turiu sunkią alergiją pienui.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra pieno ar pieno produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Pieno gali būti:'
+    foundIn:
+      - Kazeinas
+      - Išrūgos
+      - Sūris
+      - Sviestas
+      - Grietinėlė
+      - Jogurtas
+      - Laktozė
+      - Kepiniai
+    question: Ar šiame maiste yra pieno?
+  macedonian:
+    verified: false
+    allergen: Млеко
+    statement: Имам тешка алергија на млеко.
+    description: >-
+      Не смеам да јадам храна што содржи млеко или млечни производи, дури ни во мали количини, инаку
+      ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Млекото може да се најде во:'
+    foundIn:
+      - Казеин
+      - Сурутка
+      - Сирење
+      - Путер
+      - Павлака
+      - Јогурт
+      - Лактоза
+      - Печива
+    question: Дали оваа храна содржи млеко?
+  malay:
+    verified: false
+    allergen: Susu
+    statement: Saya mempunyai alahan susu yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi susu atau produk tenusu, walaupun dalam jumlah
+      kecil, atau saya akan mengalami reaksi alahan yang teruk dan memerlukan rawatan perubatan.
+    foundInLabel: 'Susu boleh dijumpai dalam:'
+    foundIn:
+      - Kasein
+      - Whey
+      - Keju
+      - Mentega
+      - Krim
+      - Yogurt
+      - Laktosa
+      - Produk bakeri
+    question: Adakah makanan ini mengandungi susu?
+  maltese:
+    verified: false
+    allergen: Ħalib
+    statement: Għandi allerġija severa għall-ħalib.
+    description: >-
+      Ma nistax niekol ikel li jkun fih ħalib jew prodotti tal-ħalib, anke f'ammonti żgħar, inkella
+      se jkolli reazzjoni allerġika severa u se jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Il-ħalib jista'' jinstab fi:'
+    foundIn:
+      - Każejn
+      - Whey
+      - Ġobon
+      - Butir
+      - Krema
+      - Jogurt
+      - Lattożju
+      - Prodotti tal-forn
+    question: Dan l-ikel fih ħalib?
+  norwegian:
+    verified: false
+    allergen: Melk
+    statement: Jeg har en alvorlig melkeallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder melk eller melkeprodukter, heller ikke i små mengder,
+      ellers får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Melk kan finnes i:'
+    foundIn:
+      - Kasein
+      - Myse
+      - Ost
+      - Smør
+      - Fløte
+      - Yoghurt
+      - Laktose
+      - Bakevarer
+    question: Inneholder denne maten melk?
+  polish:
+    verified: false
+    allergen: Mleko
+    statement: Mam ciężką alergię na mleko.
+    description: >-
+      Nie mogę jeść potraw zawierających mleko lub produkty mleczne, nawet w małych ilościach -
+      inaczej wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Mleko może występować w:'
+    foundIn:
+      - Kazeina
+      - Serwatka
+      - Ser
+      - Masło
+      - Śmietana
+      - Jogurt
+      - Laktoza
+      - Wypieki
+    question: Czy to danie zawiera mleko?
+  portuguese-brazil:
+    verified: false
+    allergen: Leite
+    statement: Eu tenho alergia grave ao leite.
+    description: >-
+      Não posso comer alimentos que contenham leite ou derivados, mesmo em pequenas quantidades,
+      senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O leite pode ser encontrado em:'
+    foundIn:
+      - Caseína
+      - Soro de leite
+      - Queijo
+      - Manteiga
+      - Creme de leite
+      - Iogurte
+      - Lactose
+      - Produtos de padaria
+    question: Este alimento contém leite?
+  romanian:
+    verified: false
+    allergen: Lapte
+    statement: Am o alergie severă la lapte.
+    description: >-
+      Nu pot mânca alimente care conțin lapte sau produse lactate, nici măcar în cantități mici,
+      altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Laptele poate fi găsit în:'
+    foundIn:
+      - Cazeină
+      - Zer
+      - Brânză
+      - Unt
+      - Smântână
+      - Iaurt
+      - Lactoză
+      - Produse de patiserie
+    question: Acest aliment conține lapte?
+  russian:
+    verified: false
+    allergen: Молоко
+    statement: У меня тяжёлая аллергия на молоко.
+    description: >-
+      Я не могу есть еду, содержащую молоко или молочные продукты, даже в небольших количествах -
+      иначе у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Молоко может содержаться в:'
+    foundIn:
+      - Казеин
+      - Сыворотка
+      - Сыр
+      - Сливочное масло
+      - Сливки
+      - Йогурт
+      - Лактоза
+      - Выпечка
+    question: В этом блюде есть молоко?
+  serbian:
+    verified: false
+    allergen: Млеко
+    statement: Имам тешку алергију на млеко.
+    description: >-
+      Не смем да једем храну која садржи млеко или млечне производе, чак ни у малим количинама,
+      иначе ћу имати тешку алергијску реакцију и требаће ми медицинска помоћ.
+    foundInLabel: 'Млеко се може наћи у:'
+    foundIn:
+      - Казеин
+      - Сурутка
+      - Сир
+      - Путер
+      - Павлака
+      - Јогурт
+      - Лактоза
+      - Пецива
+    question: Да ли ова храна садржи млеко?
+  slovak:
+    verified: false
+    allergen: Mlieko
+    statement: Mám ťažkú alergiu na mlieko.
+    description: >-
+      Nesmiem jesť potraviny obsahujúce mlieko alebo mliečne výrobky, ani v malom množstve, inak
+      budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Mlieko sa môže nachádzať v:'
+    foundIn:
+      - Kazeín
+      - Srvátka
+      - Syr
+      - Maslo
+      - Smotana
+      - Jogurt
+      - Laktóza
+      - Pečivo
+    question: Obsahuje toto jedlo mlieko?
+  slovenian:
+    verified: false
+    allergen: Mleko
+    statement: Imam hudo alergijo na mleko.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje mleko ali mlečne izdelke, niti v majhnih količinah, sicer bom
+      imel/imela hudo alergijsko reakcijo in bom potreboval/potrebovala zdravniško pomoč.
+    foundInLabel: 'Mleko se lahko nahaja v:'
+    foundIn:
+      - Kazein
+      - Sirotka
+      - Sir
+      - Maslo
+      - Smetana
+      - Jogurt
+      - Laktoza
+      - Pecivo
+    question: Ali ta jed vsebuje mleko?
+  swahili:
+    verified: false
+    allergen: Maziwa
+    statement: Nina mzio mkali wa maziwa.
+    description: >-
+      Siwezi kula chakula chenye maziwa au bidhaa za maziwa, hata kwa kiasi kidogo, la sivyo
+      nitapata mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Maziwa yanaweza kupatikana katika:'
+    foundIn:
+      - Kaseini
+      - Whey
+      - Jibini
+      - Siagi
+      - Krimu
+      - Yogati
+      - Laktosi
+      - Vyakula vilivyookwa
+    question: Je, chakula hiki kina maziwa?
+  swedish:
+    verified: false
+    allergen: Mjölk
+    statement: Jag har en allvarlig mjölkallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller mjölk eller mjölkprodukter, ens i små mängder, annars får
+      jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Mjölk kan finnas i:'
+    foundIn:
+      - Kasein
+      - Vassle
+      - Ost
+      - Smör
+      - Grädde
+      - Yoghurt
+      - Laktos
+      - Bakverk
+    question: Innehåller den här maten mjölk?
+  tagalog:
+    verified: false
+    allergen: Gatas
+    statement: Mayroon akong malubhang allergy sa gatas.
+    description: >-
+      Hindi ako makakain ng pagkaing may gatas o produktong gatas, kahit kaunti lang, o magkakaroon
+      ako ng malubhang allergic reaction at kakailanganin ng medikal na tulong.
+    foundInLabel: 'Ang gatas ay maaaring matagpuan sa:'
+    foundIn:
+      - Casein
+      - Whey
+      - Keso
+      - Mantikilya
+      - Krema
+      - Yogurt
+      - Lactose
+      - Mga baked goods
+    question: May gatas ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: นม
+    statement: ฉันแพ้นมอย่างรุนแรง
+    description: >-
+      ฉันกินอาหารที่มีนมหรือผลิตภัณฑ์จากนมไม่ได้ แม้เพียงเล็กน้อย
+      เพราะจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'นมอาจพบใน:'
+    foundIn:
+      - เคซีน
+      - เวย์
+      - ชีส
+      - เนย
+      - ครีม
+      - โยเกิร์ต
+      - แลคโตส
+      - เบเกอรี่
+    question: อาหารนี้มีนมหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Молоко
+    statement: У мене важка алергія на молоко.
+    description: >-
+      Я не можу їсти їжу, що містить молоко або молочні продукти, навіть у невеликій кількості -
+      інакше буде важка алергічна реакція, і мені знадобиться медична допомога.
+    foundInLabel: 'Молоко може міститися в:'
+    foundIn:
+      - Казеїн
+      - Сироватка
+      - Сир
+      - Вершкове масло
+      - Вершки
+      - Йогурт
+      - Лактоза
+      - Випічка
+    question: Чи містить ця страва молоко?
+  vietnamese:
+    verified: false
+    allergen: Sữa
+    statement: Tôi bị dị ứng nặng với sữa.
+    description: >-
+      Tôi không thể ăn thực phẩm có sữa hoặc chế phẩm từ sữa, dù chỉ một lượng nhỏ - nếu không sẽ bị
+      phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Sữa có thể có trong:'
+    foundIn:
+      - Casein
+      - Whey
+      - Phô mai
+      - Bơ
+      - Kem
+      - Sữa chua
+      - Lactose
+      - Bánh nướng
+    question: Món này có chứa sữa không?

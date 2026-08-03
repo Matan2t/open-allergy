@@ -26,9 +26,12 @@ if (!Array.isArray(languages) || languages.length === 0) {
 const languageCodes = new Set();
 for (const lang of languages) {
   const where = `data/languages.yaml (${lang?.code ?? '?'})`;
-  if (!lang.code || !/^[a-z]{2}(-[A-Za-z]{2,4})?$/.test(lang.code)) {
-    errors.push(`${where}: invalid or missing code`);
+  if (!lang.code || !/^[a-z][a-z0-9-]*$/.test(lang.code)) {
+    errors.push(`${where}: invalid or missing code (use full readable slug, e.g. hebrew)`);
     continue;
+  }
+  if (!lang.locale || !/^[a-z]{2,3}(-[A-Za-z0-9]+)*$/.test(lang.locale)) {
+    errors.push(`${where}: invalid or missing locale (BCP-47 tag, e.g. he)`);
   }
   if (languageCodes.has(lang.code)) errors.push(`${where}: duplicate language code`);
   languageCodes.add(lang.code);
@@ -48,7 +51,9 @@ const schema = JSON.parse(
 const ajv = new Ajv({ allErrors: true });
 const validate = ajv.compile(schema);
 
-const files = readdirSync(allergensDir).filter((f) => f.endsWith('.yaml'));
+const files = readdirSync(allergensDir).filter(
+  (f) => f.endsWith('.yaml') && !f.startsWith('_') && !f.includes('_new')
+);
 if (files.length === 0) errors.push('data/allergens/: no allergen files found');
 
 let translationCount = 0;
@@ -60,7 +65,7 @@ for (const file of files) {
   try {
     doc = loadYaml(readFileSync(join(allergensDir, file), 'utf8'));
   } catch (e) {
-    errors.push(`${path}: YAML parse error — ${e.message}`);
+    errors.push(`${path}: YAML parse error - ${e.message}`);
     continue;
   }
 
