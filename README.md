@@ -18,8 +18,9 @@ to restaurant staff anywhere in the world.
 
 ## Content
 
-- **14 allergens** (the EU's mandatory allergen list): milk, eggs, peanuts, tree nuts,
-  gluten/cereals, fish, crustaceans, molluscs, soybeans, sesame, celery, mustard, sulphites, lupin.
+- **17 allergens** including the EU mandatory list plus almonds, peach, and mango: milk, eggs,
+  peanuts, tree nuts, almonds, peach, mango, gluten/cereals, fish, crustaceans, molluscs, soybeans,
+  sesame, celery, mustard, sulphites, lupin.
 - **49 languages** (including Arabic, Bengali, Chinese Simplified/Traditional/HK, Hindi, Korean,
   Thai, Vietnamese, and many European languages) - with right-to-left support for Hebrew and
   Arabic. New translations are AI-drafted and marked `verified: false` until a native speaker

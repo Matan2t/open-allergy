@@ -1,0 +1,980 @@
+# Almond allergy card.
+# `verified: false` means the translation was machine-drafted and awaits review
+# by a native speaker. See CONTRIBUTING.md for how to verify a translation.
+id: almonds
+emoji: 🌰
+translations:
+  english:
+    verified: true
+    allergen: Almonds
+    statement: I have a severe almond allergy.
+    description: >-
+      I cannot eat food containing almonds or almond products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Almonds can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain almonds?
+  arabic:
+    verified: false
+    allergen: اللوز
+    statement: أعاني من حساسية شديدة تجاه اللوز.
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على اللوز أو منتجات منه، حتى بكميات صغيرة، وإلا سأعاني من رد فعل تحسسي
+      شديد وأحتاج إلى رعاية طبية.
+    foundInLabel: 'يمكن أن يوجد اللوز في:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: هل يحتوي هذا الطعام على اللوز؟
+  bengali:
+    verified: false
+    allergen: বাদাম
+    statement: I have a severe বাদাম allergy.
+    description: >-
+      I cannot eat food containing বাদাম or বাদাম products, even in small amounts, or I will have a severe
+      allergic reaction and require medical attention.
+    foundInLabel: 'বাদাম can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain বাদাম?
+  bulgarian:
+    verified: false
+    allergen: Бадеми
+    statement: I have a severe Бадеми allergy.
+    description: >-
+      I cannot eat food containing Бадеми or Бадеми products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Бадеми can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Бадеми?
+  catalan:
+    verified: false
+    allergen: Ametlles
+    statement: I have a severe Ametlles allergy.
+    description: >-
+      I cannot eat food containing Ametlles or Ametlles products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Ametlles can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Ametlles?
+  chinese-simplified:
+    verified: false
+    allergen: 杏仁
+    statement: 我对杏仁有严重过敏。
+    description: >-
+      我不能吃含有杏仁或其制品的食物，即使是少量也不行，否则会出现严重过敏反应并需要医疗救助。
+    foundInLabel: 杏仁可能存在于：
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: 这道食物是否含有杏仁？
+  chinese-hong-kong:
+    verified: false
+    allergen: 杏仁
+    statement: 我對杏仁有嚴重敏感。
+    description: >-
+      我不能吃含有杏仁或其製品的食物，即使是少量也不行，否則會出現嚴重過敏反應並需要醫療救助。
+    foundInLabel: 杏仁可能存在於：
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: 這道食物是否含有杏仁？
+  chinese-traditional:
+    verified: false
+    allergen: 杏仁
+    statement: 我對杏仁有嚴重過敏。
+    description: >-
+      我不能吃含有杏仁或其製品的食物，即使是少量也不行，否則會出現嚴重過敏反應並需要醫療救助。
+    foundInLabel: 杏仁可能存在於：
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: 這道食物是否含有杏仁？
+  croatian:
+    verified: false
+    allergen: Bademi
+    statement: I have a severe Bademi allergy.
+    description: >-
+      I cannot eat food containing Bademi or Bademi products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Bademi can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Bademi?
+  czech:
+    verified: false
+    allergen: Mandle
+    statement: I have a severe Mandle allergy.
+    description: >-
+      I cannot eat food containing Mandle or Mandle products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandle can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandle?
+  danish:
+    verified: false
+    allergen: Mandler
+    statement: I have a severe Mandler allergy.
+    description: >-
+      I cannot eat food containing Mandler or Mandler products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandler can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandler?
+  dutch:
+    verified: false
+    allergen: Amandelen
+    statement: Ik heb een ernstige allergie voor Amandelen.
+    description: >-
+      Ik kan geen voedsel eten dat Amandelen of producten daarvan bevat, zelfs niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Amandelen kan zitten in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Bevat dit eten Amandelen?
+  estonian:
+    verified: false
+    allergen: Mandlid
+    statement: I have a severe Mandlid allergy.
+    description: >-
+      I cannot eat food containing Mandlid or Mandlid products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandlid can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandlid?
+  finnish:
+    verified: false
+    allergen: Mantelit
+    statement: I have a severe Mantelit allergy.
+    description: >-
+      I cannot eat food containing Mantelit or Mantelit products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mantelit can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mantelit?
+  french:
+    verified: false
+    allergen: Amandes
+    statement: 'J''ai une allergie sévère à : Amandes.'
+    description: >-
+      Je ne peux pas manger d'aliments contenant Amandes ou des produits à base de Amandes, même en petites
+      quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Amandes peut se trouver dans :'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Ce plat contient-il Amandes ?
+  german:
+    verified: false
+    allergen: Mandeln
+    statement: Ich habe eine schwere Allergie gegen Mandeln.
+    description: >-
+      Ich darf keine Lebensmittel essen, die Mandeln oder Produkte daraus enthalten - auch nicht in kleinen
+      Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
+    foundInLabel: 'Mandeln kann enthalten sein in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Enthält dieses Gericht Mandeln?
+  greek:
+    verified: false
+    allergen: Αμύγδαλα
+    statement: 'Έχω σοβαρή αλλεργία σε: Αμύγδαλα.'
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν Αμύγδαλα ή προϊόντα τους, ακόμη και σε μικρές ποσότητες,
+      αλλιώς θα έχω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική φροντίδα.
+    foundInLabel: 'Το Αμύγδαλα μπορεί να βρίσκεται σε:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Αυτό το φαγητό περιέχει Αμύγδαλα;
+  hebrew:
+    verified: false
+    allergen: שקדים
+    statement: יש לי אלרגיה חמורה לשקדים.
+    description: >-
+      איני יכול/ה לאכול מזון המכיל שקדים או מוצרים מהם, גם בכמות קטנה, אחרת תהיה לי תגובה אלרגית חמורה
+      ואזדקק לטיפול רפואי.
+    foundInLabel: 'שקדים יכולים להימצא ב:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: האם במזון הזה יש שקדים?
+  hindi:
+    verified: false
+    allergen: बादाम
+    statement: मुझे बादाम से गंभीर एलर्जी है।
+    description: >-
+      मैं बादाम या उससे बने उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो - अन्यथा
+      गंभीर एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'बादाम इनमें मिल सकता है:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: क्या इस भोजन में बादाम है?
+  hungarian:
+    verified: false
+    allergen: Mandula
+    statement: I have a severe Mandula allergy.
+    description: >-
+      I cannot eat food containing Mandula or Mandula products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandula can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandula?
+  icelandic:
+    verified: false
+    allergen: Möndlur
+    statement: I have a severe Möndlur allergy.
+    description: >-
+      I cannot eat food containing Möndlur or Möndlur products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Möndlur can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Möndlur?
+  indonesian:
+    verified: false
+    allergen: Almond
+    statement: I have a severe Almond allergy.
+    description: >-
+      I cannot eat food containing Almond or Almond products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Almond can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Almond?
+  italian:
+    verified: false
+    allergen: Mandorle
+    statement: 'Ho una grave allergia a: Mandorle.'
+    description: >-
+      Non posso mangiare cibi che contengono Mandorle o prodotti derivati, nemmeno in piccole quantità,
+      altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
+    foundInLabel: 'Mandorle può trovarsi in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Questo cibo contiene Mandorle?
+  japanese:
+    verified: false
+    allergen: アーモンド
+    statement: 私は重度のアーモンドアレルギーがあります。
+    description: >-
+      アーモンドやアーモンドを含む製品が入った食べ物は、少量でも食べることができません。食べると重いアレルギー反応を起こし、医療処置が必要になります。
+    foundInLabel: アーモンドが含まれる可能性のあるもの：
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: この料理にアーモンドは入っていますか？
+  khmer:
+    verified: false
+    allergen: អាលម៉ុន
+    statement: I have a severe អាលម៉ុន allergy.
+    description: >-
+      I cannot eat food containing អាលម៉ុន or អាលម៉ុន products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'អាលម៉ុន can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain អាលម៉ុន?
+  korean:
+    verified: false
+    allergen: 아몬드
+    statement: 저는 아몬드에 심각한 알레르기가 있습니다.
+    description: >-
+      아몬드 또는 아몬드 제품이 들어간 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 일어나 치료가 필요합니다.
+    foundInLabel: '아몬드이(가) 들어 있을 수 있는 것:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: 이 음식에 아몬드이(가) 들어 있나요?
+  lao:
+    verified: false
+    allergen: ອະມອນ
+    statement: I have a severe ອະມອນ allergy.
+    description: >-
+      I cannot eat food containing ອະມອນ or ອະມອນ products, even in small amounts, or I will have a severe
+      allergic reaction and require medical attention.
+    foundInLabel: 'ອະມອນ can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain ອະມອນ?
+  latvian:
+    verified: false
+    allergen: Mandeles
+    statement: I have a severe Mandeles allergy.
+    description: >-
+      I cannot eat food containing Mandeles or Mandeles products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandeles can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandeles?
+  lithuanian:
+    verified: false
+    allergen: Migdolai
+    statement: I have a severe Migdolai allergy.
+    description: >-
+      I cannot eat food containing Migdolai or Migdolai products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Migdolai can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Migdolai?
+  macedonian:
+    verified: false
+    allergen: Бадеми
+    statement: I have a severe Бадеми allergy.
+    description: >-
+      I cannot eat food containing Бадеми or Бадеми products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Бадеми can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Бадеми?
+  malay:
+    verified: false
+    allergen: Badam
+    statement: I have a severe Badam allergy.
+    description: >-
+      I cannot eat food containing Badam or Badam products, even in small amounts, or I will have a severe
+      allergic reaction and require medical attention.
+    foundInLabel: 'Badam can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Badam?
+  maltese:
+    verified: false
+    allergen: Lewż
+    statement: I have a severe Lewż allergy.
+    description: >-
+      I cannot eat food containing Lewż or Lewż products, even in small amounts, or I will have a severe
+      allergic reaction and require medical attention.
+    foundInLabel: 'Lewż can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Lewż?
+  norwegian:
+    verified: false
+    allergen: Mandler
+    statement: I have a severe Mandler allergy.
+    description: >-
+      I cannot eat food containing Mandler or Mandler products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandler can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandler?
+  polish:
+    verified: false
+    allergen: Migdały
+    statement: Mam ciężką alergię na Migdały.
+    description: >-
+      Nie mogę jeść potraw zawierających Migdały lub produkty z nich, nawet w małych ilościach - inaczej
+      wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Migdały mogą występować w:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Czy to jedzenie zawiera Migdały?
+  portuguese:
+    verified: false
+    allergen: Amêndoas
+    statement: Tenho uma alergia grave a Amêndoas.
+    description: >-
+      Não posso comer alimentos que contenham Amêndoas ou produtos derivados, mesmo em pequenas quantidades,
+      ou terei uma reação alérgica grave e precisarei de cuidados médicos.
+    foundInLabel: 'Amêndoas pode encontrar-se em:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Este alimento contém Amêndoas?
+  portuguese-brazil:
+    verified: false
+    allergen: Amêndoas
+    statement: Tenho uma alergia grave a Amêndoas.
+    description: >-
+      Não posso comer alimentos que contenham Amêndoas ou produtos derivados, mesmo em pequenas quantidades,
+      ou terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'Amêndoas pode ser encontrado em:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Este alimento contém Amêndoas?
+  romanian:
+    verified: false
+    allergen: Migdale
+    statement: I have a severe Migdale allergy.
+    description: >-
+      I cannot eat food containing Migdale or Migdale products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Migdale can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Migdale?
+  russian:
+    verified: false
+    allergen: Миндаль
+    statement: У меня тяжёлая аллергия на Миндаль.
+    description: >-
+      Я не могу есть продукты, содержащие Миндаль или продукты из них, даже в небольших количествах, иначе
+      у меня будет тяжёлая аллергическая реакция, и мне потребуется медицинская помощь.
+    foundInLabel: 'Миндаль может содержаться в:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Содержит ли эта еда Миндаль?
+  serbian:
+    verified: false
+    allergen: Бадеми
+    statement: I have a severe Бадеми allergy.
+    description: >-
+      I cannot eat food containing Бадеми or Бадеми products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Бадеми can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Бадеми?
+  slovak:
+    verified: false
+    allergen: Mandle
+    statement: I have a severe Mandle allergy.
+    description: >-
+      I cannot eat food containing Mandle or Mandle products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandle can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandle?
+  slovenian:
+    verified: false
+    allergen: Mandlji
+    statement: I have a severe Mandlji allergy.
+    description: >-
+      I cannot eat food containing Mandlji or Mandlji products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandlji can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandlji?
+  spanish:
+    verified: false
+    allergen: Almendras
+    statement: 'Tengo una alergia grave a: Almendras.'
+    description: >-
+      No puedo comer alimentos que contengan Almendras o productos derivados, ni siquiera en pequeñas
+      cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: 'Almendras puede encontrarse en:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: ¿Este alimento contiene Almendras?
+  swahili:
+    verified: false
+    allergen: Lozi
+    statement: I have a severe Lozi allergy.
+    description: >-
+      I cannot eat food containing Lozi or Lozi products, even in small amounts, or I will have a severe
+      allergic reaction and require medical attention.
+    foundInLabel: 'Lozi can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Lozi?
+  swedish:
+    verified: false
+    allergen: Mandlar
+    statement: I have a severe Mandlar allergy.
+    description: >-
+      I cannot eat food containing Mandlar or Mandlar products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Mandlar can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Mandlar?
+  tagalog:
+    verified: false
+    allergen: Almond
+    statement: I have a severe Almond allergy.
+    description: >-
+      I cannot eat food containing Almond or Almond products, even in small amounts, or I will have a
+      severe allergic reaction and require medical attention.
+    foundInLabel: 'Almond can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Almond?
+  thai:
+    verified: false
+    allergen: อัลมอนด์
+    statement: ฉันแพ้อัลมอนด์อย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถกินอาหารที่มีอัลมอนด์หรือผลิตภัณฑ์จากอัลมอนด์ได้ แม้เพียงเล็กน้อย มิฉะนั้นจะเกิดปฏิกิริยาแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'อัลมอนด์อาจพบใน:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: อาหารนี้มีอัลมอนด์หรือไม่?
+  turkish:
+    verified: false
+    allergen: Badem
+    statement: Badem için ciddi alerjim var.
+    description: >-
+      Badem veya Badem ürünleri içeren yiyecekleri, küçük miktarda bile olsa yiyemem; aksi halde ciddi
+      bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Badem şunlarda bulunabilir:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Bu yiyecek Badem içeriyor mu?
+  ukrainian:
+    verified: false
+    allergen: Мигдаль
+    statement: I have a severe Мигдаль allergy.
+    description: >-
+      I cannot eat food containing Мигдаль or Мигдаль products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Мигдаль can be found in:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Does this food contain Мигдаль?
+  vietnamese:
+    verified: false
+    allergen: Hạnh nhân
+    statement: Tôi bị dị ứng nặng với Hạnh nhân.
+    description: >-
+      Tôi không thể ăn thực phẩm có Hạnh nhân hoặc chế phẩm từ chúng, dù chỉ một lượng nhỏ - nếu không
+      sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Hạnh nhân có thể có trong:'
+    foundIn:
+    - Almonds
+    - Almond milk
+    - Marzipan
+    - Almond butter
+    - Almond flour
+    - Nougat
+    - Praline
+    - Amaretto
+    - Some granola
+    - Baking mixes
+    question: Món này có chứa Hạnh nhân không?

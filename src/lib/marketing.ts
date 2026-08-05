@@ -67,7 +67,7 @@ export const BENEFITS: Benefit[] = [
 export const HOW_IT_WORKS = [
   {
     title: 'Choose allergy and language',
-    body: 'Pick from 14 common food allergens and 49 languages. Preview both sides of your card instantly.',
+    body: 'Pick from common food allergens (including milk, nuts, fruits, and more) and 49 languages. Preview both sides of your card instantly.',
   },
   {
     title: 'Show, print, or download - free',
