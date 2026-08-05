@@ -187,7 +187,7 @@ export const FAQ_ITEMS: FaqItem[] = [
   {
     question: 'How many allergies can I include?',
     answer:
-      'Each free card focuses on one allergen so the message stays clear for kitchen staff. You can create and print as many single-allergen cards as you need.',
+      'You can select up to 5 allergens on one free multi-allergy card so staff see everything at a glance. For the clearest kitchen message, many families still print one card per allergen. Plastic orders currently print a single allergen per card.',
   },
   {
     question: 'How many languages are supported?',

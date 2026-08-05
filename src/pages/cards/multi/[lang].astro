@@ -1,0 +1,37 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import CardBuilder from '../../../components/CardBuilder';
+import { allergens, languages } from '../../../lib/data';
+
+export function getStaticPaths() {
+  return languages.map((language) => ({
+    params: { lang: language.code },
+  }));
+}
+
+const { lang } = Astro.params;
+const languageData = languages.find((l) => l.code === lang)!;
+const allergenParam = Astro.url.searchParams.get('a') ?? 'milk';
+const initialAllergens = allergenParam
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean);
+const first = allergens.find((a) => a.id === initialAllergens[0]) ?? allergens[0];
+
+const title = `Multi allergy card in ${languageData.name} - free printable`;
+const description = `Free printable multi-allergen food allergy travel card in ${languageData.name}. Combine allergies on one double-sided card with English on the back.`;
+---
+
+<Layout title={title} description={description}>
+  <section class="section">
+    <h2 class="no-print">
+      Multi allergy card - {languageData.name}
+    </h2>
+    <CardBuilder
+      client:load
+      initialAllergen={first.id}
+      initialLang={languageData.code}
+      initialAllergens={initialAllergens}
+    />
+  </section>
+</Layout>

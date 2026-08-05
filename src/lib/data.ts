@@ -1,5 +1,6 @@
 import type { Allergen, Language } from './types';
 import languagesFile from '../../data/languages.yaml';
+import { flagForLanguage } from './flags';
 
 // Canonical display order: most common allergies first.
 const ORDER = [
@@ -35,7 +36,12 @@ export const allergens: Allergen[] = Object.values(modules)
     return ia - ib;
   });
 
-export const languages: Language[] = (languagesFile as { languages: Language[] }).languages;
+export const languages: Language[] = (languagesFile as { languages: Language[] }).languages.map(
+  (lang) => ({
+    ...lang,
+    flag: flagForLanguage(lang.code),
+  }),
+);
 
 export function getAllergen(id: string): Allergen | undefined {
   return allergens.find((a) => a.id === id);
