@@ -2,7 +2,20 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card';
 import { allergens, languages, getAllergen, getLanguage } from '../lib/data';
-import { GITHUB_URL, KOFI_IMAGE, KOFI_URL, SITE_NAME } from '../lib/site';
+import { KOFI_IMAGE, KOFI_URL, SITE_DESCRIPTION, SITE_NAME } from '../lib/site';
+import {
+  BENEFITS,
+  FAQ_ITEMS,
+  FINAL_CTA,
+  FOUNDER,
+  HERO,
+  HOW_IT_WORKS,
+  OUTCOME,
+  TESTIMONIALS,
+  TRUST_ITEMS,
+  URGENCY,
+  socialProofStats,
+} from '../lib/marketing';
 
 const heroAllergen = getAllergen('milk') ?? allergens[0];
 const heroLanguage = getLanguage('greek') ?? languages[0];
@@ -11,23 +24,27 @@ const heroTranslation =
 const enLanguage = getLanguage('english') ?? languages[0];
 const enTranslation = heroAllergen.translations['english'];
 const langCount = languages.length;
+const allergenCount = allergens.length;
+const stats = socialProofStats(allergenCount, langCount);
+const homepageFaq = FAQ_ITEMS.slice(0, 6);
 ---
 
-<Layout>
+<Layout
+  title={`${HERO.title} - ${SITE_NAME}`}
+  description={SITE_DESCRIPTION}
+>
   <section class="hero">
     <div class="hero-text">
       <span class="hero-brand">{SITE_NAME}</span>
-      <h1>Be clear. <em>Eat safe.</em></h1>
-      <p class="hero-lead">
-        Free double-sided allergy cards in {langCount} languages - your language on the front,
-        English on the back. Print at home. No account. No charge. Open source forever.
-      </p>
+      <h1>{HERO.title}</h1>
+      <p class="hero-lead">{HERO.subtitle}</p>
       <p class="hero-actions">
-        <a class="btn btn-primary" href="/cards/milk/greek">Make my free card</a>
-        <a class="btn" href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
-          Star on GitHub
-        </a>
+        <a class="btn btn-primary" href={HERO.primaryHref}>{HERO.primaryCta}</a>
+        <a class="btn" href={HERO.secondaryHref}>{HERO.secondaryCta}</a>
       </p>
+      <ul class="hero-proof" aria-label="Verified facts">
+        {stats.map((s) => <li>{s.label}</li>)}
+      </ul>
     </div>
     <div class="hero-visual screen-only">
       <div class="hero-card-stack">
@@ -39,6 +56,46 @@ const langCount = languages.length;
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="section outcome-section">
+    <h2>{OUTCOME.title}</h2>
+    <p class="section-lead">{OUTCOME.lead}</p>
+    <ul class="outcome-points">
+      {OUTCOME.points.map((p) => <li>{p}</li>)}
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>What you get</h2>
+    <p class="section-lead">
+      A food allergy travel card that helps you communicate a life-threatening allergy clearly -
+      at home, at a restaurant, or anywhere language gets in the way.
+    </p>
+    <div class="benefit-grid">
+      {
+        BENEFITS.map((b) => (
+          <article class="benefit-card">
+            <h3>{b.title}</h3>
+            <p>{b.body}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section" id="how-it-works">
+    <h2>How it works</h2>
+    <ol class="steps">
+      {
+        HOW_IT_WORKS.map((step) => (
+          <li>
+            <h3>{step.title}</h3>
+            <p>{step.body}</p>
+          </li>
+        ))
+      }
+    </ol>
   </section>
 
   <section class="section">
@@ -57,57 +114,105 @@ const langCount = languages.length;
     </ul>
   </section>
 
+  <section class="section founder-section" id="why-we-built">
+    <h2>{FOUNDER.title}</h2>
+    <div class="founder-story">
+      {FOUNDER.paragraphs.map((p) => <p>{p}</p>)}
+      <ul class="founder-questions">
+        {FOUNDER.questions.map((q) => <li>{q}</li>)}
+      </ul>
+      {FOUNDER.paragraphsAfter.map((p) => <p>{p}</p>)}
+      <p class="founder-mission-label">{FOUNDER.missionLabel}</p>
+      <p class="founder-mission"><strong>{FOUNDER.mission}</strong></p>
+      <p class="founder-closing">{FOUNDER.closing}</p>
+    </div>
+  </section>
+
   <section class="section">
-    <h2>Available languages</h2>
-    <ul class="language-chips">
+    <h2>Why families trust Open Allergy</h2>
+    <div class="trust-grid">
       {
-        languages.map((l) => (
-          <li>
-            <a href={`/cards/milk/${l.code}`}>{l.nativeName}</a>
-          </li>
+        TRUST_ITEMS.map((t) => (
+          <article class="trust-card">
+            <span class="trust-icon" aria-hidden="true">
+              {t.icon}
+            </span>
+            <h3>{t.title}</h3>
+            <p>{t.body}</p>
+          </article>
         ))
       }
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Verified at a glance</h2>
+    <ul class="proof-chips">
+      {stats.map((s) => <li>{s.label}</li>)}
     </ul>
     <p class="section-lead" style="margin-top: 1rem;">
       Missing your language? <a href="/contribute">Add it with a pull request</a> - no coding
-      required.
+      required. We do not invent customer counts - only facts we can stand behind.
     </p>
-  </section>
-
-  <section class="section" id="how-it-works">
-    <h2>How it works</h2>
-    <ol class="steps">
-      <li>
-        <h3>Choose allergy and language</h3>
-        <p>
-          14 allergens, {langCount} languages. Live preview of both card sides in your browser.
-        </p>
-      </li>
-      <li>
-        <h3>Show, print, or download - free</h3>
-        <p>
-          Open the card fullscreen on your phone for staff, print at true credit-card size, save as
-          PDF, download a high-resolution PNG, or print an A4 sheet with cut lines.
-        </p>
-      </li>
-      <li>
-        <h3>Optional: order a plastic card</h3>
-        <p>
-          Want a durable plastic card mailed to you? Order one for a small fee that keeps this
-          project running. Free downloads are identical in content.
-        </p>
-      </li>
-    </ol>
   </section>
 
   <section class="section">
-    <h2>Why open source?</h2>
+    <h2>What travelers say</h2>
     <p class="section-lead">
-      Translation accuracy is a safety issue. Every card's text lives in a public GitHub repository
-      where native speakers review and verify each translation. If something is wrong, anyone can
-      fix it for everyone - instead of paying a company to maybe fix it someday. Unverified
-      translations are clearly marked until a native speaker signs off.
+      Sample stories that reflect the kind of relief families tell us about. Real customer reviews
+      will replace these as they arrive.
     </p>
+    <div class="testimonial-grid">
+      {
+        TESTIMONIALS.map((t) => (
+          <blockquote class="testimonial-card">
+            <p class="testimonial-stars" aria-label={`${t.stars} out of 5 stars`}>
+              {'★'.repeat(t.stars)}
+            </p>
+            <p class="testimonial-quote">{t.quote}</p>
+            <footer>
+              <cite>
+                {t.name}
+                <span>{t.country}</span>
+              </cite>
+            </footer>
+          </blockquote>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <h2>FAQ</h2>
+    <div class="faq-list">
+      {
+        homepageFaq.map((item) => (
+          <details class="faq-item">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+    <p class="section-lead" style="margin-top: 1rem;">
+      <a href="/faq">See all frequently asked questions</a>
+    </p>
+  </section>
+
+  <section class="section urgency-section">
+    <h2>{URGENCY.title}</h2>
+    <p class="section-lead">{URGENCY.body}</p>
+  </section>
+
+  <section class="final-cta-band">
+    <div class="final-cta-inner">
+      <h2>{FINAL_CTA.title}</h2>
+      <p>
+        Create a free food allergy translation card in minutes. Print it, show it on your phone, or
+        upgrade to a waterproof plastic card when you are ready.
+      </p>
+      <a class="btn btn-primary" href={FINAL_CTA.href}>{FINAL_CTA.button}</a>
+    </div>
   </section>
 
   <section class="section support-section">
@@ -120,6 +225,7 @@ const langCount = languages.length;
       <a class="kofi-button" href={KOFI_URL} target="_blank" rel="noopener noreferrer">
         <img src={KOFI_IMAGE} height="36" alt="Buy Me a Coffee at ko-fi.com" />
       </a>
+      <a class="btn" href="/order">Order a plastic card</a>
     </p>
   </section>
 </Layout>

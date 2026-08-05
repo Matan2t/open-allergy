@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`Privacy Policy - ${SITE_NAME}`}
+  description="Privacy policy for Open Allergy Cards: free card use, Stripe checkout, and what data we do and do not store."
+>
+  <section class="section prose-page">
+    <h2>Privacy policy</h2>
+    <p>
+      Open Allergy Cards is designed to stay simple. Creating and downloading a free allergy card
+      does not require an account.
+    </p>
+    <h3>Free site use</h3>
+    <p>
+      Browsing cards and downloading PNGs happens in your browser. We do not ask for a login or store
+      a personal profile for free downloads.
+    </p>
+    <h3>Paid orders</h3>
+    <p>
+      If you order a plastic card, payment and shipping details are processed by Stripe. Stripe holds
+      payment data according to their policies. Order details needed for fulfillment (allergen,
+      language, optional name, shipping address) appear in the Stripe Dashboard for us to print and
+      ship your card.
+    </p>
+    <h3>Analytics and hosting</h3>
+    <p>
+      The site is hosted on Cloudflare. Standard hosting logs may include technical data such as IP
+      addresses. We do not sell your personal information.
+    </p>
+    <h3>Contact</h3>
+    <p>
+      Privacy questions: see our <a href="/contact">contact page</a>.
+    </p>
+  </section>
+</Layout>

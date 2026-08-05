@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`Returns Policy - ${SITE_NAME}`}
+  description="Returns and refunds policy for personalized plastic allergy cards from Open Allergy Cards."
+>
+  <section class="section prose-page">
+    <h2>Returns policy</h2>
+    <p>
+      Free downloads cannot be “returned.” You can recreate and re-download a card anytime at no
+      cost.
+    </p>
+    <h3>Personalized physical cards</h3>
+    <p>
+      Plastic cards are made to order with your chosen allergen, language, and optional name. Because
+      they are personalized, we generally cannot accept returns for change-of-mind after printing.
+    </p>
+    <h3>Defects and errors on our side</h3>
+    <p>
+      If a card arrives damaged, or we printed the wrong configuration due to our mistake, contact us
+      with photos and your order details. We will make it right with a reprint or refund where
+      appropriate.
+    </p>
+    <h3>Customer mistakes</h3>
+    <p>
+      If you notice a wrong allergen or language right after checkout, contact us immediately. Once
+      production has started, changes may not be possible.
+    </p>
+    <p style="margin-top: 1.5rem;">
+      <a href="/contact">Contact us</a> · <a href="/faq">FAQ</a>
+    </p>
+  </section>
+</Layout>

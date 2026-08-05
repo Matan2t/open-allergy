@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { FOUNDER } from '../lib/marketing';
+import { SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`About - ${SITE_NAME}`}
+  description="Why we built Open Allergy Cards: a father of a child with a life-threatening milk allergy created free food allergy travel cards for families worldwide."
+>
+  <section class="section prose-page">
+    <h2>{FOUNDER.title}</h2>
+    {FOUNDER.paragraphs.map((p) => <p>{p}</p>)}
+    <ul>
+      {FOUNDER.questions.map((q) => <li>{q}</li>)}
+    </ul>
+    {FOUNDER.paragraphsAfter.map((p) => <p>{p}</p>)}
+    <p><strong>{FOUNDER.missionLabel}</strong></p>
+    <p><strong>{FOUNDER.mission}</strong></p>
+    <p>{FOUNDER.closing}</p>
+    <p style="margin-top: 1.5rem;">
+      <a class="btn btn-primary" href="/cards/milk/english">Create My Card</a>
+    </p>
+  </section>
+</Layout>

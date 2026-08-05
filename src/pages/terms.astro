@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`Terms of Service - ${SITE_NAME}`}
+  description="Terms of service for Open Allergy Cards free allergy translation cards and optional plastic card orders."
+>
+  <section class="section prose-page">
+    <h2>Terms of service</h2>
+    <p>
+      By using Open Allergy Cards, you agree to these terms. Free card content is provided as a
+      communication aid, not medical advice.
+    </p>
+    <h3>Free cards</h3>
+    <p>
+      You may download and print cards for personal use. Code is MIT-licensed; card text in
+      <code>data/</code> is CC BY-SA 4.0. Unverified translations may contain errors. Always carry
+      prescribed emergency medication and confirm ingredients when you can.
+    </p>
+    <h3>Physical orders</h3>
+    <p>
+      Paid plastic cards are optional. You pay for printing, materials, shipping, and keeping the
+      free project running - not for locking translations behind a paywall. Production starts after
+      successful payment.
+    </p>
+    <h3>No guarantees of medical outcome</h3>
+    <p>
+      We cannot guarantee that restaurant staff will read, understand, or follow the card. The card
+      helps communication; it does not replace medical care, training, or emergency plans.
+    </p>
+    <h3>Changes</h3>
+    <p>
+      We may update these terms as the project grows. Continued use of the site after changes means
+      you accept the updated terms.
+    </p>
+    <p style="margin-top: 1.5rem;">
+      <a href="/privacy">Privacy</a> · <a href="/shipping">Shipping</a> · <a href="/returns">Returns</a>
+    </p>
+  </section>
+</Layout>

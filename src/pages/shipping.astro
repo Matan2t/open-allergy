@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`Shipping Policy - ${SITE_NAME}`}
+  description="Shipping policy for optional waterproof plastic allergy cards ordered through Open Allergy Cards."
+>
+  <section class="section prose-page">
+    <h2>Shipping policy</h2>
+    <p>
+      Free digital allergy cards do not ship - you download or print them instantly. This policy
+      covers optional physical plastic cards ordered through checkout.
+    </p>
+    <h3>Where we ship</h3>
+    <p>
+      We ship to countries enabled in Stripe Checkout. If your country is not listed, you can still
+      use the free cards online and at home.
+    </p>
+    <h3>Timing</h3>
+    <p>
+      Production and delivery depend on our print partner and destination. After you order, we
+      confirm timelines by email. We do not promise same-day shipping or use fake countdown timers.
+    </p>
+    <h3>Address accuracy</h3>
+    <p>
+      Please double-check your shipping address at checkout. We cannot redirect packages after they
+      leave the printer if the address was entered incorrectly.
+    </p>
+    <p style="margin-top: 1.5rem;">
+      <a href="/contact">Contact us</a> · <a href="/order">Order a plastic card</a>
+    </p>
+  </section>
+</Layout>
