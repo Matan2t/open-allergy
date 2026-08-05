@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import CardBuilder from '../../../components/CardBuilder';
+import AllergenIcon from '../../../components/AllergenIcon';
 import { allergens, languages } from '../../../lib/data';
 
 export function getStaticPaths() {
@@ -25,7 +26,7 @@ const description = `Free printable ${enName.toLowerCase()} allergy translation 
 <Layout title={title} description={description}>
   <section class="section">
     <h2 class="no-print">
-      {allergenData.emoji}
+      <AllergenIcon id={allergenData.id} emoji={allergenData.emoji} />
       {enName} allergy card - {languageData.name}
     </h2>
     <CardBuilder

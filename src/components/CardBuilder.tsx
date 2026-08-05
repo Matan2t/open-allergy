@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { getFontEmbedCSS, toBlob } from 'html-to-image';
 import Card from './Card';
 import type { MultiAllergenItem } from './Card';
+import AllergenIcon from './AllergenIcon';
 import { allergens, languages } from '../lib/data';
 import { ENGLISH } from '../lib/types';
 import { GITHUB_URL } from '../lib/site';
@@ -38,6 +39,7 @@ function buildMultiItems(
   langCode: string,
 ): MultiAllergenItem[] {
   return selected.map((a) => ({
+    id: a.id,
     emoji: a.emoji,
     name:
       a.translations[langCode]?.allergen ??
@@ -343,6 +345,7 @@ export default function CardBuilder({
         language={lang}
         translation={tr}
         emoji={primary.emoji}
+        allergenId={primary.id}
         personalName={personalName || undefined}
       />
     );
@@ -376,8 +379,9 @@ export default function CardBuilder({
                     disabled={disabled}
                     onChange={() => toggleAllergen(a.id)}
                   />
-                  <span>
-                    {a.emoji} {a.translations[ENGLISH].allergen}
+                  <span className="allergen-check-label">
+                    <AllergenIcon id={a.id} emoji={a.emoji} className="allergen-check-icon" />{' '}
+                    {a.translations[ENGLISH].allergen}
                   </span>
                 </label>
               );
@@ -386,7 +390,7 @@ export default function CardBuilder({
         </fieldset>
 
         <label className="field">
-          Language (front) - {availableLanguages.length} available
+          Language - {availableLanguages.length} available
           <select value={language.code} onChange={(e) => setLangCode(e.target.value)}>
             {availableLanguages.map((l) => (
               <option key={l.code} value={l.code}>
@@ -401,7 +405,7 @@ export default function CardBuilder({
           <input
             type="text"
             maxLength={40}
-            placeholder="e.g. Maria Cohen"
+            placeholder="e.g. Matan Touti"
             value={personalName}
             onChange={(e) => setPersonalName(e.target.value)}
           />

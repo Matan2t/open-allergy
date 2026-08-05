@@ -46,11 +46,17 @@ const orderTestimonials = TESTIMONIALS.slice(0, 3);
           language={previewLang}
           translation={previewTranslation}
           emoji={previewAllergen.emoji}
+          allergenId={previewAllergen.id}
         />
       </figure>
       <figure>
         <figcaption class="no-print">Back - English</figcaption>
-        <Card language={enLang} translation={enTranslation} emoji={previewAllergen.emoji} />
+        <Card
+          language={enLang}
+          translation={enTranslation}
+          emoji={previewAllergen.emoji}
+          allergenId={previewAllergen.id}
+        />
       </figure>
       <p class="order-preview-note">
         Your checkout choices (allergen, language, optional name) replace this preview when we

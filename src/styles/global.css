@@ -548,6 +548,45 @@ input:focus {
   align-items: center;
   justify-content: center;
   pointer-events: none;
+  z-index: 1;
+}
+
+.ac-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.ac-icon svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+}
+
+.ac-emoji.ac-icon {
+  font-size: 2.6mm;
+}
+
+.ac-list-icon {
+  font-size: 2.2mm;
+  flex-shrink: 0;
+}
+
+.allergen-check-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.allergen-check-icon {
+  display: inline-flex;
+  font-size: 1.05em;
+}
+
+.allergen-check-icon svg {
+  width: 1em;
+  height: 1em;
 }
 
 .ac-emoji-stack {
