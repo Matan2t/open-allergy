@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { GITHUB_URL, SITE_NAME, SITE_TAGLINE } from '../lib/site';
+import { GITHUB_URL, KOFI_IMAGE, KOFI_URL, SITE_NAME, SITE_TAGLINE } from '../lib/site';
 
 interface Props {
   title?: string;
@@ -8,9 +8,11 @@ interface Props {
 }
 
 const {
-  title = `${SITE_NAME} — ${SITE_TAGLINE}`,
-  description = 'Free, open-source allergy translation cards in 12 languages. Pick your allergy, pick a language, print at home. No charge, ever.',
+  title = `${SITE_NAME} - ${SITE_TAGLINE}`,
+  description = 'Free, open-source allergy translation cards in 49 languages. Pick your allergy, pick a language, print a double-sided card at home. No charge, ever.',
 } = Astro.props;
+
+const year = new Date().getFullYear();
 ---
 
 <!doctype html>
@@ -25,21 +27,22 @@ const {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Noto+Sans+Hebrew:wght@400;700;800&family=Noto+Sans+Arabic:wght@400;700;800&family=Noto+Sans+JP:wght@400;700;800&family=Noto+Sans+SC:wght@400;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Noto+Sans+Hebrew:wght@400;700;800&family=Noto+Sans+Arabic:wght@400;700;800&family=Noto+Sans+JP:wght@400;700;800&family=Noto+Sans+SC:wght@400;700;800&family=Noto+Sans+TC:wght@400;700;800&family=Noto+Sans+KR:wght@400;700;800&family=Noto+Sans+Thai:wght@400;700;800&display=swap"
     />
   </head>
   <body>
     <header class="site-header">
       <div class="site-header-inner">
         <a href="/" class="site-logo">
-          <img src="/favicon.svg" alt="" />
+          <span class="logo-mark" aria-hidden="true">OA</span>
           {SITE_NAME}
         </a>
         <nav class="site-nav">
-          <a href="/cards/milk/en">Cards</a>
-          <a href="/order">Order plastic card</a>
+          <a href="/cards/milk/english">Cards</a>
           <a href="/contribute">Contribute</a>
           <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href={KOFI_URL} target="_blank" rel="noopener noreferrer">Support</a>
+          <a class="nav-cta" href="/order">Order plastic</a>
         </nav>
       </div>
     </header>
@@ -49,17 +52,91 @@ const {
     </main>
 
     <footer class="site-footer">
+      <div class="site-footer-glow" aria-hidden="true"></div>
+
       <div class="site-footer-inner">
-        <span>
-          {SITE_NAME} — free forever. Code is <a href={`${GITHUB_URL}/blob/main/LICENSE`}>MIT</a>,
-          card content is
-          <a href={`${GITHUB_URL}/blob/main/data/LICENSE.md`}>CC BY-SA 4.0</a>. Contribute on
-          <a href={GITHUB_URL}>GitHub</a>.
-        </span>
-        <span>
-          Medical disclaimer: these cards are a communication aid, not medical advice. Unverified
-          translations may contain errors. Always carry prescribed emergency medication.
-        </span>
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="/" class="footer-logo">
+              <span class="logo-mark" aria-hidden="true">OA</span>
+              <span class="footer-logo-text">
+                <strong>{SITE_NAME}</strong>
+                <span>{SITE_TAGLINE}</span>
+              </span>
+            </a>
+            <p class="footer-mission">
+              Free double-sided allergy cards for families who need to travel and eat out safely.
+              Open source. No account. No charge for downloads - ever.
+            </p>
+          </div>
+
+          <div class="footer-support-card">
+            <p class="footer-support-label">Support the project</p>
+            <p class="footer-support-copy">
+              If a card helped your family, a coffee keeps translations free for the next one.
+            </p>
+            <a class="kofi-button" href={KOFI_URL} target="_blank" rel="noopener noreferrer">
+              <img src={KOFI_IMAGE} height="36" alt="Buy Me a Coffee at ko-fi.com" />
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-grid" aria-label="Footer">
+          <div class="footer-col">
+            <h3>Use the cards</h3>
+            <ul>
+              <li><a href="/cards/milk/english">Browse cards</a></li>
+              <li><a href="/order">Order a plastic card</a></li>
+              <li><a href="/#how-it-works">How it works</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Community</h3>
+            <ul>
+              <li><a href="/contribute">Verify a translation</a></li>
+              <li>
+                <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              </li>
+              <li>
+                <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener noreferrer">
+                  Contributing guide
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Licenses</h3>
+            <ul>
+              <li>
+                <a href={`${GITHUB_URL}/blob/main/LICENSE`} target="_blank" rel="noopener noreferrer">
+                  Code - MIT
+                </a>
+              </li>
+              <li>
+                <a href={`${GITHUB_URL}/blob/main/data/LICENSE.md`} target="_blank" rel="noopener noreferrer">
+                  Card content - CC BY-SA 4.0
+                </a>
+              </li>
+              <li>
+                <a href={KOFI_URL} target="_blank" rel="noopener noreferrer">Buy me a coffee</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="footer-disclaimer">
+          <strong>Medical disclaimer</strong>
+          <p>
+            These cards are a communication aid, not medical advice. Unverified translations may
+            contain errors. Always carry prescribed emergency medication and confirm ingredients
+            with staff when you can.
+          </p>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© {year} {SITE_NAME}. Built for families who need clearer, safer meals abroad.</p>
+          <p class="footer-bottom-meta">Free forever · Open source · Community verified</p>
+        </div>
       </div>
     </footer>
   </body>

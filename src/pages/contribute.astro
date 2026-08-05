@@ -3,13 +3,13 @@ import Layout from '../layouts/Layout.astro';
 import { GITHUB_URL } from '../lib/site';
 ---
 
-<Layout title="Contribute — Open Allergy Cards">
+<Layout title="Contribute - Open Allergy Cards">
   <section class="section">
     <h2>Contribute</h2>
     <p style="max-width: 46rem;">
       Every card on this site is generated from plain text files in
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">our GitHub repository</a>.
-      The most valuable contribution is <strong>translation review by native speakers</strong> —
+      The most valuable contribution is <strong>translation review by native speakers</strong> -
       it takes five minutes and no coding.
     </p>
 
@@ -25,7 +25,7 @@ import { GITHUB_URL } from '../lib/site';
       <li>
         <h3>Review the wording</h3>
         <p>
-          Click the pencil icon to edit in your browser. Fix anything that doesn't read naturally —
+          Click the pencil icon to edit in your browser. Fix anything that doesn't read naturally -
           this text is shown to restaurant staff, so clarity beats literal translation.
         </p>
       </li>
@@ -42,7 +42,7 @@ import { GITHUB_URL } from '../lib/site';
     <h3 style="margin-top: 2rem;">Add a language or allergen</h3>
     <p style="max-width: 46rem;">
       New languages go in <code>data/languages.yaml</code>; new allergens are a single new YAML
-      file copied from an existing one. Full instructions are in
+      file copied from an existing one. Full instructions are in{' '}
       <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`}>CONTRIBUTING.md</a>. Every pull request
       is automatically checked against the data schema, so you can't break the site.
     </p>

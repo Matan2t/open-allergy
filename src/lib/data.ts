@@ -25,6 +25,7 @@ const modules = import.meta.glob<{ default: Allergen }>('../../data/allergens/*.
 
 export const allergens: Allergen[] = Object.values(modules)
   .map((m) => m.default)
+  .filter((a): a is Allergen => Boolean(a?.id && typeof a.id === 'string' && a.translations))
   .sort((a, b) => {
     const ia = ORDER.indexOf(a.id);
     const ib = ORDER.indexOf(b.id);

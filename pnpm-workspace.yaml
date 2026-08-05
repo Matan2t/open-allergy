@@ -1,5 +1,16 @@
+# Single-package repo; `packages` is required by pnpm 10 (used on Cloudflare
+# Pages) whenever this file exists to carry the build-scripts allowlist below.
+packages:
+  - '.'
+
+# pnpm 11 form of the build-scripts allowlist.
 allowBuilds:
   esbuild: true
+  sharp: true
+  workerd: true
+
+# pnpm 10 form (Cloudflare Pages build image).
 onlyBuiltDependencies:
   - esbuild
   - sharp
+  - workerd

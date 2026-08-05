@@ -1,6 +1,6 @@
 # Open Allergy Cards
 
-**Free, open-source allergy translation cards — print at home, in any language, forever free.**
+**Free, open-source allergy translation cards - print at home, in any language, forever free.**
 
 Commercial services charge up to $90 for a single allergy translation card. This project gives
 everyone the same thing for free: pick your allergy, pick a language, and print a double-sided
@@ -14,16 +14,18 @@ to restaurant staff anywhere in the world.
   until a native speaker reviews them. Every card links directly to its source file on GitHub.
 - **Optional physical cards.** If you want a durable plastic card mailed to you, you can order one
   for a small fee that covers printing, shipping, and keeps the project running. This is entirely
-  optional — the free downloads are identical in content.
+  optional - the free downloads are identical in content.
 
 ## Content
 
 - **14 allergens** (the EU's mandatory allergen list): milk, eggs, peanuts, tree nuts,
   gluten/cereals, fish, crustaceans, molluscs, soybeans, sesame, celery, mustard, sulphites, lupin.
-- **12 languages:** English, Spanish, French, German, Italian, Portuguese, Greek, Turkish,
-  Hebrew, Arabic, Japanese, Chinese (Simplified) — with right-to-left support for Hebrew and Arabic.
+- **49 languages** (including Arabic, Bengali, Chinese Simplified/Traditional/HK, Hindi, Korean,
+  Thai, Vietnamese, and many European languages) - with right-to-left support for Hebrew and
+  Arabic. New translations are AI-drafted and marked `verified: false` until a native speaker
+  reviews them.
 
-Want another allergen or language? See [CONTRIBUTING.md](CONTRIBUTING.md) — adding one is just a
+Want another allergen or language? See [CONTRIBUTING.md](CONTRIBUTING.md) - adding one is just a
 YAML edit.
 
 ## Development
@@ -41,29 +43,32 @@ pnpm build      # production build to dist/
 
 ```
 data/
-  allergens/*.yaml     # one file per allergen, translations keyed by language code
+  allergens/*.yaml     # one file per allergen, translations keyed by full language name
   languages.yaml       # supported languages (name, direction, per-language UI strings)
   schema/              # JSON Schema used by `pnpm validate` and CI
 src/
   components/          # Card renderer + interactive card builder (React)
   pages/               # Astro pages (home, /cards/[allergen]/[lang], /order, /contribute)
-functions/api/         # Cloudflare Pages Functions (Stripe checkout)
+worker/                # Cloudflare Worker (serves /api/checkout for Stripe orders)
 scripts/               # data validation
 ```
 
 ## Deployment
 
-The site is a static Astro build designed for [Cloudflare Pages](https://pages.cloudflare.com)
-(free tier):
+The site deploys to [Cloudflare Workers](https://workers.cloudflare.com) (free tier) as a
+static-assets Worker - the Astro build in `dist/` is served as assets and the Worker in
+`worker/` handles only `/api/*`:
 
-1. Create a Pages project pointing at this repo.
-2. Build command: `pnpm build` — output directory: `dist`.
-3. The `functions/` directory is picked up automatically as Pages Functions.
+1. Create a git-connected Workers project pointing at this repo
+   (Workers & Pages → Create → import the repository).
+2. Build command: `pnpm build` - deploy command: `npx wrangler deploy`
+   (configuration is read from `wrangler.jsonc`).
 
 ### Enabling physical card orders (optional)
 
 The site works fully without payment configuration; the order page shows "coming soon" until
-Stripe is configured. To enable orders, set these environment variables on the Pages project:
+Stripe is configured. To enable orders, set these variables on the Workers project under
+Settings → Variables and Secrets (`STRIPE_SECRET_KEY` should be a Secret):
 
 | Variable            | Description                                        |
 | ------------------- | -------------------------------------------------- |
@@ -72,7 +77,7 @@ Stripe is configured. To enable orders, set these environment variables on the P
 | `SITE_URL`          | Public URL of the deployed site                    |
 
 Paid orders appear in the Stripe Dashboard with the allergen, language, and personalization as
-session metadata — that list is the fulfillment queue.
+session metadata - that list is the fulfillment queue.
 
 ## Licenses
 

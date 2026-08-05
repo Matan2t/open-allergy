@@ -19,12 +19,12 @@
     },
     "translations": {
       "type": "object",
-      "required": ["en"],
+      "required": ["english"],
       "minProperties": 1,
-      "description": "Card text keyed by ISO 639-1 language code.",
+      "description": "Card text keyed by full readable language code (e.g. english, hebrew).",
       "additionalProperties": false,
       "patternProperties": {
-        "^[a-z]{2}(-[A-Za-z]{2,4})?$": {
+        "^[a-z][a-z0-9-]*$": {
           "type": "object",
           "required": [
             "verified",

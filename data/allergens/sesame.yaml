@@ -4,12 +4,14 @@
 id: sesame
 emoji: 🥯
 translations:
-  en:
+  english:
     verified: true
     allergen: Sesame
     statement: I have a severe sesame allergy.
-    description: I cannot eat food containing sesame or sesame products, even in small amounts, or I will have a severe allergic reaction and require medical attention.
-    foundInLabel: "Sesame can be found in:"
+    description: >-
+      I cannot eat food containing sesame or sesame products, even in small amounts, or I will have
+      a severe allergic reaction and require medical attention.
+    foundInLabel: 'Sesame can be found in:'
     foundIn:
       - Sesame seeds
       - Sesame oil
@@ -20,13 +22,14 @@ translations:
       - Falafel
       - Salad dressings
     question: Does this food contain sesame?
-
-  es:
+  spanish:
     verified: false
     allergen: Sésamo
     statement: Tengo una alergia grave al sésamo.
-    description: No puedo comer alimentos que contengan sésamo o productos de sésamo, ni siquiera en pequeñas cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
-    foundInLabel: "El sésamo puede encontrarse en:"
+    description: >-
+      No puedo comer alimentos que contengan sésamo o productos de sésamo, ni siquiera en pequeñas
+      cantidades, ya que sufriría una reacción alérgica grave y necesitaría atención médica.
+    foundInLabel: 'El sésamo puede encontrarse en:'
     foundIn:
       - Semillas de sésamo
       - Aceite de sésamo
@@ -37,13 +40,14 @@ translations:
       - Falafel
       - Aliños para ensaladas
     question: ¿Este alimento contiene sésamo?
-
-  fr:
+  french:
     verified: false
     allergen: Sésame
     statement: J'ai une allergie sévère au sésame.
-    description: Je ne peux pas manger d'aliments contenant du sésame ou des produits à base de sésame, même en petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
-    foundInLabel: "Le sésame peut se trouver dans :"
+    description: >-
+      Je ne peux pas manger d'aliments contenant du sésame ou des produits à base de sésame, même en
+      petites quantités, sous peine d'une réaction allergique grave nécessitant des soins médicaux.
+    foundInLabel: 'Le sésame peut se trouver dans :'
     foundIn:
       - Graines de sésame
       - Huile de sésame
@@ -54,13 +58,15 @@ translations:
       - Falafels
       - Sauces pour salade
     question: Ce plat contient-il du sésame ?
-
-  de:
+  german:
     verified: false
     allergen: Sesam
     statement: Ich habe eine schwere Sesamallergie.
-    description: Ich darf keine Lebensmittel essen, die Sesam oder Sesamprodukte enthalten – auch nicht in kleinen Mengen –, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe benötige.
-    foundInLabel: "Sesam kann enthalten sein in:"
+    description: >-
+      Ich darf keine Lebensmittel essen, die Sesam oder Sesamprodukte enthalten - auch nicht in
+      kleinen Mengen -, da ich sonst eine schwere allergische Reaktion erleide und ärztliche Hilfe
+      benötige.
+    foundInLabel: 'Sesam kann enthalten sein in:'
     foundIn:
       - Sesamsamen
       - Sesamöl
@@ -71,13 +77,15 @@ translations:
       - Falafel
       - Salatdressings
     question: Enthält dieses Gericht Sesam?
-
-  it:
+  italian:
     verified: false
     allergen: Sesamo
     statement: Ho una grave allergia al sesamo.
-    description: Non posso mangiare alimenti che contengono sesamo o prodotti a base di sesamo, nemmeno in piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza medica.
-    foundInLabel: "Il sesamo può trovarsi in:"
+    description: >-
+      Non posso mangiare alimenti che contengono sesamo o prodotti a base di sesamo, nemmeno in
+      piccole quantità, altrimenti avrò una grave reazione allergica e avrò bisogno di assistenza
+      medica.
+    foundInLabel: 'Il sesamo può trovarsi in:'
     foundIn:
       - Semi di sesamo
       - Olio di sesamo
@@ -88,13 +96,14 @@ translations:
       - Falafel
       - Condimenti per insalata
     question: Questo cibo contiene sesamo?
-
-  pt:
+  portuguese:
     verified: false
     allergen: Sésamo
     statement: Tenho uma alergia grave ao sésamo.
-    description: Não posso comer alimentos que contenham sésamo ou produtos de sésamo, mesmo em pequenas quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
-    foundInLabel: "O sésamo pode encontrar-se em:"
+    description: >-
+      Não posso comer alimentos que contenham sésamo ou produtos de sésamo, mesmo em pequenas
+      quantidades, pois terei uma reação alérgica grave e precisarei de assistência médica.
+    foundInLabel: 'O sésamo pode encontrar-se em:'
     foundIn:
       - Sementes de sésamo
       - Óleo de sésamo
@@ -105,13 +114,14 @@ translations:
       - Falafel
       - Molhos para salada
     question: Este alimento contém sésamo?
-
-  el:
+  greek:
     verified: false
     allergen: Σουσάμι
     statement: Πάσχω από σοβαρή αλλεργία στο σουσάμι.
-    description: Δεν μπορώ να φάω τρόφιμα που περιέχουν σουσάμι ή προϊόντα σουσαμιού, ούτε σε μικρές ποσότητες, διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
-    foundInLabel: "Το σουσάμι μπορεί να βρίσκεται σε:"
+    description: >-
+      Δεν μπορώ να φάω τρόφιμα που περιέχουν σουσάμι ή προϊόντα σουσαμιού, ούτε σε μικρές ποσότητες,
+      διαφορετικά θα πάθω σοβαρή αλλεργική αντίδραση και θα χρειαστώ ιατρική βοήθεια.
+    foundInLabel: 'Το σουσάμι μπορεί να βρίσκεται σε:'
     foundIn:
       - Σπόροι σουσαμιού
       - Σησαμέλαιο
@@ -122,13 +132,14 @@ translations:
       - Φαλάφελ
       - Σάλτσες για σαλάτες
     question: Αυτό το φαγητό περιέχει σουσάμι;
-
-  tr:
+  turkish:
     verified: false
     allergen: Susam
     statement: Şiddetli susam alerjim var.
-    description: Susam veya susam ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
-    foundInLabel: "Susam şunlarda bulunabilir:"
+    description: >-
+      Susam veya susam ürünleri içeren yiyecekleri az miktarda bile yiyemem; aksi takdirde şiddetli
+      bir alerjik reaksiyon geçirir ve tıbbi yardıma ihtiyaç duyarım.
+    foundInLabel: 'Susam şunlarda bulunabilir:'
     foundIn:
       - Susam tohumu
       - Susam yağı
@@ -139,13 +150,14 @@ translations:
       - Falafel
       - Salata sosları
     question: Bu yemekte susam var mı?
-
-  he:
+  hebrew:
     verified: false
     allergen: שומשום
     statement: יש לי אלרגיה חמורה לשומשום.
-    description: אסור לי לאכול מזון המכיל שומשום או מוצרי שומשום, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית חמורה ואזדקק לטיפול רפואי.
-    foundInLabel: "שומשום עשוי להימצא ב:"
+    description: >-
+      אסור לי לאכול מזון המכיל שומשום או מוצרי שומשום, אפילו בכמויות קטנות, אחרת אקבל תגובה אלרגית
+      חמורה ואזדקק לטיפול רפואי.
+    foundInLabel: 'שומשום עשוי להימצא ב:'
     foundIn:
       - גרעיני שומשום
       - שמן שומשום
@@ -156,13 +168,14 @@ translations:
       - פלאפל
       - רטבים לסלט
     question: האם המנה הזו מכילה שומשום?
-
-  ar:
+  arabic:
     verified: false
     allergen: السمسم
     statement: لديّ حساسية شديدة من السمسم.
-    description: لا أستطيع تناول أي طعام يحتوي على السمسم أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل تحسسي شديد وسأحتاج إلى رعاية طبية.
-    foundInLabel: "قد يوجد السمسم في:"
+    description: >-
+      لا أستطيع تناول أي طعام يحتوي على السمسم أو منتجاته، ولو بكميات صغيرة، وإلا فسأصاب برد فعل
+      تحسسي شديد وسأحتاج إلى رعاية طبية.
+    foundInLabel: 'قد يوجد السمسم في:'
     foundIn:
       - بذور السمسم
       - زيت السمسم
@@ -173,8 +186,7 @@ translations:
       - الفلافل
       - صلصات السلطة
     question: هل يحتوي هذا الطعام على السمسم؟
-
-  ja:
+  japanese:
     verified: false
     allergen: ごま
     statement: 私は重度のごまアレルギーがあります。
@@ -190,8 +202,7 @@ translations:
       - ファラフェル
       - サラダドレッシング
     question: この料理にごまは入っていますか？
-
-  zh:
+  chinese-simplified:
     verified: false
     allergen: 芝麻
     statement: 我对芝麻严重过敏。
@@ -207,3 +218,665 @@ translations:
       - 法拉费（炸鹰嘴豆丸）
       - 沙拉酱
     question: 这道菜含有芝麻吗？
+  bengali:
+    verified: false
+    allergen: তিল
+    statement: আমার তীব্র তিল অ্যালার্জি আছে।
+    description: >-
+      আমি তিল বা তিলজাত পণ্যযুক্ত খাবার খেতে পারি না, এমনকি সামান্য পরিমাণেও নয়-নইলে তীব্র
+      অ্যালার্জির প্রতিক্রিয়া হবে এবং চিকিৎসা প্রয়োজন হবে।
+    foundInLabel: 'তিল পাওয়া যেতে পারে:'
+    foundIn:
+      - তিলের বীজ
+      - তিলের তেল
+      - তাহিনি (তিলের পেস্ট)
+      - হুমাস
+      - হালভা
+      - রুটি ও বান
+      - ফালাফেল
+      - স্যালাড ড্রেসিং
+    question: এই খাবারে কি তিল আছে?
+  bulgarian:
+    verified: false
+    allergen: Сусам
+    statement: Имам тежка алергия към сусам.
+    description: >-
+      Не мога да ям храни, съдържащи сусам или сусамови продукти, дори в малки количества, иначе ще
+      имам тежка алергична реакция и ще се нуждая от медицинска помощ.
+    foundInLabel: 'Сусамът може да се съдържа в:'
+    foundIn:
+      - Сусамово семе
+      - Сусамово масло
+      - Тахан (сусамов тахан)
+      - Хумус
+      - Халва
+      - Хляб и питки
+      - Фалафел
+      - Салатни дресинги
+    question: Съдържа ли тази храна сусам?
+  catalan:
+    verified: false
+    allergen: Sèsam
+    statement: Tinc una al·lèrgia greu al sèsam.
+    description: >-
+      No puc menjar aliments que continguin sèsam o productes de sèsam, ni tan sols en petites
+      quantitats, o tindré una reacció al·lèrgica greu i necessitaré atenció mèdica.
+    foundInLabel: 'El sèsam es pot trobar a:'
+    foundIn:
+      - Llavors de sèsam
+      - Oli de sèsam
+      - Tahina
+      - Hummus
+      - Halva
+      - Pa i panets
+      - Falafel
+      - Vinaigrettes
+    question: Aquest aliment conté sèsam?
+  chinese-hong-kong:
+    verified: false
+    allergen: 芝麻
+    statement: 我對芝麻嚴重過敏。
+    description: 我不能進食含有芝麻或芝麻製品的食物，即使分量很少也不行，否則會引發嚴重過敏反應，需要求醫。
+    foundInLabel: 芝麻可能存在於：
+    foundIn:
+      - 芝麻籽
+      - 芝麻油（香油）
+      - 芝麻醬（塔希尼）
+      - 鷹嘴豆泥（胡姆斯）
+      - 哈爾瓦
+      - 麵包及小圓包
+      - 法拉費
+      - 沙律醬
+    question: 這道菜含有芝麻嗎？
+  chinese-traditional:
+    verified: false
+    allergen: 芝麻
+    statement: 我對芝麻嚴重過敏。
+    description: 我不能吃含有芝麻或芝麻製品的食物，即使少量也不行，否則會引發嚴重的過敏反應，需要就醫。
+    foundInLabel: 芝麻可能存在於：
+    foundIn:
+      - 芝麻籽
+      - 芝麻油（香油）
+      - 芝麻醬（塔希尼）
+      - 鷹嘴豆泥（胡姆斯）
+      - 哈爾瓦
+      - 麵包和小圓麵包
+      - 法拉費
+      - 沙拉醬
+    question: 這道菜含有芝麻嗎？
+  croatian:
+    verified: false
+    allergen: Sezam
+    statement: Imam tešku alergiju na sezam.
+    description: >-
+      Ne smijem jesti hranu koja sadrži sezam ili sezamove proizvode, čak ni u malim količinama,
+      inače ću imati tešku alergijsku reakciju i trebat će mi liječnička pomoć.
+    foundInLabel: 'Sezam se može nalaziti u:'
+    foundIn:
+      - Sjemenke sezama
+      - Sezamovo ulje
+      - Tahini
+      - Humus
+      - Halva
+      - Kruh i peciva
+      - Falafel
+      - Preljevi za salatu
+    question: Sadrži li ova hrana sezam?
+  czech:
+    verified: false
+    allergen: Sezam
+    statement: Mám těžkou alergii na sezam.
+    description: >-
+      Nesmím jíst potraviny obsahující sezam nebo sezamové výrobky, ani v malém množství, jinak budu
+      mít těžkou alergickou reakci a budu potřebovat lékařskou pomoc.
+    foundInLabel: 'Sezam se může vyskytovat v:'
+    foundIn:
+      - Sezamová semínka
+      - Sezamový olej
+      - Tahini
+      - Hummus
+      - Chalva
+      - Chléb a pečivo
+      - Falafel
+      - Salátové zálivky
+    question: Obsahuje toto jídlo sezam?
+  danish:
+    verified: false
+    allergen: Sesam
+    statement: Jeg har en alvorlig sesamallergi.
+    description: >-
+      Jeg kan ikke spise mad, der indeholder sesam eller sesamprodukter, selv i små mængder, da jeg
+      ellers får en alvorlig allergisk reaktion og har brug for lægehjælp.
+    foundInLabel: 'Sesam kan findes i:'
+    foundIn:
+      - Sesamfrø
+      - Sesamolie
+      - Tahini
+      - Hummus
+      - Halva
+      - Brød og boller
+      - Falafel
+      - Salatsaucer
+    question: Indeholder denne mad sesam?
+  dutch:
+    verified: false
+    allergen: Sesam
+    statement: Ik heb een ernstige sesamallergie.
+    description: >-
+      Ik mag geen voedsel eten dat sesam of sesamproducten bevat, ook niet in kleine hoeveelheden,
+      anders krijg ik een ernstige allergische reactie en heb ik medische hulp nodig.
+    foundInLabel: 'Sesam kan voorkomen in:'
+    foundIn:
+      - Sesamzaad
+      - Sesamolie
+      - Tahini
+      - Hummus
+      - Halva
+      - Brood en broodjes
+      - Falafel
+      - Saladedressings
+    question: Bevat dit gerecht sesam?
+  estonian:
+    verified: false
+    allergen: Seesam
+    statement: Mul on raske seesamiallergia.
+    description: >-
+      Ma ei tohi süüa toitu, mis sisaldab seesamit või seesamitooteid, isegi väikeses koguses, muidu
+      tekib mul raske allergiline reaktsioon ja vajan arstiabi.
+    foundInLabel: 'Seesamit võib leida:'
+    foundIn:
+      - Seesamiseemned
+      - Seesamiõli
+      - Tahini
+      - Hummus
+      - Halvaa
+      - Leib ja saiakesed
+      - Falafel
+      - Salatidressingud
+    question: Kas selles toidus on seesamit?
+  finnish:
+    verified: false
+    allergen: Seesami
+    statement: Minulla on vakava seesamiallergia.
+    description: >-
+      En voi syödä ruokaa, joka sisältää seesamia tai seesamituotteita, edes pieninä määrinä, muuten
+      saan vakavan allergisen reaktion ja tarvitsen lääkärin apua.
+    foundInLabel: 'Seesamia voi olla:'
+    foundIn:
+      - Seesaminsiemenet
+      - Seesamiöljy
+      - Tahini
+      - Hummus
+      - Halva
+      - Leipä ja sämpylät
+      - Falafel
+      - Salaattikastikkeet
+    question: Sisältääkö tämä ruoka seesamia?
+  hindi:
+    verified: false
+    allergen: तिल
+    statement: मुझे गंभीर तिल एलर्जी है।
+    description: >-
+      मैं तिल या तिल उत्पादों वाला भोजन नहीं खा सकता/सकती, भले ही थोड़ी मात्रा में हो-अन्यथा गंभीर
+      एलर्जी प्रतिक्रिया होगी और चिकित्सा सहायता चाहिए होगी।
+    foundInLabel: 'तिल इनमें मिल सकता है:'
+    foundIn:
+      - तिल के बीज
+      - तिल का तेल
+      - तहिनी (तिल का पेस्ट)
+      - हम्मस
+      - हलवा
+      - रोटी और बन
+      - फलाफेल
+      - सलाद ड्रेसिंग
+    question: क्या इस भोजन में तिल है?
+  hungarian:
+    verified: false
+    allergen: Szezámmag
+    statement: Súlyos szezámmag-allergiám van.
+    description: >-
+      Nem ehetek szezámmagot vagy szezámtermékeket tartalmazó ételeket, még kis mennyiségben sem,
+      különben súlyos allergiás reakcióm lesz, és orvosi segítségre lesz szükségem.
+    foundInLabel: 'A szezámmag megtalálható:'
+    foundIn:
+      - Szezámmag
+      - Szezámolaj
+      - Tahini
+      - Humusz
+      - Halva
+      - Kenyér és zsemle
+      - Falafel
+      - Salátaöntetek
+    question: Tartalmaz ez az étel szezámmagot?
+  icelandic:
+    verified: false
+    allergen: Sesam
+    statement: Ég er með alvarlegt sesamofnæmi.
+    description: >-
+      Ég get ekki borðað mat sem inniheldur sesam eða sesamvörur, jafnvel í litlu magni, annars fæ
+      ég alvarleg ofnæmisviðbrögð og þarf læknishjálp.
+    foundInLabel: 'Sesam getur verið í:'
+    foundIn:
+      - Sesamfræ
+      - Sesamolía
+      - Tahini
+      - Hummus
+      - Halva
+      - Brauð og bollur
+      - Falafel
+      - Salatsósur
+    question: Inniheldur þessi matur sesam?
+  indonesian:
+    verified: false
+    allergen: Wijen
+    statement: Saya memiliki alergi wijen yang parah.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandung wijen atau produk wijen, bahkan dalam jumlah
+      kecil, atau saya akan mengalami reaksi alergi parah dan membutuhkan perawatan medis.
+    foundInLabel: 'Wijen dapat ditemukan dalam:'
+    foundIn:
+      - Biji wijen
+      - Minyak wijen
+      - Tahini (pasta wijen)
+      - Hummus
+      - Halva
+      - Roti dan bun
+      - Falafel
+      - Saus salad
+    question: Apakah makanan ini mengandung wijen?
+  khmer:
+    verified: false
+    allergen: ល្ង
+    statement: ខ្ញុំមានអាឡែហ្ស៊ីល្ងធ្ងន់ធ្ងរ។
+    description: >-
+      ខ្ញុំមិនអាចញ៉ាំអាហារដែលមានល្ង ឬផលិតផលល្ងបានទេ ទោះបីតិចតួចក៏ដោយ
+      បើមិនដូច្នោះទេខ្ញុំនឹងមានប្រតិកម្មអាឡែហ្ស៊ីធ្ងន់ធ្ងរ និងត្រូវការការថែទាំវេជ្ជសាស្ត្រ។
+    foundInLabel: 'ល្ងអាចមាននៅក្នុង:'
+    foundIn:
+      - គ្រាប់ល្ង
+      - ប្រេងល្ង
+      - តាហ៊ីនី (ក្រែមល្ង)
+      - ហ៊ូមូស
+      - ហាលវ៉ា
+      - នំបុ័ង និងនំប៉័ងតូច
+      - ហ្វាឡាហ្វែល
+      - ទឹកជ្រលក់សាឡាត់
+    question: ម្ហូបនេះមានល្ងទេ?
+  korean:
+    verified: false
+    allergen: 참깨
+    statement: 저는 심한 참깨 알레르기가 있습니다.
+    description: 참깨나 참깨 제품이 들어 있는 음식은 소량이라도 먹을 수 없습니다. 먹으면 심한 알레르기 반응이 나타나 치료가 필요합니다.
+    foundInLabel: '참깨가 들어 있을 수 있는 것:'
+    foundIn:
+      - 참깨
+      - 참기름
+      - 타히니(참깨 페이스트)
+      - 후무스
+      - 할바
+      - 빵·번
+      - 팔라펠
+      - 샐러드 드레싱
+    question: 이 음식에 참깨가 들어 있나요?
+  lao:
+    verified: false
+    allergen: ງາ
+    statement: ຂ້ອຍມີອາການແພ້ງາຮຸນແຮງ.
+    description: >-
+      ຂ້ອຍບໍ່ສາມາດກິນອາຫານທີ່ມີງາ ຫຼື ຜະລິດຕະພັນຈາກງາໄດ້ ເຖິງແມ່ນຈຳນວນນ້ອຍໆ,
+      ບໍ່ດັ່ງນັ້ນຈະມີອາການແພ້ຮຸນແຮງ ແລະ ຕ້ອງການການປິ່ນປົວ.
+    foundInLabel: 'ງາອາດພົບໃນ:'
+    foundIn:
+      - ເມັດງາ
+      - ນ້ຳມັງາ
+      - ຕາຮິນີ (ງາບດ)
+      - ຮູມູສ
+      - ຮານວາ
+      - ເຂົ້າຈີ່ ແລະ ບັນ
+      - ຟາລາເຟລ
+      - ນ້ຳສະຫຼັດ
+    question: ອາຫານນີ້ມີງາບໍ?
+  latvian:
+    verified: false
+    allergen: Sezams
+    statement: Man ir smaga alerģija pret sezamu.
+    description: >-
+      Es nedrīkstu ēst pārtiku, kas satur sezamu vai sezama produktus, pat nelielā daudzumā, citādi
+      man būs smaga alerģiska reakcija un būs nepieciešama medicīniskā palīdzība.
+    foundInLabel: 'Sezams var būt:'
+    foundIn:
+      - Sezama sēklas
+      - Sezama eļļa
+      - Tahini
+      - Humuss
+      - Halva
+      - Maize un bulciņas
+      - Falafels
+      - Salātu mērces
+    question: Vai šajā ēdienā ir sezams?
+  lithuanian:
+    verified: false
+    allergen: Sezamas
+    statement: Turiu sunkią alergiją sezamui.
+    description: >-
+      Negaliu valgyti maisto, kuriame yra sezamo ar sezamo produktų, net ir nedideliais kiekiais,
+      kitaip patirsiu sunkią alerginę reakciją ir man reikės medicininės pagalbos.
+    foundInLabel: 'Sezamo gali būti:'
+    foundIn:
+      - Sezamo sėklos
+      - Sezamo aliejus
+      - Tahini
+      - Humusas
+      - Chalva
+      - Duona ir bandelės
+      - Falafelis
+      - Salotų padažai
+    question: Ar šiame maiste yra sezamo?
+  macedonian:
+    verified: false
+    allergen: Сусам
+    statement: Имам тешка алергија на сусам.
+    description: >-
+      Не можам да јадам храна што содржи сусам или сусамови производи, дури ни во мали количини,
+      инаку ќе имам тешка алергиска реакција и ќе ми треба медицинска помош.
+    foundInLabel: 'Сусамот може да се најде во:'
+    foundIn:
+      - Сусамово семе
+      - Сусамово масло
+      - Таан (сусам)
+      - Хумус
+      - Алва
+      - Леб и кифлички
+      - Фалафел
+      - Преливи за салата
+    question: Дали оваа храна содржи сусам?
+  malay:
+    verified: false
+    allergen: Bijan
+    statement: Saya mempunyai alahan bijan yang teruk.
+    description: >-
+      Saya tidak boleh makan makanan yang mengandungi bijan atau produk bijan, walaupun dalam jumlah
+      kecil, atau saya akan mengalami tindak balas alahan yang teruk dan memerlukan rawatan
+      perubatan.
+    foundInLabel: 'Bijan boleh dijumpai dalam:'
+    foundIn:
+      - Biji bijan
+      - Minyak bijan
+      - Tahini (pes bijan)
+      - Hummus
+      - Halva
+      - Roti dan bun
+      - Falafel
+      - Dressing salad
+    question: Adakah makanan ini mengandungi bijan?
+  maltese:
+    verified: false
+    allergen: Ġulġlien
+    statement: Għandi allerġija severa għall-ġulġlien.
+    description: >-
+      Ma nistax niekol ikel li fih ġulġlien jew prodotti tal-ġulġlien, anke f'ammonti żgħar, inkella
+      se jkolli reazzjoni allerġika severa u se jkollu bżonn attenzjoni medika.
+    foundInLabel: 'Il-ġulġlien jista'' jinstab fi:'
+    foundIn:
+      - Żrieragħ tal-ġulġlien
+      - Żejt tal-ġulġlien
+      - Tahini
+      - Hummus
+      - Halva
+      - Ħobż u panini
+      - Falafel
+      - Dressings għas-salata
+    question: Dan l-ikel fih ġulġlien?
+  norwegian:
+    verified: false
+    allergen: Sesam
+    statement: Jeg har en alvorlig sesamallergi.
+    description: >-
+      Jeg kan ikke spise mat som inneholder sesam eller sesamprodukter, selv i små mengder, ellers
+      får jeg en alvorlig allergisk reaksjon og trenger medisinsk hjelp.
+    foundInLabel: 'Sesam kan finnes i:'
+    foundIn:
+      - Sesamfrø
+      - Sesamolje
+      - Tahini
+      - Hummus
+      - Halva
+      - Brød og boller
+      - Falafel
+      - Salatdressinger
+    question: Inneholder denne maten sesam?
+  polish:
+    verified: false
+    allergen: Sezam
+    statement: Mam ciężką alergię na sezam.
+    description: >-
+      Nie mogę jeść żywności zawierającej sezam lub produkty sezamowe, nawet w małych ilościach, w
+      przeciwnym razie wystąpi u mnie ciężka reakcja alergiczna i będę potrzebować pomocy medycznej.
+    foundInLabel: 'Sezam może występować w:'
+    foundIn:
+      - Nasiona sezamu
+      - Olejek sezamowy
+      - Tahini (pasta sezamowa)
+      - Hummus
+      - Chałwa
+      - Chleb i bułki
+      - Falafel
+      - Dressingi do sałatek
+    question: Czy to danie zawiera sezam?
+  portuguese-brazil:
+    verified: false
+    allergen: Gergelim
+    statement: Tenho alergia grave ao gergelim.
+    description: >-
+      Não posso comer alimentos que contenham gergelim ou produtos de gergelim, mesmo em pequenas
+      quantidades, senão terei uma reação alérgica grave e precisarei de atendimento médico.
+    foundInLabel: 'O gergelim pode ser encontrado em:'
+    foundIn:
+      - Sementes de gergelim
+      - Óleo de gergelim
+      - Tahine
+      - Homus
+      - Halva
+      - Pães e pãezinhos
+      - Falafel
+      - Molhos para salada
+    question: Este alimento contém gergelim?
+  romanian:
+    verified: false
+    allergen: Susan
+    statement: Am o alergie severă la susan.
+    description: >-
+      Nu pot mânca alimente care conțin susan sau produse din susan, nici măcar în cantități mici,
+      altfel voi avea o reacție alergică severă și voi avea nevoie de îngrijiri medicale.
+    foundInLabel: 'Susanul poate fi găsit în:'
+    foundIn:
+      - Semințe de susan
+      - Ulei de susan
+      - Tahini
+      - Hummus
+      - Halva
+      - Pâine și chifle
+      - Falafel
+      - Dressinguri pentru salată
+    question: Acest aliment conține susan?
+  russian:
+    verified: false
+    allergen: Кунжут
+    statement: У меня тяжёлая аллергия на кунжут.
+    description: >-
+      Я не могу есть продукты, содержащие кунжут или кунжутные продукты, даже в небольших
+      количествах, иначе у меня будет тяжёлая аллергическая реакция и потребуется медицинская
+      помощь.
+    foundInLabel: 'Кунжут может содержаться в:'
+    foundIn:
+      - Кунжутные семена
+      - Кунжутное масло
+      - Тахини (кунжутная паста)
+      - Хумус
+      - Халва
+      - Хлеб и булочки
+      - Фалафель
+      - Салатные заправки
+    question: Содержит ли это блюдо кунжут?
+  serbian:
+    verified: false
+    allergen: Сусам
+    statement: Имам тешку алергију на сусам.
+    description: >-
+      Не смем да једем храну која садржи сусам или сусамове производе, чак ни у малим количинама,
+      иначе ћу имати тешку алергијску реакцију и требаће ми лекарска помоћ.
+    foundInLabel: 'Сусам може бити у:'
+    foundIn:
+      - Семе сусама
+      - Сусамово уље
+      - Тахин (сусам)
+      - Хумус
+      - Алва
+      - Хлеб и пециво
+      - Фалафел
+      - Преливи за салату
+    question: Да ли ова храна садржи сусам?
+  slovak:
+    verified: false
+    allergen: Sezam
+    statement: Mám ťažkú alergiu na sezam.
+    description: >-
+      Nesmím jesť potraviny obsahujúce sezam alebo sezamové výrobky, ani v malom množstve, inak
+      budem mať ťažkú alergickú reakciu a budem potrebovať lekársku pomoc.
+    foundInLabel: 'Sezam sa môže nachádzať v:'
+    foundIn:
+      - Sezamové semienka
+      - Sezamový olej
+      - Tahini
+      - Hummus
+      - Chalva
+      - Chlieb a pečivo
+      - Falafel
+      - Šalátové zálievky
+    question: Obsahuje toto jedlo sezam?
+  slovenian:
+    verified: false
+    allergen: Sezam
+    statement: Imam hudo alergijo na sezam.
+    description: >-
+      Ne smem jesti hrane, ki vsebuje sezam ali sezamove izdelke, niti v majhnih količinah, sicer
+      bom imel/a hudo alergijsko reakcijo in potreboval/a zdravniško pomoč.
+    foundInLabel: 'Sezam se lahko nahaja v:'
+    foundIn:
+      - Sezamova semena
+      - Sezamovo olje
+      - Tahini
+      - Humus
+      - Halva
+      - Kruh in žemljice
+      - Falafel
+      - Prelivi za solato
+    question: Ali ta jed vsebuje sezam?
+  swahili:
+    verified: false
+    allergen: Ufuta
+    statement: Nina mzio mkali wa ufuta.
+    description: >-
+      Siwezi kula chakula chenye ufuta au bidhaa za ufuta, hata kwa kiasi kidogo, la sivyo nitapata
+      mmenyuko mkali wa mzio na nitahitaji matibabu.
+    foundInLabel: 'Ufuta unaweza kupatikana katika:'
+    foundIn:
+      - Mbegu za ufuta
+      - Mafuta ya ufuta
+      - Tahini (pasta ya ufuta)
+      - Hummus
+      - Halva
+      - Mkate na bun
+      - Falafel
+      - Mavazi ya saladi
+    question: Je, chakula hiki kina ufuta?
+  swedish:
+    verified: false
+    allergen: Sesam
+    statement: Jag har en allvarlig sesamallergi.
+    description: >-
+      Jag kan inte äta mat som innehåller sesam eller sesamprodukter, ens i små mängder, annars får
+      jag en allvarlig allergisk reaktion och behöver läkarvård.
+    foundInLabel: 'Sesam kan finnas i:'
+    foundIn:
+      - Sesamfrön
+      - Sesamolja
+      - Tahini
+      - Hummus
+      - Halva
+      - Bröd och bullar
+      - Falafel
+      - Salladsdressingar
+    question: Innehåller den här maten sesam?
+  tagalog:
+    verified: false
+    allergen: Sesame
+    statement: Mayroon akong malubhang allergy sa sesame.
+    description: >-
+      Hindi ako makakain ng pagkaing may sesame o produktong sesame, kahit kaunti lang, o
+      magkakaroon ako ng malubhang allergic reaction at kakailanganin ang medikal na tulong.
+    foundInLabel: 'Makikita ang sesame sa:'
+    foundIn:
+      - Sesame seeds
+      - Sesame oil
+      - Tahini
+      - Hummus
+      - Halva
+      - Tinapay at bun
+      - Falafel
+      - Salad dressings
+    question: May sesame ba ang pagkaing ito?
+  thai:
+    verified: false
+    allergen: งา
+    statement: ฉันแพ้งาอย่างรุนแรง
+    description: >-
+      ฉันไม่สามารถกินอาหารที่มีงาหรือผลิตภัณฑ์จากงาได้ แม้เพียงเล็กน้อย
+      มิฉะนั้นจะเกิดอาการแพ้รุนแรงและต้องได้รับการรักษา
+    foundInLabel: 'งาอาจพบใน:'
+    foundIn:
+      - เมล็ดงา
+      - น้ำมันงา
+      - ทาฮินี (งาบด)
+      - ฮัมมัส
+      - ฮัลวา
+      - ขนมปังและบัน
+      - ฟาลาเฟล
+      - น้ำสลัด
+    question: อาหารจานนี้มีงาหรือไม่?
+  ukrainian:
+    verified: false
+    allergen: Кунжут
+    statement: У мене важка алергія на кунжут.
+    description: >-
+      Я не можу їсти їжу, що містить кунжут або кунжутні продукти, навіть у невеликій кількості,
+      інакше в мене буде важка алергічна реакція і знадобиться медична допомога.
+    foundInLabel: 'Кунжут може міститися в:'
+    foundIn:
+      - Кунжутне насіння
+      - Кунжутна олія
+      - Тахіні (кунжутна паста)
+      - Хумус
+      - Халва
+      - Хліб і булочки
+      - Фалафель
+      - Заправки для салату
+    question: Чи містить ця страва кунжут?
+  vietnamese:
+    verified: false
+    allergen: Mè (vừng)
+    statement: Tôi bị dị ứng nặng với mè (vừng).
+    description: >-
+      Tôi không thể ăn thực phẩm có chứa mè hoặc sản phẩm từ mè, dù chỉ một lượng nhỏ, nếu không tôi
+      sẽ bị phản ứng dị ứng nặng và cần được chăm sóc y tế.
+    foundInLabel: 'Mè có thể có trong:'
+    foundIn:
+      - Hạt mè
+      - Dầu mè
+      - Tahini (bột nhão mè)
+      - Hummus
+      - Halva
+      - Bánh mì và bánh bun
+      - Falafel
+      - Nước sốt salad
+    question: Món này có chứa mè (vừng) không?
