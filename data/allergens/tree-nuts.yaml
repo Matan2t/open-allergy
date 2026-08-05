@@ -2,7 +2,7 @@
 # `verified: false` means the translation was machine-drafted and awaits review
 # by a native speaker. See CONTRIBUTING.md for how to verify a translation.
 id: tree-nuts
-emoji: 🌰
+emoji: 🌳
 translations:
   english:
     verified: true

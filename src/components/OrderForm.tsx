@@ -84,7 +84,7 @@ export default function OrderForm() {
         <select value={allergenId} onChange={(e) => setAllergenId(e.target.value)}>
           {allergens.map((a) => (
             <option key={a.id} value={a.id}>
-              {a.emoji} {a.translations[ENGLISH].allergen}
+              {a.id === 'sesame' ? '◎' : a.emoji} {a.translations[ENGLISH].allergen}
             </option>
           ))}
         </select>

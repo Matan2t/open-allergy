@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card';
+import AllergenIcon from '../components/AllergenIcon';
 import { allergens, languages, getAllergen, getLanguage } from '../lib/data';
 import { KOFI_IMAGE, KOFI_URL, SITE_DESCRIPTION, SITE_NAME } from '../lib/site';
 import {
@@ -49,10 +50,20 @@ const homepageFaq = FAQ_ITEMS.slice(0, 6);
     <div class="hero-visual screen-only">
       <div class="hero-card-stack">
         <div class="hero-back" aria-hidden="true">
-          <Card language={enLanguage} translation={enTranslation} emoji={heroAllergen.emoji} />
+          <Card
+            language={enLanguage}
+            translation={enTranslation}
+            emoji={heroAllergen.emoji}
+            allergenId={heroAllergen.id}
+          />
         </div>
         <div class="hero-front">
-          <Card language={heroLanguage} translation={heroTranslation} emoji={heroAllergen.emoji} />
+          <Card
+            language={heroLanguage}
+            translation={heroTranslation}
+            emoji={heroAllergen.emoji}
+            allergenId={heroAllergen.id}
+          />
         </div>
       </div>
     </div>
@@ -105,7 +116,7 @@ const homepageFaq = FAQ_ITEMS.slice(0, 6);
         allergens.map((a) => (
           <li>
             <a href={`/cards/${a.id}/english`}>
-              <span class="emoji">{a.emoji}</span>
+              <AllergenIcon id={a.id} emoji={a.emoji} className="emoji" />
               {a.translations['english'].allergen}
             </a>
           </li>

@@ -1,8 +1,10 @@
 import type { Language, Translation } from '../lib/types';
 import { CARD_FOOTER_BRAND } from '../lib/site';
 import { multiStringsFor } from '../lib/multi';
+import AllergenIcon from './AllergenIcon';
 
 export interface MultiAllergenItem {
+  id: string;
   emoji: string;
   name: string;
 }
@@ -13,6 +15,7 @@ export interface CardSideProps {
   /** Single-allergy mode (default). */
   translation?: Translation;
   emoji?: string;
+  allergenId?: string;
   /** Multi-allergy mode: localized names + emojis. */
   multiItems?: MultiAllergenItem[];
 }
@@ -24,7 +27,8 @@ export interface CardSideProps {
 export default function Card({
   language,
   translation,
-  emoji,
+  emoji = '',
+  allergenId,
   personalName,
   multiItems,
 }: CardSideProps) {
@@ -50,11 +54,11 @@ export default function Card({
           {isMulti ? (
             <span className="ac-emoji-stack">
               {multiItems!.slice(0, 3).map((item) => (
-                <span key={item.name}>{item.emoji}</span>
+                <AllergenIcon key={item.id} id={item.id} emoji={item.emoji} className="ac-icon" />
               ))}
             </span>
           ) : (
-            <span className="ac-emoji">{emoji}</span>
+            <AllergenIcon id={allergenId} emoji={emoji} className="ac-emoji ac-icon" />
           )}
           <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="32" cy="32" r="28" fill="#fff" stroke="#d90429" strokeWidth="5" />
@@ -83,8 +87,9 @@ export default function Card({
                 <p className="ac-found-label">{multi.label}</p>
                 <ul className="ac-found-list ac-multi-list">
                   {multiItems!.map((item) => (
-                    <li key={item.name}>
-                      <span aria-hidden="true">{item.emoji}</span> {item.name}
+                    <li key={item.id}>
+                      <AllergenIcon id={item.id} emoji={item.emoji} className="ac-list-icon" />{' '}
+                      {item.name}
                     </li>
                   ))}
                 </ul>
