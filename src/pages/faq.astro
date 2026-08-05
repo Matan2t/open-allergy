@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { FAQ_ITEMS } from '../lib/marketing';
+import { SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`FAQ - ${SITE_NAME}`}
+  description="Frequently asked questions about free food allergy travel cards, languages, waterproof plastic cards, shipping, and customization."
+>
+  <section class="section">
+    <h2>Frequently asked questions</h2>
+    <p class="section-lead">
+      Honest answers about free downloads and optional plastic allergy cards. Medical cards are a
+      communication aid - always carry prescribed emergency medication.
+    </p>
+    <div class="faq-list" style="margin-top: 1.25rem;">
+      {
+        FAQ_ITEMS.map((item) => (
+          <details class="faq-item">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+    <p style="margin-top: 1.5rem;">
+      <a class="btn btn-primary" href="/cards/milk/english">Create My Card</a>
+    </p>
+  </section>
+</Layout>

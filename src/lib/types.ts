@@ -30,6 +30,8 @@ export interface Language {
   nativeName: string;
   direction: 'ltr' | 'rtl';
   strings: LanguageStrings;
+  /** Flag emoji for UI lists (derived, not required in YAML). */
+  flag?: string;
 }
 
 /** Canonical English language code used in data files and URLs. */

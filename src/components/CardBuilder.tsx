@@ -1,9 +1,11 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { getFontEmbedCSS, toBlob } from 'html-to-image';
 import Card from './Card';
+import type { MultiAllergenItem } from './Card';
 import { allergens, languages } from '../lib/data';
 import { ENGLISH } from '../lib/types';
 import { GITHUB_URL } from '../lib/site';
+import { MAX_MULTI_ALLERGENS } from '../lib/multi';
 
 type PrintMode = 'single' | 'sheet';
 
@@ -14,7 +16,6 @@ interface SaveFilePickerWindow {
   }) => Promise<FileSystemFileHandle>;
 }
 
-/** Convert millimeters to CSS pixels at 96 dpi. */
 const MM_TO_PX = 96 / 25.4;
 const mmToPx = (mm: number) => Math.round(mm * MM_TO_PX);
 
@@ -28,10 +29,36 @@ const EXPORT_HEIGHT_PX = CARD_HEIGHT_PX * 2 + EXPORT_GAP_PX + EXPORT_PAD_PX * 2;
 export interface CardBuilderProps {
   initialAllergen: string;
   initialLang: string;
+  /** Comma-separated allergen ids for multi cards (from ?a=). */
+  initialAllergens?: string[];
 }
 
-export default function CardBuilder({ initialAllergen, initialLang }: CardBuilderProps) {
-  const [allergenId, setAllergenId] = useState(initialAllergen);
+function buildMultiItems(
+  selected: typeof allergens,
+  langCode: string,
+): MultiAllergenItem[] {
+  return selected.map((a) => ({
+    emoji: a.emoji,
+    name:
+      a.translations[langCode]?.allergen ??
+      a.translations[ENGLISH]?.allergen ??
+      a.id,
+  }));
+}
+
+export default function CardBuilder({
+  initialAllergen,
+  initialLang,
+  initialAllergens,
+}: CardBuilderProps) {
+  const startIds =
+    initialAllergens && initialAllergens.length > 0
+      ? initialAllergens.filter((id) => allergens.some((a) => a.id === id)).slice(0, MAX_MULTI_ALLERGENS)
+      : [initialAllergen];
+
+  const [selectedIds, setSelectedIds] = useState<string[]>(
+    startIds.length > 0 ? startIds : [allergens[0].id],
+  );
   const [langCode, setLangCode] = useState(initialLang);
   const [personalName, setPersonalName] = useState('');
   const [printMode, setPrintMode] = useState<PrintMode>('single');
@@ -48,12 +75,20 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
   const fullscreenFitRef = useRef<HTMLDivElement>(null);
   const wakeLockRef = useRef<WakeLockSentinel | null>(null);
 
-  const allergen = allergens.find((a) => a.id === allergenId) ?? allergens[0];
+  const selectedAllergens = useMemo(
+    () =>
+      selectedIds
+        .map((id) => allergens.find((a) => a.id === id))
+        .filter((a): a is (typeof allergens)[number] => Boolean(a)),
+    [selectedIds],
+  );
+
+  const isMulti = selectedAllergens.length > 1;
+  const primary = selectedAllergens[0] ?? allergens[0];
   const english = languages.find((l) => l.code === ENGLISH) ?? languages[0];
 
-  // Only list languages that have a translation for the selected allergen.
   const availableLanguages = languages
-    .filter((l) => allergen.translations[l.code])
+    .filter((l) => selectedAllergens.every((a) => a.translations[l.code]))
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name));
 
@@ -63,22 +98,54 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
     availableLanguages[0] ??
     english;
 
-  const translation = allergen.translations[language.code];
-  const enTranslation = allergen.translations[ENGLISH];
+  const frontItems = buildMultiItems(selectedAllergens, language.code);
+  const backItems = buildMultiItems(selectedAllergens, ENGLISH);
+
+  const singleFront = primary.translations[language.code];
+  const singleBack = primary.translations[ENGLISH];
+  const allVerified = selectedAllergens.every(
+    (a) => a.translations[language.code]?.verified === true,
+  );
 
   useEffect(() => {
-    if (!allergen.translations[langCode] && language.code !== langCode) {
+    const params = new URLSearchParams(window.location.search);
+    const fromQuery = params.get('a');
+    if (!fromQuery) return;
+    const ids = fromQuery
+      .split(',')
+      .map((s) => s.trim())
+      .filter((id) => allergens.some((a) => a.id === id))
+      .slice(0, MAX_MULTI_ALLERGENS);
+    if (ids.length > 0) setSelectedIds(ids);
+  }, []);
+
+  useEffect(() => {
+    if (!availableLanguages.some((l) => l.code === langCode) && language.code !== langCode) {
       setLangCode(language.code);
     }
-  }, [allergen, langCode, language.code]);
+  }, [availableLanguages, langCode, language.code]);
 
   useEffect(() => {
-    const path = `/cards/${allergen.id}/${language.code}`;
-    if (window.location.pathname !== path) {
+    const path = isMulti
+      ? `/cards/multi/${language.code}?a=${selectedIds.join(',')}`
+      : `/cards/${primary.id}/${language.code}`;
+    const next = `${window.location.origin}${path}`;
+    if (window.location.href !== next) {
       window.history.replaceState(null, '', path);
     }
-    document.title = `${enTranslation.allergen} allergy card in ${language.name} - Open Allergy Cards`;
-  }, [allergen.id, language.code, language.name, enTranslation.allergen]);
+    const titleAllergen = isMulti
+      ? selectedAllergens.map((a) => a.translations[ENGLISH].allergen).join(', ')
+      : singleBack.allergen;
+    document.title = `${titleAllergen} allergy card in ${language.name} - Open Allergy Cards`;
+  }, [
+    isMulti,
+    language.code,
+    language.name,
+    primary.id,
+    selectedIds,
+    selectedAllergens,
+    singleBack.allergen,
+  ]);
 
   useEffect(() => {
     if (pendingPrint) {
@@ -115,7 +182,6 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
     const fit = fullscreenFitRef.current;
     const syncScale = () => {
       if (!fit) return;
-      // Card is laid out at 85.6mm wide; scale it to fill the fit box.
       const cardWidthPx = (85.6 * 96) / 25.4;
       setFullscreenScale(fit.clientWidth / cardWidthPx);
     };
@@ -132,7 +198,7 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
           wakeLockRef.current = await navigator.wakeLock.request('screen');
         }
       } catch {
-        // Wake Lock is optional (unsupported, denied, or battery saver).
+        // optional
       }
     }
     void requestWakeLock();
@@ -165,6 +231,17 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
     setFullscreenOpen(false);
   }
 
+  function toggleAllergen(id: string) {
+    setSelectedIds((prev) => {
+      if (prev.includes(id)) {
+        if (prev.length === 1) return prev;
+        return prev.filter((x) => x !== id);
+      }
+      if (prev.length >= MAX_MULTI_ALLERGENS) return prev;
+      return [...prev, id];
+    });
+  }
+
   async function handleDownloadPng() {
     if (!pngRef.current) return;
 
@@ -175,7 +252,8 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
     setExportError(null);
     setExporting(true);
 
-    const filename = `allergy-card-${allergen.id}-${language.code}.png`;
+    const slug = isMulti ? `multi-${selectedIds.join('-')}` : primary.id;
+    const filename = `allergy-card-${slug}-${language.code}.png`;
     let fileHandle: FileSystemFileHandle | null = null;
 
     try {
@@ -224,8 +302,6 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       document.body.appendChild(link);
       link.click();
       link.remove();
-
-      // Browsers often block programmatic downloads after async work; keep a manual fallback.
       setReadyDownload({ url, filename });
     } catch (error) {
       console.error('PNG export failed:', error);
@@ -237,73 +313,84 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
     }
   }
 
-  // Fall back to English if a language lacks this allergen translation.
-  const front = translation ?? enTranslation;
-  const frontLanguage = translation ? language : english;
-  const backTranslation = enTranslation;
+  const frontLanguage = isMulti || singleFront ? language : english;
   const backLanguage = english;
-
-  const editUrl = `${GITHUB_URL}/edit/main/data/allergens/${allergen.id}.yaml`;
-  const orderUrl = `/order?allergen=${allergen.id}&lang=${language.code}`;
+  const editUrl = `${GITHUB_URL}/edit/main/data/allergens/${primary.id}.yaml`;
+  const orderUrl = isMulti
+    ? `/order?allergen=${primary.id}&lang=${language.code}`
+    : `/order?allergen=${primary.id}&lang=${language.code}`;
 
   const frontLabel =
-    frontLanguage.code === ENGLISH ? 'Front - English' : `Front - ${frontLanguage.name}`;
-  const backLabel = 'Back - English';
+    frontLanguage.code === ENGLISH
+      ? `Front - English${isMulti ? ' (multi)' : ''}`
+      : `Front - ${frontLanguage.name}${isMulti ? ' (multi)' : ''}`;
+  const backLabel = `Back - English${isMulti ? ' (multi)' : ''}`;
 
-  const fullscreenCard =
-    fullscreenSide === 'front' ? (
+  function renderCard(side: 'front' | 'back') {
+    const lang = side === 'front' ? frontLanguage : backLanguage;
+    if (isMulti) {
+      return (
+        <Card
+          language={lang}
+          multiItems={side === 'front' ? frontItems : backItems}
+          personalName={personalName || undefined}
+        />
+      );
+    }
+    const tr = side === 'front' ? (singleFront ?? singleBack) : singleBack;
+    return (
       <Card
-        language={frontLanguage}
-        translation={front}
-        emoji={allergen.emoji}
-        personalName={personalName || undefined}
-      />
-    ) : (
-      <Card
-        language={backLanguage}
-        translation={backTranslation}
-        emoji={allergen.emoji}
+        language={lang}
+        translation={tr}
+        emoji={primary.emoji}
         personalName={personalName || undefined}
       />
     );
+  }
 
+  const fullscreenCard = renderCard(fullscreenSide);
   const cardPair = (
     <>
-      <Card
-        language={frontLanguage}
-        translation={front}
-        emoji={allergen.emoji}
-        personalName={personalName || undefined}
-      />
-      <Card
-        language={backLanguage}
-        translation={backTranslation}
-        emoji={allergen.emoji}
-        personalName={personalName || undefined}
-      />
+      {renderCard('front')}
+      {renderCard('back')}
     </>
   );
 
   return (
     <div className="card-builder">
       <div className="builder-controls no-print">
-        <label className="field">
-          Allergy
-          <select value={allergen.id} onChange={(e) => setAllergenId(e.target.value)}>
-            {allergens.map((a) => (
-              <option key={a.id} value={a.id}>
-                {a.emoji} {a.translations[ENGLISH].allergen}
-              </option>
-            ))}
-          </select>
-        </label>
+        <fieldset className="field allergen-multi-field">
+          <legend>
+            Allergies (select up to {MAX_MULTI_ALLERGENS})
+            {isMulti ? ` - ${selectedIds.length} selected` : ''}
+          </legend>
+          <div className="allergen-checkboxes">
+            {allergens.map((a) => {
+              const checked = selectedIds.includes(a.id);
+              const disabled = !checked && selectedIds.length >= MAX_MULTI_ALLERGENS;
+              return (
+                <label key={a.id} className={`allergen-check${disabled ? ' is-disabled' : ''}`}>
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    disabled={disabled}
+                    onChange={() => toggleAllergen(a.id)}
+                  />
+                  <span>
+                    {a.emoji} {a.translations[ENGLISH].allergen}
+                  </span>
+                </label>
+              );
+            })}
+          </div>
+        </fieldset>
 
         <label className="field">
           Language (front) - {availableLanguages.length} available
           <select value={language.code} onChange={(e) => setLangCode(e.target.value)}>
             {availableLanguages.map((l) => (
               <option key={l.code} value={l.code}>
-                {l.name} - {l.nativeName}
+                {l.flag ?? ''} {l.name} - {l.nativeName}
               </option>
             ))}
           </select>
@@ -322,7 +409,7 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       </div>
 
       <div className="builder-status no-print">
-        {front.verified ? (
+        {allVerified ? (
           <span className="badge badge-verified">✓ Translation verified by a native speaker</span>
         ) : (
           <span className="badge badge-unverified">
@@ -332,26 +419,22 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
             </a>
           </span>
         )}
+        {isMulti && (
+          <span className="badge badge-multi">
+            Multi-allergy card - plastic orders currently print the first allergen; download/print
+            include all selected.
+          </span>
+        )}
       </div>
 
       <div className="card-preview screen-only">
         <figure>
           <figcaption className="no-print">{frontLabel}</figcaption>
-          <Card
-            language={frontLanguage}
-            translation={front}
-            emoji={allergen.emoji}
-            personalName={personalName || undefined}
-          />
+          {renderCard('front')}
         </figure>
         <figure>
           <figcaption className="no-print">{backLabel}</figcaption>
-          <Card
-            language={backLanguage}
-            translation={backTranslation}
-            emoji={allergen.emoji}
-            personalName={personalName || undefined}
-          />
+          {renderCard('back')}
         </figure>
       </div>
 
@@ -385,9 +468,9 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       )}
 
       <p className="builder-hint no-print">
-        Free forever. Show the card fullscreen on your phone to restaurant staff, or print it at
-        home. Every card is double-sided: your chosen language on the front, English on the back.
-        Standard credit-card size (85.6 × 54 mm).
+        Free forever. Select one or more allergies (up to {MAX_MULTI_ALLERGENS}) to build a single
+        clear card. Show it fullscreen, print it, or download a PNG. Double-sided: your language on
+        the front, English on the back.
       </p>
 
       {fullscreenOpen && (
@@ -395,7 +478,7 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
           className="card-fullscreen no-print"
           role="dialog"
           aria-modal="true"
-          aria-label={`${front.allergen} allergy card - ${frontLanguage.name}`}
+          aria-label={`Allergy card - ${frontLanguage.name}`}
         >
           <div className="card-fullscreen-bar">
             <p className="card-fullscreen-title">
@@ -453,22 +536,8 @@ export default function CardBuilder({ initialAllergen, initialLang }: CardBuilde
       <div className={`print-area ${printMode === 'single' ? 'print-single' : 'print-sheet'}`}>
         {printMode === 'single' ? (
           <>
-            <div className="print-card-page">
-              <Card
-                language={frontLanguage}
-                translation={front}
-                emoji={allergen.emoji}
-                personalName={personalName || undefined}
-              />
-            </div>
-            <div className="print-card-page">
-              <Card
-                language={backLanguage}
-                translation={backTranslation}
-                emoji={allergen.emoji}
-                personalName={personalName || undefined}
-              />
-            </div>
+            <div className="print-card-page">{renderCard('front')}</div>
+            <div className="print-card-page">{renderCard('back')}</div>
           </>
         ) : (
           <>

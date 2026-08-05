@@ -93,11 +93,11 @@ export default function OrderForm() {
       <label className="field">
         Language (English is always on the back) - {availableLanguages.length} available
         <select value={language.code} onChange={(e) => setLangCode(e.target.value)}>
-          {availableLanguages.map((l) => (
-            <option key={l.code} value={l.code}>
-              {l.name} - {l.nativeName}
-            </option>
-          ))}
+            {availableLanguages.map((l) => (
+              <option key={l.code} value={l.code}>
+                {l.flag ?? ''} {l.name} - {l.nativeName}
+              </option>
+            ))}
         </select>
       </label>
 

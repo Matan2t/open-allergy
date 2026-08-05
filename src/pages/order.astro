@@ -1,23 +1,169 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import OrderForm from '../components/OrderForm';
+import Card from '../components/Card';
+import { getAllergen, getLanguage } from '../lib/data';
+import { BENEFITS, FAQ_ITEMS, TESTIMONIALS, TRUST_ITEMS } from '../lib/marketing';
+import { SITE_NAME } from '../lib/site';
+
+const previewAllergen = getAllergen('milk')!;
+const previewLang = getLanguage('spanish') ?? getLanguage('english')!;
+const previewTranslation =
+  previewAllergen.translations[previewLang.code] ?? previewAllergen.translations['english'];
+const enLang = getLanguage('english')!;
+const enTranslation = previewAllergen.translations['english'];
+const orderFaq = FAQ_ITEMS.filter((item) =>
+  [
+    'Is the card waterproof?',
+    'How long does shipping take?',
+    'Do you ship worldwide?',
+    'Can I reorder later?',
+    'How durable is the necklace?',
+    'What happens if I make a mistake?',
+  ].includes(item.question),
+);
+const orderTestimonials = TESTIMONIALS.slice(0, 3);
 ---
 
-<Layout title="Order a plastic card - Open Allergy Cards">
+<Layout
+  title={`Order a waterproof plastic allergy card - ${SITE_NAME}`}
+  description="Order a durable waterproof plastic food allergy travel card with your language and English. Free downloads always available. Secure Stripe checkout."
+>
   <section class="section">
-    <h2>Order a durable plastic card</h2>
+    <h2>Order a durable plastic allergy card</h2>
     <p class="section-lead">
-      Downloading and printing your card is <strong>always free</strong>. If you'd like a durable,
-      waterproof plastic card (standard credit-card size, double-sided - your language + English)
-      mailed to you, order one here for a small fee that covers printing, shipping, and keeps this
-      project running.
+      Downloading and printing is <strong>always free</strong>. Order a waterproof plastic medical
+      allergy card when you want something wallet-ready or wearable on a durable necklace - the same
+      clear translation staff can read in seconds.
     </p>
-    <p class="notice" style="max-width: 46rem; margin-top: 1rem;">
-      The plastic card contains exactly the same content as the free download - you are paying for
-      the physical card and shipping, never for the design or translation.
-    </p>
-    <div style="margin-top: 1.5rem;">
-      <OrderForm client:load />
+  </section>
+
+  <section class="section order-layout">
+    <div class="order-preview">
+      <figure>
+        <figcaption class="no-print">Preview - {previewLang.name} + English</figcaption>
+        <Card
+          language={previewLang}
+          translation={previewTranslation}
+          emoji={previewAllergen.emoji}
+        />
+      </figure>
+      <figure>
+        <figcaption class="no-print">Back - English</figcaption>
+        <Card language={enLang} translation={enTranslation} emoji={previewAllergen.emoji} />
+      </figure>
+      <p class="order-preview-note">
+        Your checkout choices (allergen, language, optional name) replace this preview when we
+        print.
+      </p>
     </div>
+
+    <div>
+      <p class="notice" style="margin-bottom: 1rem;">
+        You are paying for the physical card, materials, and shipping - never for locking the
+        translation behind a paywall. Free PNG and print stay available forever.
+      </p>
+      <OrderForm client:load />
+      <p class="order-preview-note" style="margin-top: 1rem;">
+        Prefer free? <a href="/cards/milk/english">Create and download your card now</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Key benefits</h2>
+    <div class="benefit-grid">
+      {
+        BENEFITS.map((b) => (
+          <article class="benefit-card">
+            <h3>{b.title}</h3>
+            <p>{b.body}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What you are ordering</h2>
+    <p class="section-lead">
+      A double-sided plastic food allergy translation card: your language on the front, English on
+      the back. Built to survive bags, pockets, and travel days. Physical orders can include a
+      durable necklace so the emergency allergy card stays with you when it matters.
+    </p>
+    <div class="trust-grid" style="margin-top: 1.25rem;">
+      {
+        TRUST_ITEMS.map((t) => (
+          <article class="trust-card">
+            <span class="trust-icon" aria-hidden="true">
+              {t.icon}
+            </span>
+            <h3>{t.title}</h3>
+            <p>{t.body}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>How ordering works</h2>
+    <ol class="steps">
+      <li>
+        <h3>Choose your card</h3>
+        <p>Select allergen, language, optional name, and quantity in the form above.</p>
+      </li>
+      <li>
+        <h3>Checkout securely</h3>
+        <p>Pay with Stripe and enter your shipping address. We never store your card number.</p>
+      </li>
+      <li>
+        <h3>We print and ship</h3>
+        <p>
+          We produce your personalized card and ship it. Exact timing is confirmed by email after
+          checkout - no fake same-day promises.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>What travelers say</h2>
+    <div class="testimonial-grid">
+      {
+        orderTestimonials.map((t) => (
+          <blockquote class="testimonial-card">
+            <p class="testimonial-stars" aria-label={`${t.stars} out of 5 stars`}>
+              {'★'.repeat(t.stars)}
+            </p>
+            <p class="testimonial-quote">{t.quote}</p>
+            <footer>
+              <cite>
+                {t.name}
+                <span>{t.country}</span>
+              </cite>
+            </footer>
+          </blockquote>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Order FAQ</h2>
+    <div class="faq-list">
+      {
+        orderFaq.map((item) => (
+          <details class="faq-item">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+    <p class="section-lead" style="margin-top: 1rem;">
+      <a href="/faq">Full FAQ</a> · <a href="/shipping">Shipping policy</a> ·
+      <a href="/returns">Returns</a>
+    </p>
   </section>
 </Layout>

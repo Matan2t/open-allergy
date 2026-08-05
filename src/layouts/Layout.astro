@@ -1,6 +1,13 @@
 ---
 import '../styles/global.css';
-import { GITHUB_URL, KOFI_IMAGE, KOFI_URL, SITE_NAME, SITE_TAGLINE } from '../lib/site';
+import {
+  GITHUB_URL,
+  KOFI_IMAGE,
+  KOFI_URL,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_TAGLINE,
+} from '../lib/site';
 
 interface Props {
   title?: string;
@@ -9,7 +16,7 @@ interface Props {
 
 const {
   title = `${SITE_NAME} - ${SITE_TAGLINE}`,
-  description = 'Free, open-source allergy translation cards in 49 languages. Pick your allergy, pick a language, print a double-sided card at home. No charge, ever.',
+  description = SITE_DESCRIPTION,
 } = Astro.props;
 
 const year = new Date().getFullYear();
@@ -39,7 +46,8 @@ const year = new Date().getFullYear();
         </a>
         <nav class="site-nav">
           <a href="/cards/milk/english">Cards</a>
-          <a href="/contribute">Contribute</a>
+          <a href="/about">About</a>
+          <a href="/faq">FAQ</a>
           <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href={KOFI_URL} target="_blank" rel="noopener noreferrer">Support</a>
           <a class="nav-cta" href="/order">Order plastic</a>
@@ -65,8 +73,8 @@ const year = new Date().getFullYear();
               </span>
             </a>
             <p class="footer-mission">
-              Free double-sided allergy cards for families who need to travel and eat out safely.
-              Open source. No account. No charge for downloads - ever.
+              Free food allergy travel cards for families who need to eat out and travel with more
+              confidence. Open source. No account. No charge for downloads - ever.
             </p>
           </div>
 
@@ -85,40 +93,37 @@ const year = new Date().getFullYear();
           <div class="footer-col">
             <h3>Use the cards</h3>
             <ul>
-              <li><a href="/cards/milk/english">Browse cards</a></li>
+              <li><a href="/cards/milk/english">Create a free card</a></li>
               <li><a href="/order">Order a plastic card</a></li>
               <li><a href="/#how-it-works">How it works</a></li>
+              <li><a href="/faq">FAQ</a></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h3>Community</h3>
+            <h3>About</h3>
             <ul>
-              <li><a href="/contribute">Verify a translation</a></li>
+              <li><a href="/about">Why we built this</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/contribute">Contribute</a></li>
               <li>
-                <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+                <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub</a>
               </li>
               <li>
-                <a href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener noreferrer">
-                  Contributing guide
-                </a>
+                <a href={KOFI_URL} target="_blank" rel="noopener noreferrer">Buy me a coffee</a>
               </li>
             </ul>
           </div>
           <div class="footer-col">
-            <h3>Licenses</h3>
+            <h3>Policies</h3>
             <ul>
+              <li><a href="/shipping">Shipping</a></li>
+              <li><a href="/returns">Returns</a></li>
+              <li><a href="/privacy">Privacy</a></li>
+              <li><a href="/terms">Terms of service</a></li>
               <li>
                 <a href={`${GITHUB_URL}/blob/main/LICENSE`} target="_blank" rel="noopener noreferrer">
                   Code - MIT
                 </a>
-              </li>
-              <li>
-                <a href={`${GITHUB_URL}/blob/main/data/LICENSE.md`} target="_blank" rel="noopener noreferrer">
-                  Card content - CC BY-SA 4.0
-                </a>
-              </li>
-              <li>
-                <a href={KOFI_URL} target="_blank" rel="noopener noreferrer">Buy me a coffee</a>
               </li>
             </ul>
           </div>

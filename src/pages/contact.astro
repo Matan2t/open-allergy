@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { CONTACT_LABEL, CONTACT_URL, GITHUB_URL, KOFI_URL, SITE_NAME } from '../lib/site';
+---
+
+<Layout
+  title={`Contact - ${SITE_NAME}`}
+  description="Contact Open Allergy Cards for help with free allergy translation cards or physical plastic card orders."
+>
+  <section class="section prose-page">
+    <h2>Contact</h2>
+    <p>
+      Questions about a free card, a translation, or a plastic card order? Reach us through one of
+      these channels:
+    </p>
+    <ul>
+      <li>
+        Product and translation issues:{' '}
+        <a href={CONTACT_URL} target="_blank" rel="noopener noreferrer">{CONTACT_LABEL}</a>
+      </li>
+      <li>
+        Source code and pull requests:{' '}
+        <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">{GITHUB_URL}</a>
+      </li>
+      <li>
+        Support the project:{' '}
+        <a href={KOFI_URL} target="_blank" rel="noopener noreferrer">Buy Me a Coffee</a>
+      </li>
+    </ul>
+    <p>
+      For physical orders, include your Stripe receipt email and order details so we can help faster.
+    </p>
+  </section>
+</Layout>
