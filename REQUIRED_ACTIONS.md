@@ -12,13 +12,13 @@ Ordered by priority; the first three are enough to launch the free product.
 - [x] Issue templates for "translation fix" and "new language or allergen" live in
       [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/).
 
-## 2. Domain and deploy
+## 2. Domain and deploy - DONE 2026-10-30
 
-- [ ] Register `openallergy.org` at Cloudflare Registrar (about $8 the first year, then about $11).
+- [x] Register `openallergy.org` at Cloudflare Registrar (about $8 the first year, then about $11).
       Confirm it is still free at checkout. `openallergy.com` is already taken.
-- [ ] After the domain is Active, add it as a custom domain on the **open-allergy** Worker
+- [x] After the domain is Active, add it as a custom domain on the **open-allergy** Worker
       (Workers & Pages → open-allergy → Settings → Domains & Routes → Custom domain).
-- [ ] Cloudflare project connected to GitHub (`open-allergy`). Settings:
+- [x] Cloudflare project connected to GitHub (`open-allergy`). Settings:
       **Build command:** `pnpm build` · **Deploy command:** `pnpm run deploy`
       (uses committed `wrangler.jsonc` - do **not** use bare `npx wrangler deploy`, which
       tries to auto-reconfigure Astro and fails in this pnpm workspace).
