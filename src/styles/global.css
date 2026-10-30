@@ -104,18 +104,7 @@ h3 {
 .site-logo img {
   width: 28px;
   height: 28px;
-}
-
-.site-logo span.logo-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.7rem;
-  height: 1.7rem;
-  background: var(--red);
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 900;
+  flex-shrink: 0;
 }
 
 .site-nav {
@@ -202,17 +191,9 @@ h3 {
   width: fit-content;
 }
 
-.footer-logo .logo-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.footer-logo img {
   width: 2rem;
   height: 2rem;
-  background: var(--red);
-  border-radius: 6px;
-  font-size: 0.78rem;
-  font-weight: 900;
-  color: #fff;
   flex-shrink: 0;
 }
 

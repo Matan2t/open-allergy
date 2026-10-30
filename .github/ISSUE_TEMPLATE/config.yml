@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/Matan2t/open-allergy/blob/main/CONTRIBUTING.md
+    about: How to fix a translation or add a language in the YAML files.

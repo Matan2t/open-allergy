@@ -1,0 +1,47 @@
+name: Translation fix
+description: Report wording that is wrong, unnatural, or unsafe on an allergy card.
+title: "fix(i18n): "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cards are a safety aid. Please quote the current text and the wording a native speaker would actually say.
+  - type: input
+    id: allergen
+    attributes:
+      label: Allergen
+      description: File under data/allergens/, for example milk, almonds, or tree-nuts.
+      placeholder: milk
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Language key, for example hebrew, spanish, or portuguese-brazil.
+      placeholder: spanish
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Paste the statement, description, found-in line, or question that is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested wording
+      description: Natural wording in that language. Keep the same warning strength.
+    validations:
+      required: true
+  - type: dropdown
+    id: native
+    attributes:
+      label: Are you a native speaker of this language?
+      options:
+        - "Yes"
+        - "No, but I can explain the problem"
+    validations:
+      required: true

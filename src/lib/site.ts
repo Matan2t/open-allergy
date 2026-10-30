@@ -20,4 +20,4 @@ export const SITE_DESCRIPTION =
   'Free food allergy travel cards and medical allergy translation cards in 49 languages. Create a personalized emergency allergy card online, print at home, or order a durable plastic card.';
 
 /** Shown in the card footer so recipients can find the project. */
-export const CARD_FOOTER_BRAND = 'open-allergy.pages.dev · free & open source';
+export const CARD_FOOTER_BRAND = 'openallergy.org · free & open source';

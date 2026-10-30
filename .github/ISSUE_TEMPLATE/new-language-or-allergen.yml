@@ -1,0 +1,36 @@
+name: New language or allergen
+description: Ask for a language or allergen that the cards do not cover yet.
+title: "feat: "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What should be added?
+      options:
+        - A new language
+        - A new allergen
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Language and/or allergen, in English and in the native language if you know it.
+      placeholder: Georgian (ქართული)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is needed
+      description: Who would use it, and where it shows up when traveling or eating out.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra notes
+      description: Script direction (left-to-right or right-to-left), regional variants, or foods this allergen hides in.
+    validations:
+      required: false
