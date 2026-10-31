@@ -167,7 +167,7 @@ translations:
     - Kek karışımları
     question: "Bu yemekte badem var mı?"
   hebrew:
-    verified: false
+    verified: true
     allergen: שקדים
     statement: יש לי אלרגיה חמורה לשקדים.
     description: >-
@@ -183,8 +183,10 @@ translations:
     - נוגט
     - פרלין
     - אמרטו
-    - חלק מתערובות גרנולה
-    - תערובות לאפייה
+    - מקרון
+    - תערובות אגוזים
+    - תערובות גרנולה או אגוזים
+    - מוזלי
     question: "האם המנה הזו מכילה שקדים?"
   arabic:
     verified: false
